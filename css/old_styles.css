@@ -1,0 +1,1423 @@
+/*RESETEO Y ESTILOS GENERALES*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Mate SC', serif;
+  font-size: 16px;
+  color: #C8BE5A;	
+ }
+
+/*Estilos H*/
+
+h1 {
+  	font-size: 26px;
+  	color: #C8BE5A;
+}
+
+h2{
+  font-size: 24px;
+  color: #C8BE5A;
+}
+
+h3{
+  font-size: 22px;
+  text-decoration: underline;
+  text-decoration-color: #75200d;
+  color: #C8BE5A;
+}
+
+h4 {
+	  font-size: 20px;
+	  text-decoration: underline;
+	  text-decoration-color: #75200d;
+	  color: #C8BE5A;
+}
+
+h5, h6{
+			  font-size: 18px;
+			  text-decoration: underline ;
+			  text-decoration-color: #807b4b;
+			  color: #C8BE5A;
+}
+
+/*estilos <p>*/
+p{
+  line-height: 1.5;
+  color: #ffe600;
+  text-shadow: -1px 1px 0 rgba(29,4,4,0.7);
+}
+
+/*Estilo básico de <a>*/
+
+a {
+	  text-decoration: none;
+	  color: #ffe600;
+}
+
+/*Establecer imagen de fondo*/
+body {
+ 			 background-image: url(img/fondo4.jpg);
+}
+
+/*----------FIN ESTILOS GENERALES----------*/
+
+/*---ESTILO HEADER---*/
+/*Header*/
+header {
+
+			  background-image: linear-gradient(rgba(73,11,11,1) 0%,
+			  																	rgba(95,14,14,1) 20%,
+			  																	rgba(95,14,14,0.9) 40%,
+																					rgba(95,14,14,0.8) 50%,
+																					rgba(95,14,14,0.7) 60%,
+																					rgba(117,17,17,0.3) 80%,
+																					rgba(117,17,17,0.2) 90%,
+																					rgba(117,17,17,0.1) 95%,
+																					rgba(117,17,17,0) 100%);
+			  height: 100px;
+			  display: flex;
+			  justify-content: space-between;
+			  align-items: center;
+}
+
+header img{
+						border-radius: 80px;
+						box-shadow: -3px 4px 4px rgba(51,7,7,0.5);
+}
+
+
+/*Clase de la maarca*/
+	.donFermin{
+		color: #C8BE5A;
+			  		font-size: 34px ;
+			   		text-shadow: -1px -1px 0 rgba(200, 240, 175, 0.5 ),
+			        		        1px 1px 0  rgba(200, 240, 175, 0.5);
+	 animation: Marca 2s ease-in 1s 1 normal forwards;
+	}
+
+@keyframes Marca {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translateY(45px);
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  40% {
+    animation-timing-function: ease-in;
+    transform: translateY(24px);
+  }
+
+  65% {
+    animation-timing-function: ease-in;
+    transform: translateY(12px);
+  }
+
+  82% {
+    animation-timing-function: ease-in;
+    transform: translateY(6px);
+  }
+
+  93% {
+    animation-timing-function: ease-in;
+    transform: translateY(4px);
+  }
+
+  25%,
+  55%,
+  75%,
+  87% {
+    animation-timing-function: ease-out;
+    transform: translateY(0px);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/*slogan*/
+	.slogan{
+		color: #C8BE5A;
+					font-size: 20px ;
+					padding-left: 100px;
+	}
+
+/*Menú Flex + Estilos*/
+.navbar-personalized .navbar-nav .nav-link {
+  color: rgba(200, 190, 90, 0.9);
+  transform: skew(-15deg);
+}
+.navbar-personalized .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: rgba(200, 190, 90, 0.7);
+  background-color: rgba(96, 14, 14,0.8) ;
+}
+
+.navbar-personalized .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgba(200, 190, 90, 0.9);
+}
+.navbar-personalized .navbar-toggler {
+  color: rgba(200, 190, 90, 0.55);
+  border-color: rgba(200, 190, 90, 0.1);
+}
+
+.navbar-personalized .navbar-text {
+  color: rgba(200, 190, 90, 0.55);
+}
+.navbar-personalized .navbar-text a,
+.navbar-personalized .navbar-text a:hover,
+.navbar-personalized .navbar-text a:focus {
+  color: rgba(200, 190, 90, 0.9);
+}
+
+
+
+.navbar-nav > li > .dropdown-menu { 
+																    background-color: rgba(118,17,17,0.8); 
+}
+
+ .navbar-nav > li > .dropdown-menu a{   
+ 																			color: rgba(200, 190, 90, 0.8);
+  }
+
+.navbar-nav > li > .dropdown-menu a:hover{
+																					background-color: rgba(96, 14, 14,0.9);
+																					color: rgba(200, 190, 90, 0.9);
+}
+
+
+
+
+/*---------------------------------ESTILOS INDEX-------------------------------------------------*/
+
+		.home{
+					background-image: url(img/picada_1.jpeg);
+					min-height: 50vh;
+					background-repeat: no-repeat;
+					background-position: absolute;
+					background-attachment: fixed;
+					background-size: cover;
+		}
+
+/*--------Estilos main (index)---------*/
+.home main{
+					  background-image:linear-gradient(rgba(117,17,17,0) 0%,
+					  																	rgba(117,17,17,0.1) 3%, 
+					  																		rgba(117,17,17,0.15) 5%, 
+					  																			rgba(117,17,17,0.2) 10%, 
+					  																				rgba(95,14,14,0.4) 20%,
+					  																					rgba(95,14,14,0.5) 40%,
+																												rgba(95,14,14,0.6) 50%,
+					  																					rgba(95,14,14,0.5) 60%,
+					  																				rgba(117,17,17,0.4) 80%,
+					  																			rgba(117,17,17,0.2) 90%, 
+					  																		rgba(117,17,17,0.15) 95%,  
+					  																	rgba(117,17,17,0.1) 97%, 
+					  																rgba(117,17,17,0) 100%);
+					  margin: 50px 0;
+						padding: 10vh 10vw;
+						display: flex;
+						flex-direction: column;
+						justify-content: space-between;
+}
+.home main h2 {
+							  color: #dd9c14;
+								  text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  						1px -1px 0 rgba(87, 28, 0, 0.5),
+								  						-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  						-2px 2px 1px rgba(27, 4, 4, 0.6);
+							  margin-bottom: 5px;
+}
+
+.home main p {
+								font-size: 20px;
+								color: #ddad14;
+								  text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  						1px -1px 0 rgba(87, 28, 0, 0.5),
+								  						-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  						-2px 2px 1px rgba(27, 4, 4, 0.6);
+}
+/*Fin estilos Main (index)*/
+
+	.subtituloIndex{
+		font-size: 30px;
+									color: #ddad14;
+								  text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  						1px -1px 0 rgba(87, 28, 0, 0.5),
+								  						-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  						-2px 2px 1px rgba(27, 4, 4, 0.6);
+
+									text-align: center;
+	}	
+	
+	/*SECTION TABLAS Index.html*/
+
+
+/*INICIO ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
+
+
+
+	.clasicaIndex {
+								margin: 5vh 5vw;
+								padding: 10px 50px;
+																/*CAJA EN RELIEVE*/
+								box-shadow: 					/*Sombra interna*/
+														-3px -4px 3px 2px inset rgba(74, 11, 11, 0.1),	
+													  	-4px -5px 5px 4px inset rgba(94, 14, 14, 0.2),		
+															4px 5px 5px 4px inset rgba( 94,14, 14, 0.2),		
+													  3px 4px 3px 2px inset rgba(74, 11, 11,0.1),
+							/*Falso borde*/
+													  1px 1px 0 0 rgba(74, 11, 11, 0.6),	
+													  -1px -1px 0 0 rgba(74,11,11,0.6),		
+							/*Sombra externa*/	
+													  5px 5px 5px 0 rgba(141, 20, 20, 0.1),			  
+													  		3px 3px 3px 1px rgba( 118,17, 17, 0.2), 
+																		2px 2px 1px 0 rgba(94, 14, 14,0.15),		
+													  				-2px -2px 1px 0  rgba(94, 14, 14, 0.2),
+													  		-3px -3px 3px 1px  rgba(118, 17, 17, 0.15),
+													  5px 5px 5px 0 rgba(141, 20, 20, 0.1);				
+						/*CAJA CON FONDO SOMBREADO*/
+								background-image:linear-gradient(rgba(117,17,17,0) 0%,
+									 																rgba(117,17,17,0.05) 3%, 
+									 																	rgba(117,17,17,0.1) 5%, 
+									 																		rgba(117,17,17,0.15) 10%, 
+									 																			rgba(95,14,14,0.2) 20%,
+									 																				rgba(95,14,14,0.25) 40%,
+																														rgba(95,14,14,0.3) 50%,
+									 																				rgba(95,14,14,0.25) 60%,
+									 																			rgba(117,17,17,0.2) 80%,
+									 																		rgba(117,17,17,0.15) 90%, 
+									 																	rgba(117,17,17,0.1) 95%,  
+									 																rgba(117,17,17,0.05) 97%, 
+									 															rgba(117,17,17,0) 100%);
+								/*GRID*/
+								display: grid;
+								grid-template-columns: 1fr 1fr 1fr;
+								grid-template-areas: 	"nombre nombre nombre"
+																			"foto texto secundaria"
+																			"foto leyenda secundaria"
+																			"picar picar picar";
+								justify-content: space-evenly;
+								align-items: flex-start;
+ }
+
+ .clasicaIndex h3{
+									color: #edc137;
+									text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4),
+  														-1px 1px 1px rgba(96, 14, 14, 0.6);
+  								text-shadow: -1px 1px 0 rgba(29,4,4,0.7);
+  								grid-area: nombre;
+  								justify-self: center;
+  }
+
+
+	.fotoClasica{
+								grid-area: 	foto;
+								overflow: hidden;
+	}	
+
+	.fotoClasicaDos{
+									grid-area: secundaria;
+	}
+
+
+		.descripcion{/*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
+								text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.7);
+								grid-area: 	texto;
+								font-size: 18px;
+								margin: 20px 10px 0 0;
+		}
+		.leyendaIndex{/*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
+									grid-area: 	leyenda;
+									justify-self: flex-end;
+		}
+
+
+		.picar{/*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
+  					font-weight: bold;
+ 						height: 50px;
+  					width: 150px;
+  					padding:15px 45px;
+  					box-sizing: border-box;
+  					background-color: rgba(117, 32, 13, 0.8);
+  					border-radius: 20px;
+  					text-shadow: -1px 1px 0 rgba(29,4,4,0.5);
+  					justify-self: center;
+  					grid-area: 	picar;
+  											
+		}
+		
+
+	/*-------------------------------INICIO ESTILOS ARTICLE TABLA ESPECIAL Index.html-----------------------*/
+
+
+	.especialIndex {
+									margin: 5vh 5vw;
+									padding: 10px 50px;
+															/*CAJA EN RELIEVE*/
+									box-shadow: 					/*Sombra interna*/
+															-3px -4px 3px 2px inset rgba(74, 11, 11, 0.1),	
+														 		 -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2),		
+																	4px 5px 5px 4px inset rgba( 94,14, 14, 0.2),		
+														  3px 4px 3px 2px inset rgba(74, 11, 11,0.1),
+														  					/*Falso borde*/
+														  1px 1px 0 0 rgba(74, 11, 11, 0.6),	
+														  -1px -1px 0 0 rgba(74,11,11,0.6),		
+														  					/*Sombra externa*/	
+														  5px 5px 5px 0 rgba(141, 20, 20, 0.1),			  
+														  		3px 3px 3px 1px rgba( 118,17, 17, 0.2), 
+																			2px 2px 1px 0 rgba(94, 14, 14,0.15),		
+														  				-2px 	-2px 1px 0  rgba(94, 14, 14, 0.2),
+														  		-3px -3px 3px 1px  rgba(118, 17, 17, 0.15),
+														  5px 5px 5px 0 rgba(141, 20, 20, 0.1);				
+														  /*CAJA CON FONDO SOMBREADO*/
+								 	background-image:linear-gradient(rgba(117,17,17,0) 0%,
+							  																		rgba(117,17,17,0.05) 3%, 
+							  																			rgba(117,17,17,0.1) 5%, 
+							  																				rgba(117,17,17,0.15) 10%, 
+							  																					rgba(95,14,14,0.2) 20%,
+							  																						rgba(95,14,14,0.25) 40%,
+																															rgba(95,14,14,0.3) 50%,
+							  																						rgba(95,14,14,0.25) 60%,
+							  																					rgba(117,17,17,0.2) 80%,
+							  																				rgba(117,17,17,0.15) 90%, 
+							  																			rgba(117,17,17,0.1) 95%,  
+							  																		rgba(117,17,17,0.05) 97%, 
+							  																	rgba(117,17,17,0) 100%);
+								 		/*GRID*/
+								 		display: grid;
+								 		grid-template-columns: 1fr 1fr 1fr;
+								 		grid-template-areas: 	"nombre nombre nombre"
+								 													"foto texto secundaria"
+								 													"foto leyenda secundaria"
+								 													"picar picar picar";
+								 		justify-content: space-evenly;
+								 		align-items: flex-start;
+ }
+
+		.especialIndex  h3{
+												color: #edc137;
+												text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4),
+  																	-1px 1px 1px rgba(96, 14, 14, 0.6);
+  											text-shadow: -1px 1px 0 rgba(29,4,4,0.7);
+  											grid-area: nombre;
+  											justify-self: center;
+
+		}
+
+	
+
+		.fotoEspecial{
+									grid-area: foto;
+		}
+		.fotoEspecialDos{
+											grid-area: secundaria;
+		}
+		
+
+
+
+/*------------------------INICIO ESTILOS ARTICLE TABLA DON FERMIN Index.html---------------------------------*/
+			
+	.donFerminIndex {
+										margin: 5vh 5vw;
+										padding:10px 50px ;
+																/*CAJA EN RELIEVE*/
+										box-shadow: 					/*Sombra interna*/
+																-3px -4px 3px 2px inset rgba(74, 11, 11, 0.1),	
+															  		-4px -5px 5px 4px inset rgba(94, 14, 14, 0.2),		
+																		4px 5px 5px 4px inset rgba( 94,14, 14, 0.2),		
+															  3px 4px 3px 2px inset rgba(74, 11, 11,0.1),
+															  					/*Falso borde*/
+															  1px 1px 0 0 rgba(74, 11, 11, 0.6),	
+															  -1px -1px 0 0 rgba(74,11,11,0.6),		
+															  					/*Sombra externa*/	
+															  5px 5px 5px 0 rgba(141, 20, 20, 0.1),			  
+															  		3px 3px 3px 1px rgba( 118,17, 17, 0.2), 
+																				2px 2px 1px 0 rgba(94, 14, 14,0.15),		
+															  				-2px -2px 1px 0  rgba(94, 14, 14, 0.2),
+															  		-3px -3px 3px 1px  rgba(118, 17, 17, 0.15),
+															  5px 5px 5px 0 rgba(141, 20, 20, 0.1);				
+															  /*CAJA CON FONDO SOMBREADO*/
+								 		background-image:linear-gradient(rgba(117,17,17,0) 0%,
+							  																	rgba(117,17,17,0.05) 3%, 
+							  																		rgba(117,17,17,0.1) 5%, 
+							  																			rgba(117,17,17,0.15) 10%, 
+							  																				rgba(95,14,14,0.2) 20%,
+							  																					rgba(95,14,14,0.25) 40%,
+																														rgba(95,14,14,0.3) 50%,
+							  																					rgba(95,14,14,0.25) 60%,
+							  																				rgba(117,17,17,0.2) 80%,
+							  																			rgba(117,17,17,0.15) 90%, 
+							  																		rgba(117,17,17,0.1) 95%,  
+							  																	rgba(117,17,17,0.05) 97%, 
+							  																rgba(117,17,17,0) 100%);
+								 			/*GRID*/
+								 		display: grid;
+								 		grid-template-columns: 1fr 1fr 1fr;
+								 		grid-template-areas: 	"nombre nombre nombre"
+								 													"foto texto secundaria"
+								 													"foto leyenda secundaria"
+								 													"picar picar picar";
+								 		justify-content: space-evenly;
+								 		align-items: flex-start;
+ }
+
+		.donFerminIndex  h3{
+												color: #edc137;
+												text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4),
+  																	-1px 1px 1px rgba(96, 14, 14, 0.6);
+  											text-shadow: -1px 1px 0 rgba(29,4,4,0.7);
+  											grid-area: nombre;
+  											justify-self: center;
+
+		}
+
+				.fotoDf{
+								grid-area: foto;
+				}
+				.fotoDfDos{
+										grid-area: secundaria;
+				}
+		
+
+
+
+
+/*INICIO section final del Index*/
+.cierreIndex {
+								background-image:linear-gradient(rgba(117,17,17,0.1) 0%,
+							  																	rgba(117,17,17,0.2) 3%, 
+							  																		rgba(117,17,17,0.3) 5%, 
+							  																			rgba(117,17,17,0.4) 10%,
+							  																					rgba(95,14,14,0.7) 40%,
+																														rgba(95,14,14,0.7) 50%,
+							  																					rgba(95,14,14,0.7) 60%,
+							  																			rgba(117,17,17,0.4) 90%, 
+							  																		rgba(117,17,17,0.3) 95%,  
+							  																	rgba(117,17,17,0.2) 97%, 
+							  																rgba(117,17,17,0.1) 100%);
+								display: flex;
+								flex-direction: column;
+								align-items: center;
+}
+
+		.cierreIndex h4{
+										text-decoration: none;
+										font-size: 22px ;
+										text-shadow: 1px 1px 0 rgba(0, 0, 0,0.4);
+		}
+
+		.cierreIndex p{
+										font-size: 20px;
+										color: #edc137;
+										text-shadow: 1px 1px 0 rgba(0, 0, 0,0.4);
+		}
+				.cierreIndex p a{
+													color: #edc137;
+													font-size: 21px;
+													text-shadow: 1px 1px 0 rgba(0, 0, 0,0.4);
+				}
+
+
+
+/*----------------------------------------ESTILOS FOOTER----------------------------------------*/
+footer{
+				background-image: linear-gradient(rgba(117,17,17,0.3) 0%,
+			  																	rgba(117,17,17,0.5) 5%,
+			  																	rgba(117,17,17,0.6) 20%,
+																					rgba(117,17,17,0.7) 40%,
+																					rgba(95,14,14,0.7) 60%,																					
+																					rgba(95,14,14,0.8) 80%,
+																					rgba(95,14,14,0.9) 90%,
+																					rgba(95,14,14,1) 95%,
+																					rgba(73,11,11,1) 100%);
+				display: flex;
+				align-items: flex-start;
+				justify-content: space-around;
+
+}
+
+
+	footer nav{
+						background-color: rgba(200, 240, 175, 0.3 );
+    				border: 1px dotted rgb(200, 240, 175 );
+    				
+	}
+
+
+
+		footer nav ul li{
+											display: inline-block;
+		}
+
+
+	footer form{
+							background-image:  radial-gradient(circle,
+									 								rgba(118,17,17,1) 0%, 
+									 								rgba(96,14,14,0.7) 35%, 
+									 								rgba(74,11,11,0.6) 100%);
+							padding: 3vh;
+							display: flex;
+							flex-direction: column;
+							justify-content: space-around;
+							align-items: center;
+
+	}
+
+		footer form label{
+											align-self: flex-start;
+		}
+
+		footer form input{
+											width: 70%;
+											color: #761111;
+											background-color: #d5cd80;
+		}
+
+		footer form input::placeholder{
+																		color:rgba(118, 17, 17, 0.8) ;
+		}
+
+		footer form select{
+												width: 70%;
+												color: #761111;
+												background-color: #d5cd80;
+
+		}
+			footer form select option{
+																color: #761111;
+			}
+		footer form textarea{
+													background-color: #d5cd80;
+													color: #761111;
+		}
+				footer form textarea::placeholder{
+																		color:rgba(118, 17, 17, 0.8) ;
+		}
+
+		.novedades{
+							margin: 2vh 0;
+							display: flex;
+							flex-direction: column;
+							align-items: center;
+							justify-content: space-evenly;
+							
+		
+		}
+		
+
+		.enviar{
+						background-color: #0b4a2b;
+						color: #d5cd80;
+						width: 50%;
+						margin: 1vh 0;
+		}
+
+		.borrar{
+						background-color:#4a0b0b;
+						color: #d5cd80;
+						width: 50%;
+		}
+
+
+/*---------------ESTILOS & Grid tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html----------------*/
+
+		.tablasDetalle main{
+											background-image:linear-gradient(rgba(117,17,17,0) 0%,
+									 																rgba(117,17,17,0.05) 3%, 
+									 																	rgba(117,17,17,0.1) 5%, 
+									 																		rgba(117,17,17,0.15) 10%, 
+									 																			rgba(95,14,14,0.2) 20%,
+									 																				rgba(95,14,14,0.25) 40%,
+																														rgba(95,14,14,0.3) 50%,
+									 																				rgba(95,14,14,0.25) 60%,
+									 																			rgba(117,17,17,0.2) 80%,
+									 																		rgba(117,17,17,0.15) 90%, 
+									 																	rgba(117,17,17,0.1) 95%,  
+									 																rgba(117,17,17,0.05) 97%, 
+									 															rgba(117,17,17,0) 100%);
+											padding: 5vh;
+											display: grid;
+											grid-column-gap: 5vw;
+											grid-template-areas: 																					
+																					"titulo titulo titulo"
+																					"subtitulo subtitulo subtitulo"
+																					"foto lista lista"
+																					"foto lista lista"
+																					"regalo regalo regalo"
+																					"agregados agregados secundaria"
+																					"precios precios secundaria"																		
+																					"picar picar picar";
+											justify-content: center;
+											align-items: flex-start;
+																					
+										}
+
+
+	 .tablasDetalle main h1{
+	 												grid-area: titulo;
+	 												justify-self: center;
+	 												color: #edc137;
+	 												text-shadow: -1px 1px 1px rgba(29,4,4,0.8);	
+	 												font-size: 32px;
+	 }
+
+	
+
+	 .tablasDetalle main h2{
+	 												grid-area: subtitulo;
+	 												justify-self: center;
+	 												color: #edc137;
+	 												text-shadow: -1px 1px 1px rgba(29,4,4,0.8);	
+	 												margin: 5vh 0 5vh 10vw;
+
+	 }
+
+	 .tablasDetalle main ul{
+	 												grid-area: lista;
+	 												margin: 5vh 0;
+
+	 }
+
+	 	.tablasDetalle main ul li{
+	 														font-size: 22px;
+	 														color: #edc137;
+	 														text-shadow: -1px 1px 1px rgba(29,4,4,0.8);	
+
+	 	}
+
+	 		.tablasDetalle main ul li a{
+	 																font-size: 22px;
+	 																color: #edc137;
+	 																text-shadow: -1px 1px 1px rgba(29,4,4,0.8);	
+	 		}
+		.regalo{
+						grid-area: regalo;
+						font-size: 24px;
+						color: #edc137;	
+						justify-self: center;
+						text-shadow: -1px 1px 1px rgba(29,4,4,0.8);			
+		}
+
+		.tablasDetalle main div{
+														grid-area: agregados;
+		}
+
+				.tablasDetalle main div p{
+																	color: #edc137;	
+																	text-shadow: -1px 1px 1px rgba(29,4,4,0.8);	;
+				}
+		.precios{
+							grid-area: precios;
+							justify-self: flex-end;
+		}
+
+			.precios p{
+									font-size: 20px;
+			}
+
+	
+/*----------------------------------------ESTILOS quesos.html----------------------------------------*/
+	.nuestrosQuesos main{
+												display: flex;
+												flex-direction: column;
+												align-items: center;
+												justify-content: space-between;
+	}
+
+		.nuestrosQuesos main h1{
+														font-size: 30px;
+														color: #dd9c14;
+								  					text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  											1px -1px 0 rgba(87, 28, 0, 0.5),
+								  											-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  											-2px 2px 1px rgba(27, 4, 4, 0.6);
+		}
+
+			.nuestrosQuesos main p{
+															font-size: 22px;
+															color: #dd9c14;
+															text-shadow: -1px 1px 0 rgba(0, 0, 0, 1);
+			}
+
+/*--------------QUESOS SEMIDUROS-----------*/
+/*--Grid--*/
+.semiduros{
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						margin: 10vh 20vw;
+
+
+
+}
+
+/*Grid Areas*/
+	.semiduros h2{
+								align-self: flex-start;
+								font-size: 30px;
+								color: #dd9c14;
+								margin-bottom: 4vh;
+								text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  											1px -1px 0 rgba(87, 28, 0, 0.5),
+								  											-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  											-2px 2px 1px rgba(27, 4, 4, 0.6);
+	}
+
+	.semiduros h4{
+								color: #dd9c14;
+								text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  											1px -1px 0 rgba(87, 28, 0, 0.5),
+								  											-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  											-2px 2px 1px rgba(27, 4, 4, 0.6);
+	}
+
+	.semiduros p{
+								color: #dd9c14;
+								padding: 0 1vw;
+	}
+
+	.pategras{
+						background-image:linear-gradient(rgba(51,8,8,0.05) 0%,
+									 																rgba(51,8,8,0.2) 3%, 
+									 																	rgba(51,8,8,0.4) 5%, 
+									 																		rgba(51,8,8,0.6) 10%, 
+									 																			rgba(51,8,8,0.8) 20%,
+									 																				rgba(51,8,8,0.9) 40%,
+																														rgba(74,11,11,1) 50%,
+									 																				rgba(74,11,11,0.9) 60%,
+									 																			rgba(74,11,11,0.8) 80%,
+									 																		rgba(74,11,11,0.6) 90%, 
+									 																	rgba(74,11,11,0.4) 95%,  
+									 																rgba(74,11,11,0.2) 97%, 
+									 															rgba(74,11,11,0.05) 100%);
+						display: grid;
+						grid-template-rows: 1fr 3fr;
+						grid-template-areas: "fotoPategras nombrePategras nombrePategras"
+																"fotoPategras detallePategras detallePategras";
+	}
+		.pategras img{
+									grid-area:	fotoPategras;
+									margin: auto;
+		}
+
+		.pategras h4{
+									grid-area: nombrePategras;
+									margin: 3vh auto;
+
+		}
+
+		.pategras p{
+								grid-area: detallePategras;
+		}
+
+
+
+	.danbo{
+					background-image:linear-gradient(rgba(74,11,11,0.05) 0%,
+									 																rgba(74,11,11,0.2) 3%, 
+									 																	rgba(74,11,11,0.4) 5%, 
+									 																		rgba(74,11,11,0.6) 10%, 
+									 																			rgba(96,14,14,0.8) 20%,
+									 																				rgba(96,14,14,0.9) 40%,
+																														rgba(96,14,14,1) 50%,
+									 																				rgba(96,14,14,0.9) 60%,
+									 																			rgba(96,14,14,0.8) 80%,
+									 																		rgba(96,14,14,0.6) 90%, 
+									 																	rgba(96,14,14,0.4) 95%,  
+									 																rgba(96,14,14,0.2) 97%, 
+									 															rgba(96,14,14,0.1) 100%);
+					display: grid;
+					grid-template-rows: 1fr 3fr;
+					grid-template-areas: "nombreDanbo nombreDanbo fotoDanbo"
+																"detalleDanbo detalleDanbo fotoDanbo";
+	}
+
+
+		.danbo img{
+									grid-area:	fotoDanbo;
+									margin: auto;
+		}
+
+		.danbo h4{
+									grid-area: nombreDanbo;
+									margin: 3vh auto;
+		}
+
+		.danbo p{
+								grid-area: detalleDanbo;
+		}
+
+	.braPimienta{
+								background-image:linear-gradient(rgba(96,14,14,0.1) 0%,
+									 																rgba(96,14,14,0.2) 3%, 
+									 																	rgba(96,14,14,0.4) 5%, 
+									 																		rgba(96,14,14,0.6) 10%, 
+									 																			rgba(118,17,17,0.8) 20%,
+									 																				rgba(118,17,17,0.9) 40%,
+																														rgba(118,17,17,1) 50%,
+									 																				rgba(118,17,17,0.9) 60%,
+									 																			rgba(118,17,17,0.8) 80%,
+									 																		rgba(118,17,17,0.6) 90%, 
+									 																	rgba(118,17,17,0.4) 95%,  
+									 																rgba(118,17,17,0.2) 97%, 
+									 															rgba(118,17,17,0.1) 100%);
+								display: grid;
+								grid-template-rows: 1fr 3fr;
+								grid-template-areas:"fotoBraP nombreBraP nombreBraP"
+																		"fotoBraP detalleBraP detalleBraP";
+	}
+
+				.braPimienta img{
+									grid-area:	fotoBraP;
+									margin: auto;
+		}
+
+		.braPimienta h4{
+									grid-area: nombreBraP;
+									margin: 3vh auto;
+		}
+
+		.braPimienta p{
+								flex-wrap: wrap;
+								grid-area: detalleBraP;
+		}
+
+	.braAhumado{
+							background-image:linear-gradient(rgba(118,17,17,0.1) 0%,
+									 																rgba(118,17,17,0.2) 3%, 
+									 																	rgba(118,17,17,0.4) 5%, 
+									 																		rgba(118,17,17,0.6) 10%, 
+									 																			rgba(141,20,20,0.8) 20%,
+									 																				rgba(141,20,20,0.9) 40%,
+																														rgba(141,20,20,1) 50%,
+									 																				rgba(141,20,20,0.9) 60%,
+									 																			rgba(141,20,20,0.8) 80%,
+									 																		rgba(141,20,20,0.6) 90%, 
+									 																	rgba(141,20,20,0.4) 95%,  
+									 																rgba(141,20,20,0.2) 97%, 
+									 															rgba(141,20,20,0.05) 100%);
+							display: grid;
+							grid-template-rows: 1fr 3fr;
+							grid-template-areas:"nombreBraA nombreBraA fotoBraA"
+																"detalleBraA detalleBraA fotoBraA";
+	}
+
+		.braAhumado img{
+									grid-area:	fotoBraA;
+									margin: auto;
+		}
+
+		.braAhumado h4{
+									grid-area: nombreBraA;
+									margin: 3vh auto;
+		}
+
+		.braAhumado p{
+								grid-area: detalleBraA;
+		}
+
+/*-------------QUESOS AZULES-------------*/
+
+/*grid*/
+.azules{
+				display: grid;
+				grid-template-rows: 1fr 3fr 3fr;
+				grid-template-areas: "titulo titulo"
+															"roquefort gorgonzola"
+															"roquefort gorgonzola";
+				margin: 10vh 20vw;
+
+}
+
+/*grid areas*/
+
+.azules h2{
+						grid-area: titulo;
+						justify-self: center;
+						font-size: 30px;
+								color: #dd9c14;
+								margin-bottom: 4vh;
+								text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  											1px -1px 0 rgba(87, 28, 0, 0.5),
+								  											-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  											-2px 2px 1px rgba(27, 4, 4, 0.6);
+}
+
+.roquefort{
+						grid-area: roquefort;
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						justify-content: space-between;
+						background-image: linear-gradient(
+															90deg,
+													rgba(96, 14, 14, 1) 0%,
+													rgba(96, 14, 14, 0.9) 10%,
+													rgba(96, 14, 14, 0.8) 50%,
+													rgba(96, 14, 14, 0.7) 80%,
+													rgba(96, 14, 14, 0.6) 90%,
+													rgba(96, 14, 14, 0.5) 93%,
+													rgba(96, 14, 14, 0.4) 95%,
+													rgba(96, 14, 14, 0.3) 99%,
+													rgba(96, 14, 14, 0.1) 100%);
+						padding: 5vh 5vw;
+  
+}
+
+	.roquefort img{
+   
+	}
+
+	.roquefort h5{
+								font-size: 20px;
+								color: #dd9c14;
+								text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  											1px -1px 0 rgba(87, 28, 0, 0.5),
+								  											-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  											-2px 2px 1px rgba(27, 4, 4, 0.6);
+	}
+
+	.roquefort p{
+								color: #dd9c14;
+	}
+
+.gorgonzola{
+						grid-area: gorgonzola;
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						justify-content: space-between;
+						background-image: linear-gradient(
+						  								90deg,
+						  								rgba(96, 14, 14, 0.1) 0%,
+						  								rgba(96, 14, 14, 0.3) 1%,
+						  								rgba(96, 14, 14, 0.4) 5%,
+						  								rgba(96, 14, 14, 0.5) 7%,
+						  								rgba(96, 14, 14, 0.6) 10%,
+						  								rgba(96, 14, 14, 0.7) 20%,
+						  								rgba(96, 14, 14, 0.8) 50%,
+						  								rgba(96, 14, 14, 0.9) 90%,
+						  								rgba(96, 14, 14, 1) 100%);
+						padding: 5vh 5vw;
+
+}
+
+	.gorgonzola img{
+
+	}
+
+	.gorgonzola h5{
+									font-size: 20px;
+									color: #dd9c14;
+									text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  											1px -1px 0 rgba(87, 28, 0, 0.5),
+								  											-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  											-2px 2px 1px rgba(27, 4, 4, 0.6);
+	}
+
+	.gorgonzola p{
+								color: #dd9c14;
+	}
+
+
+
+/*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
+
+.boton{
+				background-color: #C8BE5A;
+				color: #931515;
+}
+.boton:active{
+	border: 3px solid #a31818;
+}
+
+.ingredientes{
+							background-color: #931515;
+							color: #C8BE5A;
+}
+
+
+.boton:not(.collapsed) {
+  color: #C8BE5A;
+  background-color: #600e0e ;
+}
+
+
+.botonR{
+				background-color: #931515  ;
+}
+.botonR strong {
+	text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.7),
+								1px -1px 0 rgba(96, 14, 14, 0.7);
+}
+
+.botonR:not(.collapsed) {
+  background-color: #C8BE5A;
+  color: #600e0e;
+}
+
+.description{
+							margin: 4vh auto;
+							font-size: 18px;
+							color: #C8BE5A;
+							text-shadow: -1px 1px 1px #600e0e,
+													1px -1px 1px #600e0e;
+}
+
+.descriptionContainer{
+											margin: 1vh auto;
+											background-image: linear-gradient(
+																				rgba(208,30,30,0.1)2%,
+																				rgba(208,30,30,0.3)10%,
+																				rgba(186,26,26,0.5)20%,
+																				rgba(163,23,23,0.7)50%,
+																				rgba(186,26,26,0.5)80%,
+																				rgba(208,30,30,0.3)90%,
+																				rgba(208,30,30,0.1)98%);
+											box-shadow: -1px 1px 1px 1px rgba(141,20,20,0.1);
+}
+
+
+
+/*----------------------------------------ESTILOS compra.html----------------------------------------*/
+
+.compras{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.compraClasica img{
+										width: 50%;	
+}
+
+.compraClasica img:hover{
+													transform: scale(2);
+}
+
+.compraClasica p{
+								font-size: 20px;
+								color: #dd9c14;
+								text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  											1px -1px 0 rgba(87, 28, 0, 0.5),
+								  											-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  											-2px 2px 1px rgba(27, 4, 4, 0.6);
+}
+
+.compraEspecial img{
+										width: 50%;	
+}
+
+.compraEspecial img:hover{
+													transform: scale(2);
+}
+.compraEspecial p{
+									font-size: 20px;
+									color: #dd9c14;
+									text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  											1px -1px 0 rgba(87, 28, 0, 0.5),
+								  											-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  											-2px 2px 1px rgba(27, 4, 4, 0.6);
+}
+
+.compraDf img{
+							width: 50%;	
+}
+
+.compraDf img:hover{
+										transform: scale(2);
+}
+
+.compraDf p{
+						font-size: 20px;
+						color: #dd9c14;
+						text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  											1px -1px 0 rgba(87, 28, 0, 0.5),
+								  											-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  											-2px 2px 1px rgba(27, 4, 4, 0.6);
+}
+
+/*-----------FORMULARIO DE COMPRA------------*/
+
+.formCompra{	width: 40%;
+	background-color: #600e0e;
+							margin: 3vh auto;
+							padding: 10px;
+							display: grid;
+							grid-template-areas: 	
+																	"tabla tabla"
+																	"nombre nombre"
+																	"apellido apellido"
+																	"telefono telefono"
+																	"direccion direccion"
+																	"cp cp"
+																	"regalo regalo"
+																	"recepcion recepcion"
+																	"mensaje mensaje"
+																	"textarea textarea"
+																	"comprar borrar";
+							justify-content: space-around;
+							align-items: center;
+}
+
+/*----GRID AREAS---*/
+
+.formCompra select{
+										grid-area: 	tabla;
+										margin: 1vh 0;	
+}
+
+.formCompra input::placeholder{
+															color: rgba(96, 14, 14,0.8);
+}
+
+.formCompra textarea::placeholder{
+															color: rgba(96, 14, 14,0.8);
+}
+
+
+.name{
+				grid-area: 	nombre;
+				display: flex;
+				flex-direction: column;
+}
+		
+		.name label{
+						
+		}
+
+		.name input{
+								margin: 1vh 0;	
+								color: #761111;
+											background-color: #d5cd80;	
+		}
+
+.surname{
+				grid-area: 	apellido;
+				display: flex;
+				flex-direction: column;
+}
+
+.surname input{
+								justify-self: center;	
+								margin: 1vh 0;
+								color: #761111;
+											background-color: #d5cd80;		}
+
+.phone{
+				grid-area: 	telefono;
+				display: flex;
+				flex-direction: column;
+}
+			.phone input{
+							margin: 1vh 0;	
+							color: #761111;
+											background-color: #d5cd80;
+		}
+
+.address{
+				grid-area: 	direccion;
+				display: flex;
+				flex-direction: column;
+}
+
+		.address input{
+							margin: 1vh 0;	
+							color: #761111;
+											background-color: #d5cd80;
+		}
+
+.cp{
+		grid-area: cp;
+		display: flex;
+				flex-direction: column;
+}
+
+		.cp input{
+						margin: 1vh 0;	
+						color: #761111;
+											background-color: #d5cd80;			
+		}
+
+.present{
+				grid-area: 	regalo;
+				display: flex;
+				justify-content: space-around;
+}
+
+		.present input{
+									margin: 3vh 1vw;
+									color: #761111;
+											background-color: #d5cd80;
+		}
+
+.reception{
+						grid-area: 	recepcion;
+						display: flex;
+						flex-direction: column;
+}
+
+		.reception input{
+									margin: 3vh 0;
+									color: #761111;
+											background-color: #d5cd80;
+		}
+
+.message{		
+				grid-area: 	mensaje;
+				display: flex;
+				flex-direction: column;
+}
+
+		.message input{
+									margin: 1vh 0;	
+									align-self: center;
+									color: #761111;
+											background-color: #d5cd80;		}
+
+.formCompra textarea{
+										grid-area: 	textarea;
+}
+
+.comprar{
+				grid-area: 	comprar;
+				justify-content: flex-start;
+				width: 100%;	
+				background-color: #0b4a2b;
+						color: #d5cd80;
+
+}
+
+.borrar{
+				grid-area: 	borrar;
+				justify-content: flex-end;
+				width: 100%;	
+				background-color:#4a0b0b;
+						color: #d5cd80;
+}
+
+
+/*------------ X-Small ----------- */
+@media only screen
+and (max-device-width : 576px) {
+  /* Styles */
+.imgProducto{
+	width: 100%;
+}
+.boton:active{
+	border: 3px solid #a31818;
+}
+
+.ingredientes{
+							background-color: #931515;
+							color: #C8BE5A;
+}
+
+
+.boton:not(.collapsed) {
+  color: #C8BE5A;
+  background-color: #600e0e ;
+}
+
+
+.botonR{
+				background-color: #931515  ;
+}
+.botonR strong {
+	text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.7),
+								1px -1px 0 rgba(96, 14, 14, 0.7);
+}
+
+.botonR:not(.collapsed) {
+  background-color: #C8BE5A;
+  color: #600e0e;
+}
+
+}
+ 
+/* ------------------Small ----------- */
+@media only screen
+and (min-device-width : 576px) and (max-device-width : 756px) {
+  /* Styles */
+
+.fotoFiambre{
+	width: 10%;
+}
+
+
+.boton:active{
+	border: 3px solid #a31818;
+}
+
+.ingredientes{
+							background-color: #931515;
+							color: #C8BE5A;
+}
+
+
+.boton:not(.collapsed) {
+  color: #C8BE5A;
+  background-color: #600e0e ;
+}
+
+
+.botonR{
+				background-color: #931515  ;
+}
+.botonR strong {
+	text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.7),
+								1px -1px 0 rgba(96, 14, 14, 0.7);
+}
+
+.botonR:not(.collapsed) {
+  background-color: #C8BE5A;
+  color: #600e0e;
+}
+
+}
+
+/* ------------------ Medium ----------- */
+@media only screen
+and (min-device-width : 768px) and (max-device-width : 992px) {
+  /* Styles */
+.boton{
+				background-color: #C8BE5A;
+				color: #931515;
+}
+.boton:active{
+	border: 3px solid #a31818;
+}
+
+.ingredientes{
+							background-color: #931515;
+							color: #C8BE5A;
+}
+
+
+.boton:not(.collapsed) {
+  color: #C8BE5A;
+  background-color: #600e0e ;
+}
+
+
+.botonR{
+				background-color: #931515  ;
+}
+.botonR strong {
+	text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.7),
+								1px -1px 0 rgba(96, 14, 14, 0.7);
+}
+
+.botonR:not(.collapsed) {
+  background-color: #C8BE5A;
+  color: #600e0e;
+}
+
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/estilos.css">
+	<link rel = "preconnect" href = "https://fonts.gstatic.com">
+	<link href = "https://fonts.googleapis.com/css2? family = Mate + SC & display = swap" rel = "hoja de estilo">
+	<title>Compra tu picada</title>
+</head>
+<body>
+      <header class="container-fluid me-auto">
+    <!--logo-->
+    <div class="container-sm">
+      <a href="../index.html">
+        <img src="../img/logoHeader.jpg" alt="Logo de Don Fermín">
+      </a>
+    </div>
+    <!--marca-->
+    <div class="container-sm marca">
+    <h1 class="donFermin">Don Fermín</h1>
+    </div>
+    <!--Menú--------------------------------------------------------------------->
+     <nav class="navbar navbar-expand-lg navbar-personalized">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <!-------------------TABLAS CON SUBMENÚ-------------------------->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            TABLAS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="tabla_clasica.html">Tabla Clásica</a></li>
+                            <li><a class="dropdown-item" href="tabla_especial.html">Tabla Especial</a></li>
+                            <li><a class="dropdown-item" href="tabla_don_fermin.html">Tabla Don Fermín</a></li>
+                        </ul>
+                    </li>
+                    <!-------------------PRODUCTOS CON SUBMENÚ-------------------------->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PRODUCTOS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="fiambres.html">Nuestros Fiembres</a></li>
+                            <li><a class="dropdown-item" href="quesos.html">Nuestros Quesos</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#contacto">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  </header>
+		<main class="compras">
+
+		
+			
+		<!--tabla Clásica-->
+		<div class="compraClasica">
+				<img src="../img/clasicaGrande.jpg" alt="Tabla clásica">
+				<h2>Tabla clásica</h2>
+		</div>
+		
+		<!--img tabla Especial-->
+		<div class="compraEspecial">	
+				<img src="../img/especialGrande.jpg" alt="Tabla especial">
+				<h2>Tabla especial</h2>
+		</div>
+
+		<!--img tabla Don Fermín-->
+		<div class="compraDf">
+				<img src="../img/donFerminGrande.jpg" alt="Tabla Don Fermín">
+				<h2>Tabla Don Fermín</h2>
+		</div>
+		</main>
+
+		<section >	
+		<h3 class="completar">Completa el formulario para realizar tu pedido</h3>	
+		<!--Formulario de compra-->
+		<form class="formCompra" action="">
+			<!--Intento de selector de compra-->
+			<select name="pedido">
+				<option value="1*2">Clásica para 2 - $1.300</option>
+				<option value="1*4">Clásica para 4 - $1.700</option>
+				<option value="1*6">Clásica para 6 - $2.200</option>
+				<option value="2*2">Especial para 2 - $1.500</option>
+				<option value="2*4">Especial para 4 - $2.000</option>
+				<option value="2*6">Especial para 6 - $2.500</option>
+				<option value="3*2">Don Fermín para 2 - $2.000</option>
+				<option value="3*4">Don Fermín para 4 - $2.500</option>
+				<option value="3*6">Don Fermín para 6 - $3.000</option>
+			</select>
+			<!--Datos del cliente-->
+			<div class="name">
+			<label  for="nombre">Nombre: </label>
+				<input type="text" name="nombre" placeholder="Tu nombre">
+			</div>
+
+			<div class="surname">	
+			<label for="apellido">Apellido: </label>
+				<input type="text" name="apellido" placeholder="tu apellido">
+			</div>
+
+			<div class="phone">	
+			<label for="telefono">Teléfono: </label>
+				<input type="number" name="telefono" placeholder="11-0000-0000">
+			</div>
+
+			<div class="address">	
+			<label for="domicilio">Domicilio: </label>
+				<input type="text" name="domicilio" placeholder="Dirección de envío">
+			</div>
+
+			<div class="cp">	
+			<label for="cp">CP:</label>
+				<input type="number" name="cp" minlength="4" placeholder="Código postal">
+			</div>
+
+			<div class="present">	
+			<div for="regalo">¿Es para regalo?</div>
+				<div>Sí</div>
+					<input type="radio" name="regalo" value="si">
+				<div>No</div>
+					<input type="radio" name="regalo" value="no">
+			</div>
+
+			<div class="reception">	
+			<label for="recibe">¿Quién la recibe?</label>
+				<input type="text" name="recibe" placeholder="Nombre">
+			</div>
+
+			<div class="message">	
+			<div>¿Querés agregar una dedicatoria?</div>
+				<input type="checkbox" name="Acepta" value="0">
+			</div>
+
+			<textarea name="dedicatoria" id="" cols="30" rows="10" maxlength="200" placeholder="Escribe aquí la dedicatoria (200 caracteres)"></textarea>
+
+			<input type="submit" value="Comprar" class="comprar">
+
+			<input type="reset" value="Borrar" class="borrar">
+
+
+		</form>
+		</section>
+
+	 <footer>
+		<nav class="redes">
+			<ul class="redes__contenedor">
+				<li class="redes__enlace"><a href="https://api.whatsapp.com/send?phone=541166186018&text=Hola%20Don%20Ferm%C3%ADn" target="new"><img class="redes--whatsapp" src="../img/whatsapp.png" alt="Whatsapp"></a>
+				<li class="redes__enlace"><a href="https://www.instagram.com/picadasdonfermin/" target="new"><img class="redes--instagram" src="../img/instagram.png" alt="Instagram"></a>
+				<li class="redes__enlace"><a href="https://facebook.com" target="new"><img class="redes--facebook" src="../img/facebook.png" alt="Facebook"></a>
+				<li class="redes__enlace"><a href="https://youtube.com" target="new"><img class="redes--youtube" src="../img/youtube.png" alt="YouTube"></a>
+			</ul>
+		</nav>
+		<p>Todos los derechos reservados. Don Fermín ©2021</p>
+	</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>	
+</body>
+</html>

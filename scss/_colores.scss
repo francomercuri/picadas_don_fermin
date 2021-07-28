@@ -1,0 +1,31 @@
+//VARIABLES
+
+
+$colorP: #C8BE5A;
+
+$colorA: #C8BE5A;
+
+$colorLi: #C8BE5A;
+
+//____________VARIABLES______________
+
+
+
+//___________MAPS_________________
+$colorIndex: (
+	p:#ddad14,
+	h2:#dd9c14,
+	h3:#ddad14,
+	li:#edc137,
+	a:#edc137,
+	label:#edc137);
+
+
+
+
+//____________EACH_______________
+@each $etiqueta , $colorFuente in $colorIndex{
+	.home #{$etiqueta}{
+		color:$colorFuente;
+	}
+}
