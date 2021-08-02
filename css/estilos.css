@@ -642,6 +642,10 @@ footer form textarea::placeholder {
   background-color: #C8BE5A;
   color: #931515; }
 
+.abc {
+  text-shadow: -1px -1px 1px #340808, -1px -1px 1px #480b0b, 1px 1px 1px #480b0b, 1px 1px 1px #340808;
+  font-size: 50px; }
+
 .boton:active {
   border: 3px solid #a31818; }
 

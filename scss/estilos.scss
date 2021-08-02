@@ -954,6 +954,13 @@ footer{
 				background-color: #C8BE5A;
 				color: #931515;
 }
+.abc{
+	text-shadow: -1px -1px 1px  rgba(52, 8, 8, 1),	
+	-1px -1px 1px  rgba(72, 11, 11, 1),		
+	1px 1px 1px  rgba( 72,11, 11, 1),		
+	1px 1px 1px  rgba(52, 8, 8,1) ;
+	font-size: 50px;
+}
 .boton:active{
 	border: 3px solid #a31818;
 }
