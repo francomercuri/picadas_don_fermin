@@ -953,18 +953,17 @@ footer{
 
 /*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
 
+.prologoFiambres{
+								font-size: 1.5rem;
+								text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.5),
+															 1px -1px 0 rgba(96, 14, 14, 0.5);
+}
+
 .boton{
 				background-color: #C8BE5A;
 				color: #931515;
 }
-.abc{
-	color: #490b0b; 
-	text-shadow: -1px -1px 1px  rgba(117, 18, 18, 0.3),	
-	-1px -1px 1px  rgba(139, 21, 21, 0.6),		
-	1px 1px 1px  rgba( 139,21, 21, 0.6),		
-	1px 1px 1px  rgba(117, 18, 18,0.3) ;
-	font-size: 50px;
-}
+
 .boton:active{
 	border: 3px solid #a31818;
 }
