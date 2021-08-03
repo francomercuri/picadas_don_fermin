@@ -54,17 +54,17 @@ h6 {
 /*estilos <p>*/
 p {
   line-height: 1.5;
-  color: #ffe600;
+  color: #C8BE5A;
   text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7); }
 
 /*Estilo básico de <a>*/
 a {
   text-decoration: none;
-  color: #ffe600; }
+  color: #C8BE5A; }
 
 /*Establecer imagen de fondo*/
 body {
-  background-image: url(../img/fondo4.jpg); }
+  background-image: url(../img/fondo.png); }
 
 /*----------FIN ESTILOS GENERALES----------*/
 /*---ESTILO HEADER---*/
@@ -439,10 +439,12 @@ footer form textarea::placeholder {
   text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
 
 .tablasDetalle main ul li a {
+  color: #C8BE5A;
   font-size: 22px;
   text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
 
 .regalo {
+  color: #C8BE5A;
   grid-area: regalo;
   font-size: 24px;
   justify-self: center;
@@ -452,6 +454,7 @@ footer form textarea::placeholder {
   grid-area: agregados; }
 
 .tablasDetalle main div p {
+  color: #C8BE5A;
   text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
 
 .precios {
@@ -475,7 +478,7 @@ footer form textarea::placeholder {
 
 .nuestrosQuesos main p {
   font-size: 22px;
-  color: #dd9c14;
+  color: #C8BE5A;
   text-shadow: -1px 1px 0 black; }
 
 /*--------------QUESOS SEMIDUROS-----------*/
@@ -643,7 +646,8 @@ footer form textarea::placeholder {
   color: #931515; }
 
 .abc {
-  text-shadow: -1px -1px 1px #340808, -1px -1px 1px #480b0b, 1px 1px 1px #480b0b, 1px 1px 1px #340808;
+  color: #490b0b;
+  text-shadow: -1px -1px 1px rgba(117, 18, 18, 0.3), -1px -1px 1px rgba(139, 21, 21, 0.6), 1px 1px 1px rgba(139, 21, 21, 0.6), 1px 1px 1px rgba(117, 18, 18, 0.3);
   font-size: 50px; }
 
 .boton:active {

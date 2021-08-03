@@ -11,7 +11,7 @@
   padding: 0;
   font-family:'Mate SC', serif;
   font-size: 16px;
-  color: #C8BE5A;	
+  color: $colorTexto2;	
  }
 
 /*Estilos H
@@ -19,7 +19,7 @@
 /*estilos <p>*/
 p{
   line-height: 1.5;
-  color: #ffe600;
+  color: $colorTexto2;
   text-shadow: -1px 1px 0 rgba(29,4,4,0.7);
 }
 
@@ -27,12 +27,12 @@ p{
 
 a {
 	  text-decoration: none;
-	  color: #ffe600;
+	  color: $colorTexto2;
 }
 
 /*Establecer imagen de fondo*/
 body {
- 			 background-image: url(../img/fondo4.jpg);
+ 			 background-image: url(../img/fondo.png);
 }
 
 /*----------FIN ESTILOS GENERALES----------*/
@@ -606,10 +606,12 @@ footer{
 	 	}
 
 	 		.tablasDetalle main ul li a{
+	 																color: $colorTexto2;
 	 																font-size: 22px;
 	 																text-shadow: -1px 1px 1px rgba(29,4,4,0.8);	
 	 		}
 		.regalo{
+						color: $colorTexto2;
 						grid-area: regalo;
 						font-size: 24px;
 						justify-self: center;
@@ -621,6 +623,7 @@ footer{
 		}
 
 				.tablasDetalle main div p{
+																	color: $colorTexto2;
 																	text-shadow: -1px 1px 1px rgba(29,4,4,0.8);	;
 				}
 		.precios{
@@ -652,7 +655,7 @@ footer{
 
 			.nuestrosQuesos main p{
 															font-size: 22px;
-															color: #dd9c14;
+															color: $colorTexto2;
 															text-shadow: -1px 1px 0 rgba(0, 0, 0, 1);
 			}
 
@@ -955,10 +958,11 @@ footer{
 				color: #931515;
 }
 .abc{
-	text-shadow: -1px -1px 1px  rgba(52, 8, 8, 1),	
-	-1px -1px 1px  rgba(72, 11, 11, 1),		
-	1px 1px 1px  rgba( 72,11, 11, 1),		
-	1px 1px 1px  rgba(52, 8, 8,1) ;
+	color: #490b0b; 
+	text-shadow: -1px -1px 1px  rgba(117, 18, 18, 0.3),	
+	-1px -1px 1px  rgba(139, 21, 21, 0.6),		
+	1px 1px 1px  rgba( 139,21, 21, 0.6),		
+	1px 1px 1px  rgba(117, 18, 18,0.3) ;
 	font-size: 50px;
 }
 .boton:active{
@@ -967,12 +971,12 @@ footer{
 
 .ingredientes{
 							background-color: #931515;
-							color: #C8BE5A;
+							color: $colorTexto2;
 }
 
 
 .boton:not(.collapsed) {
-  color: #C8BE5A;
+  color: $colorTexto2;
   background-color: #600e0e ;
 }
 
@@ -993,7 +997,7 @@ footer{
 .description{
 							margin: 4vh auto;
 							font-size: 18px;
-							color: #C8BE5A;
+							color: $colorTexto2;
 							text-shadow: -1px 1px 1px #600e0e,
 													1px -1px 1px #600e0e;
 }
@@ -1253,12 +1257,12 @@ and (max-device-width : 576px) {
 
 .ingredientes{
 							background-color: #931515;
-							color: #C8BE5A;
+							color: $colorTexto2;
 }
 
 
 .boton:not(.collapsed) {
-  color: #C8BE5A;
+  color: $colorTexto2;
   background-color: #600e0e ;
 }
 
@@ -1294,12 +1298,12 @@ and (min-device-width : 576px) and (max-device-width : 756px) {
 
 .ingredientes{
 							background-color: #931515;
-							color: #C8BE5A;
+							color: $colorTexto2;
 }
 
 
 .boton:not(.collapsed) {
-  color: #C8BE5A;
+  color: $colorTexto2;
   background-color: #600e0e ;
 }
 
@@ -1333,12 +1337,12 @@ and (min-device-width : 768px) and (max-device-width : 992px) {
 
 .ingredientes{
 							background-color: #931515;
-							color: #C8BE5A;
+							color: $colorTexto2;
 }
 
 
 .boton:not(.collapsed) {
-  color: #C8BE5A;
+  color: $colorTexto2;
   background-color: #600e0e ;
 }
 
