@@ -1,18 +1,11 @@
+
+//Import
+
+@import "colores";
+
+
 //VARIABLES
-
-
-$sizeH1: 34px; //Tamaño h1
-
-$colorH:#C8BE5A; //color etiquetas <h>
-
-$colorTexto2:#C8BE5A; //color de texto para páginas secundarias.
-
-
-
-$colorTexto:#ffe600; //color etiqueta <p>
-
-$sombraH:-1px 1px 0 rgba(0, 120, 225, 0.5),
-			1px -1px 0 rgba(240,0,130,0.5);
+$sizeH1: 2rem; //Tamaño h1
 
 
 
@@ -20,7 +13,7 @@ $sombraH:-1px 1px 0 rgba(0, 120, 225, 0.5),
 //variación del tamaño de H en base al valor de $sizeH1 (modificar esta variable para cambiar tamaños de H).
 //Se recomienda modificar en px para que el bucle funcione correctamente.
 @for $i from 1 through 6 {
-	h#{$i} {font-size: $sizeH1 -($i+($i - 2));
+	h#{$i} {font-size: $sizeH1 -($i * 0.1);
 			color: $colorH;
 			}
 }
