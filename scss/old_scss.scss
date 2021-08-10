@@ -14,244 +14,50 @@
 	/*-------------------------------INICIO ESTILOS ARTICLE TABLA ESPECIAL Index.html-----------------------*/
 
 
-	.especialIndex {
-									margin: 5vh 5vw;
-									padding: 10px 50px;
-															/*CAJA EN RELIEVE*/
-									box-shadow: $relieveTablasIndex;			
-														  /*CAJA CON FONDO SOMBREADO*/
-								 	background-image:$fondoTablasIndex;
-								 		/*GRID*/
-								 		display: grid;
-								 		grid-template-columns: 1fr 1fr 1fr;
-								 		grid-template-areas: 	"nombre nombre nombre"
-								 													"foto texto secundaria"
-								 													"foto leyenda secundaria"
-								 													"picar picar picar";
-								 		justify-content: space-evenly;
-								 		align-items: flex-start;
- }
-
-		.especialIndex  h3{
-												text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4),
-  																	-1px 1px 1px rgba(96, 14, 14, 0.6);
-  											text-shadow: -1px 1px 0 rgba(29,4,4,0.7);
-  											grid-area: nombre;
-  											justify-self: center;
-
-		}
+	
 
 	
 
-		.fotoEspecial{
-									grid-area: foto;
-									box-shadow: $relieveTablasIndex;
-		}
-		.fotoEspecialDos{
-											grid-area: secundaria;
-											box-shadow: $relieveTablasIndex;
-		}
 		
-
+		
 
 
 /*------------------------INICIO ESTILOS ARTICLE TABLA DON FERMIN Index.html---------------------------------*/
 			
-	.donFerminIndex {
-										margin: 5vh 5vw;
-										padding:10px 50px ;
-																/*CAJA EN RELIEVE*/
-										box-shadow:$relieveTablasIndex;			
-															  /*CAJA CON FONDO SOMBREADO*/
-								 		background-image: $fondoTablasIndex;
-								 			/*GRID*/
-								 		display: grid;
-								 		grid-template-columns: 1fr 1fr 1fr;
-								 		grid-template-areas: 	"nombre nombre nombre"
-								 													"foto texto secundaria"
-								 													"foto leyenda secundaria"
-								 													"picar picar picar";
-								 		justify-content: space-evenly;
-								 		align-items: flex-start;
- }
 
-		.donFerminIndex  h3{
-												text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4),
-  																	-1px 1px 1px rgba(96, 14, 14, 0.6);
-  											text-shadow: -1px 1px 0 rgba(29,4,4,0.7);
-  											grid-area: nombre;
-  											justify-self: center;
-
-		}
-
-				.fotoDf{
-								grid-area: foto;
-								box-shadow: $relieveTablasIndex;
-				}
-				.fotoDfDos{
-										grid-area: secundaria;
-										box-shadow: $relieveTablasIndex;
-				}
 		
 
 
 
 
-/*INICIO section final del Index*/
-.cierreIndex {
-								background-image:linear-gradient(rgba(117,17,17,0.1) 0%,
-							  																	rgba(117,17,17,0.2) 3%, 
-							  																		rgba(117,17,17,0.3) 5%, 
-							  																			rgba(117,17,17,0.4) 10%,
-							  																					rgba(95,14,14,0.7) 40%,
-																														rgba(95,14,14,0.7) 50%,
-							  																					rgba(95,14,14,0.7) 60%,
-							  																			rgba(117,17,17,0.4) 90%, 
-							  																		rgba(117,17,17,0.3) 95%,  
-							  																	rgba(117,17,17,0.2) 97%, 
-							  																rgba(117,17,17,0.1) 100%);
-								display: flex;
-								flex-direction: column;
-								align-items: center;
-}
-
-		.cierreIndex h4{
-										text-decoration: none;
-										font-size: 22px ;
-										text-shadow: 1px 1px 0 rgba(0, 0, 0,0.4);
-		}
-
-		.cierreIndex p{
-										font-size: 20px;
-										text-shadow: 1px 1px 0 rgba(0, 0, 0,0.4);
-		}
-				.cierreIndex p a{
-													font-size: 21px;
-													text-shadow: 1px 1px 0 rgba(0, 0, 0,0.4);
-				}
 
 
 
-/*----------------------------------------ESTILOS FOOTER----------------------------------------*/
-footer{
-				background-image: $fondoFooter;
-				display: flex;
-				align-items: flex-start;
-				justify-content: space-around;
-				padding: 15px;
-
-}
 
 
-	.redes {
-						background-color: rgba(200, 240, 175, 0.3 );
-    				border: 1px dotted rgb(200, 240, 175 );
-    				margin: 0;
-    				padding: 0;
+	
+
+    
 
 
-    .redes__contenedor{
-    					display: flex;
-    					justify-content: space-between;
-    					margin: 0;
-    				padding: 0;
-    }
 
 
-		.redes__enlace{
-											display: inline-block;
-											list-style-type: none;
-											margin: 0;
-    									padding: 1px;
-		}
-
-		.reedes--whatsapp{
-			margin:1px 0;
-    				padding: 0;
-		}
-
-		.redes--instagram{
-			margin:1px 0;
-    				padding: 0;
-		}
-		.redes--facebook{
-			margin: 1px 0 ;
-    				padding: 0;
-		}
-
-		.redes--youtube{
-			margin: 1px 0 1px 0;
-    				padding: 0;
-		}
-
-	}
-	footer form{
-							background-image:  radial-gradient(circle,
-									 								rgba(118,17,17,1) 0%, 
-									 								rgba(96,14,14,0.7) 35%, 
-									 								rgba(74,11,11,0.6) 100%);
-							padding: 3vh;
-							display: flex;
-							flex-direction: column;
-							justify-content: space-around;
-							align-items: center;
-
-	}
-
-		footer form label{
-											align-self: flex-start;
-		}
-
-		footer form input{
-											width: 70%;
-											color: #761111;
-											background-color: #d5cd80;
-		}
-
-		footer form input::placeholder{
-																		color:rgba(118, 17, 17, 0.8) ;
-		}
-
-		footer form select{
-												width: 70%;
-												color: #761111;
-												background-color: #d5cd80;
-
-		}
-			footer form select option{
-																color: #761111;
-			}
-		footer form textarea{
-													background-color: #d5cd80;
-													color: #761111;
-		}
-				footer form textarea::placeholder{
-																		color:rgba(118, 17, 17, 0.8) ;
-		}
-
-		.novedades{
-							margin: 2vh 0;
-							display: flex;
-							flex-direction: column;
-							align-items: center;
-							justify-content: space-evenly;
-							
-		
-		}
 		
 
-		.enviar{
-						background-color: #0b4a2b;
-						color: #d5cd80;
-						width: 50%;
-						margin: 1vh 0;
-		}
 
-		.limpiar{
-						background-color:#4a0b0b;
-						color: #d5cd80;
-						width: 50%;
-		}
+
+
+		
+
+		
+
+		
+			
+
+		
+		
+
+		
 
 
 /*---------------ESTILOS & Grid tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html----------------*/

@@ -18,4 +18,46 @@ $sizeH1: 2rem; //Tamaño h1
 			}
 }
 
+//TAMAÑOS DEFINIDOS
+p, a{
+		font-size:1.2rem;
+		line-height: 1.5;
+}
 
+
+a {
+    text-decoration: none;
+}
+
+//marca ubicada en el header
+		.donFermin{
+							 font-size: 2.1rem;
+		}
+
+//clase que modifica el h2 "nuestras picadas" del index
+		.subtituloIndex{
+		                font-size: 1.9rem;  
+		                text-align: center;
+		} 
+
+
+    .descripcion{/*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
+                font-size: 1.13rem;
+    }
+
+  //section final del index
+
+.cierreIndex {
+     h4{
+                    text-decoration: none;
+                    font-size: 1.4rem ;
+    }
+
+     p{
+                    font-size: 1.2rem;
+    
+        a{
+                          font-size: 1.3rem;
+        }
+    }
+}

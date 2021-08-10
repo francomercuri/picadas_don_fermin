@@ -17,6 +17,125 @@
 .home label {
   color: #edc137; }
 
+p, a {
+  color: #C8BE5A; }
+
+header {
+  background-image: linear-gradient(#490b0b 0%, #5f0e0e 20%, rgba(95, 14, 14, 0.9) 40%, rgba(95, 14, 14, 0.8) 50%, rgba(95, 14, 14, 0.7) 60%, rgba(117, 17, 17, 0.3) 80%, rgba(117, 17, 17, 0.2) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0) 100%); }
+  header img {
+    border-radius: 80px;
+    box-shadow: -3px 4px 4px rgba(51, 7, 7, 0.5); }
+
+.donFermin {
+  text-shadow: -1px -1px 0 rgba(200, 240, 175, 0.5), 1px 1px 0 rgba(200, 240, 175, 0.5); }
+
+/*COLORES MENÚ (clases personalizadas para pisar BOOTSTRAP)*/
+.navbar-personalized .navbar-nav .nav-link {
+  color: rgba(200, 190, 90, 0.9);
+  transform: skew(-15deg); }
+
+.navbar-personalized .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: rgba(200, 190, 90, 0.7);
+  background-color: rgba(96, 14, 14, 0.8); }
+
+.navbar-personalized .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgba(200, 190, 90, 0.9); }
+
+.navbar-personalized .navbar-toggler {
+  color: rgba(200, 190, 90, 0.55);
+  border-color: rgba(200, 190, 90, 0.1); }
+
+.navbar-personalized .navbar-text {
+  color: rgba(200, 190, 90, 0.55); }
+
+.navbar-personalized .navbar-text a,
+.navbar-personalized .navbar-text a:hover,
+.navbar-personalized .navbar-text a:focus {
+  color: rgba(200, 190, 90, 0.9); }
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: rgba(118, 17, 17, 0.8); }
+
+.navbar-nav > li > .dropdown-menu a {
+  color: rgba(200, 190, 90, 0.8); }
+
+.navbar-nav > li > .dropdown-menu a:hover {
+  background-color: rgba(96, 14, 14, 0.9);
+  color: rgba(200, 190, 90, 0.9); }
+
+/*Fondo Index*/
+.home {
+  background-image: url(../img/picada_1.jpeg);
+  min-height: 50vh;
+  background-repeat: no-repeat;
+  background-position: absolute;
+  background-attachment: fixed;
+  background-size: cover; }
+
+main h2 {
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+main p {
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.descripcion {
+  /*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
+  text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.7); }
+
+.subtituloIndex {
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.clasicaIndex h3 {
+  text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7); }
+
+.especialIndex h3 {
+  text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7); }
+
+.donFerminIndex h3 {
+  text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7); }
+
+.cierreIndex h4 {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
+
+.cierreIndex p {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
+  .cierreIndex p a {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
+
+.redes {
+  background-color: rgba(200, 240, 175, 0.3);
+  border: 1px dotted #c8f0af; }
+
+footer form {
+  background-image: radial-gradient(circle, #761111 0%, rgba(96, 14, 14, 0.7) 35%, rgba(74, 11, 11, 0.6) 100%); }
+  footer form input {
+    color: #761111;
+    background-color: #d5cd80; }
+  footer form input::placeholder {
+    color: rgba(118, 17, 17, 0.8); }
+  footer form select {
+    color: #761111;
+    background-color: #d5cd80; }
+    footer form select option {
+      color: #761111; }
+  footer form textarea {
+    background-color: #d5cd80;
+    color: #761111; }
+  footer form textarea::placeholder {
+    color: rgba(118, 17, 17, 0.8); }
+
+.enviar {
+  background-color: #0b4a2b;
+  color: #d5cd80; }
+
+.limpiar {
+  background-color: #4a0b0b;
+  color: #d5cd80; }
+
 h1 {
   font-size: 1.9rem;
   color: #C8BE5A; }
@@ -41,6 +160,33 @@ h6 {
   font-size: 1.4rem;
   color: #C8BE5A; }
 
+p, a {
+  font-size: 1.2rem;
+  line-height: 1.5; }
+
+a {
+  text-decoration: none; }
+
+.donFermin {
+  font-size: 2.1rem; }
+
+.subtituloIndex {
+  font-size: 1.9rem;
+  text-align: center; }
+
+.descripcion {
+  /*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
+  font-size: 1.13rem; }
+
+.cierreIndex h4 {
+  text-decoration: none;
+  font-size: 1.4rem; }
+
+.cierreIndex p {
+  font-size: 1.2rem; }
+  .cierreIndex p a {
+    font-size: 1.3rem; }
+
 .home p {
   color: #ddad14; }
 
@@ -58,6 +204,125 @@ h6 {
 
 .home label {
   color: #edc137; }
+
+p, a {
+  color: #C8BE5A; }
+
+header {
+  background-image: linear-gradient(#490b0b 0%, #5f0e0e 20%, rgba(95, 14, 14, 0.9) 40%, rgba(95, 14, 14, 0.8) 50%, rgba(95, 14, 14, 0.7) 60%, rgba(117, 17, 17, 0.3) 80%, rgba(117, 17, 17, 0.2) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0) 100%); }
+  header img {
+    border-radius: 80px;
+    box-shadow: -3px 4px 4px rgba(51, 7, 7, 0.5); }
+
+.donFermin {
+  text-shadow: -1px -1px 0 rgba(200, 240, 175, 0.5), 1px 1px 0 rgba(200, 240, 175, 0.5); }
+
+/*COLORES MENÚ (clases personalizadas para pisar BOOTSTRAP)*/
+.navbar-personalized .navbar-nav .nav-link {
+  color: rgba(200, 190, 90, 0.9);
+  transform: skew(-15deg); }
+
+.navbar-personalized .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: rgba(200, 190, 90, 0.7);
+  background-color: rgba(96, 14, 14, 0.8); }
+
+.navbar-personalized .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgba(200, 190, 90, 0.9); }
+
+.navbar-personalized .navbar-toggler {
+  color: rgba(200, 190, 90, 0.55);
+  border-color: rgba(200, 190, 90, 0.1); }
+
+.navbar-personalized .navbar-text {
+  color: rgba(200, 190, 90, 0.55); }
+
+.navbar-personalized .navbar-text a,
+.navbar-personalized .navbar-text a:hover,
+.navbar-personalized .navbar-text a:focus {
+  color: rgba(200, 190, 90, 0.9); }
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: rgba(118, 17, 17, 0.8); }
+
+.navbar-nav > li > .dropdown-menu a {
+  color: rgba(200, 190, 90, 0.8); }
+
+.navbar-nav > li > .dropdown-menu a:hover {
+  background-color: rgba(96, 14, 14, 0.9);
+  color: rgba(200, 190, 90, 0.9); }
+
+/*Fondo Index*/
+.home {
+  background-image: url(../img/picada_1.jpeg);
+  min-height: 50vh;
+  background-repeat: no-repeat;
+  background-position: absolute;
+  background-attachment: fixed;
+  background-size: cover; }
+
+main h2 {
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+main p {
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.descripcion {
+  /*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
+  text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.7); }
+
+.subtituloIndex {
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.clasicaIndex h3 {
+  text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7); }
+
+.especialIndex h3 {
+  text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7); }
+
+.donFerminIndex h3 {
+  text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7); }
+
+.cierreIndex h4 {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
+
+.cierreIndex p {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
+  .cierreIndex p a {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
+
+.redes {
+  background-color: rgba(200, 240, 175, 0.3);
+  border: 1px dotted #c8f0af; }
+
+footer form {
+  background-image: radial-gradient(circle, #761111 0%, rgba(96, 14, 14, 0.7) 35%, rgba(74, 11, 11, 0.6) 100%); }
+  footer form input {
+    color: #761111;
+    background-color: #d5cd80; }
+  footer form input::placeholder {
+    color: rgba(118, 17, 17, 0.8); }
+  footer form select {
+    color: #761111;
+    background-color: #d5cd80; }
+    footer form select option {
+      color: #761111; }
+  footer form textarea {
+    background-color: #d5cd80;
+    color: #761111; }
+  footer form textarea::placeholder {
+    color: rgba(118, 17, 17, 0.8); }
+
+.enviar {
+  background-color: #0b4a2b;
+  color: #d5cd80; }
+
+.limpiar {
+  background-color: #4a0b0b;
+  color: #d5cd80; }
 
 @keyframes Marca {
   0% {
@@ -115,21 +380,13 @@ h6 {
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Mate SC', serif;
-  color: #C8BE5A; }
+  font-family: 'Mate SC', serif; }
 
 /*estilos <p>*/
 p {
-  line-height: 1.5;
-  color: #C8BE5A;
-  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7);
-  font-size: 1.2rem; }
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7); }
 
 /*Estilo básico de <a>*/
-a {
-  text-decoration: none;
-  color: #C8BE5A; }
-
 /*Establecer imagen de fondo*/
 body {
   background-image: url(../img/fondo.png); }
@@ -137,91 +394,48 @@ body {
 /*---ESTILO HEADER---*/
 /*Header*/
 header {
-  background-image: linear-gradient(#490b0b 0%, #5f0e0e 20%, rgba(95, 14, 14, 0.9) 40%, rgba(95, 14, 14, 0.8) 50%, rgba(95, 14, 14, 0.7) 60%, rgba(117, 17, 17, 0.3) 80%, rgba(117, 17, 17, 0.2) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0) 100%);
-  height: 100px;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  height: 100px; }
   header img {
-    border-radius: 80px;
-    box-shadow: -3px 4px 4px rgba(51, 7, 7, 0.5); }
+    border-radius: 80px; }
 
-/*Clase de la maarca*/
+/*Clase de la marca ubicada en el header*/
 .donFermin {
   color: #C8BE5A;
-  font-size: 34px;
-  text-shadow: -1px -1px 0 rgba(200, 240, 175, 0.5), 1px 1px 0 rgba(200, 240, 175, 0.5);
   animation: Marca 2s ease-in 1s 1 normal forwards; }
 
-/*ESTILOS MENÚ*/
-.navbar-personalized .navbar-nav .nav-link {
-  color: rgba(200, 190, 90, 0.9);
-  transform: skew(-15deg); }
-
-.navbar-personalized .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(200, 190, 90, 0.7);
-  background-color: rgba(96, 14, 14, 0.8); }
-
-.navbar-personalized .navbar-nav .show > .nav-link,
-.navbar-light .navbar-nav .nav-link.active {
-  color: rgba(200, 190, 90, 0.9); }
-
-.navbar-personalized .navbar-toggler {
-  color: rgba(200, 190, 90, 0.55);
-  border-color: rgba(200, 190, 90, 0.1); }
-
-.navbar-personalized .navbar-text {
-  color: rgba(200, 190, 90, 0.55); }
-
-.navbar-personalized .navbar-text a,
-.navbar-personalized .navbar-text a:hover,
-.navbar-personalized .navbar-text a:focus {
-  color: rgba(200, 190, 90, 0.9); }
-
-.navbar-nav > li > .dropdown-menu {
-  background-color: rgba(118, 17, 17, 0.8); }
-
-.navbar-nav > li > .dropdown-menu a {
-  color: rgba(200, 190, 90, 0.8); }
-
-.navbar-nav > li > .dropdown-menu a:hover {
-  background-color: rgba(96, 14, 14, 0.9);
-  color: rgba(200, 190, 90, 0.9); }
-
 /*---------------------------------ESTILOS INDEX-------------------------------------------------*/
-.home {
-  background-image: url(../img/picada_1.jpeg);
-  min-height: 50vh;
-  background-repeat: no-repeat;
-  background-position: absolute;
-  background-attachment: fixed;
-  background-size: cover;
-  /*--------Estilos main (index)---------*/ }
-  .home main {
-    background-image: linear-gradient(rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.1) 3%, rgba(117, 17, 17, 0.15) 5%, rgba(117, 17, 17, 0.2) 10%, rgba(95, 14, 14, 0.4) 20%, rgba(95, 14, 14, 0.5) 40%, rgba(95, 14, 14, 0.6) 50%, rgba(95, 14, 14, 0.5) 60%, rgba(117, 17, 17, 0.4) 80%, rgba(117, 17, 17, 0.2) 90%, rgba(117, 17, 17, 0.15) 95%, rgba(117, 17, 17, 0.1) 97%, rgba(117, 17, 17, 0) 100%);
-    margin: 50px 0;
-    padding: 10vh 10vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; }
-    .home main h2 {
-      text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6);
-      margin-bottom: 5px; }
-    .home main p {
-      font-size: 20px;
-      text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+/*--------Estilos main (index)---------*/
+main {
+  background-image: linear-gradient(rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.1) 3%, rgba(117, 17, 17, 0.15) 5%, rgba(117, 17, 17, 0.2) 10%, rgba(95, 14, 14, 0.4) 20%, rgba(95, 14, 14, 0.5) 40%, rgba(95, 14, 14, 0.6) 50%, rgba(95, 14, 14, 0.5) 60%, rgba(117, 17, 17, 0.4) 80%, rgba(117, 17, 17, 0.2) 90%, rgba(117, 17, 17, 0.15) 95%, rgba(117, 17, 17, 0.1) 97%, rgba(117, 17, 17, 0) 100%);
+  margin: 50px 0;
+  padding: 10vh 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  main h2 {
+    margin-bottom: 0.3rem; }
+  main p {
+    font-size: 1.3rem; }
 
 /*Fin estilos Main (index)*/
 /*SECTION TABLAS Index.html*/
-.subtituloIndex {
-  font-size: 30px;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6);
-  text-align: center; }
+.descripcion {
+  /*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
+  grid-area: texto;
+  margin: 1.25rem 0.62rem 0 0; }
+
+.leyendaIndex {
+  /*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
+  grid-area: leyenda;
+  justify-self: flex-end; }
 
 /*INICIO ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
 .clasicaIndex {
   margin: 5vh 5vw;
-  padding: 10px 50px;
+  padding: 0.6rem 3.1rem;
   /*CAJA EN RELIEVE*/
   box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1);
   /*CAJA CON FONDO SOMBREADO*/
@@ -233,19 +447,147 @@ header {
   justify-content: space-evenly;
   align-items: flex-start; }
   .clasicaIndex h3 {
-    text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
-    text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7);
     grid-area: nombre;
     justify-self: center; }
 
-.descripcion {
-  /*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
-  text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.7);
-  grid-area: texto;
-  font-size: 18px;
-  margin: 20px 10px 0 0; }
+.fotoClasica {
+  grid-area: foto;
+  box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1); }
 
-.leyendaIndex {
-  /*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
-  grid-area: leyenda;
-  justify-self: flex-end; }
+.fotoClasicaDos {
+  grid-area: secundaria;
+  box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1); }
+
+/*FIN ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
+/*INICIO ESTILOS ARTICLE TABLA ESPECIAL Index.html*/
+.especialIndex {
+  margin: 5vh 5vw;
+  padding: 0.6rem 3.1rem;
+  /*CAJA EN RELIEVE*/
+  box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1);
+  /*CAJA CON FONDO SOMBREADO*/
+  background-image: linear-gradient(rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.05) 3%, rgba(117, 17, 17, 0.1) 5%, rgba(117, 17, 17, 0.15) 10%, rgba(95, 14, 14, 0.2) 20%, rgba(95, 14, 14, 0.25) 40%, rgba(95, 14, 14, 0.3) 50%, rgba(95, 14, 14, 0.25) 60%, rgba(117, 17, 17, 0.2) 80%, rgba(117, 17, 17, 0.15) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0.05) 97%, rgba(117, 17, 17, 0) 100%);
+  /*GRID*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "nombre nombre nombre" "foto texto secundaria" "foto leyenda secundaria" "picar picar picar";
+  justify-content: space-evenly;
+  align-items: flex-start; }
+  .especialIndex h3 {
+    grid-area: nombre;
+    justify-self: center; }
+
+.fotoEspecial {
+  grid-area: foto;
+  box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1); }
+
+.fotoEspecialDos {
+  grid-area: secundaria;
+  box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1); }
+
+/*FIN ESTILOS ARTICLE TABLA ESPECIAL Index.html*/
+/*INICIO ESTILOS ARTICLE TABLA DON FERMIN Index.html*/
+.donFerminIndex {
+  margin: 5vh 5vw;
+  padding: 0.6rem 3.1rem;
+  /*CAJA EN RELIEVE*/
+  box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1);
+  /*CAJA CON FONDO SOMBREADO*/
+  background-image: linear-gradient(rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.05) 3%, rgba(117, 17, 17, 0.1) 5%, rgba(117, 17, 17, 0.15) 10%, rgba(95, 14, 14, 0.2) 20%, rgba(95, 14, 14, 0.25) 40%, rgba(95, 14, 14, 0.3) 50%, rgba(95, 14, 14, 0.25) 60%, rgba(117, 17, 17, 0.2) 80%, rgba(117, 17, 17, 0.15) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0.05) 97%, rgba(117, 17, 17, 0) 100%);
+  /*GRID*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "nombre nombre nombre" "foto texto secundaria" "foto leyenda secundaria" "picar picar picar";
+  justify-content: space-evenly;
+  align-items: flex-start; }
+  .donFerminIndex h3 {
+    grid-area: nombre;
+    justify-self: center; }
+
+.fotoDf {
+  grid-area: foto;
+  box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1); }
+
+.fotoDfDos {
+  grid-area: secundaria;
+  box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1); }
+
+/*FIN ESTILOS ARTICLE TABLA DON FERMIN Index.html*/
+/*INICIO section final index*/
+.cierreIndex {
+  background-image: linear-gradient(rgba(117, 17, 17, 0.1) 0%, rgba(117, 17, 17, 0.2) 3%, rgba(117, 17, 17, 0.3) 5%, rgba(117, 17, 17, 0.4) 10%, rgba(95, 14, 14, 0.7) 40%, rgba(95, 14, 14, 0.7) 50%, rgba(95, 14, 14, 0.7) 60%, rgba(117, 17, 17, 0.4) 90%, rgba(117, 17, 17, 0.3) 95%, rgba(117, 17, 17, 0.2) 97%, rgba(117, 17, 17, 0.1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+/*FIN section final index/*
+
+/*----------------------------------------ESTILOS FOOTER----------------------------------------*/
+footer {
+  background-image: linear-gradient(rgba(117, 17, 17, 0.3) 0%, rgba(117, 17, 17, 0.5) 5%, rgba(117, 17, 17, 0.6) 20%, rgba(117, 17, 17, 0.7) 40%, rgba(95, 14, 14, 0.7) 60%, rgba(95, 14, 14, 0.8) 80%, rgba(95, 14, 14, 0.9) 90%, #5f0e0e 95%, #490b0b 100%);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 1rem; }
+
+.redes {
+  margin: 0;
+  padding: 0; }
+
+.redes__contenedor {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0; }
+
+.redes__enlace {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 1px; }
+
+.reedes__enlace--whatsapp {
+  margin: 1px 0;
+  padding: 0; }
+
+.redes__enlace--instagram {
+  margin: 1px 0;
+  padding: 0; }
+
+.redes__enlace--facebook {
+  margin: 1px 0;
+  padding: 0; }
+
+.redes__enlace--youtube {
+  margin: 1px 0 1px 0;
+  padding: 0; }
+
+/*INICIO estilos Formulario footer*/
+footer form {
+  padding: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+  footer form label {
+    align-self: flex-start; }
+  footer form input {
+    width: 70%; }
+  footer form select {
+    width: 70%; }
+
+/*Clase para suscripcion a novedades form footer*/
+.novedades {
+  margin: 2vh 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly; }
+
+/*Estilos botones form footer*/
+.enviar {
+  width: 50%;
+  margin: 1vh 0; }
+
+.limpiar {
+  width: 50%; }
