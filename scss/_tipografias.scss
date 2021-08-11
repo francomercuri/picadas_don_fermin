@@ -42,7 +42,7 @@ a {
 
 
     .descripcion{/*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
-                font-size: 1.13rem;
+                font-size: 1.1rem;
     }
 
   //section final del index
@@ -61,3 +61,121 @@ a {
         }
     }
 }
+
+
+
+// FONT SIZE tabla_clasica.html / tabla_especial.html / tabla_don_fermin.htm
+
+
+.tablasDetalle main{
+				h1{
+                       font-size: 2rem;
+                    }
+                    ul{
+                          li{
+                              font-size: 1.4rem;
+                              a{
+                              font-size: 1.4rem;
+                              }
+                          }
+                    }
+}
+
+// Clase para resaltar los productos de regalo incluidos sin cargo
+      .regalo{
+              font-size: 1.5rem;
+        }
+
+       .precios{
+       		p{
+			font-size: 1.2rem;
+			}
+       }
+
+// __________________________________________Quesos.html________________________________________________
+.nuestrosQuesos main{
+                    h1{
+                         font-size: 1.9rem;
+    				}
+    				p{
+					font-size: 1.4rem;
+				}
+  }
+
+
+// _______________________________QUESOS SEMIDUROS_______________________
+
+
+.nombreQueso{
+			font-size: 1.6rem;
+}
+
+.semiduros{
+		h2{
+               font-size: 1.9rem;
+            }
+}
+
+// ___________________________Quesos Azules______________________
+
+.nombreQuesoAzul{
+			font-size: 1.5rem;
+}
+
+.azules{
+		h2{
+            font-size: 1.9rem;
+          }
+}
+
+	.roquefort{
+			h5{
+				font-size: 1.2rem;
+			}
+	}
+
+	.gorgonzola{
+			h5{
+				font-size: 1.2rem;
+			}
+	}
+
+
+// __________________________________fiambres.html_____________________________
+
+	.prologoFiambres{
+				font-size: 1.5rem;
+	}
+
+	.descriptionBox{
+				p{
+             		 font-size: 1.1rem;
+				}
+
+	}
+
+// ____________________________________compras.html____________________________________
+
+	.compraClasica {
+				h2 {
+					font-size: 1.2rem;
+				}
+	}
+	.compraEspecial{ 
+				h2 {
+					font-size: 1.2rem;
+				}
+	}
+	.compraDf{
+			 h2 {
+				font-size: 1.2rem;
+			}
+	}
+
+// _________________________________FORMULARIO DE COMPRA____________________________
+
+.completar{
+		font-size: 1.7rem;
+		text-align: center;
+}
+

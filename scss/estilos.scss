@@ -303,3 +303,357 @@ footer{
     .limpiar{
             width: 50%;
     }
+
+/*---------------ESTILOS & Grid tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html----------------*/
+
+  .tablasDetalle main{
+                      padding: 5vh;
+                      display: grid;
+                      grid-column-gap: 5vw;
+                      grid-template-areas:                                          
+                                          "titulo titulo titulo"
+                                          "subtitulo subtitulo subtitulo"
+                                          "foto lista lista"
+                                          "foto lista lista"
+                                          "regalo regalo regalo"
+                                          "agregados agregados secundaria"
+                                          "precios precios secundaria"                                    
+                                          "picar picar picar";
+                      justify-content: center;
+                      align-items: flex-start;
+                                          
+                      h1{
+                          grid-area: titulo;
+                          justify-self: center;
+                          font-size: 2rem;
+                      }
+
+                      h2{
+                          grid-area: subtitulo;
+                          justify-self: center;
+                          margin: 5vh 0 5vh 10vw;
+                      }
+                      ul{
+                          grid-area: lista;
+                          margin: 5vh 0;
+                      }
+                      div{
+                            grid-area: agregados;
+                      }
+  }                  
+
+
+/*Clase para resaltar los productos de regalo incluidos sin cargo*/
+      .regalo{
+              grid-area: regalo;
+              justify-self: center;
+      }
+
+/*Clase precios de tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html*/
+      .precios{
+              grid-area: precios;
+              justify-self: flex-end;
+    }
+
+/*----------------------------------------ESTILOS quesos.html----------------------------------------*/
+  .nuestrosQuesos main{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: space-between;
+  }
+
+/*--------------QUESOS SEMIDUROS-----------*/
+
+  .semiduros{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10vh 20vw;
+            h2{
+              align-self: flex-start;
+              margin-bottom: 4vh;
+            }
+            p{
+              padding: 0 1vw;
+  }
+}
+
+/*Grid Areas*/
+
+.pategras{
+            display: grid;
+            grid-template-rows: 1fr 3fr;
+            grid-template-areas: "fotoPategras nombrePategras nombrePategras"
+                                "fotoPategras detallePategras detallePategras";
+            img{
+                  grid-area:  fotoPategras;
+                  margin: auto;
+            }
+            h4{
+                  grid-area: nombrePategras;
+                  margin: 3vh auto;
+
+            }
+            p{
+                grid-area: detallePategras;
+            }
+}
+
+  .danbo{
+          display: grid;
+          grid-template-rows: 1fr 3fr;
+          grid-template-areas: "nombreDanbo nombreDanbo fotoDanbo"
+                                "detalleDanbo detalleDanbo fotoDanbo";
+          img{
+              grid-area:  fotoDanbo;
+              margin: auto;
+          }
+          h4{
+             grid-area: nombreDanbo;
+             margin: 3vh auto;
+          }
+          p{
+            grid-area: detalleDanbo;
+          }
+
+  }
+
+    .braPimienta{
+                display: grid;
+                grid-template-rows: 1fr 3fr;
+                grid-template-areas:"fotoBraP nombreBraP nombreBraP"
+                                    "fotoBraP detalleBraP detalleBraP";
+                img{
+                  grid-area:  fotoBraP;
+                  margin: auto;
+                }
+                h4{
+                  grid-area: nombreBraP;
+                  margin: 3vh auto;
+                }
+                p{
+                flex-wrap: wrap;
+                grid-area: detalleBraP;
+                }
+    }
+
+    .braAhumado{
+              display: grid;
+              grid-template-rows: 1fr 3fr;
+              grid-template-areas:"nombreBraA nombreBraA fotoBraA"
+                                "detalleBraA detalleBraA fotoBraA";
+              img{
+                  grid-area:  fotoBraA;
+                  margin: auto;
+                  box-shadow: $relieveQuesos;
+              }
+              h4{
+                  grid-area: nombreBraA;
+                  margin: 3vh auto;
+              }
+              p{
+                grid-area: detalleBraA;
+              }
+    }
+
+    /*-------------QUESOS AZULES-------------*/
+
+  /*grid*/
+  .azules{
+          display: grid;
+          grid-template-rows: 1fr 3fr 3fr;
+          grid-template-areas: "titulo titulo"
+                              "roquefort gorgonzola"
+                              "roquefort gorgonzola";
+          margin: 10vh 20vw;
+          h2{
+            grid-area: titulo;
+            justify-self: center;
+            margin-bottom: 4vh;
+          }
+  }
+
+      .roquefort{
+            grid-area: roquefort;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5vh 5vw;
+            
+      }
+
+  .gorgonzola{
+            grid-area: gorgonzola;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5vh 5vw;
+  }
+
+
+
+/*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
+
+.descriptionBox{
+                margin: 1vh auto;
+                p{
+                  margin: 4vh auto;
+                }
+}
+
+/*----------------------------------------ESTILOS compra.html----------------------------------------*/
+
+  .compras{
+            display: flex;
+            justify-content: space-evenly;
+  }
+
+      .compraClasica{
+                      img{
+                           width: 50%; 
+                      }
+                      img:hover{
+                          transform: scale(2);
+                      }
+      }
+
+      .compraEspecial{
+                      img{
+                           width: 50%; 
+                      }
+                      img:hover{
+                          transform: scale(2);
+                      }
+      }
+
+      .compraDf{
+                      img{
+                           width: 50%; 
+                      }
+                      img:hover{
+                          transform: scale(2);
+                      }
+      }
+
+/*-----------FORMULARIO DE COMPRA------------*/
+
+.formCompra{  
+            width: 40%;
+            margin: 3vh auto;
+            padding: 10px;
+            display: grid;
+            grid-template-areas:  
+                                "tabla tabla"
+                                "nombre nombre"
+                                "apellido apellido"
+                                "telefono telefono"
+                                "direccion direccion"
+                                "cp cp"
+                                "regalo regalo"
+                                "recepcion recepcion"
+                                "mensaje mensaje"
+                                "textarea textarea"
+                                "comprar borrar";
+            justify-content: space-around;
+            align-items: center;
+            select{
+                    grid-area:  tabla;
+                    margin: 1vh 0;  
+            }
+            textarea::placeholder{
+                              color: rgba(96, 14, 14,0.8);
+            }           
+}
+
+.name{
+        grid-area:  nombre;
+        display: flex;
+        flex-direction: column;
+        input{
+                margin: 1vh 0;  
+        }
+}
+
+.surname{
+        grid-area:  apellido;
+        display: flex;
+        flex-direction: column;
+        input{
+                justify-self: center; 
+                margin: 1vh 0;
+        }
+}
+
+.phone{
+        grid-area:  telefono;
+        display: flex;
+        flex-direction: column;
+        input{
+              margin: 1vh 0;  
+        }
+}
+
+.address{
+        grid-area:  direccion;
+        display: flex;
+        flex-direction: column;
+        input{
+              margin: 1vh 0; 
+        }        
+}
+
+.cp{
+    grid-area: cp;
+    display: flex;
+    flex-direction: column;
+    input{
+           margin: 1vh 0;  
+    }
+}
+
+.present{
+        grid-area:  regalo;
+        display: flex;
+        justify-content: space-around;
+        input{
+              margin: 3vh 1vw;
+            }
+}
+
+.reception{
+            grid-area:  recepcion;
+            display: flex;
+            flex-direction: column;
+            input{
+                  margin: 3vh 0;
+            }
+}
+
+.message{   
+        grid-area:  mensaje;
+        display: flex;
+        flex-direction: column;
+        input{
+              margin: 1vh 0;  
+              align-self: center;
+        }
+}
+
+.formCompra textarea{
+                    grid-area:  textarea;
+}
+
+.comprar{
+        grid-area:  comprar;
+        justify-content: flex-start;
+        width: 100%;  
+}
+
+.borrar{
+        grid-area:  borrar;
+        justify-content: flex-end;
+        width: 100%;  
+}

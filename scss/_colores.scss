@@ -13,6 +13,43 @@ $colorH:#C8BE5A; //color etiquetas <h>
 
 $colorTexto:#C8BE5A; //color de texto para páginas secundarias.
 
+$quesosMain: #dd9c14;
+
+
+				//___________RELIEVES DE IMAGENES_______________
+
+$relieveTablasIndex:					/*Sombra interna*/
+-3px -4px 3px 2px inset rgba(74, 11, 11, 0.1),	
+-4px -5px 5px 4px inset rgba(94, 14, 14, 0.2),		
+4px 5px 5px 4px inset rgba( 94,14, 14, 0.2),		
+3px 4px 3px 2px inset rgba(74, 11, 11,0.1),
+/*Falso borde*/
+1px 1px 0 0 rgba(74, 11, 11, 0.6),	
+-1px -1px 0 0 rgba(74,11,11,0.6),		
+/*Sombra externa*/	
+5px 5px 5px 0 rgba(141, 20, 20, 0.1),			  
+3px 3px 3px 1px rgba( 118,17, 17, 0.2), 
+2px 2px 1px 0 rgba(94, 14, 14,0.15),		
+-2px 	-2px 1px 0  rgba(94, 14, 14, 0.2),
+-3px -3px 3px 1px  rgba(118, 17, 17, 0.15),
+5px 5px 5px 0 rgba(141, 20, 20, 0.1);	
+
+$relieveQuesos:
+-3px -4px 3px 2px inset rgba(52, 8, 8, 0.1),	
+-4px -5px 5px 4px inset rgba(72, 11, 11, 0.2),		
+4px 5px 5px 4px inset rgba( 72,11, 11, 0.2),		
+3px 4px 3px 2px inset rgba(52, 8, 8,0.1),
+/*Falso borde*/
+1px 1px 0 0 rgba(52, 8, 8, 0.6),	
+-1px -1px 0 0 rgba(52,8,8,0.6),		
+/*Sombra externa*/	
+5px 5px 5px 0 rgba(119, 17, 17, 0.1),			  
+3px 3px 3px 1px rgba( 96,14, 14, 0.2), 
+2px 2px 1px 0 rgba(72, 11, 11,0.15),		
+-2px 	-2px 1px 0  rgba(72, 11, 11, 0.2),
+-3px -3px 3px 1px  rgba(96, 14, 14, 0.15),
+5px 5px 5px 0 rgba(119, 17, 17, 0.1);
+
 
 
 
@@ -41,9 +78,6 @@ $colorIndex: (
 p, a{
 	color: $colorTexto;
 }
-
-
- //___________________________________________________________VARIABLES_______________________________________
 
 //___________FONDOS TRASLÚCIDOS_________	
 
@@ -325,3 +359,416 @@ footer form{
            		background-color:#4a0b0b;
             	color: #d5cd80;
    		}
+
+
+
+// COLORES tabla_clasica.html / tabla_especial.html / tabla_don_fermin.htm
+
+
+ .tablasDetalle main{
+                      background-image:linear-gradient(rgba(117,17,17,0) 0%,
+                                                  rgba(117,17,17,0.05) 3%, 
+                                                    rgba(117,17,17,0.1) 5%, 
+                                                      rgba(117,17,17,0.15) 10%, 
+                                                        rgba(95,14,14,0.2) 20%,
+                                                          rgba(95,14,14,0.25) 40%,
+                                                            rgba(95,14,14,0.3) 50%,
+                                                          rgba(95,14,14,0.25) 60%,
+                                                        rgba(117,17,17,0.2) 80%,
+                                                      rgba(117,17,17,0.15) 90%, 
+                                                    rgba(117,17,17,0.1) 95%,  
+                                                  rgba(117,17,17,0.05) 97%, 
+                                                rgba(117,17,17,0) 100%);
+                       h1{
+                          text-shadow: -1px 1px 1px rgba(29,4,4,0.8); 
+                      }
+                      h2{
+                          text-shadow: -1px 1px 1px rgba(29,4,4,0.8); 
+                      }
+                        ul{
+                          li{
+                              text-shadow: -1px 1px 1px rgba(29,4,4,0.8); 
+                          		a{
+	 																color: $colorTexto;
+	 																text-shadow: -1px 1px 1px rgba(29,4,4,0.8);	
+	 														}
+
+                          }
+												}
+											div{
+                            p{
+                                  color: $colorTexto;
+                                  text-shadow: -1px 1px 1px rgba(29,4,4,0.8); ;
+                            }
+                      }
+}
+
+// Clase para resaltar los productos de regalo incluidos sin cargo
+      .regalo{
+              color: $colorTexto;
+              text-shadow: -1px 1px 1px rgba(29,4,4,0.8);     
+        }
+
+// ______________________________________Quesos.html_____________________________________________________
+
+.nuestrosQuesos main{
+                      h1{
+                          color: $quesosMain;
+                          text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+                                      1px -1px 0 rgba(87, 28, 0, 0.5),
+                                      -1px 1px 0 rgba(27, 4, 4, 0.8),
+                                      -2px 2px 1px rgba(27, 4, 4, 0.6);
+    									}
+    									p{
+															color: $colorTexto;
+															text-shadow: -1px 1px 0 rgba(0, 0, 0, 1);
+											}
+  }
+
+ // __________QUESOS SEMIDUROS_________
+
+ .semiduros{
+ 						h2{
+                color: $quesosMain;
+                text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+                                        1px -1px 0 rgba(87, 28, 0, 0.5),
+                                        -1px 1px 0 rgba(27, 4, 4, 0.8),
+                                        -2px 2px 1px rgba(27, 4, 4, 0.6);
+            }
+            h4{
+								color: $quesosMain;
+								text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  											1px -1px 0 rgba(87, 28, 0, 0.5),
+								  											-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  											-2px 2px 1px rgba(27, 4, 4, 0.6);
+						}
+						p{
+								color: $quesosMain;
+						}
+ }
+
+
+	.pategras{
+						background-image:linear-gradient(rgba(51,8,8,0.05) 0%,
+									 																rgba(51,8,8,0.2) 3%, 
+									 																	rgba(51,8,8,0.4) 5%, 
+									 																		rgba(51,8,8,0.6) 10%, 
+									 																			rgba(51,8,8,0.8) 20%,
+									 																				rgba(51,8,8,0.9) 40%,
+																														rgba(74,11,11,1) 50%,
+									 																				rgba(74,11,11,0.9) 60%,
+									 																			rgba(74,11,11,0.8) 80%,
+									 																		rgba(74,11,11,0.6) 90%, 
+									 																	rgba(74,11,11,0.4) 95%,  
+									 																rgba(74,11,11,0.2) 97%, 
+									 															rgba(74,11,11,0.05) 100%);
+						img{
+								box-shadow:$relieveQuesos;
+						}
+}
+
+	.danbo{
+          background-image:linear-gradient(rgba(74,11,11,0.05) 0%,
+                                                  rgba(74,11,11,0.2) 3%, 
+                                                    rgba(74,11,11,0.4) 5%, 
+                                                      rgba(74,11,11,0.6) 10%, 
+                                                        rgba(96,14,14,0.8) 20%,
+                                                          rgba(96,14,14,0.9) 40%,
+                                                            rgba(96,14,14,1) 50%,
+                                                          rgba(96,14,14,0.9) 60%,
+                                                        rgba(96,14,14,0.8) 80%,
+                                                      rgba(96,14,14,0.6) 90%, 
+                                                    rgba(96,14,14,0.4) 95%,  
+                                                  rgba(96,14,14,0.2) 97%, 
+                                                rgba(96,14,14,0.1) 100%);
+          img{
+              box-shadow: $relieveQuesos;
+          }
+  }
+
+  .braPimienta{
+              background-image:linear-gradient(rgba(96,14,14,0.1) 0%,
+                                                rgba(96,14,14,0.2) 3%, 
+                                                  rgba(96,14,14,0.4) 5%, 
+                                                    rgba(96,14,14,0.6) 10%, 
+                                                      rgba(118,17,17,0.8) 20%,
+                                                        rgba(118,17,17,0.9) 40%,
+                                                          rgba(118,17,17,1) 50%,
+                                                        rgba(118,17,17,0.9) 60%,
+                                                      rgba(118,17,17,0.8) 80%,
+                                                    rgba(118,17,17,0.6) 90%, 
+                                                  rgba(118,17,17,0.4) 95%,  
+                                                rgba(118,17,17,0.2) 97%, 
+                                              rgba(118,17,17,0.1) 100%);
+              img{
+                  box-shadow: $relieveQuesos;
+                }	
+  }
+
+  .braAhumado{
+              background-image:linear-gradient(rgba(118,17,17,0.1) 0%,
+                                                  rgba(118,17,17,0.2) 3%, 
+                                                    rgba(118,17,17,0.4) 5%, 
+                                                      rgba(118,17,17,0.6) 10%, 
+                                                        rgba(141,20,20,0.8) 20%,
+                                                          rgba(141,20,20,0.9) 40%,
+                                                            rgba(141,20,20,1) 50%,
+                                                          rgba(141,20,20,0.9) 60%,
+                                                        rgba(141,20,20,0.8) 80%,
+                                                      rgba(141,20,20,0.6) 90%, 
+                                                    rgba(141,20,20,0.4) 95%,  
+                                                  rgba(141,20,20,0.2) 97%, 
+                                                rgba(141,20,20,0.05) 100%);
+              img{
+                  box-shadow: $relieveQuesos;
+              }
+
+  }
+
+// ______________Quesos Azules_____________
+
+	.azules{
+					h2{
+                color: $quesosMain;
+                text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+                                        1px -1px 0 rgba(87, 28, 0, 0.5),
+                                        -1px 1px 0 rgba(27, 4, 4, 0.8),
+                                        -2px 2px 1px rgba(27, 4, 4, 0.6);
+          }
+	}
+
+		.roquefort{
+            background-image: linear-gradient(
+                              90deg,
+                          rgba(96, 14, 14, 1) 0%,
+                          rgba(96, 14, 14, 0.9) 10%,
+                          rgba(96, 14, 14, 0.8) 50%,
+                          rgba(96, 14, 14, 0.7) 80%,
+                          rgba(96, 14, 14, 0.6) 90%,
+                          rgba(96, 14, 14, 0.5) 93%,
+                          rgba(96, 14, 14, 0.4) 95%,
+                          rgba(96, 14, 14, 0.3) 99%,
+                          rgba(96, 14, 14, 0.1) 100%);
+            img{
+   								box-shadow: $relieveQuesos;
+						}
+						h5{
+								color: $quesosMain;
+								text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  											1px -1px 0 rgba(87, 28, 0, 0.5),
+								  											-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  											-2px 2px 1px rgba(27, 4, 4, 0.6);
+						}
+						p{
+								color: $quesosMain;
+						}
+    }
+
+    .gorgonzola{
+						background-image: linear-gradient(
+						  								90deg,
+						  								rgba(96, 14, 14, 0.1) 0%,
+						  								rgba(96, 14, 14, 0.3) 1%,
+						  								rgba(96, 14, 14, 0.4) 5%,
+						  								rgba(96, 14, 14, 0.5) 7%,
+						  								rgba(96, 14, 14, 0.6) 10%,
+						  								rgba(96, 14, 14, 0.7) 20%,
+						  								rgba(96, 14, 14, 0.8) 50%,
+						  								rgba(96, 14, 14, 0.9) 90%,
+						  								rgba(96, 14, 14, 1) 100%);
+						img{
+									box-shadow: $relieveQuesos;
+						}
+						h5{
+								color: $quesosMain;
+								text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								 											1px -1px 0 rgba(87, 28, 0, 0.5),
+								 											-1px 1px 0 rgba(27, 4, 4, 0.8),
+								 											-2px 2px 1px rgba(27, 4, 4, 0.6);
+						}
+						p{
+								color: $quesosMain;
+						}
+		}
+
+// ___________________________COLORES fiambres.html__________________________________
+
+		.prologoFiambres{
+										text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.5),
+																	 1px -1px 0 rgba(96, 14, 14, 0.5);
+		}
+
+
+		//COLORES PERSONALIZADOS ACCORDION fiambres
+
+		.boton{
+				background-color: #C8BE5A;
+				color: #931515;
+}
+
+.boton:active{
+	border: 3px solid #a31818;
+}
+
+.ingredientes{
+							background-color: #931515;
+							color: $colorTexto;
+}
+
+
+.boton:not(.collapsed) {
+  color: $colorTexto;
+  background-color: #600e0e ;
+}
+
+
+.botonR{
+				background-color: #931515  ;
+}
+.botonR strong {
+	text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.7),
+								1px -1px 0 rgba(96, 14, 14, 0.7);
+}
+
+.botonR:not(.collapsed) {
+  background-color: #C8BE5A;
+  color: #600e0e;
+}
+
+
+.descriptionBox{
+  							background-image: linear-gradient(
+  								rgba(208,30,30,0.1)2%,
+  								rgba(208,30,30,0.3)10%,
+  								rgba(186,26,26,0.5)20%,
+  								rgba(163,23,23,0.7)50%,
+  								rgba(186,26,26,0.5)80%,
+  								rgba(208,30,30,0.3)90%,
+  								rgba(208,30,30,0.1)98%);
+  							box-shadow: -1px 1px 1px 1px rgba(141,20,20,0.1);
+  							p{
+              		color: $colorTexto;
+              		text-shadow: -1px 1px 1px #600e0e,
+              		            1px -1px 1px #600e0e;
+								}
+
+}
+
+// _____________________________________COLORES compras.html_____________________________________________
+
+		.compraClasica {
+										h2 {
+												color: $quesosMain;
+												text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  									1px -1px 0 rgba(87, 28, 0, 0.5),
+								  									-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  									-2px 2px 1px rgba(27, 4, 4, 0.6);
+								  	}
+		}
+
+		.compraEspecial{
+										h2{
+											color: $quesosMain;
+											text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  								1px -1px 0 rgba(87, 28, 0, 0.5),
+								  								-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  								-2px 2px 1px rgba(27, 4, 4, 0.6);
+								  	}
+		}
+
+
+		.compraDf{
+							h2 {
+									color: $quesosMain;
+									text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+															1px -1px 0 rgba(87, 28, 0, 0.5),
+															-1px 1px 0 rgba(27, 4, 4, 0.8),
+															-2px 2px 1px rgba(27, 4, 4, 0.6);
+							}
+		}
+
+
+// _____________________________________COLORES FORMULARIO DE COMPRA_______________________
+
+.completar{
+					color: $quesosMain;
+					text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  											1px -1px 0 rgba(87, 28, 0, 0.5),
+								  											-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  											-2px 2px 1px rgba(27, 4, 4, 0.6);
+}
+
+.formCompra{ 
+            background-color: #600e0e;
+            input::placeholder{
+															color: rgba(96, 14, 14,0.8);
+						}
+
+
+}
+
+.name{
+			input{
+						color: #761111;
+						background-color: #d5cd80;	
+		}
+}
+
+.surname{ 
+				input{
+							color: #761111;
+							background-color: #d5cd80;	
+				}
+}
+
+.phone{
+			 input{
+							color: #761111;
+							background-color: #d5cd80;
+			}
+}
+
+.address{
+				 input{
+							color: #761111;
+							background-color: #d5cd80;
+					}		
+}
+
+.cp{
+	 input{
+				color: #761111;
+				background-color: #d5cd80;			
+		}
+}
+
+.present{
+				 input{
+							color: #761111;
+							background-color: #d5cd80;
+				}
+}
+
+.reception{
+					input{
+								color: #761111;
+								background-color: #d5cd80;
+					}
+}
+
+.message{
+				 input{
+							color: #761111;
+							background-color: #d5cd80;	
+					}
+}
+
+.comprar{
+				background-color: #0b4a2b;
+				color: #d5cd80;
+}
+
+.borrar{
+				background-color:#4a0b0b;
+				color: #d5cd80;
+}
