@@ -12,6 +12,7 @@ $colorLi: #C8BE5A;
 $colorH:#C8BE5A; //color etiquetas <h>
 
 $colorTexto:#C8BE5A; //color de texto para páginas secundarias.
+$colorAtencion: #600e0e; //Resalta contraindicaciones en fiambres.html
 
 $quesosMain: #dd9c14;
 
@@ -394,7 +395,8 @@ footer form{
                           text-shadow: -1px 1px 1px rgba(29,4,4,0.8); 
                       }
                         ul{
-                          li{
+                          li{ 
+                              color: $colorTexto;
                               text-shadow: -1px 1px 1px rgba(29,4,4,0.8); 
                           		a{
 	 																color: $colorTexto;
@@ -632,10 +634,11 @@ footer form{
 
 .botonR{
 				background-color: #931515  ;
-}
-.botonR strong {
-	text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.7),
-								1px -1px 0 rgba(96, 14, 14, 0.7);
+        strong {
+                color: $colorAtencion;
+	               text-shadow: -1px 1px 0 rgba(200, 190, 90,0.7),
+								                1px -1px 0 rgba(200, 190, 90,0.7);
+        }
 }
 
 .botonR:not(.collapsed) {

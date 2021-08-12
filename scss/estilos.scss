@@ -348,6 +348,9 @@ footer{
                       ul{
                           grid-area: lista;
                           margin: 5vh 0;
+                          li{
+                            list-style-type: none;
+                          }
                       }
                       div{
                             grid-area: agregados;
@@ -509,37 +512,12 @@ footer{
 
 /*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
 
-<<<<<<< HEAD
-.boton{
-				background-color: #C8BE5A;
-				color: #931515;
-}
 
-.boton:active{
-	border: 3px solid #a31818;
-}
-
-.ingredientes{
-							background-color: #931515;
-							color: $colorTexto2;
-}
-
-
-.boton:not(.collapsed) {
-  color: $colorTexto2;
-  background-color: #600e0e ;
-}
-
-
-.botonR{
-				background-color: #931515  ;
-=======
 .descriptionBox{
                 margin: 1vh auto;
                 p{
                   margin: 4vh auto;
                 }
->>>>>>> reestructuracion_y_sass
 }
 
 /*----------------------------------------ESTILOS compra.html----------------------------------------*/

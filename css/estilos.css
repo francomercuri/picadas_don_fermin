@@ -146,6 +146,7 @@ footer form {
   .tablasDetalle main h2 {
     text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
   .tablasDetalle main ul li {
+    color: #C8BE5A;
     text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
     .tablasDetalle main ul li a {
       color: #C8BE5A;
@@ -241,9 +242,9 @@ footer form {
 
 .botonR {
   background-color: #931515; }
-
-.botonR strong {
-  text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.7), 1px -1px 0 rgba(96, 14, 14, 0.7); }
+  .botonR strong {
+    color: #600e0e;
+    text-shadow: -1px 1px 0 rgba(200, 190, 90, 0.7), 1px -1px 0 rgba(200, 190, 90, 0.7); }
 
 .botonR:not(.collapsed) {
   background-color: #C8BE5A;
@@ -574,6 +575,7 @@ footer form {
   .tablasDetalle main h2 {
     text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
   .tablasDetalle main ul li {
+    color: #C8BE5A;
     text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
     .tablasDetalle main ul li a {
       color: #C8BE5A;
@@ -669,9 +671,9 @@ footer form {
 
 .botonR {
   background-color: #931515; }
-
-.botonR strong {
-  text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.7), 1px -1px 0 rgba(96, 14, 14, 0.7); }
+  .botonR strong {
+    color: #600e0e;
+    text-shadow: -1px 1px 0 rgba(200, 190, 90, 0.7), 1px -1px 0 rgba(200, 190, 90, 0.7); }
 
 .botonR:not(.collapsed) {
   background-color: #C8BE5A;
@@ -1022,6 +1024,8 @@ footer form {
   .tablasDetalle main ul {
     grid-area: lista;
     margin: 5vh 0; }
+    .tablasDetalle main ul li {
+      list-style-type: none; }
   .tablasDetalle main div {
     grid-area: agregados; }
 
@@ -1138,48 +1142,10 @@ footer form {
   padding: 5vh 5vw; }
 
 /*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
-<<<<<<< HEAD
-.boton {
-  background-color: #C8BE5A;
-  color: #931515; }
-
-.boton:active {
-  border: 3px solid #a31818; }
-
-.ingredientes {
-  background-color: #931515;
-  color: #C8BE5A; }
-
-.boton:not(.collapsed) {
-  color: #C8BE5A;
-  background-color: #600e0e; }
-
-.botonR {
-  background-color: #931515; }
-
-.botonR strong {
-  text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.7), 1px -1px 0 rgba(96, 14, 14, 0.7); }
-
-.botonR:not(.collapsed) {
-  background-color: #C8BE5A;
-  color: #600e0e; }
-
-.description {
-  margin: 4vh auto;
-  font-size: 18px;
-  color: #C8BE5A;
-  text-shadow: -1px 1px 1px #600e0e, 1px -1px 1px #600e0e; }
-
-.descriptionContainer {
-  margin: 1vh auto;
-  background-image: linear-gradient(rgba(208, 30, 30, 0.1) 2%, rgba(208, 30, 30, 0.3) 10%, rgba(186, 26, 26, 0.5) 20%, rgba(163, 23, 23, 0.7) 50%, rgba(186, 26, 26, 0.5) 80%, rgba(208, 30, 30, 0.3) 90%, rgba(208, 30, 30, 0.1) 98%);
-  box-shadow: -1px 1px 1px 1px rgba(141, 20, 20, 0.1); }
-=======
 .descriptionBox {
   margin: 1vh auto; }
   .descriptionBox p {
     margin: 4vh auto; }
->>>>>>> reestructuracion_y_sass
 
 /*----------------------------------------ESTILOS compra.html----------------------------------------*/
 .compras {
