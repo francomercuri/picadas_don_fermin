@@ -29,6 +29,8 @@ a {
     text-decoration: none;
 }
 
+//___________________________________index______________________________________
+
 //marca ubicada en el header
 		.donFermin{
 							 font-size: 2.1rem;
@@ -44,6 +46,13 @@ a {
     .descripcion{//aplica en los article de las tablas clasica, especial y Don Fermín en index.html
                 font-size: 1.1rem;
     }
+
+
+	// Botón picar que envia al form de compra
+  	.picar{
+            font-weight: bold;
+      }
+      
 
   //section final del index
 
@@ -64,7 +73,7 @@ a {
 
 
 
-// FONT SIZE tabla_clasica.html / tabla_especial.html / tabla_don_fermin.htm
+//_______________________ FONT SIZE tabla_clasica.html / tabla_especial.html / tabla_don_fermin.htm____________
 
 
 .tablasDetalle main{
@@ -103,8 +112,7 @@ a {
   }
 
 
-// _______________________________QUESOS SEMIDUROS_______________________
-
+// _______QUESOS SEMIDUROS______
 
 .nombreQueso{
 			font-size: 1.6rem;
@@ -116,7 +124,7 @@ a {
             }
 }
 
-// ___________________________Quesos Azules______________________
+// ______QUESOS AZULES_________
 
 .nombreQuesoAzul{
 			font-size: 1.5rem;

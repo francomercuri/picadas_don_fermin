@@ -85,6 +85,10 @@ main p {
 .subtituloIndex {
   text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
 
+.picar {
+  background-color: rgba(117, 32, 13, 0.8);
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.5); }
+
 .clasicaIndex h3 {
   text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
   text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7); }
@@ -354,6 +358,9 @@ a {
 .descripcion {
   font-size: 1.1rem; }
 
+.picar {
+  font-weight: bold; }
+
 .cierreIndex h4 {
   text-decoration: none;
   font-size: 1.4rem; }
@@ -505,6 +512,10 @@ main p {
 
 .subtituloIndex {
   text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.picar {
+  background-color: rgba(117, 32, 13, 0.8);
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.5); }
 
 .clasicaIndex h3 {
   text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
@@ -764,28 +775,6 @@ footer form {
     opacity: 1;
     transform: translateY(0px); } }
 
-.fotoClasica {
-  grid-area: foto;
-  overflow: hidden;
-  box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1); }
-
-.fotoClasicaDos {
-  grid-area: secundaria;
-  box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1); }
-
-.picar {
-  /*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
-  font-weight: bold;
-  height: 50px;
-  width: 150px;
-  padding: 15px 45px;
-  box-sizing: border-box;
-  background-color: rgba(117, 32, 13, 0.8);
-  border-radius: 20px;
-  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.5);
-  justify-self: center;
-  grid-area: picar; }
-
 /*RESETEO Y ESTILOS GENERALES*/
 * {
   margin: 0;
@@ -841,6 +830,18 @@ main {
   /*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
   grid-area: leyenda;
   justify-self: flex-end; }
+
+.picar {
+  /*Botón picar que envia al form de compra*/
+  height: 3.1rem;
+  width: 9.3rem;
+  box-sizing: border-box;
+  border-radius: 20px;
+  justify-self: center;
+  grid-area: picar;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 /*INICIO ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
 .clasicaIndex {
@@ -1250,19 +1251,3 @@ footer form {
   grid-area: borrar;
   justify-content: flex-end;
   width: 100%; }
-
-.picar {
-  /*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
-  font-weight: bold;
-  height: 50px;
-  width: 150px;
-  padding: 15px 45px;
-  box-sizing: border-box;
-  background-color: rgba(117, 32, 13, 0.8);
-  border-radius: 20px;
-  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.5);
-  justify-self: center;
-  grid-area: picar;
-  display: flex;
-  align-items: center;
-  justify-content: center; }

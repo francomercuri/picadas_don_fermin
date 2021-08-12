@@ -2,7 +2,6 @@
 @import "colores";
 @import"sombreados";
 @import "animaciones";
-@import "clasesRepetidas";
 
 
 
@@ -87,6 +86,19 @@ header{
                   grid-area:  leyenda;
                   justify-self: flex-end;
     }
+
+      .picar{/*Botón picar que envia al form de compra*/
+            height: 3.1rem;
+            width: 9.3rem;
+            box-sizing: border-box;
+            border-radius: 20px;
+            justify-self: center;
+            grid-area:  picar;
+            display: flex;
+            align-items:center;
+            justify-content: center;                        
+      }
+
 
 
 /*INICIO ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
@@ -658,19 +670,3 @@ footer{
         width: 100%;  
 }
 
-.picar {
-  /*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
-  font-weight: bold;
-  height: 50px;
-  width: 150px;
-  padding: 15px 45px;
-  box-sizing: border-box;
-  background-color: rgba(117, 32, 13, 0.8);
-  border-radius: 20px;
-  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.5);
-  justify-self: center;
-  grid-area: picar;
-  display: flex;
-  align-items:center;
-  justify-content: center;
-}
