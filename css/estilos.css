@@ -1,28 +1,4 @@
 @charset "UTF-8";
-h1 {
-  font-size: 34px;
-  color: #C8BE5A; }
-
-h2 {
-  font-size: 32px;
-  color: #C8BE5A; }
-
-h3 {
-  font-size: 30px;
-  color: #C8BE5A; }
-
-h4 {
-  font-size: 28px;
-  color: #C8BE5A; }
-
-h5 {
-  font-size: 26px;
-  color: #C8BE5A; }
-
-h6 {
-  font-size: 24px;
-  color: #C8BE5A; }
-
 .home p {
   color: #ddad14; }
 
@@ -41,83 +17,19 @@ h6 {
 .home label {
   color: #edc137; }
 
-/*RESETEO Y ESTILOS GENERALES*/
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Mate SC', serif;
-  font-size: 16px;
+p, a {
   color: #C8BE5A; }
 
-/*Estilos H
-
-/*estilos <p>*/
-p {
-  line-height: 1.5;
-  color: #C8BE5A;
-  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7); }
-
-/*Estilo básico de <a>*/
-a {
-  text-decoration: none;
-  color: #C8BE5A; }
-
-/*Establecer imagen de fondo*/
-body {
-  background-image: url(../img/fondo.png); }
-
-/*----------FIN ESTILOS GENERALES----------*/
-/*---ESTILO HEADER---*/
-/*Header*/
 header {
-  background-image: linear-gradient(#490b0b 0%, #5f0e0e 20%, rgba(95, 14, 14, 0.9) 40%, rgba(95, 14, 14, 0.8) 50%, rgba(95, 14, 14, 0.7) 60%, rgba(117, 17, 17, 0.3) 80%, rgba(117, 17, 17, 0.2) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0) 100%);
-  height: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
+  background-image: linear-gradient(#490b0b 0%, #5f0e0e 20%, rgba(95, 14, 14, 0.9) 40%, rgba(95, 14, 14, 0.8) 50%, rgba(95, 14, 14, 0.7) 60%, rgba(117, 17, 17, 0.3) 80%, rgba(117, 17, 17, 0.2) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0) 100%); }
+  header img {
+    border-radius: 80px;
+    box-shadow: -3px 4px 4px rgba(51, 7, 7, 0.5); }
 
-header img {
-  border-radius: 80px;
-  box-shadow: -3px 4px 4px rgba(51, 7, 7, 0.5); }
-
-/*Clase de la maarca*/
 .donFermin {
-  color: #C8BE5A;
-  font-size: 34px;
-  text-shadow: -1px -1px 0 rgba(200, 240, 175, 0.5), 1px 1px 0 rgba(200, 240, 175, 0.5);
-  animation: Marca 2s ease-in 1s 1 normal forwards; }
+  text-shadow: -1px -1px 0 rgba(200, 240, 175, 0.5), 1px 1px 0 rgba(200, 240, 175, 0.5); }
 
-@keyframes Marca {
-  0% {
-    animation-timing-function: ease-in;
-    opacity: 1;
-    transform: translateY(45px); }
-  24% {
-    opacity: 1; }
-  40% {
-    animation-timing-function: ease-in;
-    transform: translateY(24px); }
-  65% {
-    animation-timing-function: ease-in;
-    transform: translateY(12px); }
-  82% {
-    animation-timing-function: ease-in;
-    transform: translateY(6px); }
-  93% {
-    animation-timing-function: ease-in;
-    transform: translateY(4px); }
-  25%,
-  55%,
-  75%,
-  87% {
-    animation-timing-function: ease-out;
-    transform: translateY(0px); }
-  100% {
-    animation-timing-function: ease-out;
-    opacity: 1;
-    transform: translateY(0px); } }
-
-/*Menú Flex + Estilos*/
+/*COLORES MENÚ (clases personalizadas para pisar BOOTSTRAP)*/
 .navbar-personalized .navbar-nav .nav-link {
   color: rgba(200, 190, 90, 0.9);
   transform: skew(-15deg); }
@@ -152,7 +64,7 @@ header img {
   background-color: rgba(96, 14, 14, 0.9);
   color: rgba(200, 190, 90, 0.9); }
 
-/*---------------------------------ESTILOS INDEX-------------------------------------------------*/
+/*Fondo Index*/
 .home {
   background-image: url(../img/picada_1.jpeg);
   min-height: 50vh;
@@ -161,68 +73,758 @@ header img {
   background-attachment: fixed;
   background-size: cover; }
 
+main h2 {
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+main p {
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.descripcion {
+  text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.7); }
+
+.subtituloIndex {
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.picar {
+  background-color: rgba(117, 32, 13, 0.8);
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.5); }
+
+.clasicaIndex h3 {
+  text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7); }
+
+.especialIndex h3 {
+  text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7); }
+
+.donFerminIndex h3 {
+  text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7); }
+
+.cierreIndex h4 {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
+
+.cierreIndex p {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
+  .cierreIndex p a {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
+
+.redes {
+  background-color: rgba(200, 240, 175, 0.3);
+  border: 1px dotted #c8f0af; }
+
+footer form {
+  background-image: radial-gradient(circle, #761111 0%, rgba(96, 14, 14, 0.7) 35%, rgba(74, 11, 11, 0.6) 100%); }
+  footer form input {
+    color: #761111;
+    background-color: #d5cd80; }
+  footer form input::placeholder {
+    color: rgba(118, 17, 17, 0.8); }
+  footer form select {
+    color: #761111;
+    background-color: #d5cd80; }
+    footer form select option {
+      color: #761111; }
+  footer form textarea {
+    background-color: #d5cd80;
+    color: #761111; }
+  footer form textarea::placeholder {
+    color: rgba(118, 17, 17, 0.8); }
+
+.enviar {
+  background-color: #0b4a2b;
+  color: #d5cd80; }
+
+.limpiar {
+  background-color: #4a0b0b;
+  color: #d5cd80; }
+
+.tablasDetalle main {
+  background-image: linear-gradient(rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.05) 3%, rgba(117, 17, 17, 0.1) 5%, rgba(117, 17, 17, 0.15) 10%, rgba(95, 14, 14, 0.2) 20%, rgba(95, 14, 14, 0.25) 40%, rgba(95, 14, 14, 0.3) 50%, rgba(95, 14, 14, 0.25) 60%, rgba(117, 17, 17, 0.2) 80%, rgba(117, 17, 17, 0.15) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0.05) 97%, rgba(117, 17, 17, 0) 100%); }
+  .tablasDetalle main h1 {
+    text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+  .tablasDetalle main h2 {
+    text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+  .tablasDetalle main ul li {
+    text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+    .tablasDetalle main ul li a {
+      color: #C8BE5A;
+      text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+  .tablasDetalle main div p {
+    color: #C8BE5A;
+    text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+
+.regalo {
+  color: #C8BE5A;
+  text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+
+.nuestrosQuesos main h1 {
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.nuestrosQuesos main p {
+  color: #C8BE5A;
+  text-shadow: -1px 1px 0 black; }
+
+.semiduros h2 {
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.semiduros h4 {
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.semiduros p {
+  color: #dd9c14; }
+
+.pategras {
+  background-image: linear-gradient(rgba(51, 8, 8, 0.05) 0%, rgba(51, 8, 8, 0.2) 3%, rgba(51, 8, 8, 0.4) 5%, rgba(51, 8, 8, 0.6) 10%, rgba(51, 8, 8, 0.8) 20%, rgba(51, 8, 8, 0.9) 40%, #4a0b0b 50%, rgba(74, 11, 11, 0.9) 60%, rgba(74, 11, 11, 0.8) 80%, rgba(74, 11, 11, 0.6) 90%, rgba(74, 11, 11, 0.4) 95%, rgba(74, 11, 11, 0.2) 97%, rgba(74, 11, 11, 0.05) 100%); }
+  .pategras img {
+    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+
+.danbo {
+  background-image: linear-gradient(rgba(74, 11, 11, 0.05) 0%, rgba(74, 11, 11, 0.2) 3%, rgba(74, 11, 11, 0.4) 5%, rgba(74, 11, 11, 0.6) 10%, rgba(96, 14, 14, 0.8) 20%, rgba(96, 14, 14, 0.9) 40%, #600e0e 50%, rgba(96, 14, 14, 0.9) 60%, rgba(96, 14, 14, 0.8) 80%, rgba(96, 14, 14, 0.6) 90%, rgba(96, 14, 14, 0.4) 95%, rgba(96, 14, 14, 0.2) 97%, rgba(96, 14, 14, 0.1) 100%); }
+  .danbo img {
+    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+
+.braPimienta {
+  background-image: linear-gradient(rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 3%, rgba(96, 14, 14, 0.4) 5%, rgba(96, 14, 14, 0.6) 10%, rgba(118, 17, 17, 0.8) 20%, rgba(118, 17, 17, 0.9) 40%, #761111 50%, rgba(118, 17, 17, 0.9) 60%, rgba(118, 17, 17, 0.8) 80%, rgba(118, 17, 17, 0.6) 90%, rgba(118, 17, 17, 0.4) 95%, rgba(118, 17, 17, 0.2) 97%, rgba(118, 17, 17, 0.1) 100%); }
+  .braPimienta img {
+    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+
+.braAhumado {
+  background-image: linear-gradient(rgba(118, 17, 17, 0.1) 0%, rgba(118, 17, 17, 0.2) 3%, rgba(118, 17, 17, 0.4) 5%, rgba(118, 17, 17, 0.6) 10%, rgba(141, 20, 20, 0.8) 20%, rgba(141, 20, 20, 0.9) 40%, #8d1414 50%, rgba(141, 20, 20, 0.9) 60%, rgba(141, 20, 20, 0.8) 80%, rgba(141, 20, 20, 0.6) 90%, rgba(141, 20, 20, 0.4) 95%, rgba(141, 20, 20, 0.2) 97%, rgba(141, 20, 20, 0.05) 100%); }
+  .braAhumado img {
+    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+
+.azules h2 {
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.roquefort {
+  background-image: linear-gradient(90deg, #600e0e 0%, rgba(96, 14, 14, 0.9) 10%, rgba(96, 14, 14, 0.8) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.6) 90%, rgba(96, 14, 14, 0.5) 93%, rgba(96, 14, 14, 0.4) 95%, rgba(96, 14, 14, 0.3) 99%, rgba(96, 14, 14, 0.1) 100%); }
+  .roquefort img {
+    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+  .roquefort h5 {
+    color: #dd9c14;
+    text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+  .roquefort p {
+    color: #dd9c14; }
+
+.gorgonzola {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.3) 1%, rgba(96, 14, 14, 0.4) 5%, rgba(96, 14, 14, 0.5) 7%, rgba(96, 14, 14, 0.6) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.8) 50%, rgba(96, 14, 14, 0.9) 90%, #600e0e 100%); }
+  .gorgonzola img {
+    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+  .gorgonzola h5 {
+    color: #dd9c14;
+    text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+  .gorgonzola p {
+    color: #dd9c14; }
+
+.prologoFiambres {
+  text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.5), 1px -1px 0 rgba(96, 14, 14, 0.5); }
+
+.boton {
+  background-color: #C8BE5A;
+  color: #931515; }
+
+.boton:active {
+  border: 3px solid #a31818; }
+
+.ingredientes {
+  background-color: #931515;
+  color: #C8BE5A; }
+
+.boton:not(.collapsed) {
+  color: #C8BE5A;
+  background-color: #600e0e; }
+
+.botonR {
+  background-color: #931515; }
+
+.botonR strong {
+  text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.7), 1px -1px 0 rgba(96, 14, 14, 0.7); }
+
+.botonR:not(.collapsed) {
+  background-color: #C8BE5A;
+  color: #600e0e; }
+
+.descriptionBox {
+  background-image: linear-gradient(rgba(208, 30, 30, 0.1) 2%, rgba(208, 30, 30, 0.3) 10%, rgba(186, 26, 26, 0.5) 20%, rgba(163, 23, 23, 0.7) 50%, rgba(186, 26, 26, 0.5) 80%, rgba(208, 30, 30, 0.3) 90%, rgba(208, 30, 30, 0.1) 98%);
+  box-shadow: -1px 1px 1px 1px rgba(141, 20, 20, 0.1); }
+  .descriptionBox p {
+    color: #C8BE5A;
+    text-shadow: -1px 1px 1px #600e0e, 1px -1px 1px #600e0e; }
+
+.compraClasica h2 {
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.compraEspecial h2 {
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.compraDf h2 {
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.completar {
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.formCompra {
+  background-color: #600e0e; }
+  .formCompra input::placeholder {
+    color: rgba(96, 14, 14, 0.8); }
+
+.name input {
+  color: #761111;
+  background-color: #d5cd80; }
+
+.surname input {
+  color: #761111;
+  background-color: #d5cd80; }
+
+.phone input {
+  color: #761111;
+  background-color: #d5cd80; }
+
+.address input {
+  color: #761111;
+  background-color: #d5cd80; }
+
+.cp input {
+  color: #761111;
+  background-color: #d5cd80; }
+
+.present input {
+  color: #761111;
+  background-color: #d5cd80; }
+
+.reception input {
+  color: #761111;
+  background-color: #d5cd80; }
+
+.message input {
+  color: #761111;
+  background-color: #d5cd80; }
+
+.comprar {
+  background-color: #0b4a2b;
+  color: #d5cd80; }
+
+.borrar {
+  background-color: #4a0b0b;
+  color: #d5cd80; }
+
+h1 {
+  font-size: 1.9rem;
+  color: #C8BE5A; }
+
+h2 {
+  font-size: 1.8rem;
+  color: #C8BE5A; }
+
+h3 {
+  font-size: 1.7rem;
+  color: #C8BE5A; }
+
+h4 {
+  font-size: 1.6rem;
+  color: #C8BE5A; }
+
+h5 {
+  font-size: 1.5rem;
+  color: #C8BE5A; }
+
+h6 {
+  font-size: 1.4rem;
+  color: #C8BE5A; }
+
+p, a {
+  font-size: 1.2rem;
+  line-height: 1.5; }
+
+a {
+  text-decoration: none; }
+
+.donFermin {
+  font-size: 2.1rem; }
+
+.subtituloIndex {
+  font-size: 1.9rem;
+  text-align: center; }
+
+.descripcion {
+  font-size: 1.1rem; }
+
+.picar {
+  font-weight: bold; }
+
+.cierreIndex h4 {
+  text-decoration: none;
+  font-size: 1.4rem; }
+
+.cierreIndex p {
+  font-size: 1.2rem; }
+  .cierreIndex p a {
+    font-size: 1.3rem; }
+
+.tablasDetalle main h1 {
+  font-size: 2rem; }
+
+.tablasDetalle main ul li {
+  font-size: 1.4rem; }
+  .tablasDetalle main ul li a {
+    font-size: 1.4rem; }
+
+.regalo {
+  font-size: 1.5rem; }
+
+.precios p {
+  font-size: 1.2rem; }
+
+.nuestrosQuesos main h1 {
+  font-size: 1.9rem; }
+
+.nuestrosQuesos main p {
+  font-size: 1.4rem; }
+
+.nombreQueso {
+  font-size: 1.6rem; }
+
+.semiduros h2 {
+  font-size: 1.9rem; }
+
+.nombreQuesoAzul {
+  font-size: 1.5rem; }
+
+.azules h2 {
+  font-size: 1.9rem; }
+
+.roquefort h5 {
+  font-size: 1.2rem; }
+
+.gorgonzola h5 {
+  font-size: 1.2rem; }
+
+.prologoFiambres {
+  font-size: 1.5rem; }
+
+.descriptionBox p {
+  font-size: 1.1rem; }
+
+.compraClasica h2 {
+  font-size: 1.2rem; }
+
+.compraEspecial h2 {
+  font-size: 1.2rem; }
+
+.compraDf h2 {
+  font-size: 1.2rem; }
+
+.completar {
+  font-size: 1.7rem;
+  text-align: center; }
+
+.home p {
+  color: #ddad14; }
+
+.home h2 {
+  color: #dd9c14; }
+
+.home h3 {
+  color: #ddad14; }
+
+.home li {
+  color: #edc137; }
+
+.home a {
+  color: #edc137; }
+
+.home label {
+  color: #edc137; }
+
+p, a {
+  color: #C8BE5A; }
+
+header {
+  background-image: linear-gradient(#490b0b 0%, #5f0e0e 20%, rgba(95, 14, 14, 0.9) 40%, rgba(95, 14, 14, 0.8) 50%, rgba(95, 14, 14, 0.7) 60%, rgba(117, 17, 17, 0.3) 80%, rgba(117, 17, 17, 0.2) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0) 100%); }
+  header img {
+    border-radius: 80px;
+    box-shadow: -3px 4px 4px rgba(51, 7, 7, 0.5); }
+
+.donFermin {
+  text-shadow: -1px -1px 0 rgba(200, 240, 175, 0.5), 1px 1px 0 rgba(200, 240, 175, 0.5); }
+
+/*COLORES MENÚ (clases personalizadas para pisar BOOTSTRAP)*/
+.navbar-personalized .navbar-nav .nav-link {
+  color: rgba(200, 190, 90, 0.9);
+  transform: skew(-15deg); }
+
+.navbar-personalized .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: rgba(200, 190, 90, 0.7);
+  background-color: rgba(96, 14, 14, 0.8); }
+
+.navbar-personalized .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgba(200, 190, 90, 0.9); }
+
+.navbar-personalized .navbar-toggler {
+  color: rgba(200, 190, 90, 0.55);
+  border-color: rgba(200, 190, 90, 0.1); }
+
+.navbar-personalized .navbar-text {
+  color: rgba(200, 190, 90, 0.55); }
+
+.navbar-personalized .navbar-text a,
+.navbar-personalized .navbar-text a:hover,
+.navbar-personalized .navbar-text a:focus {
+  color: rgba(200, 190, 90, 0.9); }
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: rgba(118, 17, 17, 0.8); }
+
+.navbar-nav > li > .dropdown-menu a {
+  color: rgba(200, 190, 90, 0.8); }
+
+.navbar-nav > li > .dropdown-menu a:hover {
+  background-color: rgba(96, 14, 14, 0.9);
+  color: rgba(200, 190, 90, 0.9); }
+
+/*Fondo Index*/
+.home {
+  background-image: url(../img/picada_1.jpeg);
+  min-height: 50vh;
+  background-repeat: no-repeat;
+  background-position: absolute;
+  background-attachment: fixed;
+  background-size: cover; }
+
+main h2 {
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+main p {
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.descripcion {
+  text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.7); }
+
+.subtituloIndex {
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.picar {
+  background-color: rgba(117, 32, 13, 0.8);
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.5); }
+
+.clasicaIndex h3 {
+  text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7); }
+
+.especialIndex h3 {
+  text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7); }
+
+.donFerminIndex h3 {
+  text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7); }
+
+.cierreIndex h4 {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
+
+.cierreIndex p {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
+  .cierreIndex p a {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
+
+.redes {
+  background-color: rgba(200, 240, 175, 0.3);
+  border: 1px dotted #c8f0af; }
+
+footer form {
+  background-image: radial-gradient(circle, #761111 0%, rgba(96, 14, 14, 0.7) 35%, rgba(74, 11, 11, 0.6) 100%); }
+  footer form input {
+    color: #761111;
+    background-color: #d5cd80; }
+  footer form input::placeholder {
+    color: rgba(118, 17, 17, 0.8); }
+  footer form select {
+    color: #761111;
+    background-color: #d5cd80; }
+    footer form select option {
+      color: #761111; }
+  footer form textarea {
+    background-color: #d5cd80;
+    color: #761111; }
+  footer form textarea::placeholder {
+    color: rgba(118, 17, 17, 0.8); }
+
+.enviar {
+  background-color: #0b4a2b;
+  color: #d5cd80; }
+
+.limpiar {
+  background-color: #4a0b0b;
+  color: #d5cd80; }
+
+.tablasDetalle main {
+  background-image: linear-gradient(rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.05) 3%, rgba(117, 17, 17, 0.1) 5%, rgba(117, 17, 17, 0.15) 10%, rgba(95, 14, 14, 0.2) 20%, rgba(95, 14, 14, 0.25) 40%, rgba(95, 14, 14, 0.3) 50%, rgba(95, 14, 14, 0.25) 60%, rgba(117, 17, 17, 0.2) 80%, rgba(117, 17, 17, 0.15) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0.05) 97%, rgba(117, 17, 17, 0) 100%); }
+  .tablasDetalle main h1 {
+    text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+  .tablasDetalle main h2 {
+    text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+  .tablasDetalle main ul li {
+    text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+    .tablasDetalle main ul li a {
+      color: #C8BE5A;
+      text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+  .tablasDetalle main div p {
+    color: #C8BE5A;
+    text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+
+.regalo {
+  color: #C8BE5A;
+  text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+
+.nuestrosQuesos main h1 {
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.nuestrosQuesos main p {
+  color: #C8BE5A;
+  text-shadow: -1px 1px 0 black; }
+
+.semiduros h2 {
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.semiduros h4 {
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.semiduros p {
+  color: #dd9c14; }
+
+.pategras {
+  background-image: linear-gradient(rgba(51, 8, 8, 0.05) 0%, rgba(51, 8, 8, 0.2) 3%, rgba(51, 8, 8, 0.4) 5%, rgba(51, 8, 8, 0.6) 10%, rgba(51, 8, 8, 0.8) 20%, rgba(51, 8, 8, 0.9) 40%, #4a0b0b 50%, rgba(74, 11, 11, 0.9) 60%, rgba(74, 11, 11, 0.8) 80%, rgba(74, 11, 11, 0.6) 90%, rgba(74, 11, 11, 0.4) 95%, rgba(74, 11, 11, 0.2) 97%, rgba(74, 11, 11, 0.05) 100%); }
+  .pategras img {
+    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+
+.danbo {
+  background-image: linear-gradient(rgba(74, 11, 11, 0.05) 0%, rgba(74, 11, 11, 0.2) 3%, rgba(74, 11, 11, 0.4) 5%, rgba(74, 11, 11, 0.6) 10%, rgba(96, 14, 14, 0.8) 20%, rgba(96, 14, 14, 0.9) 40%, #600e0e 50%, rgba(96, 14, 14, 0.9) 60%, rgba(96, 14, 14, 0.8) 80%, rgba(96, 14, 14, 0.6) 90%, rgba(96, 14, 14, 0.4) 95%, rgba(96, 14, 14, 0.2) 97%, rgba(96, 14, 14, 0.1) 100%); }
+  .danbo img {
+    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+
+.braPimienta {
+  background-image: linear-gradient(rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 3%, rgba(96, 14, 14, 0.4) 5%, rgba(96, 14, 14, 0.6) 10%, rgba(118, 17, 17, 0.8) 20%, rgba(118, 17, 17, 0.9) 40%, #761111 50%, rgba(118, 17, 17, 0.9) 60%, rgba(118, 17, 17, 0.8) 80%, rgba(118, 17, 17, 0.6) 90%, rgba(118, 17, 17, 0.4) 95%, rgba(118, 17, 17, 0.2) 97%, rgba(118, 17, 17, 0.1) 100%); }
+  .braPimienta img {
+    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+
+.braAhumado {
+  background-image: linear-gradient(rgba(118, 17, 17, 0.1) 0%, rgba(118, 17, 17, 0.2) 3%, rgba(118, 17, 17, 0.4) 5%, rgba(118, 17, 17, 0.6) 10%, rgba(141, 20, 20, 0.8) 20%, rgba(141, 20, 20, 0.9) 40%, #8d1414 50%, rgba(141, 20, 20, 0.9) 60%, rgba(141, 20, 20, 0.8) 80%, rgba(141, 20, 20, 0.6) 90%, rgba(141, 20, 20, 0.4) 95%, rgba(141, 20, 20, 0.2) 97%, rgba(141, 20, 20, 0.05) 100%); }
+  .braAhumado img {
+    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+
+.azules h2 {
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.roquefort {
+  background-image: linear-gradient(90deg, #600e0e 0%, rgba(96, 14, 14, 0.9) 10%, rgba(96, 14, 14, 0.8) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.6) 90%, rgba(96, 14, 14, 0.5) 93%, rgba(96, 14, 14, 0.4) 95%, rgba(96, 14, 14, 0.3) 99%, rgba(96, 14, 14, 0.1) 100%); }
+  .roquefort img {
+    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+  .roquefort h5 {
+    color: #dd9c14;
+    text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+  .roquefort p {
+    color: #dd9c14; }
+
+.gorgonzola {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.3) 1%, rgba(96, 14, 14, 0.4) 5%, rgba(96, 14, 14, 0.5) 7%, rgba(96, 14, 14, 0.6) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.8) 50%, rgba(96, 14, 14, 0.9) 90%, #600e0e 100%); }
+  .gorgonzola img {
+    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+  .gorgonzola h5 {
+    color: #dd9c14;
+    text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+  .gorgonzola p {
+    color: #dd9c14; }
+
+.prologoFiambres {
+  text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.5), 1px -1px 0 rgba(96, 14, 14, 0.5); }
+
+.boton {
+  background-color: #C8BE5A;
+  color: #931515; }
+
+.boton:active {
+  border: 3px solid #a31818; }
+
+.ingredientes {
+  background-color: #931515;
+  color: #C8BE5A; }
+
+.boton:not(.collapsed) {
+  color: #C8BE5A;
+  background-color: #600e0e; }
+
+.botonR {
+  background-color: #931515; }
+
+.botonR strong {
+  text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.7), 1px -1px 0 rgba(96, 14, 14, 0.7); }
+
+.botonR:not(.collapsed) {
+  background-color: #C8BE5A;
+  color: #600e0e; }
+
+.descriptionBox {
+  background-image: linear-gradient(rgba(208, 30, 30, 0.1) 2%, rgba(208, 30, 30, 0.3) 10%, rgba(186, 26, 26, 0.5) 20%, rgba(163, 23, 23, 0.7) 50%, rgba(186, 26, 26, 0.5) 80%, rgba(208, 30, 30, 0.3) 90%, rgba(208, 30, 30, 0.1) 98%);
+  box-shadow: -1px 1px 1px 1px rgba(141, 20, 20, 0.1); }
+  .descriptionBox p {
+    color: #C8BE5A;
+    text-shadow: -1px 1px 1px #600e0e, 1px -1px 1px #600e0e; }
+
+.compraClasica h2 {
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.compraEspecial h2 {
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.compraDf h2 {
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.completar {
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+
+.formCompra {
+  background-color: #600e0e; }
+  .formCompra input::placeholder {
+    color: rgba(96, 14, 14, 0.8); }
+
+.name input {
+  color: #761111;
+  background-color: #d5cd80; }
+
+.surname input {
+  color: #761111;
+  background-color: #d5cd80; }
+
+.phone input {
+  color: #761111;
+  background-color: #d5cd80; }
+
+.address input {
+  color: #761111;
+  background-color: #d5cd80; }
+
+.cp input {
+  color: #761111;
+  background-color: #d5cd80; }
+
+.present input {
+  color: #761111;
+  background-color: #d5cd80; }
+
+.reception input {
+  color: #761111;
+  background-color: #d5cd80; }
+
+.message input {
+  color: #761111;
+  background-color: #d5cd80; }
+
+.comprar {
+  background-color: #0b4a2b;
+  color: #d5cd80; }
+
+.borrar {
+  background-color: #4a0b0b;
+  color: #d5cd80; }
+
+@keyframes Marca {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translateY(45px); }
+  24% {
+    opacity: 1; }
+  40% {
+    animation-timing-function: ease-in;
+    transform: translateY(24px); }
+  65% {
+    animation-timing-function: ease-in;
+    transform: translateY(12px); }
+  82% {
+    animation-timing-function: ease-in;
+    transform: translateY(6px); }
+  93% {
+    animation-timing-function: ease-in;
+    transform: translateY(4px); }
+  25%,
+  55%,
+  75%,
+  87% {
+    animation-timing-function: ease-out;
+    transform: translateY(0px); }
+  100% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0px); } }
+
+/*RESETEO Y ESTILOS GENERALES*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mate SC', serif; }
+
+/*estilos <p>*/
+p {
+  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7); }
+
+/*Estilo básico de <a>*/
+/*Establecer imagen de fondo*/
+body {
+  background-image: url(../img/fondo.png); }
+
+/*---ESTILO HEADER---*/
+/*Header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px; }
+  header img {
+    border-radius: 80px; }
+
+/*Clase de la marca ubicada en el header*/
+.donFermin {
+  color: #C8BE5A;
+  animation: Marca 2s ease-in 1s 1 normal forwards; }
+
+/*---------------------------------ESTILOS INDEX-------------------------------------------------*/
 /*--------Estilos main (index)---------*/
-.home main {
+main {
   background-image: linear-gradient(rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.1) 3%, rgba(117, 17, 17, 0.15) 5%, rgba(117, 17, 17, 0.2) 10%, rgba(95, 14, 14, 0.4) 20%, rgba(95, 14, 14, 0.5) 40%, rgba(95, 14, 14, 0.6) 50%, rgba(95, 14, 14, 0.5) 60%, rgba(117, 17, 17, 0.4) 80%, rgba(117, 17, 17, 0.2) 90%, rgba(117, 17, 17, 0.15) 95%, rgba(117, 17, 17, 0.1) 97%, rgba(117, 17, 17, 0) 100%);
   margin: 50px 0;
   padding: 10vh 10vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
-
-.home main h2 {
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6);
-  margin-bottom: 5px; }
-
-.home main p {
-  font-size: 20px;
-  color: #ddad14;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+  main h2 {
+    margin-bottom: 0.3rem; }
+  main p {
+    font-size: 1.3rem; }
 
 /*Fin estilos Main (index)*/
-.subtituloIndex {
-  font-size: 30px;
-  color: #ddad14;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6);
-  text-align: center; }
-
 /*SECTION TABLAS Index.html*/
-/*INICIO ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
-.clasicaIndex {
-  margin: 5vh 5vw;
-  padding: 10px 50px;
-  /*CAJA EN RELIEVE*/
-  box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1);
-  /*CAJA CON FONDO SOMBREADO*/
-  background-image: linear-gradient(rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.05) 3%, rgba(117, 17, 17, 0.1) 5%, rgba(117, 17, 17, 0.15) 10%, rgba(95, 14, 14, 0.2) 20%, rgba(95, 14, 14, 0.25) 40%, rgba(95, 14, 14, 0.3) 50%, rgba(95, 14, 14, 0.25) 60%, rgba(117, 17, 17, 0.2) 80%, rgba(117, 17, 17, 0.15) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0.05) 97%, rgba(117, 17, 17, 0) 100%);
-  /*GRID*/
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "nombre nombre nombre" "foto texto secundaria" "foto leyenda secundaria" "picar picar picar";
-  justify-content: space-evenly;
-  align-items: flex-start; }
-
-.clasicaIndex h3 {
-  text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
-  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7);
-  grid-area: nombre;
-  justify-self: center; }
-
-.fotoClasica {
-  grid-area: foto;
-  overflow: hidden;
-  box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1); }
-
-.fotoClasicaDos {
-  grid-area: secundaria;
-  box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1); }
-
 .descripcion {
   /*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
-  text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.7);
   grid-area: texto;
-  font-size: 18px;
-  margin: 20px 10px 0 0; }
+  margin: 1.25rem 0.62rem 0 0; }
 
 .leyendaIndex {
   /*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
@@ -230,22 +832,21 @@ header img {
   justify-self: flex-end; }
 
 .picar {
-  /*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
-  font-weight: bold;
-  height: 50px;
-  width: 150px;
-  padding: 15px 45px;
+  /*Botón picar que envia al form de compra*/
+  height: 3.1rem;
+  width: 9.3rem;
   box-sizing: border-box;
-  background-color: rgba(117, 32, 13, 0.8);
   border-radius: 20px;
-  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.5);
   justify-self: center;
-  grid-area: picar; }
+  grid-area: picar;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
-/*-------------------------------INICIO ESTILOS ARTICLE TABLA ESPECIAL Index.html-----------------------*/
-.especialIndex {
+/*INICIO ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
+.clasicaIndex {
   margin: 5vh 5vw;
-  padding: 10px 50px;
+  padding: 0.6rem 3.1rem;
   /*CAJA EN RELIEVE*/
   box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1);
   /*CAJA CON FONDO SOMBREADO*/
@@ -256,12 +857,36 @@ header img {
   grid-template-areas: "nombre nombre nombre" "foto texto secundaria" "foto leyenda secundaria" "picar picar picar";
   justify-content: space-evenly;
   align-items: flex-start; }
+  .clasicaIndex h3 {
+    grid-area: nombre;
+    justify-self: center; }
 
-.especialIndex h3 {
-  text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
-  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7);
-  grid-area: nombre;
-  justify-self: center; }
+.fotoClasica {
+  grid-area: foto;
+  box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1); }
+
+.fotoClasicaDos {
+  grid-area: secundaria;
+  box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1); }
+
+/*FIN ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
+/*INICIO ESTILOS ARTICLE TABLA ESPECIAL Index.html*/
+.especialIndex {
+  margin: 5vh 5vw;
+  padding: 0.6rem 3.1rem;
+  /*CAJA EN RELIEVE*/
+  box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1);
+  /*CAJA CON FONDO SOMBREADO*/
+  background-image: linear-gradient(rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.05) 3%, rgba(117, 17, 17, 0.1) 5%, rgba(117, 17, 17, 0.15) 10%, rgba(95, 14, 14, 0.2) 20%, rgba(95, 14, 14, 0.25) 40%, rgba(95, 14, 14, 0.3) 50%, rgba(95, 14, 14, 0.25) 60%, rgba(117, 17, 17, 0.2) 80%, rgba(117, 17, 17, 0.15) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0.05) 97%, rgba(117, 17, 17, 0) 100%);
+  /*GRID*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "nombre nombre nombre" "foto texto secundaria" "foto leyenda secundaria" "picar picar picar";
+  justify-content: space-evenly;
+  align-items: flex-start; }
+  .especialIndex h3 {
+    grid-area: nombre;
+    justify-self: center; }
 
 .fotoEspecial {
   grid-area: foto;
@@ -271,10 +896,11 @@ header img {
   grid-area: secundaria;
   box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1); }
 
-/*------------------------INICIO ESTILOS ARTICLE TABLA DON FERMIN Index.html---------------------------------*/
+/*FIN ESTILOS ARTICLE TABLA ESPECIAL Index.html*/
+/*INICIO ESTILOS ARTICLE TABLA DON FERMIN Index.html*/
 .donFerminIndex {
   margin: 5vh 5vw;
-  padding: 10px 50px;
+  padding: 0.6rem 3.1rem;
   /*CAJA EN RELIEVE*/
   box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1);
   /*CAJA CON FONDO SOMBREADO*/
@@ -285,12 +911,9 @@ header img {
   grid-template-areas: "nombre nombre nombre" "foto texto secundaria" "foto leyenda secundaria" "picar picar picar";
   justify-content: space-evenly;
   align-items: flex-start; }
-
-.donFerminIndex h3 {
-  text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6);
-  text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.7);
-  grid-area: nombre;
-  justify-self: center; }
+  .donFerminIndex h3 {
+    grid-area: nombre;
+    justify-self: center; }
 
 .fotoDf {
   grid-area: foto;
@@ -300,25 +923,15 @@ header img {
   grid-area: secundaria;
   box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1); }
 
-/*INICIO section final del Index*/
+/*FIN ESTILOS ARTICLE TABLA DON FERMIN Index.html*/
+/*INICIO section final index*/
 .cierreIndex {
   background-image: linear-gradient(rgba(117, 17, 17, 0.1) 0%, rgba(117, 17, 17, 0.2) 3%, rgba(117, 17, 17, 0.3) 5%, rgba(117, 17, 17, 0.4) 10%, rgba(95, 14, 14, 0.7) 40%, rgba(95, 14, 14, 0.7) 50%, rgba(95, 14, 14, 0.7) 60%, rgba(117, 17, 17, 0.4) 90%, rgba(117, 17, 17, 0.3) 95%, rgba(117, 17, 17, 0.2) 97%, rgba(117, 17, 17, 0.1) 100%);
   display: flex;
   flex-direction: column;
   align-items: center; }
 
-.cierreIndex h4 {
-  text-decoration: none;
-  font-size: 22px;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
-
-.cierreIndex p {
-  font-size: 20px;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
-
-.cierreIndex p a {
-  font-size: 21px;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
+/*FIN section final index/*
 
 /*----------------------------------------ESTILOS FOOTER----------------------------------------*/
 footer {
@@ -326,70 +939,55 @@ footer {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  padding: 15px; }
+  padding: 1rem; }
 
 .redes {
-  background-color: rgba(200, 240, 175, 0.3);
-  border: 1px dotted #c8f0af;
   margin: 0;
   padding: 0; }
-  .redes .redes__contenedor {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0; }
-  .redes .redes__enlace {
-    display: inline-block;
-    list-style-type: none;
-    margin: 0;
-    padding: 1px; }
-  .redes .reedes--whatsapp {
-    margin: 1px 0;
-    padding: 0; }
-  .redes .redes--instagram {
-    margin: 1px 0;
-    padding: 0; }
-  .redes .redes--facebook {
-    margin: 1px 0;
-    padding: 0; }
-  .redes .redes--youtube {
-    margin: 1px 0 1px 0;
-    padding: 0; }
 
+.redes__contenedor {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0; }
+
+.redes__enlace {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 1px; }
+
+.reedes__enlace--whatsapp {
+  margin: 1px 0;
+  padding: 0; }
+
+.redes__enlace--instagram {
+  margin: 1px 0;
+  padding: 0; }
+
+.redes__enlace--facebook {
+  margin: 1px 0;
+  padding: 0; }
+
+.redes__enlace--youtube {
+  margin: 1px 0 1px 0;
+  padding: 0; }
+
+/*INICIO estilos Formulario footer*/
 footer form {
-  background-image: radial-gradient(circle, #761111 0%, rgba(96, 14, 14, 0.7) 35%, rgba(74, 11, 11, 0.6) 100%);
   padding: 3vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center; }
+  footer form label {
+    align-self: flex-start; }
+  footer form input {
+    width: 70%; }
+  footer form select {
+    width: 70%; }
 
-footer form label {
-  align-self: flex-start; }
-
-footer form input {
-  width: 70%;
-  color: #761111;
-  background-color: #d5cd80; }
-
-footer form input::placeholder {
-  color: rgba(118, 17, 17, 0.8); }
-
-footer form select {
-  width: 70%;
-  color: #761111;
-  background-color: #d5cd80; }
-
-footer form select option {
-  color: #761111; }
-
-footer form textarea {
-  background-color: #d5cd80;
-  color: #761111; }
-
-footer form textarea::placeholder {
-  color: rgba(118, 17, 17, 0.8); }
-
+/*Clase para suscripcion a novedades form footer*/
 .novedades {
   margin: 2vh 0;
   display: flex;
@@ -397,72 +995,45 @@ footer form textarea::placeholder {
   align-items: center;
   justify-content: space-evenly; }
 
+/*Estilos botones form footer*/
 .enviar {
-  background-color: #0b4a2b;
-  color: #d5cd80;
   width: 50%;
   margin: 1vh 0; }
 
 .limpiar {
-  background-color: #4a0b0b;
-  color: #d5cd80;
   width: 50%; }
 
 /*---------------ESTILOS & Grid tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html----------------*/
 .tablasDetalle main {
-  background-image: linear-gradient(rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.05) 3%, rgba(117, 17, 17, 0.1) 5%, rgba(117, 17, 17, 0.15) 10%, rgba(95, 14, 14, 0.2) 20%, rgba(95, 14, 14, 0.25) 40%, rgba(95, 14, 14, 0.3) 50%, rgba(95, 14, 14, 0.25) 60%, rgba(117, 17, 17, 0.2) 80%, rgba(117, 17, 17, 0.15) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0.05) 97%, rgba(117, 17, 17, 0) 100%);
   padding: 5vh;
   display: grid;
   grid-column-gap: 5vw;
-  grid-template-areas: "titulo titulo titulo" "subtitulo subtitulo subtitulo" "foto lista lista" "foto lista lista" "regalo regalo regalo" "agregados agregados secundaria" "precios precios secundaria"																		 "picar picar picar";
+  grid-template-areas: "titulo titulo titulo" "subtitulo subtitulo subtitulo" "foto lista lista" "foto lista lista" "regalo regalo regalo" "agregados agregados secundaria" "precios precios secundaria"                                     "picar picar picar";
   justify-content: center;
   align-items: flex-start; }
+  .tablasDetalle main h1 {
+    grid-area: titulo;
+    justify-self: center;
+    font-size: 2rem; }
+  .tablasDetalle main h2 {
+    grid-area: subtitulo;
+    justify-self: center;
+    margin: 5vh 0 5vh 10vw; }
+  .tablasDetalle main ul {
+    grid-area: lista;
+    margin: 5vh 0; }
+  .tablasDetalle main div {
+    grid-area: agregados; }
 
-.tablasDetalle main h1 {
-  grid-area: titulo;
-  justify-self: center;
-  text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8);
-  font-size: 32px; }
-
-.tablasDetalle main h2 {
-  grid-area: subtitulo;
-  justify-self: center;
-  text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8);
-  margin: 5vh 0 5vh 10vw; }
-
-.tablasDetalle main ul {
-  grid-area: lista;
-  margin: 5vh 0; }
-
-.tablasDetalle main ul li {
-  font-size: 22px;
-  text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
-
-.tablasDetalle main ul li a {
-  color: #C8BE5A;
-  font-size: 22px;
-  text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
-
+/*Clase para resaltar los productos de regalo incluidos sin cargo*/
 .regalo {
-  color: #C8BE5A;
   grid-area: regalo;
-  font-size: 24px;
-  justify-self: center;
-  text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+  justify-self: center; }
 
-.tablasDetalle main div {
-  grid-area: agregados; }
-
-.tablasDetalle main div p {
-  color: #C8BE5A;
-  text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
-
+/*Clase precios de tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html*/
 .precios {
   grid-area: precios;
   justify-self: flex-end; }
-
-.precios p {
-  font-size: 20px; }
 
 /*----------------------------------------ESTILOS quesos.html----------------------------------------*/
 .nuestrosQuesos main {
@@ -471,114 +1042,72 @@ footer form textarea::placeholder {
   align-items: center;
   justify-content: space-between; }
 
-.nuestrosQuesos main h1 {
-  font-size: 30px;
-  color: #dd9c14;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
-
-.nuestrosQuesos main p {
-  font-size: 22px;
-  color: #C8BE5A;
-  text-shadow: -1px 1px 0 black; }
-
 /*--------------QUESOS SEMIDUROS-----------*/
 .semiduros {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 10vh 20vw; }
-
-.nombreQueso {
-  font-size: 26px; }
+  .semiduros h2 {
+    align-self: flex-start;
+    margin-bottom: 4vh; }
+  .semiduros p {
+    padding: 0 1vw; }
 
 /*Grid Areas*/
-.semiduros h2 {
-  align-self: flex-start;
-  font-size: 30px;
-  color: #dd9c14;
-  margin-bottom: 4vh;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
-
-.semiduros h4 {
-  color: #dd9c14;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
-
-.semiduros p {
-  color: #dd9c14;
-  padding: 0 1vw; }
-
 .pategras {
-  background-image: linear-gradient(rgba(51, 8, 8, 0.05) 0%, rgba(51, 8, 8, 0.2) 3%, rgba(51, 8, 8, 0.4) 5%, rgba(51, 8, 8, 0.6) 10%, rgba(51, 8, 8, 0.8) 20%, rgba(51, 8, 8, 0.9) 40%, #4a0b0b 50%, rgba(74, 11, 11, 0.9) 60%, rgba(74, 11, 11, 0.8) 80%, rgba(74, 11, 11, 0.6) 90%, rgba(74, 11, 11, 0.4) 95%, rgba(74, 11, 11, 0.2) 97%, rgba(74, 11, 11, 0.05) 100%);
   display: grid;
   grid-template-rows: 1fr 3fr;
   grid-template-areas: "fotoPategras nombrePategras nombrePategras" "fotoPategras detallePategras detallePategras"; }
-
-.pategras img {
-  grid-area: fotoPategras;
-  margin: auto;
-  box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
-
-.pategras h4 {
-  grid-area: nombrePategras;
-  margin: 3vh auto; }
-
-.pategras p {
-  grid-area: detallePategras; }
+  .pategras img {
+    grid-area: fotoPategras;
+    margin: auto; }
+  .pategras h4 {
+    grid-area: nombrePategras;
+    margin: 3vh auto; }
+  .pategras p {
+    grid-area: detallePategras; }
 
 .danbo {
-  background-image: linear-gradient(rgba(74, 11, 11, 0.05) 0%, rgba(74, 11, 11, 0.2) 3%, rgba(74, 11, 11, 0.4) 5%, rgba(74, 11, 11, 0.6) 10%, rgba(96, 14, 14, 0.8) 20%, rgba(96, 14, 14, 0.9) 40%, #600e0e 50%, rgba(96, 14, 14, 0.9) 60%, rgba(96, 14, 14, 0.8) 80%, rgba(96, 14, 14, 0.6) 90%, rgba(96, 14, 14, 0.4) 95%, rgba(96, 14, 14, 0.2) 97%, rgba(96, 14, 14, 0.1) 100%);
   display: grid;
   grid-template-rows: 1fr 3fr;
   grid-template-areas: "nombreDanbo nombreDanbo fotoDanbo" "detalleDanbo detalleDanbo fotoDanbo"; }
-
-.danbo img {
-  grid-area: fotoDanbo;
-  margin: auto;
-  box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
-
-.danbo h4 {
-  grid-area: nombreDanbo;
-  margin: 3vh auto; }
-
-.danbo p {
-  grid-area: detalleDanbo; }
+  .danbo img {
+    grid-area: fotoDanbo;
+    margin: auto; }
+  .danbo h4 {
+    grid-area: nombreDanbo;
+    margin: 3vh auto; }
+  .danbo p {
+    grid-area: detalleDanbo; }
 
 .braPimienta {
-  background-image: linear-gradient(rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 3%, rgba(96, 14, 14, 0.4) 5%, rgba(96, 14, 14, 0.6) 10%, rgba(118, 17, 17, 0.8) 20%, rgba(118, 17, 17, 0.9) 40%, #761111 50%, rgba(118, 17, 17, 0.9) 60%, rgba(118, 17, 17, 0.8) 80%, rgba(118, 17, 17, 0.6) 90%, rgba(118, 17, 17, 0.4) 95%, rgba(118, 17, 17, 0.2) 97%, rgba(118, 17, 17, 0.1) 100%);
   display: grid;
   grid-template-rows: 1fr 3fr;
   grid-template-areas: "fotoBraP nombreBraP nombreBraP" "fotoBraP detalleBraP detalleBraP"; }
-
-.braPimienta img {
-  grid-area: fotoBraP;
-  margin: auto;
-  box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
-
-.braPimienta h4 {
-  grid-area: nombreBraP;
-  margin: 3vh auto; }
-
-.braPimienta p {
-  flex-wrap: wrap;
-  grid-area: detalleBraP; }
+  .braPimienta img {
+    grid-area: fotoBraP;
+    margin: auto; }
+  .braPimienta h4 {
+    grid-area: nombreBraP;
+    margin: 3vh auto; }
+  .braPimienta p {
+    flex-wrap: wrap;
+    grid-area: detalleBraP; }
 
 .braAhumado {
-  background-image: linear-gradient(rgba(118, 17, 17, 0.1) 0%, rgba(118, 17, 17, 0.2) 3%, rgba(118, 17, 17, 0.4) 5%, rgba(118, 17, 17, 0.6) 10%, rgba(141, 20, 20, 0.8) 20%, rgba(141, 20, 20, 0.9) 40%, #8d1414 50%, rgba(141, 20, 20, 0.9) 60%, rgba(141, 20, 20, 0.8) 80%, rgba(141, 20, 20, 0.6) 90%, rgba(141, 20, 20, 0.4) 95%, rgba(141, 20, 20, 0.2) 97%, rgba(141, 20, 20, 0.05) 100%);
   display: grid;
   grid-template-rows: 1fr 3fr;
   grid-template-areas: "nombreBraA nombreBraA fotoBraA" "detalleBraA detalleBraA fotoBraA"; }
-
-.braAhumado img {
-  grid-area: fotoBraA;
-  margin: auto;
-  box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
-
-.braAhumado h4 {
-  grid-area: nombreBraA;
-  margin: 3vh auto; }
-
-.braAhumado p {
-  grid-area: detalleBraA; }
+  .braAhumado img {
+    grid-area: fotoBraA;
+    margin: auto;
+    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+  .braAhumado h4 {
+    grid-area: nombreBraA;
+    margin: 3vh auto; }
+  .braAhumado p {
+    grid-area: detalleBraA; }
 
 /*-------------QUESOS AZULES-------------*/
 /*grid*/
@@ -587,18 +1116,10 @@ footer form textarea::placeholder {
   grid-template-rows: 1fr 3fr 3fr;
   grid-template-areas: "titulo titulo" "roquefort gorgonzola" "roquefort gorgonzola";
   margin: 10vh 20vw; }
-
-.nombreQuesoAzul {
-  font-size: 24px; }
-
-/*grid areas*/
-.azules h2 {
-  grid-area: titulo;
-  justify-self: center;
-  font-size: 30px;
-  color: #dd9c14;
-  margin-bottom: 4vh;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+  .azules h2 {
+    grid-area: titulo;
+    justify-self: center;
+    margin-bottom: 4vh; }
 
 .roquefort {
   grid-area: roquefort;
@@ -606,19 +1127,7 @@ footer form textarea::placeholder {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-image: linear-gradient(90deg, #600e0e 0%, rgba(96, 14, 14, 0.9) 10%, rgba(96, 14, 14, 0.8) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.6) 90%, rgba(96, 14, 14, 0.5) 93%, rgba(96, 14, 14, 0.4) 95%, rgba(96, 14, 14, 0.3) 99%, rgba(96, 14, 14, 0.1) 100%);
   padding: 5vh 5vw; }
-
-.roquefort img {
-  box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
-
-.roquefort h5 {
-  font-size: 20px;
-  color: #dd9c14;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
-
-.roquefort p {
-  color: #dd9c14; }
 
 .gorgonzola {
   grid-area: gorgonzola;
@@ -626,21 +1135,10 @@ footer form textarea::placeholder {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.3) 1%, rgba(96, 14, 14, 0.4) 5%, rgba(96, 14, 14, 0.5) 7%, rgba(96, 14, 14, 0.6) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.8) 50%, rgba(96, 14, 14, 0.9) 90%, #600e0e 100%);
   padding: 5vh 5vw; }
 
-.gorgonzola img {
-  box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
-
-.gorgonzola h5 {
-  font-size: 20px;
-  color: #dd9c14;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
-
-.gorgonzola p {
-  color: #dd9c14; }
-
 /*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
+<<<<<<< HEAD
 .boton {
   background-color: #C8BE5A;
   color: #931515; }
@@ -676,6 +1174,12 @@ footer form textarea::placeholder {
   margin: 1vh auto;
   background-image: linear-gradient(rgba(208, 30, 30, 0.1) 2%, rgba(208, 30, 30, 0.3) 10%, rgba(186, 26, 26, 0.5) 20%, rgba(163, 23, 23, 0.7) 50%, rgba(186, 26, 26, 0.5) 80%, rgba(208, 30, 30, 0.3) 90%, rgba(208, 30, 30, 0.1) 98%);
   box-shadow: -1px 1px 1px 1px rgba(141, 20, 20, 0.1); }
+=======
+.descriptionBox {
+  margin: 1vh auto; }
+  .descriptionBox p {
+    margin: 4vh auto; }
+>>>>>>> reestructuracion_y_sass
 
 /*----------------------------------------ESTILOS compra.html----------------------------------------*/
 .compras {
@@ -688,21 +1192,11 @@ footer form textarea::placeholder {
 .compraClasica img:hover {
   transform: scale(2); }
 
-.compraClasica h2 {
-  font-size: 20px;
-  color: #dd9c14;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
-
 .compraEspecial img {
   width: 50%; }
 
 .compraEspecial img:hover {
   transform: scale(2); }
-
-.compraEspecial h2 {
-  font-size: 20px;
-  color: #dd9c14;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
 
 .compraDf img {
   width: 50%; }
@@ -710,120 +1204,78 @@ footer form textarea::placeholder {
 .compraDf img:hover {
   transform: scale(2); }
 
-.compraDf h2 {
-  font-size: 20px;
-  color: #dd9c14;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
-
 /*-----------FORMULARIO DE COMPRA------------*/
-.completar {
-  font-size: 28px;
-  color: #dd9c14;
-  text-align: center;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
-
 .formCompra {
   width: 40%;
-  background-color: #600e0e;
   margin: 3vh auto;
   padding: 10px;
   display: grid;
   grid-template-areas: "tabla tabla" "nombre nombre" "apellido apellido" "telefono telefono" "direccion direccion" "cp cp" "regalo regalo" "recepcion recepcion" "mensaje mensaje" "textarea textarea" "comprar borrar";
   justify-content: space-around;
   align-items: center; }
-
-/*----GRID AREAS---*/
-.formCompra select {
-  grid-area: tabla;
-  margin: 1vh 0; }
-
-.formCompra input::placeholder {
-  color: rgba(96, 14, 14, 0.8); }
-
-.formCompra textarea::placeholder {
-  color: rgba(96, 14, 14, 0.8); }
+  .formCompra select {
+    grid-area: tabla;
+    margin: 1vh 0; }
+  .formCompra textarea::placeholder {
+    color: rgba(96, 14, 14, 0.8); }
 
 .name {
   grid-area: nombre;
   display: flex;
   flex-direction: column; }
-
-.name input {
-  margin: 1vh 0;
-  color: #761111;
-  background-color: #d5cd80; }
+  .name input {
+    margin: 1vh 0; }
 
 .surname {
   grid-area: apellido;
   display: flex;
   flex-direction: column; }
-
-.surname input {
-  justify-self: center;
-  margin: 1vh 0;
-  color: #761111;
-  background-color: #d5cd80; }
+  .surname input {
+    justify-self: center;
+    margin: 1vh 0; }
 
 .phone {
   grid-area: telefono;
   display: flex;
   flex-direction: column; }
-
-.phone input {
-  margin: 1vh 0;
-  color: #761111;
-  background-color: #d5cd80; }
+  .phone input {
+    margin: 1vh 0; }
 
 .address {
   grid-area: direccion;
   display: flex;
   flex-direction: column; }
-
-.address input {
-  margin: 1vh 0;
-  color: #761111;
-  background-color: #d5cd80; }
+  .address input {
+    margin: 1vh 0; }
 
 .cp {
   grid-area: cp;
   display: flex;
   flex-direction: column; }
-
-.cp input {
-  margin: 1vh 0;
-  color: #761111;
-  background-color: #d5cd80; }
+  .cp input {
+    margin: 1vh 0; }
 
 .present {
   grid-area: regalo;
   display: flex;
   justify-content: space-around; }
-
-.present input {
-  margin: 3vh 1vw;
-  color: #761111;
-  background-color: #d5cd80; }
+  .present input {
+    margin: 3vh 1vw; }
 
 .reception {
   grid-area: recepcion;
   display: flex;
   flex-direction: column; }
-
-.reception input {
-  margin: 3vh 0;
-  color: #761111;
-  background-color: #d5cd80; }
+  .reception input {
+    margin: 3vh 0; }
 
 .message {
   grid-area: mensaje;
   display: flex;
   flex-direction: column; }
-
-.message input {
-  margin: 1vh 0;
-  align-self: center;
-  color: #761111;
-  background-color: #d5cd80; }
+  .message input {
+    margin: 1vh 0;
+    align-self: center; }
 
 .formCompra textarea {
   grid-area: textarea; }
@@ -831,77 +1283,9 @@ footer form textarea::placeholder {
 .comprar {
   grid-area: comprar;
   justify-content: flex-start;
-  width: 100%;
-  background-color: #0b4a2b;
-  color: #d5cd80; }
+  width: 100%; }
 
 .borrar {
   grid-area: borrar;
   justify-content: flex-end;
-  width: 100%;
-  background-color: #4a0b0b;
-  color: #d5cd80; }
-
-/*------------ X-Small ----------- */
-@media only screen and (max-device-width: 576px) {
-  /* Styles */
-  .imgProducto {
-    width: 100%; }
-  .boton:active {
-    border: 3px solid #a31818; }
-  .ingredientes {
-    background-color: #931515;
-    color: #C8BE5A; }
-  .boton:not(.collapsed) {
-    color: #C8BE5A;
-    background-color: #600e0e; }
-  .botonR {
-    background-color: #931515; }
-  .botonR strong {
-    text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.7), 1px -1px 0 rgba(96, 14, 14, 0.7); }
-  .botonR:not(.collapsed) {
-    background-color: #C8BE5A;
-    color: #600e0e; } }
-
-/* ------------------Small ----------- */
-@media only screen and (min-device-width: 576px) and (max-device-width: 756px) {
-  /* Styles */
-  .fotoFiambre {
-    width: 10%; }
-  .boton:active {
-    border: 3px solid #a31818; }
-  .ingredientes {
-    background-color: #931515;
-    color: #C8BE5A; }
-  .boton:not(.collapsed) {
-    color: #C8BE5A;
-    background-color: #600e0e; }
-  .botonR {
-    background-color: #931515; }
-  .botonR strong {
-    text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.7), 1px -1px 0 rgba(96, 14, 14, 0.7); }
-  .botonR:not(.collapsed) {
-    background-color: #C8BE5A;
-    color: #600e0e; } }
-
-/* ------------------ Medium ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 992px) {
-  /* Styles */
-  .boton {
-    background-color: #C8BE5A;
-    color: #931515; }
-  .boton:active {
-    border: 3px solid #a31818; }
-  .ingredientes {
-    background-color: #931515;
-    color: #C8BE5A; }
-  .boton:not(.collapsed) {
-    color: #C8BE5A;
-    background-color: #600e0e; }
-  .botonR {
-    background-color: #931515; }
-  .botonR strong {
-    text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.7), 1px -1px 0 rgba(96, 14, 14, 0.7); }
-  .botonR:not(.collapsed) {
-    background-color: #C8BE5A;
-    color: #600e0e; } }
+  width: 100%; }
