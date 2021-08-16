@@ -163,12 +163,14 @@
 			<label for="mensaje">Mensaje:</label>
 			<textarea name="mensaje" id="" cols="30" rows="10" maxlength="200" placeholder="Dejanos tu mensaje"></textarea>
 			<div>Acepta nuestros términos y condiciones:</div>
-			<input type="checkbox" name="Acepta" value="1" required>
-			<div class="novedades">¿Desea recibir novedades sobre nuestros productos?
-			<div>Si</div>
-			<input type="radio" name="desea" value="si">
-			<div>No</div>
-			<input type="radio" name="desea" value="no">
+			<input  type="checkbox"  id="terminos" value="1" required>
+					<label  class="terminos-track"  for="terminos">
+						<span  class="terminos-track__indicator"></span> </label>
+			<div class="novedades">
+				<div>¿Desea recibir novedades sobre nuestros productos?</div>
+					<input  type="checkbox"  id="toggle">
+					<label  class="toggle-track"  for="toggle">
+						<span  class="toggle-track__indicator"></span> </label>
 			</div>
 			<input class="enviar" type="submit" value="Enviar">
 			<input class="limpiar" type="reset" value="Limpiar">

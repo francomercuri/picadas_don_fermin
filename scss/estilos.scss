@@ -297,13 +297,77 @@ footer{
               }
   }
 
+
+
+  /*terminos y condiciones*/
+  .terminos-track{
+                    display: flex;
+                    align-items: center;
+                    padding: 0 3px;
+                    width: 56px;
+                    height: 30px;
+                    border-radius:15px;
+                    background-color: #C8BE5A;
+                    cursor: pointer;
+                    transition: 120ms ease-out;
+                    &__indicator{
+                                  width: 25px;
+                                  height: 25px;
+                                  border-radius:100%;
+                                  background-color: #8d1414;
+                                  transition: 120ms ease-out;
+                                  margin-top: -1px;
+                    }
+      }
+
+      #terminos:checked + .terminos-track{
+                                      background-color:#dd9c14;
+      }
+
+      #terminos:checked + .terminos-track .terminos-track__indicator{
+                                                                transform: translateX(24px);
+      }
+
+      #terminos{
+              display: none;
+      }
+
   /*Clase para suscripcion a novedades form footer*/
       .novedades{
               margin: 2vh 0;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: space-evenly;
+             
+      }
+
+      .toggle-track{
+                    display: flex;
+                    align-items: center;
+                    padding: 0 3px;
+                    width: 56px;
+                    height: 30px;
+                    border-radius:15px;
+                    background-color: #C8BE5A;
+                    cursor: pointer;
+                    transition: 120ms ease-out;
+                    &__indicator{
+                                  width: 25px;
+                                  height: 25px;
+                                  border-radius:100%;
+                                  background-color:#8d1414;
+                                  transition: 120ms ease-out;
+                                  margin-top: -1px;
+                    }
+      }
+
+      #toggle:checked + .toggle-track{
+                                      background-color:#dd9c14;
+      }
+
+      #toggle:checked + .toggle-track .toggle-track__indicator{
+                                                                transform: translateX(24px);
+      }
+
+      #toggle{
+              display: none;
       }
 
   /*Estilos botones form footer*/
@@ -556,6 +620,7 @@ footer{
 
 /*-----------FORMULARIO DE COMPRA------------*/
 
+
 .formCompra{  
             width: 40%;
             margin: 3vh auto;
@@ -578,7 +643,7 @@ footer{
             select{
                     grid-area:  tabla;
                     margin: 1vh 0;  
-            }
+                    }
             textarea::placeholder{
                               color: rgba(96, 14, 14,0.8);
             }           
