@@ -14,7 +14,7 @@ $sizeH1: 2rem; //Tamaño h1
 //Se recomienda modificar en px para que el bucle funcione correctamente.
 @for $i from 1 through 6 {
 	h#{$i} {font-size: $sizeH1 -($i * 0.1);
-			color: $colorH;
+			color: $primary-color;
 			}
 }
 

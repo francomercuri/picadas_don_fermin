@@ -1,6 +1,5 @@
 @import "tipografias" ;
 @import "colores";
-@import"sombreados";
 @import "animaciones";
 
 
@@ -43,7 +42,7 @@ header{
 
 /*Clase de la marca ubicada en el header*/
   .donFermin{
-    color: $colorTexto;
+    color: $primary-color;
    animation: Marca 2s ease-in 1s 1 normal forwards;
   }
 
@@ -128,13 +127,14 @@ header{
                   justify-self: center;
                 }
  }
+
    .fotoClasica{
                   grid-area: foto;
-                  box-shadow: $relieveTablasIndex;
+                  box-shadow: $relieveImg__detalle;
     }
     .fotoClasicaDos{
                       grid-area: secundaria;
-                      box-shadow: $relieveTablasIndex;
+                      box-shadow: $relieveImg__detalle;
     }
 
  
@@ -167,11 +167,11 @@ header{
 
   .fotoEspecial{
                   grid-area: foto;
-                  box-shadow: $relieveTablasIndex;
+                  box-shadow: $relieveImg__detalle;
     }
     .fotoEspecialDos{
                       grid-area: secundaria;
-                      box-shadow: $relieveTablasIndex;
+                      box-shadow: $relieveImg__detalle;
     }
     
 
@@ -207,11 +207,11 @@ header{
 
         .fotoDf{
                 grid-area: foto;
-                box-shadow: $relieveTablasIndex;
+                box-shadow: $relieveImg__detalle;
         }
         .fotoDfDos{
                     grid-area: secundaria;
-                    box-shadow: $relieveTablasIndex;
+                    box-shadow: $relieveImg__detalle;
         }
 
 
@@ -300,6 +300,8 @@ footer{
 
 
   /*terminos y condiciones*/
+
+  /*CHECKBOX - BOTON SLIDER (Terminos y condiciones)*/
   .terminos-track{
                     display: flex;
                     align-items: center;
@@ -338,6 +340,7 @@ footer{
              
       }
 
+/*CHECKBOX - BOTON SLIDER (Suscripcion a novedades)*/
       .toggle-track{
                     display: flex;
                     align-items: center;
@@ -525,7 +528,7 @@ footer{
               img{
                   grid-area:  fotoBraA;
                   margin: auto;
-                  box-shadow: $relieveQuesos;
+                  box-shadow: $relieveImg;
               }
               h4{
                   grid-area: nombreBraA;
