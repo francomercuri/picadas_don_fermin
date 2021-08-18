@@ -181,22 +181,22 @@ footer form {
 .pategras {
   background-image: linear-gradient(rgba(51, 8, 8, 0.05) 0%, rgba(51, 8, 8, 0.2) 3%, rgba(51, 8, 8, 0.4) 5%, rgba(51, 8, 8, 0.6) 10%, rgba(51, 8, 8, 0.8) 20%, rgba(51, 8, 8, 0.9) 40%, #4a0b0b 50%, rgba(74, 11, 11, 0.9) 60%, rgba(74, 11, 11, 0.8) 80%, rgba(74, 11, 11, 0.7) 90%, rgba(74, 11, 11, 0.6) 95%, rgba(74, 11, 11, 0.5) 97%, rgba(74, 11, 11, 0.4) 100%); }
   .pategras img {
-    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
 
 .danbo {
   background-image: linear-gradient(rgba(74, 11, 11, 0.4) 0%, rgba(74, 11, 11, 0.5) 3%, rgba(74, 11, 11, 0.6) 5%, rgba(74, 11, 11, 0.7) 10%, rgba(96, 14, 14, 0.8) 20%, rgba(96, 14, 14, 0.9) 40%, #600e0e 50%, rgba(96, 14, 14, 0.9) 60%, rgba(96, 14, 14, 0.8) 80%, rgba(96, 14, 14, 0.7) 90%, rgba(96, 14, 14, 0.6) 95%, rgba(96, 14, 14, 0.4) 97%, rgba(96, 14, 14, 0.3) 100%); }
   .danbo img {
-    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
 
 .braPimienta {
   background-image: linear-gradient(rgba(96, 14, 14, 0.3) 0%, rgba(96, 14, 14, 0.2) 3%, rgba(74, 11, 11, 0.4) 5%, rgba(96, 14, 14, 0.6) 10%, rgba(96, 14, 14, 0.8) 20%, rgba(96, 14, 14, 0.9) 40%, #600e0e 50%, rgba(96, 14, 14, 0.9) 60%, rgba(96, 14, 14, 0.8) 80%, rgba(74, 11, 11, 0.7) 90%, rgba(74, 11, 11, 0.6) 95%, rgba(74, 11, 11, 0.5) 97%, rgba(74, 11, 11, 0.4) 100%); }
   .braPimienta img {
-    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
 
 .braAhumado {
   background-image: linear-gradient(rgba(74, 11, 11, 0.4) 0%, rgba(74, 11, 11, 0.5) 3%, rgba(74, 11, 11, 0.6) 5%, rgba(74, 11, 11, 0.7) 10%, rgba(74, 11, 11, 0.8) 20%, rgba(74, 11, 11, 0.9) 40%, #4a0b0b 50%, rgba(51, 8, 8, 0.9) 60%, rgba(51, 8, 8, 0.8) 80%, rgba(51, 8, 8, 0.6) 90%, rgba(51, 8, 8, 0.4) 95%, rgba(51, 8, 8, 0.2) 97%, rgba(51, 8, 8, 0.05) 100%); }
   .braAhumado img {
-    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
 
 .azules h2 {
   color: #dd9c14;
@@ -208,7 +208,7 @@ footer form {
 .roquefort {
   background-image: linear-gradient(90deg, #600e0e 0%, rgba(96, 14, 14, 0.9) 10%, rgba(96, 14, 14, 0.8) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.6) 90%, rgba(96, 14, 14, 0.5) 93%, rgba(96, 14, 14, 0.4) 95%, rgba(96, 14, 14, 0.3) 99%, rgba(96, 14, 14, 0.1) 100%); }
   .roquefort img {
-    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
   .roquefort h5 {
     color: #dd9c14;
     text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
@@ -218,7 +218,7 @@ footer form {
 .gorgonzola {
   background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.3) 1%, rgba(96, 14, 14, 0.4) 5%, rgba(96, 14, 14, 0.5) 7%, rgba(96, 14, 14, 0.6) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.8) 50%, rgba(96, 14, 14, 0.9) 90%, #600e0e 100%); }
   .gorgonzola img {
-    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
   .gorgonzola h5 {
     color: #dd9c14;
     text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
@@ -412,8 +412,17 @@ a {
 .gorgonzola h5 {
   font-size: 1.2rem; }
 
+.nuestrosFiambres h1 {
+  font-size: 2.5rem;
+  text-decoration: underline; }
+
 .prologoFiambres {
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  font-style: italic; }
+
+.curados h2, .cocidos h2 {
+  font-size: 2rem;
+  text-align: center; }
 
 .descriptionBox p {
   font-size: 1.1rem; }
@@ -613,22 +622,22 @@ footer form {
 .pategras {
   background-image: linear-gradient(rgba(51, 8, 8, 0.05) 0%, rgba(51, 8, 8, 0.2) 3%, rgba(51, 8, 8, 0.4) 5%, rgba(51, 8, 8, 0.6) 10%, rgba(51, 8, 8, 0.8) 20%, rgba(51, 8, 8, 0.9) 40%, #4a0b0b 50%, rgba(74, 11, 11, 0.9) 60%, rgba(74, 11, 11, 0.8) 80%, rgba(74, 11, 11, 0.7) 90%, rgba(74, 11, 11, 0.6) 95%, rgba(74, 11, 11, 0.5) 97%, rgba(74, 11, 11, 0.4) 100%); }
   .pategras img {
-    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
 
 .danbo {
   background-image: linear-gradient(rgba(74, 11, 11, 0.4) 0%, rgba(74, 11, 11, 0.5) 3%, rgba(74, 11, 11, 0.6) 5%, rgba(74, 11, 11, 0.7) 10%, rgba(96, 14, 14, 0.8) 20%, rgba(96, 14, 14, 0.9) 40%, #600e0e 50%, rgba(96, 14, 14, 0.9) 60%, rgba(96, 14, 14, 0.8) 80%, rgba(96, 14, 14, 0.7) 90%, rgba(96, 14, 14, 0.6) 95%, rgba(96, 14, 14, 0.4) 97%, rgba(96, 14, 14, 0.3) 100%); }
   .danbo img {
-    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
 
 .braPimienta {
   background-image: linear-gradient(rgba(96, 14, 14, 0.3) 0%, rgba(96, 14, 14, 0.2) 3%, rgba(74, 11, 11, 0.4) 5%, rgba(96, 14, 14, 0.6) 10%, rgba(96, 14, 14, 0.8) 20%, rgba(96, 14, 14, 0.9) 40%, #600e0e 50%, rgba(96, 14, 14, 0.9) 60%, rgba(96, 14, 14, 0.8) 80%, rgba(74, 11, 11, 0.7) 90%, rgba(74, 11, 11, 0.6) 95%, rgba(74, 11, 11, 0.5) 97%, rgba(74, 11, 11, 0.4) 100%); }
   .braPimienta img {
-    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
 
 .braAhumado {
   background-image: linear-gradient(rgba(74, 11, 11, 0.4) 0%, rgba(74, 11, 11, 0.5) 3%, rgba(74, 11, 11, 0.6) 5%, rgba(74, 11, 11, 0.7) 10%, rgba(74, 11, 11, 0.8) 20%, rgba(74, 11, 11, 0.9) 40%, #4a0b0b 50%, rgba(51, 8, 8, 0.9) 60%, rgba(51, 8, 8, 0.8) 80%, rgba(51, 8, 8, 0.6) 90%, rgba(51, 8, 8, 0.4) 95%, rgba(51, 8, 8, 0.2) 97%, rgba(51, 8, 8, 0.05) 100%); }
   .braAhumado img {
-    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
 
 .azules h2 {
   color: #dd9c14;
@@ -640,7 +649,7 @@ footer form {
 .roquefort {
   background-image: linear-gradient(90deg, #600e0e 0%, rgba(96, 14, 14, 0.9) 10%, rgba(96, 14, 14, 0.8) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.6) 90%, rgba(96, 14, 14, 0.5) 93%, rgba(96, 14, 14, 0.4) 95%, rgba(96, 14, 14, 0.3) 99%, rgba(96, 14, 14, 0.1) 100%); }
   .roquefort img {
-    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
   .roquefort h5 {
     color: #dd9c14;
     text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
@@ -650,7 +659,7 @@ footer form {
 .gorgonzola {
   background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.3) 1%, rgba(96, 14, 14, 0.4) 5%, rgba(96, 14, 14, 0.5) 7%, rgba(96, 14, 14, 0.6) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.8) 50%, rgba(96, 14, 14, 0.9) 90%, #600e0e 100%); }
   .gorgonzola img {
-    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
   .gorgonzola h5 {
     color: #dd9c14;
     text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
@@ -871,11 +880,11 @@ main {
 
 .fotoClasica {
   grid-area: foto;
-  box-shadow: -5px -6px 5px 4px inset rgba(52, 8, 8, 0.1), -6px -7px 7px 6px inset rgba(72, 11, 11, 0.2), 6px 7px 7px 6px inset rgba(72, 11, 11, 0.2), 5px 6px 5px 4px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+  box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
 
 .fotoClasicaDos {
   grid-area: secundaria;
-  box-shadow: -5px -6px 5px 4px inset rgba(52, 8, 8, 0.1), -6px -7px 7px 6px inset rgba(72, 11, 11, 0.2), 6px 7px 7px 6px inset rgba(72, 11, 11, 0.2), 5px 6px 5px 4px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+  box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
 
 /*FIN ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
 /*INICIO ESTILOS ARTICLE TABLA ESPECIAL Index.html*/
@@ -898,11 +907,11 @@ main {
 
 .fotoEspecial {
   grid-area: foto;
-  box-shadow: -5px -6px 5px 4px inset rgba(52, 8, 8, 0.1), -6px -7px 7px 6px inset rgba(72, 11, 11, 0.2), 6px 7px 7px 6px inset rgba(72, 11, 11, 0.2), 5px 6px 5px 4px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+  box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
 
 .fotoEspecialDos {
   grid-area: secundaria;
-  box-shadow: -5px -6px 5px 4px inset rgba(52, 8, 8, 0.1), -6px -7px 7px 6px inset rgba(72, 11, 11, 0.2), 6px 7px 7px 6px inset rgba(72, 11, 11, 0.2), 5px 6px 5px 4px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+  box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
 
 /*FIN ESTILOS ARTICLE TABLA ESPECIAL Index.html*/
 /*INICIO ESTILOS ARTICLE TABLA DON FERMIN Index.html*/
@@ -925,11 +934,11 @@ main {
 
 .fotoDf {
   grid-area: foto;
-  box-shadow: -5px -6px 5px 4px inset rgba(52, 8, 8, 0.1), -6px -7px 7px 6px inset rgba(72, 11, 11, 0.2), 6px 7px 7px 6px inset rgba(72, 11, 11, 0.2), 5px 6px 5px 4px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+  box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
 
 .fotoDfDos {
   grid-area: secundaria;
-  box-shadow: -5px -6px 5px 4px inset rgba(52, 8, 8, 0.1), -6px -7px 7px 6px inset rgba(72, 11, 11, 0.2), 6px 7px 7px 6px inset rgba(72, 11, 11, 0.2), 5px 6px 5px 4px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+  box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
 
 /*FIN ESTILOS ARTICLE TABLA DON FERMIN Index.html*/
 /*INICIO section final index*/
@@ -1165,7 +1174,7 @@ footer form {
   .braAhumado img {
     grid-area: fotoBraA;
     margin: auto;
-    box-shadow: -3px -4px 3px 2px inset rgba(52, 8, 8, 0.1), -4px -5px 5px 4px inset rgba(72, 11, 11, 0.2), 4px 5px 5px 4px inset rgba(72, 11, 11, 0.2), 3px 4px 3px 2px inset rgba(52, 8, 8, 0.1), 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
   .braAhumado h4 {
     grid-area: nombreBraA;
     margin: 3vh auto; }
@@ -1201,6 +1210,136 @@ footer form {
   padding: 5vh 5vw; }
 
 /*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
+/*INICIO fiambres curados*/
+.curados h2 {
+  margin-bottom: 10vh; }
+
+/*SALAME CHACARERO*/
+.salame__producto {
+  margin-top: 2vh;
+  font-size: 2rem; }
+
+.salame__img {
+  border-radius: 25px;
+  box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25); }
+
+.salame__fabricante {
+  margin-top: 90%;
+  font-size: 1.5rem;
+  opacity: 0.8;
+  font-style: italic; }
+
+/*SALAME MEDITERRANEO*/
+.mediterraneo {
+  margin-top: 10vh; }
+  .mediterraneo__producto {
+    margin-top: 2vh;
+    font-size: 2rem; }
+  .mediterraneo__img {
+    border-radius: 25px;
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25); }
+  .mediterraneo__fabricante {
+    margin-top: 90%;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    font-style: italic; }
+
+/*LONGANIZA CALABRESA*/
+.longaniza {
+  margin-top: 10vh; }
+  .longaniza__producto {
+    margin-top: 2vh;
+    font-size: 2rem; }
+  .longaniza__img {
+    border-radius: 25px;
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25); }
+  .longaniza__fabricante {
+    margin-top: 90%;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    font-style: italic; }
+
+/*SOPRESSATA TRADICIONAL*/
+.sopressata {
+  margin-top: 10vh; }
+  .sopressata__producto {
+    margin-top: 2vh;
+    font-size: 2rem; }
+  .sopressata__img {
+    border-radius: 25px;
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25); }
+  .sopressata__fabricante {
+    margin-top: 90%;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    font-style: italic; }
+
+/*JAMON CRUDO*/
+.crudo {
+  margin-top: 10vh; }
+  .crudo__producto {
+    margin-top: 2vh;
+    font-size: 2rem; }
+  .crudo__img {
+    border-radius: 25px;
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25); }
+  .crudo__fabricante {
+    margin-top: 90%;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    font-style: italic; }
+
+/*FIN fiambres curados*/
+/*INICIO fiambres cocidos*/
+.cocidos h2 {
+  margin: 10vh 0; }
+
+/*JAMON HORNEADO*/
+.jamonCocido {
+  margin-top: 10vh; }
+  .jamonCocido__producto {
+    margin-top: 2vh;
+    font-size: 2rem; }
+  .jamonCocido__img {
+    border-radius: 25px;
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25); }
+  .jamonCocido__fabricante {
+    margin-top: 90%;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    font-style: italic; }
+
+/*LOMO AHUMADO*/
+.lomo {
+  margin-top: 10vh; }
+  .lomo__producto {
+    margin-top: 2vh;
+    font-size: 2rem; }
+  .lomo__img {
+    border-radius: 25px;
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25); }
+  .lomo__fabricante {
+    margin-top: 90%;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    font-style: italic; }
+
+/*MORTADELA*/
+.mortadela {
+  margin-top: 10vh; }
+  .mortadela__producto {
+    margin-top: 2vh;
+    font-size: 2rem; }
+  .mortadela__img {
+    border-radius: 25px;
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25); }
+  .mortadela__fabricante {
+    margin-top: 90%;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    font-style: italic; }
+
+/*FIN fiambres cocidos*/
 .descriptionBox {
   margin: 1vh auto; }
   .descriptionBox p {

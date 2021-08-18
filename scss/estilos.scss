@@ -578,7 +578,194 @@ footer{
 
 
 /*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
+/*INICIO fiambres curados*/
 
+.curados{
+        h2{
+          margin-bottom: 10vh;
+        }
+}
+
+/*SALAME CHACARERO*/
+.salame{
+        &__producto{
+                    margin-top: 2vh;
+                    font-size: 2rem;
+        }
+
+        &__img{
+            border-radius: 25px;
+            box-shadow: $relieveImg__claro;
+        }
+        &__fabricante{
+                      margin-top: 90%;
+                      font-size: 1.5rem;
+                      opacity: 0.8;
+                      font-style: italic;
+        }
+}
+
+/*SALAME MEDITERRANEO*/
+.mediterraneo{
+        margin-top: 10vh;
+
+        &__producto{
+                    margin-top: 2vh;
+                    font-size: 2rem;
+        }
+
+        &__img{
+            border-radius: 25px;
+            box-shadow: $relieveImg__claro;
+        }
+        &__fabricante{
+                      margin-top: 90%;
+                      font-size: 1.5rem;
+                      opacity: 0.8;
+                      font-style: italic;
+        }
+}
+
+/*LONGANIZA CALABRESA*/
+.longaniza{
+        margin-top: 10vh;
+
+        &__producto{
+                    margin-top: 2vh;
+                    font-size: 2rem;
+        }
+
+        &__img{
+            border-radius: 25px;
+            box-shadow: $relieveImg__claro;
+        }
+        &__fabricante{
+                      margin-top: 90%;
+                      font-size: 1.5rem;
+                      opacity: 0.8;
+                      font-style: italic;
+        }
+}
+
+/*SOPRESSATA TRADICIONAL*/
+.sopressata{
+        margin-top: 10vh;
+
+        &__producto{
+                    margin-top: 2vh;
+                    font-size: 2rem;
+        }
+
+        &__img{
+            border-radius: 25px;
+            box-shadow: $relieveImg__claro;
+        }
+        &__fabricante{
+                      margin-top: 90%;
+                      font-size: 1.5rem;
+                      opacity: 0.8;
+                      font-style: italic;
+        }
+}
+
+/*JAMON CRUDO*/
+.crudo{
+        margin-top: 10vh;
+
+        &__producto{
+                    margin-top: 2vh;
+                    font-size: 2rem;
+        }
+
+        &__img{
+            border-radius: 25px;
+            box-shadow: $relieveImg__claro;
+        }
+        &__fabricante{
+                      margin-top: 90%;
+                      font-size: 1.5rem;
+                      opacity: 0.8;
+                      font-style: italic;
+        }
+}
+
+
+/*FIN fiambres curados*/
+
+/*INICIO fiambres cocidos*/
+
+.cocidos{
+        h2{
+          margin: 10vh 0;
+        }
+}
+
+/*JAMON HORNEADO*/
+.jamonCocido{
+        margin-top: 10vh;
+
+        &__producto{
+                    margin-top: 2vh;
+                    font-size: 2rem;
+        }
+
+        &__img{
+            border-radius: 25px;
+            box-shadow: $relieveImg__claro;
+        }
+        &__fabricante{
+                      margin-top: 90%;
+                      font-size: 1.5rem;
+                      opacity: 0.8;
+                      font-style: italic;
+        }
+}
+
+
+/*LOMO AHUMADO*/
+.lomo{
+        margin-top: 10vh;
+
+        &__producto{
+                    margin-top: 2vh;
+                    font-size: 2rem;
+        }
+
+        &__img{
+            border-radius: 25px;
+            box-shadow: $relieveImg__claro;
+        }
+        &__fabricante{
+                      margin-top: 90%;
+                      font-size: 1.5rem;
+                      opacity: 0.8;
+                      font-style: italic;
+        }
+}
+
+/*MORTADELA*/
+
+.mortadela{
+        margin-top: 10vh;
+
+        &__producto{
+                    margin-top: 2vh;
+                    font-size: 2rem;
+        }
+
+        &__img{
+            border-radius: 25px;
+            box-shadow: $relieveImg__claro;
+        }
+        &__fabricante{
+                      margin-top: 90%;
+                      font-size: 1.5rem;
+                      opacity: 0.8;
+                      font-style: italic;
+        }
+}
+
+/*FIN fiambres cocidos*/
 
 .descriptionBox{
                 margin: 1vh auto;
