@@ -228,6 +228,9 @@ footer form {
 .prologoFiambres {
   text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.5), 1px -1px 0 rgba(96, 14, 14, 0.5); }
 
+.curados article {
+  opacity: 1; }
+
 .boton {
   background-color: #C8BE5A;
   color: #931515; }
@@ -260,18 +263,41 @@ footer form {
     color: #C8BE5A;
     text-shadow: -1px 1px 1px #600e0e, 1px -1px 1px #600e0e; }
 
-.compraClasica h2 {
-  color: #dd9c14;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+.carouselPersonalizado h5 {
+  font-size: 1.8rem; }
 
-.compraEspecial h2 {
-  color: #dd9c14;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+/*
+		.compraClasica {
+										h2 {
+												color: $secondary-color;
+												text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  									1px -1px 0 rgba(87, 28, 0, 0.5),
+								  									-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  									-2px 2px 1px rgba(27, 4, 4, 0.6);
+								  	}
+		}
 
-.compraDf h2 {
-  color: #dd9c14;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+		.compraEspecial{
+										h2{
+											color: $secondary-color;
+											text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  								1px -1px 0 rgba(87, 28, 0, 0.5),
+								  								-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  								-2px 2px 1px rgba(27, 4, 4, 0.6);
+								  	}
+		}
 
+
+		.compraDf{
+							h2 {
+									color: $secondary-color;
+									text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+															1px -1px 0 rgba(87, 28, 0, 0.5),
+															-1px 1px 0 rgba(27, 4, 4, 0.8),
+															-2px 2px 1px rgba(27, 4, 4, 0.6);
+							}
+		}
+*/
 .completar {
   color: #dd9c14;
   text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
@@ -280,38 +306,70 @@ footer form {
   background-color: #600e0e; }
   .formCompra input::placeholder {
     color: rgba(96, 14, 14, 0.8); }
+  .formCompra textarea {
+    color: #761111;
+    background-color: #d5cd80;
+    margin-top: 2vh; }
+
+.pedido {
+  color: #761111;
+  background-color: #d5cd80; }
 
 .name input {
   color: #761111;
   background-color: #d5cd80; }
 
+.name label {
+  color: #C8BE5A; }
+
 .surname input {
   color: #761111;
   background-color: #d5cd80; }
+
+.surname label {
+  color: #C8BE5A; }
 
 .phone input {
   color: #761111;
   background-color: #d5cd80; }
 
+.phone label {
+  color: #C8BE5A; }
+
 .address input {
   color: #761111;
   background-color: #d5cd80; }
+
+.address label {
+  color: #C8BE5A; }
 
 .cp input {
   color: #761111;
   background-color: #d5cd80; }
 
+.cp label {
+  color: #C8BE5A; }
+
 .present input {
   color: #761111;
   background-color: #d5cd80; }
+
+.present label {
+  color: #C8BE5A; }
 
 .reception input {
   color: #761111;
   background-color: #d5cd80; }
 
+.reception label {
+  color: #C8BE5A; }
+
 .message input {
   color: #761111;
   background-color: #d5cd80; }
+
+.message label {
+  color: #C8BE5A; }
 
 .comprar {
   background-color: #0b4a2b;
@@ -669,6 +727,9 @@ footer form {
 .prologoFiambres {
   text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.5), 1px -1px 0 rgba(96, 14, 14, 0.5); }
 
+.curados article {
+  opacity: 1; }
+
 .boton {
   background-color: #C8BE5A;
   color: #931515; }
@@ -701,18 +762,41 @@ footer form {
     color: #C8BE5A;
     text-shadow: -1px 1px 1px #600e0e, 1px -1px 1px #600e0e; }
 
-.compraClasica h2 {
-  color: #dd9c14;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+.carouselPersonalizado h5 {
+  font-size: 1.8rem; }
 
-.compraEspecial h2 {
-  color: #dd9c14;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+/*
+		.compraClasica {
+										h2 {
+												color: $secondary-color;
+												text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  									1px -1px 0 rgba(87, 28, 0, 0.5),
+								  									-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  									-2px 2px 1px rgba(27, 4, 4, 0.6);
+								  	}
+		}
 
-.compraDf h2 {
-  color: #dd9c14;
-  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
+		.compraEspecial{
+										h2{
+											color: $secondary-color;
+											text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+								  								1px -1px 0 rgba(87, 28, 0, 0.5),
+								  								-1px 1px 0 rgba(27, 4, 4, 0.8),
+								  								-2px 2px 1px rgba(27, 4, 4, 0.6);
+								  	}
+		}
 
+
+		.compraDf{
+							h2 {
+									color: $secondary-color;
+									text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+															1px -1px 0 rgba(87, 28, 0, 0.5),
+															-1px 1px 0 rgba(27, 4, 4, 0.8),
+															-2px 2px 1px rgba(27, 4, 4, 0.6);
+							}
+		}
+*/
 .completar {
   color: #dd9c14;
   text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
@@ -721,38 +805,70 @@ footer form {
   background-color: #600e0e; }
   .formCompra input::placeholder {
     color: rgba(96, 14, 14, 0.8); }
+  .formCompra textarea {
+    color: #761111;
+    background-color: #d5cd80;
+    margin-top: 2vh; }
+
+.pedido {
+  color: #761111;
+  background-color: #d5cd80; }
 
 .name input {
   color: #761111;
   background-color: #d5cd80; }
 
+.name label {
+  color: #C8BE5A; }
+
 .surname input {
   color: #761111;
   background-color: #d5cd80; }
+
+.surname label {
+  color: #C8BE5A; }
 
 .phone input {
   color: #761111;
   background-color: #d5cd80; }
 
+.phone label {
+  color: #C8BE5A; }
+
 .address input {
   color: #761111;
   background-color: #d5cd80; }
+
+.address label {
+  color: #C8BE5A; }
 
 .cp input {
   color: #761111;
   background-color: #d5cd80; }
 
+.cp label {
+  color: #C8BE5A; }
+
 .present input {
   color: #761111;
   background-color: #d5cd80; }
+
+.present label {
+  color: #C8BE5A; }
 
 .reception input {
   color: #761111;
   background-color: #d5cd80; }
 
+.reception label {
+  color: #C8BE5A; }
+
 .message input {
   color: #761111;
   background-color: #d5cd80; }
+
+.message label {
+  color: #C8BE5A; }
 
 .comprar {
   background-color: #0b4a2b;
@@ -1346,27 +1462,49 @@ footer form {
     margin: 4vh auto; }
 
 /*----------------------------------------ESTILOS compra.html----------------------------------------*/
-.compras {
-  display: flex;
-  justify-content: space-evenly; }
+.carouselPersonalizado {
+  box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25);
+  border-radius: 25px; }
+  .carouselPersonalizado__img {
+    opacity: 0.85;
+    border-radius: 25px; }
+  .carouselPersonalizado__nombre {
+    background-color: rgba(96, 14, 14, 0.7); }
+  .carouselPersonalizado__controls {
+    background-color: rgba(96, 14, 14, 0.7);
+    border-radius: 25px; }
 
-.compraClasica img {
-  width: 50%; }
+/*.compras{
+            display: flex;
+            justify-content: space-evenly;
+  }
 
-.compraClasica img:hover {
-  transform: scale(2); }
+      .compraClasica{
+                      img{
+                           width: 50%; 
+                      }
+                      img:hover{
+                          transform: scale(2);
+                      }
+      }
 
-.compraEspecial img {
-  width: 50%; }
+      .compraEspecial{
+                      img{
+                           width: 50%; 
+                      }
+                      img:hover{
+                          transform: scale(2);
+                      }
+      }
 
-.compraEspecial img:hover {
-  transform: scale(2); }
-
-.compraDf img {
-  width: 50%; }
-
-.compraDf img:hover {
-  transform: scale(2); }
+      .compraDf{
+                      img{
+                           width: 50%; 
+                      }
+                      img:hover{
+                          transform: scale(2);
+                      }
+      }
 
 /*-----------FORMULARIO DE COMPRA------------*/
 .formCompra {
@@ -1422,9 +1560,54 @@ footer form {
 .present {
   grid-area: regalo;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-between;
+  margin-top: 1vh;
+  color: #C8BE5A; }
   .present input {
     margin: 3vh 1vw; }
+
+.present-track {
+  display: flex;
+  align-items: center;
+  padding: 0 3px;
+  width: 56px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #C8BE5A;
+  cursor: pointer;
+  transition: 120ms ease-out; }
+  .present-track__indicator--no {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: #8d1414;
+    transition: 120ms ease-in-out;
+    margin-top: -1px;
+    text-align: center; }
+  .present-track__indicator--si {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: #0b4a2b;
+    transition: 120ms ease-in-out;
+    margin-top: -1px;
+    text-align: center;
+    color: #dd9c14;
+    display: none; }
+
+#present-toggle:checked + .present-track {
+  background-color: #dd9c14; }
+
+#present-toggle:checked + .present-track .present-track__indicator--no {
+  transform: translateX(24px);
+  display: none; }
+
+#present-toggle:checked + .present-track .present-track__indicator--si {
+  transform: translateX(24px);
+  display: block; }
+
+#present-toggle {
+  display: none; }
 
 .reception {
   grid-area: recepcion;
@@ -1436,10 +1619,54 @@ footer form {
 .message {
   grid-area: mensaje;
   display: flex;
-  flex-direction: column; }
+  justify-content: space-between;
+  color: #C8BE5A; }
   .message input {
     margin: 1vh 0;
     align-self: center; }
+
+.message-track {
+  display: flex;
+  align-items: center;
+  padding: 0 3px;
+  width: 56px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #C8BE5A;
+  cursor: pointer;
+  transition: 120ms ease-out; }
+  .message-track__indicator--no {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: #8d1414;
+    transition: 120ms ease-in-out;
+    margin-top: -1px;
+    text-align: center; }
+  .message-track__indicator--si {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: #0b4a2b;
+    transition: 120ms ease-in-out;
+    margin-top: -1px;
+    text-align: center;
+    color: #dd9c14;
+    display: none; }
+
+#message-toggle:checked + .message-track {
+  background-color: #dd9c14; }
+
+#message-toggle:checked + .message-track .message-track__indicator--no {
+  transform: translateX(24px);
+  display: none; }
+
+#message-toggle:checked + .message-track .message-track__indicator--si {
+  transform: translateX(24px);
+  display: block; }
+
+#message-toggle {
+  display: none; }
 
 .formCompra textarea {
   grid-area: textarea; }

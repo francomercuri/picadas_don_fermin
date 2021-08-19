@@ -588,6 +588,8 @@ footer{
 
 /*SALAME CHACARERO*/
 .salame{
+        
+
         &__producto{
                     margin-top: 2vh;
                     font-size: 2rem;
@@ -776,7 +778,27 @@ footer{
 
 /*----------------------------------------ESTILOS compra.html----------------------------------------*/
 
-  .compras{
+    .carouselPersonalizado{
+                          box-shadow: $relieveImg__claro;
+                          border-radius: 25px;
+                          &__img{
+                                  opacity: 0.85;
+                                  border-radius: 25px;
+
+                          }
+                          &__nombre{
+                                    background-color: rgba(96, 14, 14, 0.7);
+                          }
+                          &__controls{
+                                      background-color: rgba(96, 14, 14, 0.7);
+                                      border-radius: 25px;
+                          }
+    }
+
+
+
+
+  /*.compras{
             display: flex;
             justify-content: space-evenly;
   }
@@ -888,11 +910,66 @@ footer{
 .present{
         grid-area:  regalo;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        margin-top: 1vh;
+        color:$primary-color;
         input{
               margin: 3vh 1vw;
             }
 }
+
+//checkbox slider para .present
+.present-track{
+                    display: flex;
+                    align-items: center;
+                    padding: 0 3px;
+                    width: 56px;
+                    height: 30px;
+                    border-radius:15px;
+                    background-color: #C8BE5A;
+                    cursor: pointer;
+                    transition: 120ms ease-out;
+                    &__indicator--no{
+                                  width: 25px;
+                                  height: 25px;
+                                  border-radius:100%;
+                                  background-color:#8d1414;
+                                  transition: 120ms ease-in-out;
+                                  margin-top: -1px;
+                                  text-align: center;
+                    }
+                    &__indicator--si{
+                                  width: 25px;
+                                  height: 25px;
+                                  border-radius:100%;
+                                  background-color:$afirmativo;
+                                  transition: 120ms ease-in-out;
+                                  margin-top: -1px;
+                                  text-align: center;
+                                  color: $secondary-color;
+                                  display: none;
+                    }
+      }
+
+      #present-toggle:checked + .present-track{
+                                      background-color:#dd9c14;
+      }
+
+      #present-toggle:checked + .present-track .present-track__indicator--no{
+                                                                transform: translateX(24px);
+                                                                display: none;
+      }
+       #present-toggle:checked + .present-track .present-track__indicator--si{
+                                                                transform: translateX(24px);
+                                                                display: block;
+
+      }
+
+
+      #present-toggle{
+              display: none;
+      }
+//fin slider present
 
 .reception{
             grid-area:  recepcion;
@@ -906,15 +983,73 @@ footer{
 .message{   
         grid-area:  mensaje;
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
+        color: $primary-color;
         input{
               margin: 1vh 0;  
               align-self: center;
         }
 }
 
-.formCompra textarea{
+//checkbox slider para .message
+.message-track{
+                    display: flex;
+                    align-items: center;
+                    padding: 0 3px;
+                    width: 56px;
+                    height: 30px;
+                    border-radius:15px;
+                    background-color: #C8BE5A;
+                    cursor: pointer;
+                    transition: 120ms ease-out;
+                    &__indicator--no{
+                                  width: 25px;
+                                  height: 25px;
+                                  border-radius:100%;
+                                  background-color:#8d1414;
+                                  transition: 120ms ease-in-out;
+                                  margin-top: -1px;
+                                  text-align: center;
+                    }
+                    &__indicator--si{
+                                  width: 25px;
+                                  height: 25px;
+                                  border-radius:100%;
+                                  background-color:$afirmativo;
+                                  transition: 120ms ease-in-out;
+                                  margin-top: -1px;
+                                  text-align: center;
+                                  color: $secondary-color;
+                                  display: none;
+                    }
+      }
+
+      #message-toggle:checked + .message-track{
+                                      background-color:#dd9c14;
+      }
+
+      #message-toggle:checked + .message-track .message-track__indicator--no{
+                                                                transform: translateX(24px);
+                                                                display: none;
+      }
+       #message-toggle:checked + .message-track .message-track__indicator--si{
+                                                                transform: translateX(24px);
+                                                                display: block;
+
+      }
+
+
+      #message-toggle{
+              display: none;
+      }
+//fin slider message
+
+.formCompra{
+
+   textarea{      
                     grid-area:  textarea;
+
+    }
 }
 
 .comprar{

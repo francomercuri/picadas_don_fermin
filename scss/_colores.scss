@@ -13,7 +13,7 @@ $secondary-color: #dd9c14;//color de texto RESALTADO.
 
 $colorAtencion: #600e0e; //Resalta contraindicaciones en fiambres.html
 
-
+$afirmativo:#0b4a2b; //Color usado para afirmar o confirmar
 
 
 				//___________RELIEVES DE IMAGENES_______________
@@ -634,7 +634,11 @@ footer form{
 										text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.5),
 																	 1px -1px 0 rgba(96, 14, 14, 0.5);
 		}
-
+.curados{
+					article{
+						opacity: 1;
+					}
+}
 
 		//COLORES PERSONALIZADOS ACCORDION fiambres
 
@@ -694,6 +698,15 @@ footer form{
 
 // _____________________________________COLORES compras.html_____________________________________________
 
+
+.carouselPersonalizado{
+				h5{
+					font-size: 1.8rem;
+
+				}
+}
+
+/*
 		.compraClasica {
 										h2 {
 												color: $secondary-color;
@@ -724,7 +737,7 @@ footer form{
 															-2px 2px 1px rgba(27, 4, 4, 0.6);
 							}
 		}
-
+*/
 
 // _____________________________________COLORES FORMULARIO DE COMPRA_______________________
 
@@ -741,21 +754,35 @@ footer form{
             input::placeholder{
 															color: rgba(96, 14, 14,0.8);
 						}
+						textarea{
+											color: #761111;
+											background-color: #d5cd80;	
+											margin-top: 2vh;
+						}
+}
 
-
+.pedido{
+				color: #761111;
+						background-color: #d5cd80;	
 }
 
 .name{
 			input{
 						color: #761111;
 						background-color: #d5cd80;	
-		}
+			}
+			label{
+				color: $primary-color;
+			}
 }
 
 .surname{ 
 				input{
 							color: #761111;
 							background-color: #d5cd80;	
+				}
+				label{
+					color: $primary-color;
 				}
 }
 
@@ -764,19 +791,28 @@ footer form{
 							color: #761111;
 							background-color: #d5cd80;
 			}
+			label{
+				color: $primary-color;
+			}
 }
 
 .address{
 				 input{
 							color: #761111;
 							background-color: #d5cd80;
-					}		
+					}	
+					label{
+						color: $primary-color;
+					}	
 }
 
 .cp{
 	 input{
 				color: #761111;
 				background-color: #d5cd80;			
+		}
+		label{
+			color: $primary-color;
 		}
 }
 
@@ -785,12 +821,18 @@ footer form{
 							color: #761111;
 							background-color: #d5cd80;
 				}
+				label{
+					color: $primary-color;
+				}
 }
 
 .reception{
 					input{
 								color: #761111;
 								background-color: #d5cd80;
+					}
+					label{
+						color: $primary-color;
 					}
 }
 
@@ -799,10 +841,13 @@ footer form{
 							color: #761111;
 							background-color: #d5cd80;	
 					}
+					label{
+						color: $primary-color;
+					}
 }
 
 .comprar{
-				background-color: #0b4a2b;
+				background-color: $afirmativo;
 				color: #d5cd80;
 }
 
