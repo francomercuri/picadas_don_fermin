@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
 .home p {
   color: #ddad14; }
 
@@ -228,36 +229,105 @@ footer form {
 .prologoFiambres {
   text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.5), 1px -1px 0 rgba(96, 14, 14, 0.5); }
 
-.curados article {
-  opacity: 1; }
+.curados__subtitulo, .cocidos__subtitulo {
+  background-image: linear-gradient(110deg, rgba(160, 150, 53, 0) 0%, rgba(160, 150, 53, 0) 15%, #a09635 16%, rgba(160, 150, 53, 0.3) 17%, rgba(96, 14, 14, 0.7) 19%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 81%, rgba(160, 150, 53, 0.3) 83%, #a09635 84%, rgba(160, 150, 53, 0) 85%, rgba(160, 150, 53, 0) 99%, rgba(160, 150, 53, 0) 100%); }
 
-.boton {
-  background-color: #C8BE5A;
-  color: #931515; }
+.salame__producto {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 1%, rgba(96, 14, 14, 0.3) 5%, rgba(96, 14, 14, 0.4) 7%, rgba(96, 14, 14, 0.5) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.5) 90%, rgba(96, 14, 14, 0.4) 93%, rgba(96, 14, 14, 0.3) 95%, rgba(96, 14, 14, 0.2) 99%, rgba(96, 14, 14, 0.1) 100%); }
 
-.boton:active {
-  border: 3px solid #a31818; }
+.salame__fabricante {
+  background-image: linear-gradient(90deg, rgba(206, 198, 109, 0.1) 0%, rgba(206, 198, 109, 0.2) 1%, rgba(206, 198, 109, 0.3) 5%, rgba(206, 198, 109, 0.4) 7%, rgba(206, 198, 109, 0.5) 10%, rgba(206, 198, 109, 0.7) 20%, rgba(206, 198, 109, 0.9) 50%, rgba(206, 198, 109, 0.7) 80%, rgba(206, 198, 109, 0.5) 90%, rgba(206, 198, 109, 0.4) 93%, rgba(206, 198, 109, 0.3) 95%, rgba(206, 198, 109, 0.2) 99%, rgba(206, 198, 109, 0.1) 100%);
+  color: #600e0e; }
+
+.mediterraneo__producto {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 1%, rgba(96, 14, 14, 0.3) 5%, rgba(96, 14, 14, 0.4) 7%, rgba(96, 14, 14, 0.5) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.5) 90%, rgba(96, 14, 14, 0.4) 93%, rgba(96, 14, 14, 0.3) 95%, rgba(96, 14, 14, 0.2) 99%, rgba(96, 14, 14, 0.1) 100%); }
+
+.mediterraneo__fabricante {
+  background-image: linear-gradient(90deg, rgba(206, 198, 109, 0.1) 0%, rgba(206, 198, 109, 0.2) 1%, rgba(206, 198, 109, 0.3) 5%, rgba(206, 198, 109, 0.4) 7%, rgba(206, 198, 109, 0.5) 10%, rgba(206, 198, 109, 0.7) 20%, rgba(206, 198, 109, 0.9) 50%, rgba(206, 198, 109, 0.7) 80%, rgba(206, 198, 109, 0.5) 90%, rgba(206, 198, 109, 0.4) 93%, rgba(206, 198, 109, 0.3) 95%, rgba(206, 198, 109, 0.2) 99%, rgba(206, 198, 109, 0.1) 100%);
+  color: #600e0e; }
+
+.longaniza__producto {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 1%, rgba(96, 14, 14, 0.3) 5%, rgba(96, 14, 14, 0.4) 7%, rgba(96, 14, 14, 0.5) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.5) 90%, rgba(96, 14, 14, 0.4) 93%, rgba(96, 14, 14, 0.3) 95%, rgba(96, 14, 14, 0.2) 99%, rgba(96, 14, 14, 0.1) 100%); }
+
+.longaniza__fabricante {
+  background-image: linear-gradient(90deg, rgba(206, 198, 109, 0.1) 0%, rgba(206, 198, 109, 0.2) 1%, rgba(206, 198, 109, 0.3) 5%, rgba(206, 198, 109, 0.4) 7%, rgba(206, 198, 109, 0.5) 10%, rgba(206, 198, 109, 0.7) 20%, rgba(206, 198, 109, 0.9) 50%, rgba(206, 198, 109, 0.7) 80%, rgba(206, 198, 109, 0.5) 90%, rgba(206, 198, 109, 0.4) 93%, rgba(206, 198, 109, 0.3) 95%, rgba(206, 198, 109, 0.2) 99%, rgba(206, 198, 109, 0.1) 100%);
+  color: #600e0e; }
+
+.sopressata__producto {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 1%, rgba(96, 14, 14, 0.3) 5%, rgba(96, 14, 14, 0.4) 7%, rgba(96, 14, 14, 0.5) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.5) 90%, rgba(96, 14, 14, 0.4) 93%, rgba(96, 14, 14, 0.3) 95%, rgba(96, 14, 14, 0.2) 99%, rgba(96, 14, 14, 0.1) 100%); }
+
+.sopressata__fabricante {
+  background-image: linear-gradient(90deg, rgba(206, 198, 109, 0.1) 0%, rgba(206, 198, 109, 0.2) 1%, rgba(206, 198, 109, 0.3) 5%, rgba(206, 198, 109, 0.4) 7%, rgba(206, 198, 109, 0.5) 10%, rgba(206, 198, 109, 0.7) 20%, rgba(206, 198, 109, 0.9) 50%, rgba(206, 198, 109, 0.7) 80%, rgba(206, 198, 109, 0.5) 90%, rgba(206, 198, 109, 0.4) 93%, rgba(206, 198, 109, 0.3) 95%, rgba(206, 198, 109, 0.2) 99%, rgba(206, 198, 109, 0.1) 100%);
+  color: #600e0e; }
+
+.crudo__producto {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 1%, rgba(96, 14, 14, 0.3) 5%, rgba(96, 14, 14, 0.4) 7%, rgba(96, 14, 14, 0.5) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.5) 90%, rgba(96, 14, 14, 0.4) 93%, rgba(96, 14, 14, 0.3) 95%, rgba(96, 14, 14, 0.2) 99%, rgba(96, 14, 14, 0.1) 100%); }
+
+.crudo__fabricante {
+  background-image: linear-gradient(90deg, rgba(206, 198, 109, 0.1) 0%, rgba(206, 198, 109, 0.2) 1%, rgba(206, 198, 109, 0.3) 5%, rgba(206, 198, 109, 0.4) 7%, rgba(206, 198, 109, 0.5) 10%, rgba(206, 198, 109, 0.7) 20%, rgba(206, 198, 109, 0.9) 50%, rgba(206, 198, 109, 0.7) 80%, rgba(206, 198, 109, 0.5) 90%, rgba(206, 198, 109, 0.4) 93%, rgba(206, 198, 109, 0.3) 95%, rgba(206, 198, 109, 0.2) 99%, rgba(206, 198, 109, 0.1) 100%);
+  color: #600e0e; }
+
+.jamonCocido__producto {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 1%, rgba(96, 14, 14, 0.3) 5%, rgba(96, 14, 14, 0.4) 7%, rgba(96, 14, 14, 0.5) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.5) 90%, rgba(96, 14, 14, 0.4) 93%, rgba(96, 14, 14, 0.3) 95%, rgba(96, 14, 14, 0.2) 99%, rgba(96, 14, 14, 0.1) 100%); }
+
+.jamonCocido__fabricante {
+  background-image: linear-gradient(90deg, rgba(206, 198, 109, 0.1) 0%, rgba(206, 198, 109, 0.2) 1%, rgba(206, 198, 109, 0.3) 5%, rgba(206, 198, 109, 0.4) 7%, rgba(206, 198, 109, 0.5) 10%, rgba(206, 198, 109, 0.7) 20%, rgba(206, 198, 109, 0.9) 50%, rgba(206, 198, 109, 0.7) 80%, rgba(206, 198, 109, 0.5) 90%, rgba(206, 198, 109, 0.4) 93%, rgba(206, 198, 109, 0.3) 95%, rgba(206, 198, 109, 0.2) 99%, rgba(206, 198, 109, 0.1) 100%);
+  color: #600e0e; }
+
+.lomo__producto {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 1%, rgba(96, 14, 14, 0.3) 5%, rgba(96, 14, 14, 0.4) 7%, rgba(96, 14, 14, 0.5) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.5) 90%, rgba(96, 14, 14, 0.4) 93%, rgba(96, 14, 14, 0.3) 95%, rgba(96, 14, 14, 0.2) 99%, rgba(96, 14, 14, 0.1) 100%); }
+
+.lomo__fabricante {
+  background-image: linear-gradient(90deg, rgba(206, 198, 109, 0.1) 0%, rgba(206, 198, 109, 0.2) 1%, rgba(206, 198, 109, 0.3) 5%, rgba(206, 198, 109, 0.4) 7%, rgba(206, 198, 109, 0.5) 10%, rgba(206, 198, 109, 0.7) 20%, rgba(206, 198, 109, 0.9) 50%, rgba(206, 198, 109, 0.7) 80%, rgba(206, 198, 109, 0.5) 90%, rgba(206, 198, 109, 0.4) 93%, rgba(206, 198, 109, 0.3) 95%, rgba(206, 198, 109, 0.2) 99%, rgba(206, 198, 109, 0.1) 100%);
+  color: #600e0e; }
+
+.mortadela__producto {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 1%, rgba(96, 14, 14, 0.3) 5%, rgba(96, 14, 14, 0.4) 7%, rgba(96, 14, 14, 0.5) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.5) 90%, rgba(96, 14, 14, 0.4) 93%, rgba(96, 14, 14, 0.3) 95%, rgba(96, 14, 14, 0.2) 99%, rgba(96, 14, 14, 0.1) 100%); }
+
+.mortadela__fabricante {
+  background-image: linear-gradient(90deg, rgba(206, 198, 109, 0.1) 0%, rgba(206, 198, 109, 0.2) 1%, rgba(206, 198, 109, 0.3) 5%, rgba(206, 198, 109, 0.4) 7%, rgba(206, 198, 109, 0.5) 10%, rgba(206, 198, 109, 0.7) 20%, rgba(206, 198, 109, 0.9) 50%, rgba(206, 198, 109, 0.7) 80%, rgba(206, 198, 109, 0.5) 90%, rgba(206, 198, 109, 0.4) 93%, rgba(206, 198, 109, 0.3) 95%, rgba(206, 198, 109, 0.2) 99%, rgba(206, 198, 109, 0.1) 100%);
+  color: #600e0e; }
 
 .ingredientes {
   background-color: #931515;
   color: #C8BE5A; }
 
-.boton:not(.collapsed) {
-  color: #C8BE5A;
-  background-color: #600e0e; }
-
-.botonR {
-  background-color: #931515; }
-  .botonR strong {
-    color: #600e0e;
-    text-shadow: -1px 1px 0 rgba(200, 190, 90, 0.7), 1px -1px 0 rgba(200, 190, 90, 0.7); }
-
-.botonR:not(.collapsed) {
+.boton-accordion {
   background-color: #C8BE5A;
-  color: #600e0e; }
+  color: #931515; }
+  .boton-accordion:active {
+    border: 3px solid #a31818; }
+  .boton-accordion:focus {
+    z-index: 3;
+    border-color: #a31818;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(147, 21, 21, 0.25); }
+
+.boton-accordion:not(.collapsed) {
+  color: #C8BE5A;
+  background-color: #600e0e;
+  box-shadow: inset 0 -1px 0 rgba(147, 21, 21, 0.125); }
+
+.boton-accordionR {
+  background-color: #931515; }
+  .boton-accordionR strong {
+    color: #dd9c14; }
+  .boton-accordionR:active {
+    border: 3px solid #c2b647; }
+  .boton-accordionR:focus {
+    z-index: 3;
+    border-color: #cec66d;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(206, 198, 109, 0.25); }
+
+.boton-accordionR:not(.collapsed) {
+  background-color: #C8BE5A;
+  box-shadow: inset 0 -1px 0 rgba(96, 14, 14, 0.125); }
+  .boton-accordionR:not(.collapsed) strong {
+    color: #600e0e; }
 
 .descriptionBox {
-  background-image: linear-gradient(rgba(208, 30, 30, 0.1) 2%, rgba(208, 30, 30, 0.3) 10%, rgba(186, 26, 26, 0.5) 20%, rgba(163, 23, 23, 0.7) 50%, rgba(186, 26, 26, 0.5) 80%, rgba(208, 30, 30, 0.3) 90%, rgba(208, 30, 30, 0.1) 98%);
+  background-image: linear-gradient(rgba(208, 30, 30, 0.3) 2%, rgba(208, 30, 30, 0.5) 10%, rgba(186, 26, 26, 0.7) 20%, rgba(163, 23, 23, 0.9) 50%, rgba(186, 26, 26, 0.7) 80%, rgba(208, 30, 30, 0.5) 90%, rgba(208, 30, 30, 0.3) 98%);
   box-shadow: -1px 1px 1px 1px rgba(141, 20, 20, 0.1); }
   .descriptionBox p {
     color: #C8BE5A;
@@ -471,8 +541,8 @@ a {
   font-size: 1.2rem; }
 
 .nuestrosFiambres h1 {
-  font-size: 2.5rem;
-  text-decoration: underline; }
+  font-family: 'Allison', cursive;
+  font-size: 4rem; }
 
 .prologoFiambres {
   font-size: 1.5rem;
@@ -480,10 +550,111 @@ a {
 
 .curados h2, .cocidos h2 {
   font-size: 2rem;
-  text-align: center; }
+  text-align: center;
+  font-style: italic; }
 
 .descriptionBox p {
   font-size: 1.1rem; }
+
+.salame__producto {
+  font-family: 'Allison', cursive;
+  font-size: 4.5rem;
+  text-align: center; }
+
+.salame__fabricante {
+  text-align: center;
+  font-weight: 800; }
+
+.mediterraneo__producto {
+  font-family: 'Allison', cursive;
+  font-size: 4.5rem;
+  text-align: center; }
+
+.mediterraneo__fabricante {
+  text-align: center;
+  font-weight: 800; }
+
+.mediterraneo__fabricante {
+  text-align: center;
+  font-weight: 800; }
+
+.longaniza__producto {
+  font-family: 'Allison', cursive;
+  font-size: 4.5rem;
+  text-align: center; }
+
+.longaniza__fabricante {
+  text-align: center;
+  font-weight: 800; }
+
+.longaniza__fabricante {
+  text-align: center;
+  font-weight: 800; }
+
+.sopressata__producto {
+  font-family: 'Allison', cursive;
+  font-size: 4.5rem;
+  text-align: center; }
+
+.sopressata__fabricante {
+  text-align: center;
+  font-weight: 800; }
+
+.sopressata__fabricante {
+  text-align: center;
+  font-weight: 800; }
+
+.crudo__producto {
+  font-family: 'Allison', cursive;
+  font-size: 4.5rem;
+  text-align: center; }
+
+.crudo__fabricante {
+  text-align: center;
+  font-weight: 800; }
+
+.crudo__fabricante {
+  text-align: center;
+  font-weight: 800; }
+
+.jamonCocido__producto {
+  font-family: 'Allison', cursive;
+  font-size: 4.5rem;
+  text-align: center; }
+
+.jamonCocido__fabricante {
+  text-align: center;
+  font-weight: 800; }
+
+.jamonCocido__fabricante {
+  text-align: center;
+  font-weight: 800; }
+
+.lomo__producto {
+  font-family: 'Allison', cursive;
+  font-size: 4.5rem;
+  text-align: center; }
+
+.lomo__fabricante {
+  text-align: center;
+  font-weight: 800; }
+
+.lomo__fabricante {
+  text-align: center;
+  font-weight: 800; }
+
+.mortadela__producto {
+  font-family: 'Allison', cursive;
+  font-size: 4.5rem;
+  text-align: center; }
+
+.mortadela__fabricante {
+  text-align: center;
+  font-weight: 800; }
+
+.mortadela__fabricante {
+  text-align: center;
+  font-weight: 800; }
 
 .compraClasica h2 {
   font-size: 1.2rem; }
@@ -727,36 +898,105 @@ footer form {
 .prologoFiambres {
   text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.5), 1px -1px 0 rgba(96, 14, 14, 0.5); }
 
-.curados article {
-  opacity: 1; }
+.curados__subtitulo, .cocidos__subtitulo {
+  background-image: linear-gradient(110deg, rgba(160, 150, 53, 0) 0%, rgba(160, 150, 53, 0) 15%, #a09635 16%, rgba(160, 150, 53, 0.3) 17%, rgba(96, 14, 14, 0.7) 19%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 81%, rgba(160, 150, 53, 0.3) 83%, #a09635 84%, rgba(160, 150, 53, 0) 85%, rgba(160, 150, 53, 0) 99%, rgba(160, 150, 53, 0) 100%); }
 
-.boton {
-  background-color: #C8BE5A;
-  color: #931515; }
+.salame__producto {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 1%, rgba(96, 14, 14, 0.3) 5%, rgba(96, 14, 14, 0.4) 7%, rgba(96, 14, 14, 0.5) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.5) 90%, rgba(96, 14, 14, 0.4) 93%, rgba(96, 14, 14, 0.3) 95%, rgba(96, 14, 14, 0.2) 99%, rgba(96, 14, 14, 0.1) 100%); }
 
-.boton:active {
-  border: 3px solid #a31818; }
+.salame__fabricante {
+  background-image: linear-gradient(90deg, rgba(206, 198, 109, 0.1) 0%, rgba(206, 198, 109, 0.2) 1%, rgba(206, 198, 109, 0.3) 5%, rgba(206, 198, 109, 0.4) 7%, rgba(206, 198, 109, 0.5) 10%, rgba(206, 198, 109, 0.7) 20%, rgba(206, 198, 109, 0.9) 50%, rgba(206, 198, 109, 0.7) 80%, rgba(206, 198, 109, 0.5) 90%, rgba(206, 198, 109, 0.4) 93%, rgba(206, 198, 109, 0.3) 95%, rgba(206, 198, 109, 0.2) 99%, rgba(206, 198, 109, 0.1) 100%);
+  color: #600e0e; }
+
+.mediterraneo__producto {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 1%, rgba(96, 14, 14, 0.3) 5%, rgba(96, 14, 14, 0.4) 7%, rgba(96, 14, 14, 0.5) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.5) 90%, rgba(96, 14, 14, 0.4) 93%, rgba(96, 14, 14, 0.3) 95%, rgba(96, 14, 14, 0.2) 99%, rgba(96, 14, 14, 0.1) 100%); }
+
+.mediterraneo__fabricante {
+  background-image: linear-gradient(90deg, rgba(206, 198, 109, 0.1) 0%, rgba(206, 198, 109, 0.2) 1%, rgba(206, 198, 109, 0.3) 5%, rgba(206, 198, 109, 0.4) 7%, rgba(206, 198, 109, 0.5) 10%, rgba(206, 198, 109, 0.7) 20%, rgba(206, 198, 109, 0.9) 50%, rgba(206, 198, 109, 0.7) 80%, rgba(206, 198, 109, 0.5) 90%, rgba(206, 198, 109, 0.4) 93%, rgba(206, 198, 109, 0.3) 95%, rgba(206, 198, 109, 0.2) 99%, rgba(206, 198, 109, 0.1) 100%);
+  color: #600e0e; }
+
+.longaniza__producto {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 1%, rgba(96, 14, 14, 0.3) 5%, rgba(96, 14, 14, 0.4) 7%, rgba(96, 14, 14, 0.5) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.5) 90%, rgba(96, 14, 14, 0.4) 93%, rgba(96, 14, 14, 0.3) 95%, rgba(96, 14, 14, 0.2) 99%, rgba(96, 14, 14, 0.1) 100%); }
+
+.longaniza__fabricante {
+  background-image: linear-gradient(90deg, rgba(206, 198, 109, 0.1) 0%, rgba(206, 198, 109, 0.2) 1%, rgba(206, 198, 109, 0.3) 5%, rgba(206, 198, 109, 0.4) 7%, rgba(206, 198, 109, 0.5) 10%, rgba(206, 198, 109, 0.7) 20%, rgba(206, 198, 109, 0.9) 50%, rgba(206, 198, 109, 0.7) 80%, rgba(206, 198, 109, 0.5) 90%, rgba(206, 198, 109, 0.4) 93%, rgba(206, 198, 109, 0.3) 95%, rgba(206, 198, 109, 0.2) 99%, rgba(206, 198, 109, 0.1) 100%);
+  color: #600e0e; }
+
+.sopressata__producto {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 1%, rgba(96, 14, 14, 0.3) 5%, rgba(96, 14, 14, 0.4) 7%, rgba(96, 14, 14, 0.5) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.5) 90%, rgba(96, 14, 14, 0.4) 93%, rgba(96, 14, 14, 0.3) 95%, rgba(96, 14, 14, 0.2) 99%, rgba(96, 14, 14, 0.1) 100%); }
+
+.sopressata__fabricante {
+  background-image: linear-gradient(90deg, rgba(206, 198, 109, 0.1) 0%, rgba(206, 198, 109, 0.2) 1%, rgba(206, 198, 109, 0.3) 5%, rgba(206, 198, 109, 0.4) 7%, rgba(206, 198, 109, 0.5) 10%, rgba(206, 198, 109, 0.7) 20%, rgba(206, 198, 109, 0.9) 50%, rgba(206, 198, 109, 0.7) 80%, rgba(206, 198, 109, 0.5) 90%, rgba(206, 198, 109, 0.4) 93%, rgba(206, 198, 109, 0.3) 95%, rgba(206, 198, 109, 0.2) 99%, rgba(206, 198, 109, 0.1) 100%);
+  color: #600e0e; }
+
+.crudo__producto {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 1%, rgba(96, 14, 14, 0.3) 5%, rgba(96, 14, 14, 0.4) 7%, rgba(96, 14, 14, 0.5) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.5) 90%, rgba(96, 14, 14, 0.4) 93%, rgba(96, 14, 14, 0.3) 95%, rgba(96, 14, 14, 0.2) 99%, rgba(96, 14, 14, 0.1) 100%); }
+
+.crudo__fabricante {
+  background-image: linear-gradient(90deg, rgba(206, 198, 109, 0.1) 0%, rgba(206, 198, 109, 0.2) 1%, rgba(206, 198, 109, 0.3) 5%, rgba(206, 198, 109, 0.4) 7%, rgba(206, 198, 109, 0.5) 10%, rgba(206, 198, 109, 0.7) 20%, rgba(206, 198, 109, 0.9) 50%, rgba(206, 198, 109, 0.7) 80%, rgba(206, 198, 109, 0.5) 90%, rgba(206, 198, 109, 0.4) 93%, rgba(206, 198, 109, 0.3) 95%, rgba(206, 198, 109, 0.2) 99%, rgba(206, 198, 109, 0.1) 100%);
+  color: #600e0e; }
+
+.jamonCocido__producto {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 1%, rgba(96, 14, 14, 0.3) 5%, rgba(96, 14, 14, 0.4) 7%, rgba(96, 14, 14, 0.5) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.5) 90%, rgba(96, 14, 14, 0.4) 93%, rgba(96, 14, 14, 0.3) 95%, rgba(96, 14, 14, 0.2) 99%, rgba(96, 14, 14, 0.1) 100%); }
+
+.jamonCocido__fabricante {
+  background-image: linear-gradient(90deg, rgba(206, 198, 109, 0.1) 0%, rgba(206, 198, 109, 0.2) 1%, rgba(206, 198, 109, 0.3) 5%, rgba(206, 198, 109, 0.4) 7%, rgba(206, 198, 109, 0.5) 10%, rgba(206, 198, 109, 0.7) 20%, rgba(206, 198, 109, 0.9) 50%, rgba(206, 198, 109, 0.7) 80%, rgba(206, 198, 109, 0.5) 90%, rgba(206, 198, 109, 0.4) 93%, rgba(206, 198, 109, 0.3) 95%, rgba(206, 198, 109, 0.2) 99%, rgba(206, 198, 109, 0.1) 100%);
+  color: #600e0e; }
+
+.lomo__producto {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 1%, rgba(96, 14, 14, 0.3) 5%, rgba(96, 14, 14, 0.4) 7%, rgba(96, 14, 14, 0.5) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.5) 90%, rgba(96, 14, 14, 0.4) 93%, rgba(96, 14, 14, 0.3) 95%, rgba(96, 14, 14, 0.2) 99%, rgba(96, 14, 14, 0.1) 100%); }
+
+.lomo__fabricante {
+  background-image: linear-gradient(90deg, rgba(206, 198, 109, 0.1) 0%, rgba(206, 198, 109, 0.2) 1%, rgba(206, 198, 109, 0.3) 5%, rgba(206, 198, 109, 0.4) 7%, rgba(206, 198, 109, 0.5) 10%, rgba(206, 198, 109, 0.7) 20%, rgba(206, 198, 109, 0.9) 50%, rgba(206, 198, 109, 0.7) 80%, rgba(206, 198, 109, 0.5) 90%, rgba(206, 198, 109, 0.4) 93%, rgba(206, 198, 109, 0.3) 95%, rgba(206, 198, 109, 0.2) 99%, rgba(206, 198, 109, 0.1) 100%);
+  color: #600e0e; }
+
+.mortadela__producto {
+  background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.2) 1%, rgba(96, 14, 14, 0.3) 5%, rgba(96, 14, 14, 0.4) 7%, rgba(96, 14, 14, 0.5) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.5) 90%, rgba(96, 14, 14, 0.4) 93%, rgba(96, 14, 14, 0.3) 95%, rgba(96, 14, 14, 0.2) 99%, rgba(96, 14, 14, 0.1) 100%); }
+
+.mortadela__fabricante {
+  background-image: linear-gradient(90deg, rgba(206, 198, 109, 0.1) 0%, rgba(206, 198, 109, 0.2) 1%, rgba(206, 198, 109, 0.3) 5%, rgba(206, 198, 109, 0.4) 7%, rgba(206, 198, 109, 0.5) 10%, rgba(206, 198, 109, 0.7) 20%, rgba(206, 198, 109, 0.9) 50%, rgba(206, 198, 109, 0.7) 80%, rgba(206, 198, 109, 0.5) 90%, rgba(206, 198, 109, 0.4) 93%, rgba(206, 198, 109, 0.3) 95%, rgba(206, 198, 109, 0.2) 99%, rgba(206, 198, 109, 0.1) 100%);
+  color: #600e0e; }
 
 .ingredientes {
   background-color: #931515;
   color: #C8BE5A; }
 
-.boton:not(.collapsed) {
-  color: #C8BE5A;
-  background-color: #600e0e; }
-
-.botonR {
-  background-color: #931515; }
-  .botonR strong {
-    color: #600e0e;
-    text-shadow: -1px 1px 0 rgba(200, 190, 90, 0.7), 1px -1px 0 rgba(200, 190, 90, 0.7); }
-
-.botonR:not(.collapsed) {
+.boton-accordion {
   background-color: #C8BE5A;
-  color: #600e0e; }
+  color: #931515; }
+  .boton-accordion:active {
+    border: 3px solid #a31818; }
+  .boton-accordion:focus {
+    z-index: 3;
+    border-color: #a31818;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(147, 21, 21, 0.25); }
+
+.boton-accordion:not(.collapsed) {
+  color: #C8BE5A;
+  background-color: #600e0e;
+  box-shadow: inset 0 -1px 0 rgba(147, 21, 21, 0.125); }
+
+.boton-accordionR {
+  background-color: #931515; }
+  .boton-accordionR strong {
+    color: #dd9c14; }
+  .boton-accordionR:active {
+    border: 3px solid #c2b647; }
+  .boton-accordionR:focus {
+    z-index: 3;
+    border-color: #cec66d;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(206, 198, 109, 0.25); }
+
+.boton-accordionR:not(.collapsed) {
+  background-color: #C8BE5A;
+  box-shadow: inset 0 -1px 0 rgba(96, 14, 14, 0.125); }
+  .boton-accordionR:not(.collapsed) strong {
+    color: #600e0e; }
 
 .descriptionBox {
-  background-image: linear-gradient(rgba(208, 30, 30, 0.1) 2%, rgba(208, 30, 30, 0.3) 10%, rgba(186, 26, 26, 0.5) 20%, rgba(163, 23, 23, 0.7) 50%, rgba(186, 26, 26, 0.5) 80%, rgba(208, 30, 30, 0.3) 90%, rgba(208, 30, 30, 0.1) 98%);
+  background-image: linear-gradient(rgba(208, 30, 30, 0.3) 2%, rgba(208, 30, 30, 0.5) 10%, rgba(186, 26, 26, 0.7) 20%, rgba(163, 23, 23, 0.9) 50%, rgba(186, 26, 26, 0.7) 80%, rgba(208, 30, 30, 0.5) 90%, rgba(208, 30, 30, 0.3) 98%);
   box-shadow: -1px 1px 1px 1px rgba(141, 20, 20, 0.1); }
   .descriptionBox p {
     color: #C8BE5A;
@@ -1327,143 +1567,268 @@ footer form {
 
 /*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
 /*INICIO fiambres curados*/
-.curados h2 {
-  margin-bottom: 10vh; }
+.curados__subtitulo {
+  width: 30%;
+  margin: 0 auto 10vh auto; }
+
+.ingredientes {
+  position: relative; }
 
 /*SALAME CHACARERO*/
-.salame__producto {
-  margin-top: 2vh;
-  font-size: 2rem; }
-
-.salame__img {
+.salame {
+  position: relative;
   border-radius: 25px;
-  box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25); }
-
-.salame__fabricante {
-  margin-top: 90%;
-  font-size: 1.5rem;
-  opacity: 0.8;
-  font-style: italic; }
+  box-shadow: 1px 1px 0 0 rgba(200, 190, 190, 0.8), -1px -1px 0 0 rgba(200, 190, 190, 0.8), 5px 5px 5px 1px rgba(219, 213, 147, 0.25), 3px 3px 3px 2px rgba(213, 205, 128, 0.35), 2px 2px 1px 1px rgba(206, 198, 109, 0.3), -2px -2px 1px 1px rgba(206, 198, 109, 0.3), -3px -3px 3px 2px rgba(213, 205, 128, 0.35), 5px 5px 5px 1px rgba(219, 213, 147, 0.25); }
+  .salame:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/salame.jpg) center/cover;
+    border-radius: 25px;
+    opacity: 0.8; }
+  .salame__producto {
+    margin-top: 2vh;
+    font-size: 2rem;
+    position: relative; }
+  .salame__img {
+    border-radius: 25px;
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.3), -3px -3px 3px 2px rgba(141, 20, 20, 0.35), 5px 5px 5px 1px rgba(163, 24, 24, 0.25);
+    position: relative; }
+  .salame__fabricante {
+    margin-top: 90%;
+    font-size: 1.5rem;
+    font-style: italic;
+    position: relative; }
 
 /*SALAME MEDITERRANEO*/
 .mediterraneo {
-  margin-top: 10vh; }
+  margin-top: 10vh;
+  position: relative;
+  border-radius: 25px;
+  box-shadow: 1px 1px 0 0 rgba(200, 190, 190, 0.8), -1px -1px 0 0 rgba(200, 190, 190, 0.8), 5px 5px 5px 1px rgba(219, 213, 147, 0.25), 3px 3px 3px 2px rgba(213, 205, 128, 0.35), 2px 2px 1px 1px rgba(206, 198, 109, 0.3), -2px -2px 1px 1px rgba(206, 198, 109, 0.3), -3px -3px 3px 2px rgba(213, 205, 128, 0.35), 5px 5px 5px 1px rgba(219, 213, 147, 0.25); }
+  .mediterraneo:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/tomate.jpg) center/cover;
+    border-radius: 25px;
+    opacity: 0.8; }
   .mediterraneo__producto {
     margin-top: 2vh;
-    font-size: 2rem; }
+    font-size: 2rem;
+    position: relative; }
   .mediterraneo__img {
     border-radius: 25px;
-    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.3), -3px -3px 3px 2px rgba(141, 20, 20, 0.35), 5px 5px 5px 1px rgba(163, 24, 24, 0.25);
+    position: relative; }
   .mediterraneo__fabricante {
     margin-top: 90%;
     font-size: 1.5rem;
-    opacity: 0.8;
-    font-style: italic; }
+    font-style: italic;
+    position: relative; }
 
 /*LONGANIZA CALABRESA*/
 .longaniza {
-  margin-top: 10vh; }
+  margin-top: 10vh;
+  position: relative;
+  border-radius: 25px;
+  box-shadow: 1px 1px 0 0 rgba(200, 190, 190, 0.8), -1px -1px 0 0 rgba(200, 190, 190, 0.8), 5px 5px 5px 1px rgba(219, 213, 147, 0.25), 3px 3px 3px 2px rgba(213, 205, 128, 0.35), 2px 2px 1px 1px rgba(206, 198, 109, 0.3), -2px -2px 1px 1px rgba(206, 198, 109, 0.3), -3px -3px 3px 2px rgba(213, 205, 128, 0.35), 5px 5px 5px 1px rgba(219, 213, 147, 0.25); }
+  .longaniza:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/longaniza.jpg) center/cover;
+    border-radius: 25px;
+    opacity: 0.8; }
   .longaniza__producto {
     margin-top: 2vh;
-    font-size: 2rem; }
+    font-size: 2rem;
+    position: relative; }
   .longaniza__img {
     border-radius: 25px;
-    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.3), -3px -3px 3px 2px rgba(141, 20, 20, 0.35), 5px 5px 5px 1px rgba(163, 24, 24, 0.25);
+    position: relative; }
   .longaniza__fabricante {
     margin-top: 90%;
     font-size: 1.5rem;
-    opacity: 0.8;
-    font-style: italic; }
+    font-style: italic;
+    position: relative; }
 
 /*SOPRESSATA TRADICIONAL*/
 .sopressata {
-  margin-top: 10vh; }
+  margin-top: 10vh;
+  position: relative;
+  border-radius: 25px;
+  box-shadow: 1px 1px 0 0 rgba(200, 190, 190, 0.8), -1px -1px 0 0 rgba(200, 190, 190, 0.8), 5px 5px 5px 1px rgba(219, 213, 147, 0.25), 3px 3px 3px 2px rgba(213, 205, 128, 0.35), 2px 2px 1px 1px rgba(206, 198, 109, 0.3), -2px -2px 1px 1px rgba(206, 198, 109, 0.3), -3px -3px 3px 2px rgba(213, 205, 128, 0.35), 5px 5px 5px 1px rgba(219, 213, 147, 0.25); }
+  .sopressata:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/sopressata.jpg) center/cover;
+    border-radius: 25px;
+    opacity: 0.8; }
   .sopressata__producto {
     margin-top: 2vh;
-    font-size: 2rem; }
+    font-size: 2rem;
+    position: relative; }
   .sopressata__img {
     border-radius: 25px;
-    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.3), -3px -3px 3px 2px rgba(141, 20, 20, 0.35), 5px 5px 5px 1px rgba(163, 24, 24, 0.25);
+    position: relative; }
   .sopressata__fabricante {
     margin-top: 90%;
     font-size: 1.5rem;
-    opacity: 0.8;
-    font-style: italic; }
+    font-style: italic;
+    position: relative; }
 
 /*JAMON CRUDO*/
 .crudo {
-  margin-top: 10vh; }
+  margin-top: 10vh;
+  position: relative;
+  border-radius: 25px;
+  box-shadow: 1px 1px 0 0 rgba(200, 190, 190, 0.8), -1px -1px 0 0 rgba(200, 190, 190, 0.8), 5px 5px 5px 1px rgba(219, 213, 147, 0.25), 3px 3px 3px 2px rgba(213, 205, 128, 0.35), 2px 2px 1px 1px rgba(206, 198, 109, 0.3), -2px -2px 1px 1px rgba(206, 198, 109, 0.3), -3px -3px 3px 2px rgba(213, 205, 128, 0.35), 5px 5px 5px 1px rgba(219, 213, 147, 0.25); }
+  .crudo:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/crudo.jpg) center/cover;
+    border-radius: 25px;
+    opacity: 0.8; }
   .crudo__producto {
     margin-top: 2vh;
-    font-size: 2rem; }
+    font-size: 2rem;
+    position: relative; }
   .crudo__img {
     border-radius: 25px;
-    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.3), -3px -3px 3px 2px rgba(141, 20, 20, 0.35), 5px 5px 5px 1px rgba(163, 24, 24, 0.25);
+    position: relative; }
   .crudo__fabricante {
     margin-top: 90%;
     font-size: 1.5rem;
-    opacity: 0.8;
-    font-style: italic; }
+    font-style: italic;
+    position: relative; }
 
 /*FIN fiambres curados*/
 /*INICIO fiambres cocidos*/
-.cocidos h2 {
-  margin: 10vh 0; }
+.cocidos__subtitulo {
+  width: 30%;
+  margin: 10vh auto 10vh auto; }
 
 /*JAMON HORNEADO*/
 .jamonCocido {
-  margin-top: 10vh; }
+  margin-top: 10vh;
+  position: relative;
+  border-radius: 25px;
+  box-shadow: 1px 1px 0 0 rgba(200, 190, 190, 0.8), -1px -1px 0 0 rgba(200, 190, 190, 0.8), 5px 5px 5px 1px rgba(219, 213, 147, 0.25), 3px 3px 3px 2px rgba(213, 205, 128, 0.35), 2px 2px 1px 1px rgba(206, 198, 109, 0.3), -2px -2px 1px 1px rgba(206, 198, 109, 0.3), -3px -3px 3px 2px rgba(213, 205, 128, 0.35), 5px 5px 5px 1px rgba(219, 213, 147, 0.25); }
+  .jamonCocido:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/cocido.jpg) center/cover;
+    border-radius: 25px;
+    opacity: 0.8; }
   .jamonCocido__producto {
     margin-top: 2vh;
-    font-size: 2rem; }
+    font-size: 2rem;
+    position: relative; }
   .jamonCocido__img {
     border-radius: 25px;
-    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.3), -3px -3px 3px 2px rgba(141, 20, 20, 0.35), 5px 5px 5px 1px rgba(163, 24, 24, 0.25);
+    position: relative; }
   .jamonCocido__fabricante {
     margin-top: 90%;
     font-size: 1.5rem;
-    opacity: 0.8;
-    font-style: italic; }
+    font-style: italic;
+    position: relative; }
 
 /*LOMO AHUMADO*/
 .lomo {
-  margin-top: 10vh; }
+  margin-top: 10vh;
+  position: relative;
+  border-radius: 25px;
+  box-shadow: 1px 1px 0 0 rgba(200, 190, 190, 0.8), -1px -1px 0 0 rgba(200, 190, 190, 0.8), 5px 5px 5px 1px rgba(219, 213, 147, 0.25), 3px 3px 3px 2px rgba(213, 205, 128, 0.35), 2px 2px 1px 1px rgba(206, 198, 109, 0.3), -2px -2px 1px 1px rgba(206, 198, 109, 0.3), -3px -3px 3px 2px rgba(213, 205, 128, 0.35), 5px 5px 5px 1px rgba(219, 213, 147, 0.25); }
+  .lomo:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/lomo.jpg) center/cover;
+    border-radius: 25px;
+    opacity: 0.8; }
   .lomo__producto {
     margin-top: 2vh;
-    font-size: 2rem; }
+    font-size: 2rem;
+    position: relative; }
   .lomo__img {
     border-radius: 25px;
-    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.3), -3px -3px 3px 2px rgba(141, 20, 20, 0.35), 5px 5px 5px 1px rgba(163, 24, 24, 0.25);
+    position: relative; }
   .lomo__fabricante {
     margin-top: 90%;
     font-size: 1.5rem;
-    opacity: 0.8;
-    font-style: italic; }
+    font-style: italic;
+    position: relative; }
 
 /*MORTADELA*/
 .mortadela {
-  margin-top: 10vh; }
+  margin-top: 10vh;
+  position: relative;
+  border-radius: 25px;
+  box-shadow: 1px 1px 0 0 rgba(200, 190, 190, 0.8), -1px -1px 0 0 rgba(200, 190, 190, 0.8), 5px 5px 5px 1px rgba(219, 213, 147, 0.25), 3px 3px 3px 2px rgba(213, 205, 128, 0.35), 2px 2px 1px 1px rgba(206, 198, 109, 0.3), -2px -2px 1px 1px rgba(206, 198, 109, 0.3), -3px -3px 3px 2px rgba(213, 205, 128, 0.35), 5px 5px 5px 1px rgba(219, 213, 147, 0.25); }
+  .mortadela:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mortadela.jpg) center/cover;
+    border-radius: 25px;
+    opacity: 0.8; }
   .mortadela__producto {
     margin-top: 2vh;
-    font-size: 2rem; }
+    font-size: 2rem;
+    position: relative; }
   .mortadela__img {
     border-radius: 25px;
-    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25); }
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.3), -3px -3px 3px 2px rgba(141, 20, 20, 0.35), 5px 5px 5px 1px rgba(163, 24, 24, 0.25);
+    position: relative; }
   .mortadela__fabricante {
     margin-top: 90%;
     font-size: 1.5rem;
-    opacity: 0.8;
-    font-style: italic; }
+    font-style: italic;
+    position: relative; }
 
 /*FIN fiambres cocidos*/
 .descriptionBox {
-  margin: 1vh auto; }
+  margin: 1vh auto;
+  position: relative; }
   .descriptionBox p {
     margin: 4vh auto; }
 
 /*----------------------------------------ESTILOS compra.html----------------------------------------*/
 .carouselPersonalizado {
-  box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.35), -3px -3px 3px 2px rgba(141, 20, 20, 0.3), 5px 5px 5px 1px rgba(163, 24, 24, 0.25);
+  box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.3), -3px -3px 3px 2px rgba(141, 20, 20, 0.35), 5px 5px 5px 1px rgba(163, 24, 24, 0.25);
   border-radius: 25px; }
   .carouselPersonalizado__img {
     opacity: 0.85;
@@ -1473,38 +1838,6 @@ footer form {
   .carouselPersonalizado__controls {
     background-color: rgba(96, 14, 14, 0.7);
     border-radius: 25px; }
-
-/*.compras{
-            display: flex;
-            justify-content: space-evenly;
-  }
-
-      .compraClasica{
-                      img{
-                           width: 50%; 
-                      }
-                      img:hover{
-                          transform: scale(2);
-                      }
-      }
-
-      .compraEspecial{
-                      img{
-                           width: 50%; 
-                      }
-                      img:hover{
-                          transform: scale(2);
-                      }
-      }
-
-      .compraDf{
-                      img{
-                           width: 50%; 
-                      }
-                      img:hover{
-                          transform: scale(2);
-                      }
-      }
 
 /*-----------FORMULARIO DE COMPRA------------*/
 .formCompra {

@@ -581,113 +581,207 @@ footer{
 /*INICIO fiambres curados*/
 
 .curados{
-        h2{
-          margin-bottom: 10vh;
+        &__subtitulo{
+            width: 30%;
+            margin: 0 auto 10vh auto;
         }
+}
+.ingredientes{
+  position:relative;
 }
 
 /*SALAME CHACARERO*/
 .salame{
-        
+        position: relative;
+        border-radius: 25px;
+        box-shadow:$iluminacion;
+
+        &:before{
+          content: ' ';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: url(../img/salame.jpg) center / cover;
+          border-radius: 25px;
+          opacity: 0.8;
+
+        }
 
         &__producto{
                     margin-top: 2vh;
                     font-size: 2rem;
+                    position: relative;
+
         }
 
         &__img{
             border-radius: 25px;
             box-shadow: $relieveImg__claro;
+            position: relative;
         }
         &__fabricante{
                       margin-top: 90%;
                       font-size: 1.5rem;
-                      opacity: 0.8;
                       font-style: italic;
+                      position: relative;
         }
 }
 
 /*SALAME MEDITERRANEO*/
 .mediterraneo{
         margin-top: 10vh;
+        position: relative;
+        border-radius: 25px;
+        box-shadow:$iluminacion;
+
+        &:before{
+          content: ' ';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: url(../img/tomate.jpg) center / cover;
+          border-radius: 25px;
+          opacity: 0.8;
+
+        }
 
         &__producto{
                     margin-top: 2vh;
                     font-size: 2rem;
+                    position: relative;
         }
 
         &__img{
             border-radius: 25px;
             box-shadow: $relieveImg__claro;
+            position: relative;
         }
         &__fabricante{
                       margin-top: 90%;
                       font-size: 1.5rem;
-                      opacity: 0.8;
                       font-style: italic;
+                      position: relative;
         }
 }
 
 /*LONGANIZA CALABRESA*/
 .longaniza{
         margin-top: 10vh;
+        position: relative;
+        border-radius: 25px;
+        box-shadow:$iluminacion;
+
+        &:before{
+          content: ' ';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: url(../img/longaniza.jpg) center / cover;
+          border-radius: 25px;
+          opacity: 0.8;
+
+        }
 
         &__producto{
                     margin-top: 2vh;
                     font-size: 2rem;
+                    position: relative;
         }
 
         &__img{
             border-radius: 25px;
             box-shadow: $relieveImg__claro;
+            position: relative;
         }
         &__fabricante{
                       margin-top: 90%;
                       font-size: 1.5rem;
-                      opacity: 0.8;
                       font-style: italic;
+                      position: relative;
         }
 }
 
 /*SOPRESSATA TRADICIONAL*/
 .sopressata{
         margin-top: 10vh;
+        position: relative;
+        border-radius: 25px;
+        box-shadow:$iluminacion;
+
+        &:before{
+          content: ' ';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: url(../img/sopressata.jpg) center / cover;
+          border-radius: 25px;
+          opacity: 0.8;
+
+        }
 
         &__producto{
                     margin-top: 2vh;
                     font-size: 2rem;
+                    position: relative;
         }
 
         &__img{
             border-radius: 25px;
             box-shadow: $relieveImg__claro;
+            position: relative;
         }
         &__fabricante{
                       margin-top: 90%;
                       font-size: 1.5rem;
-                      opacity: 0.8;
                       font-style: italic;
+                      position: relative;
         }
 }
 
 /*JAMON CRUDO*/
 .crudo{
         margin-top: 10vh;
+        position: relative;
+        border-radius: 25px;
+        box-shadow:$iluminacion;
+
+        &:before{
+          content: ' ';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: url(../img/crudo.jpg) center / cover;
+          border-radius: 25px;
+          opacity: 0.8;
+
+        }
 
         &__producto{
                     margin-top: 2vh;
                     font-size: 2rem;
+                    position: relative;
         }
 
         &__img{
             border-radius: 25px;
             box-shadow: $relieveImg__claro;
+            position: relative;
         }
         &__fabricante{
                       margin-top: 90%;
                       font-size: 1.5rem;
-                      opacity: 0.8;
                       font-style: italic;
+                      position: relative;
         }
 }
 
@@ -697,29 +791,48 @@ footer{
 /*INICIO fiambres cocidos*/
 
 .cocidos{
-        h2{
-          margin: 10vh 0;
+        &__subtitulo{
+                      width: 30%;
+                      margin: 10vh auto 10vh auto;
         }
 }
 
 /*JAMON HORNEADO*/
 .jamonCocido{
         margin-top: 10vh;
+        position: relative;
+        border-radius: 25px;
+        box-shadow:$iluminacion;
+
+        &:before{
+          content: ' ';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: url(../img/cocido.jpg) center / cover;
+          border-radius: 25px;
+          opacity: 0.8;
+
+        }
 
         &__producto{
                     margin-top: 2vh;
                     font-size: 2rem;
+                    position: relative;
         }
 
-        &__img{
+       &__img{
             border-radius: 25px;
             box-shadow: $relieveImg__claro;
+            position: relative;
         }
         &__fabricante{
                       margin-top: 90%;
                       font-size: 1.5rem;
-                      opacity: 0.8;
                       font-style: italic;
+                      position: relative;
         }
 }
 
@@ -727,21 +840,39 @@ footer{
 /*LOMO AHUMADO*/
 .lomo{
         margin-top: 10vh;
+        position: relative;
+        border-radius: 25px;
+        box-shadow:$iluminacion;
+
+        &:before{
+          content: ' ';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: url(../img/lomo.jpg) center / cover;
+          border-radius: 25px;
+          opacity: 0.8;
+
+        }
 
         &__producto{
                     margin-top: 2vh;
                     font-size: 2rem;
+                    position: relative;
         }
 
         &__img{
             border-radius: 25px;
             box-shadow: $relieveImg__claro;
+            position: relative;
         }
         &__fabricante{
                       margin-top: 90%;
                       font-size: 1.5rem;
-                      opacity: 0.8;
                       font-style: italic;
+                      position: relative;
         }
 }
 
@@ -749,21 +880,39 @@ footer{
 
 .mortadela{
         margin-top: 10vh;
+        position: relative;
+        border-radius: 25px;
+        box-shadow:$iluminacion;
+
+        &:before{
+          content: ' ';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: url(../img/mortadela.jpg) center / cover;
+          border-radius: 25px;
+          opacity: 0.8;
+
+        }
 
         &__producto{
                     margin-top: 2vh;
                     font-size: 2rem;
+                    position: relative;
         }
 
         &__img{
             border-radius: 25px;
             box-shadow: $relieveImg__claro;
+            position: relative;
         }
         &__fabricante{
                       margin-top: 90%;
                       font-size: 1.5rem;
-                      opacity: 0.8;
                       font-style: italic;
+                      position: relative;
         }
 }
 
@@ -771,6 +920,7 @@ footer{
 
 .descriptionBox{
                 margin: 1vh auto;
+                position: relative;
                 p{
                   margin: 4vh auto;
                 }
@@ -795,40 +945,6 @@ footer{
                           }
     }
 
-
-
-
-  /*.compras{
-            display: flex;
-            justify-content: space-evenly;
-  }
-
-      .compraClasica{
-                      img{
-                           width: 50%; 
-                      }
-                      img:hover{
-                          transform: scale(2);
-                      }
-      }
-
-      .compraEspecial{
-                      img{
-                           width: 50%; 
-                      }
-                      img:hover{
-                          transform: scale(2);
-                      }
-      }
-
-      .compraDf{
-                      img{
-                           width: 50%; 
-                      }
-                      img:hover{
-                          transform: scale(2);
-                      }
-      }
 
 /*-----------FORMULARIO DE COMPRA------------*/
 

@@ -66,14 +66,68 @@ $relieveImg__claro:
 5px 5px 5px 1px rgba(163,24,24, 0.25),			  
 3px 3px 3px 2px rgba(141,20,20, 0.35), 
 2px 2px 1px 1px rgba(118, 17, 17,0.3),		
--2px 	-2px 1px 1px  rgba(118, 17, 17, 0.35),
--3px -3px 3px 2px  rgba(141,20,20, 0.3),
+-2px 	-2px 1px 1px  rgba(118, 17, 17, 0.3),
+-3px -3px 3px 2px  rgba(141,20,20, 0.35),
 5px 5px 5px 1px rgba(163,24,24, 0.25);
 
+$iluminacion:
+/*Falso borde*/
+1px 1px 0 0 rgba(200, 190, 190, 0.8),	
+-1px -1px 0 0 rgba(200,190,190,0.8),		
+/*Sombra externa*/	
+5px 5px 5px 1px rgba(219,213,147, 0.25),			  
+3px 3px 3px 2px rgba(213,205,128, 0.35), 
+2px 2px 1px 1px rgba(206, 198, 109,0.3),		
+-2px 	-2px 1px 1px  rgba(206, 198, 109, 0.3),
+-3px -3px 3px 2px  rgba(213,205,128, 0.35),
+5px 5px 5px 1px rgba(219,213,147, 0.25);
 
 
+$nombre-fiambre:linear-gradient(
+                              90deg,
+                          rgba(96, 14, 14, 0.1) 0%,
+                          rgba(96, 14, 14, 0.2) 1%,
+                          rgba(96, 14, 14, 0.3) 5%,
+                          rgba(96, 14, 14, 0.4) 7%,
+                          rgba(96, 14, 14, 0.5) 10%,
+                          rgba(96, 14, 14, 0.7) 20%,
+                          rgba(96, 14, 14, 0.9) 50%,
+                          rgba(96, 14, 14, 0.7) 80%,
+                          rgba(96, 14, 14, 0.5) 90%,
+                          rgba(96, 14, 14, 0.4) 93%,
+                          rgba(96, 14, 14, 0.3) 95%,
+                          rgba(96, 14, 14, 0.2) 99%,
+                          rgba(96, 14, 14, 0.1) 100%);
+$nombre-fabricante:linear-gradient(
+                              90deg,
+                          rgba(206, 198, 109, 0.1) 0%,
+                          rgba(206, 198, 109, 0.2) 1%,
+                          rgba(206, 198, 109, 0.3) 5%,
+                          rgba(206, 198, 109, 0.4) 7%,
+                          rgba(206, 198, 109, 0.5) 10%,
+                          rgba(206, 198, 109, 0.7) 20%,
+                          rgba(206, 198, 109, 0.9) 50%,
+                          rgba(206, 198, 109, 0.7) 80%,
+                          rgba(206, 198, 109, 0.5) 90%,
+                          rgba(206, 198, 109, 0.4) 93%,
+                          rgba(206, 198, 109, 0.3) 95%,
+                          rgba(206, 198, 109, 0.2) 99%,
+                          rgba(206, 198, 109, 0.1) 100%);
 
-
+$categoria-fiambre:linear-gradient(
+                              110deg,
+                          rgba(160, 150, 53, 0) 0%,
+                          rgba(160, 150, 53, 0) 15%,
+                          rgba(160, 150, 53, 1) 16%,
+                          rgba(160, 150, 53, 0.3) 17%,
+                          rgba(96, 14, 14, 0.7) 19%,
+                          rgba(96, 14, 14, 0.9) 50%,
+                          rgba(96, 14, 14, 0.7) 81%,
+                          rgba(160, 150, 53, 0.3) 83%,
+                          rgba(160, 150, 53, 1 ) 84%,
+                          rgba(160, 150, 53, 0) 85%,
+                          rgba(160, 150, 53, 0) 99%,
+                          rgba(160, 150, 53, 0) 100%);
 
 //___________MAPS_________________
 $colorIndex: (
@@ -634,59 +688,165 @@ footer form{
 										text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.5),
 																	 1px -1px 0 rgba(96, 14, 14, 0.5);
 		}
-.curados{
-					article{
-						opacity: 1;
+
+		.curados, .cocidos{
+												&__subtitulo{
+													background-image: $categoria-fiambre;
+													
+												}
+		}
+
+			.salame{
+			&__producto{
+						background-image: $nombre-fiambre;		
+			}
+			&__fabricante{
+										background-image: $nombre-fabricante;
+										color: #600e0e;
+			}
+	}
+
+	.mediterraneo{
+					&__producto{
+								background-image: $nombre-fiambre;
 					}
-}
+					&__fabricante{
+										background-image: $nombre-fabricante;
+										color: #600e0e;
+					}
+	}
+
+	.longaniza{
+				&__producto{
+							background-image: $nombre-fiambre;
+				}
+				&__fabricante{
+										background-image: $nombre-fabricante;
+										color: #600e0e;
+					}
+	}
+
+	.sopressata{
+				&__producto{
+							background-image: $nombre-fiambre;
+				}
+				&__fabricante{
+										background-image: $nombre-fabricante;
+										color: #600e0e;
+					}
+	}
+
+	.crudo{
+			&__producto{
+						background-image: $nombre-fiambre;
+			}
+			&__fabricante{
+										background-image: $nombre-fabricante;
+										color: #600e0e;
+					}
+	}
+
+	.jamonCocido{
+				&__producto{
+							background-image: $nombre-fiambre;
+				}
+				&__fabricante{
+										background-image: $nombre-fabricante;
+										color: #600e0e;
+					}
+	}
+
+	.lomo{
+		&__producto{
+					background-image: $nombre-fiambre;
+		}
+		&__fabricante{
+										background-image: $nombre-fabricante;
+										color: #600e0e;
+					}
+	}
+
+	.mortadela{
+				&__producto{
+							background-image: $nombre-fiambre;
+				}
+				&__fabricante{
+										background-image: $nombre-fabricante;
+										color: #600e0e;
+					}
+	}
 
 		//COLORES PERSONALIZADOS ACCORDION fiambres
 
-		.boton{
-				background-color: #C8BE5A;
-				color: #931515;
-}
-
-.boton:active{
-	border: 3px solid #a31818;
-}
-
-.ingredientes{
+		.ingredientes{
 							background-color: #931515;
 							color: $primary-color;
 }
 
+		.boton-accordion{
+				background-color: #C8BE5A;
+				color: #931515;
 
-.boton:not(.collapsed) {
+
+				&:active{
+								border: 3px solid #a31818;
+				}
+
+				&:focus{
+								 z-index: 3;
+								 border-color: #a31818;
+								 outline: 0;
+								 box-shadow: 0 0 0 0.25rem rgba(147, 21, 21, 0.25);
+				}
+}
+
+
+
+.boton-accordion:not(.collapsed) {
   color: $primary-color;
   background-color: #600e0e ;
+  box-shadow: inset 0 -1px 0 rgba(147, 21, 21, 0.125);
 }
 
 
-.botonR{
-				background-color: #931515  ;
+.boton-accordionR{
+				background-color: #931515;
+
         strong {
-                color: $colorAtencion;
-	               text-shadow: -1px 1px 0 rgba(200, 190, 90,0.7),
-								                1px -1px 0 rgba(200, 190, 90,0.7);
+                color: $secondary-color;
+
         }
+        &:active{
+								border: 3px solid #c2b647;
+				}
+
+				&:focus{
+								 z-index: 3;
+								 border-color: #cec66d;
+								 outline: 0;
+								 box-shadow: 0 0 0 0.25rem rgba(206, 198, 109,0.25);
+				}
 }
 
-.botonR:not(.collapsed) {
+.boton-accordionR:not(.collapsed) {
   background-color: #C8BE5A;
-  color: #600e0e;
+
+  box-shadow: inset 0 -1px 0 rgba(96, 14, 14, 0.125);
+  										strong{
+  														  color: #600e0e;
+  										}
 }
 
 
 .descriptionBox{
   							background-image: linear-gradient(
-  								rgba(208,30,30,0.1)2%,
-  								rgba(208,30,30,0.3)10%,
-  								rgba(186,26,26,0.5)20%,
-  								rgba(163,23,23,0.7)50%,
-  								rgba(186,26,26,0.5)80%,
-  								rgba(208,30,30,0.3)90%,
-  								rgba(208,30,30,0.1)98%);
+  								rgba(208,30,30,0.3)2%,
+  								rgba(208,30,30,0.5)10%,
+  								rgba(186,26,26,0.7)20%,
+  								rgba(163,23,23,0.9)50%,
+  								rgba(186,26,26,0.7)80%,
+  								rgba(208,30,30,0.5)90%,
+  								rgba(208,30,30,0.3)98%);
   							box-shadow: -1px 1px 1px 1px rgba(141,20,20,0.1);
   							p{
               		color: $primary-color;

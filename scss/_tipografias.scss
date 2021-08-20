@@ -2,6 +2,8 @@
 //Import
 
 @import "colores";
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
 
 
 //VARIABLES
@@ -153,8 +155,8 @@ a {
 
 	.nuestrosFiambres{
 					h1{
-						font-size: 2.5rem;
-						text-decoration: underline;
+						font-family: 'Allison', cursive;
+						font-size: 4rem;
 
 					}
 	}
@@ -170,6 +172,7 @@ a {
 			h2{
 				font-size: 2rem;
 				text-align: center;
+				font-style: italic;
 			}
 	}
 
@@ -178,6 +181,129 @@ a {
              		 font-size: 1.1rem;
 				}
 
+	}
+	.salame{
+			&__producto{
+						font-family: 'Allison', cursive;
+						font-size: 4.5rem;
+						text-align: center;
+			}
+			&__fabricante{
+							text-align: center;
+							font-weight: 800;
+			}
+	}
+
+	.mediterraneo{
+					&__producto{
+								font-family: 'Allison', cursive;
+								font-size: 4.5rem;
+								text-align: center;
+
+					}
+					&__fabricante{
+							text-align: center;
+							font-weight: 800;
+			}&__fabricante{
+							text-align: center;
+							font-weight: 800;
+			}
+	}
+
+	.longaniza{
+				&__producto{
+							font-family: 'Allison', cursive;
+							font-size: 4.5rem;
+							text-align: center;
+
+				}
+				&__fabricante{
+							text-align: center;
+							font-weight: 800;
+			}&__fabricante{
+							text-align: center;
+							font-weight: 800;
+			}
+	}
+
+	.sopressata{
+				&__producto{
+							font-family: 'Allison', cursive;
+							font-size: 4.5rem;
+							text-align: center;
+
+				}
+				&__fabricante{
+							text-align: center;
+							font-weight: 800;
+			}&__fabricante{
+							text-align: center;
+							font-weight: 800;
+			}
+	}
+
+	.crudo{
+			&__producto{
+						font-family: 'Allison', cursive;
+						font-size: 4.5rem;
+						text-align: center;
+
+			}
+			&__fabricante{
+							text-align: center;
+							font-weight: 800;
+			}&__fabricante{
+							text-align: center;
+							font-weight: 800;
+			}
+	}
+
+	.jamonCocido{
+				&__producto{
+							font-family: 'Allison', cursive;
+							font-size: 4.5rem;
+							text-align: center;
+
+				}
+				&__fabricante{
+							text-align: center;
+							font-weight: 800;
+			}&__fabricante{
+							text-align: center;
+							font-weight: 800;
+			}
+	}
+
+	.lomo{
+		&__producto{
+					font-family: 'Allison', cursive;
+					font-size: 4.5rem;
+					text-align: center;
+
+		}
+		&__fabricante{
+							text-align: center;
+							font-weight: 800;
+			}&__fabricante{
+							text-align: center;
+							font-weight: 800;
+			}
+	}
+
+	.mortadela{
+				&__producto{
+							font-family: 'Allison', cursive;
+							font-size: 4.5rem;
+							text-align: center;
+
+				}
+				&__fabricante{
+							text-align: center;
+							font-weight: 800;
+			}&__fabricante{
+							text-align: center;
+							font-weight: 800;
+			}
 	}
 
 // ____________________________________compras.html____________________________________
