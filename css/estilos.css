@@ -140,22 +140,29 @@ footer form {
 .tablasDetalle main {
   background-image: linear-gradient(rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.05) 3%, rgba(117, 17, 17, 0.1) 5%, rgba(117, 17, 17, 0.15) 10%, rgba(95, 14, 14, 0.2) 20%, rgba(95, 14, 14, 0.25) 40%, rgba(95, 14, 14, 0.3) 50%, rgba(95, 14, 14, 0.25) 60%, rgba(117, 17, 17, 0.2) 80%, rgba(117, 17, 17, 0.15) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0.05) 97%, rgba(117, 17, 17, 0) 100%); }
   .tablasDetalle main h1 {
-    text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+    text-shadow: -2px 2px 1px rgba(29, 4, 4, 0.8), 2px -2px 1px rgba(29, 4, 4, 0.8); }
   .tablasDetalle main h2 {
-    text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
-  .tablasDetalle main ul li {
-    color: #C8BE5A;
-    text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
-    .tablasDetalle main ul li a {
+    text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8);
+    background-image: linear-gradient(180deg, rgba(160, 150, 53, 0) 0%, rgba(160, 150, 53, 0) 2%, #a09635 3%, rgba(160, 150, 53, 0.3) 8%, rgba(96, 14, 14, 0.7) 12%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 88%, rgba(160, 150, 53, 0.3) 92%, #a09635 97%, rgba(160, 150, 53, 0) 98%, rgba(160, 150, 53, 0) 100%); }
+  .tablasDetalle main ul {
+    background-image: linear-gradient(90deg, rgba(160, 150, 53, 0) 0%, rgba(160, 150, 53, 0) 5%, #a09635 6%, rgba(160, 150, 53, 0.3) 7%, rgba(96, 14, 14, 0.7) 9%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 66%, rgba(160, 150, 53, 0.3) 68%, #a09635 69%, rgba(160, 150, 53, 0) 70%, rgba(160, 150, 53, 0) 100%); }
+    .tablasDetalle main ul li {
       color: #C8BE5A;
       text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+      .tablasDetalle main ul li a {
+        color: #C8BE5A;
+        text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
   .tablasDetalle main div p {
     color: #C8BE5A;
     text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
 
 .regalo {
   color: #C8BE5A;
-  text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+  text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8);
+  background-image: linear-gradient(180deg, rgba(160, 150, 53, 0) 0%, rgba(160, 150, 53, 0) 2%, #a09635 3%, rgba(160, 150, 53, 0.3) 8%, rgba(96, 14, 14, 0.7) 12%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 88%, rgba(160, 150, 53, 0.3) 92%, #a09635 97%, rgba(160, 150, 53, 0) 98%, rgba(160, 150, 53, 0) 100%); }
+
+.precios {
+  background-image: linear-gradient(90deg, rgba(160, 150, 53, 0) 0%, #a09635 1%, rgba(160, 150, 53, 0.3) 2%, rgba(96, 14, 14, 0.7) 3%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 97%, rgba(160, 150, 53, 0.3) 98%, #a09635 99%, rgba(160, 150, 53, 0) 100%); }
 
 .nuestrosQuesos main h1 {
   color: #dd9c14;
@@ -503,7 +510,8 @@ a {
     font-size: 1.3rem; }
 
 .tablasDetalle main h1 {
-  font-size: 2rem; }
+  font-size: 4rem;
+  font-family: 'Allison', cursive; }
 
 .tablasDetalle main ul li {
   font-size: 1.4rem; }
@@ -809,22 +817,29 @@ footer form {
 .tablasDetalle main {
   background-image: linear-gradient(rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.05) 3%, rgba(117, 17, 17, 0.1) 5%, rgba(117, 17, 17, 0.15) 10%, rgba(95, 14, 14, 0.2) 20%, rgba(95, 14, 14, 0.25) 40%, rgba(95, 14, 14, 0.3) 50%, rgba(95, 14, 14, 0.25) 60%, rgba(117, 17, 17, 0.2) 80%, rgba(117, 17, 17, 0.15) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0.05) 97%, rgba(117, 17, 17, 0) 100%); }
   .tablasDetalle main h1 {
-    text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+    text-shadow: -2px 2px 1px rgba(29, 4, 4, 0.8), 2px -2px 1px rgba(29, 4, 4, 0.8); }
   .tablasDetalle main h2 {
-    text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
-  .tablasDetalle main ul li {
-    color: #C8BE5A;
-    text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
-    .tablasDetalle main ul li a {
+    text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8);
+    background-image: linear-gradient(180deg, rgba(160, 150, 53, 0) 0%, rgba(160, 150, 53, 0) 2%, #a09635 3%, rgba(160, 150, 53, 0.3) 8%, rgba(96, 14, 14, 0.7) 12%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 88%, rgba(160, 150, 53, 0.3) 92%, #a09635 97%, rgba(160, 150, 53, 0) 98%, rgba(160, 150, 53, 0) 100%); }
+  .tablasDetalle main ul {
+    background-image: linear-gradient(90deg, rgba(160, 150, 53, 0) 0%, rgba(160, 150, 53, 0) 5%, #a09635 6%, rgba(160, 150, 53, 0.3) 7%, rgba(96, 14, 14, 0.7) 9%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 66%, rgba(160, 150, 53, 0.3) 68%, #a09635 69%, rgba(160, 150, 53, 0) 70%, rgba(160, 150, 53, 0) 100%); }
+    .tablasDetalle main ul li {
       color: #C8BE5A;
       text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+      .tablasDetalle main ul li a {
+        color: #C8BE5A;
+        text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
   .tablasDetalle main div p {
     color: #C8BE5A;
     text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
 
 .regalo {
   color: #C8BE5A;
-  text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+  text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8);
+  background-image: linear-gradient(180deg, rgba(160, 150, 53, 0) 0%, rgba(160, 150, 53, 0) 2%, #a09635 3%, rgba(160, 150, 53, 0.3) 8%, rgba(96, 14, 14, 0.7) 12%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 88%, rgba(160, 150, 53, 0.3) 92%, #a09635 97%, rgba(160, 150, 53, 0) 98%, rgba(160, 150, 53, 0) 100%); }
+
+.precios {
+  background-image: linear-gradient(90deg, rgba(160, 150, 53, 0) 0%, #a09635 1%, rgba(160, 150, 53, 0.3) 2%, rgba(96, 14, 14, 0.7) 3%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 97%, rgba(160, 150, 53, 0.3) 98%, #a09635 99%, rgba(160, 150, 53, 0) 100%); }
 
 .nuestrosQuesos main h1 {
   color: #dd9c14;
@@ -1430,27 +1445,70 @@ footer form {
   width: 50%; }
 
 /*---------------ESTILOS & Grid tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html----------------*/
-.tablasDetalle main {
+.tablasDetalle__clasica main {
   padding: 5vh;
   display: grid;
   grid-column-gap: 5vw;
   grid-template-areas: "titulo titulo titulo" "subtitulo subtitulo subtitulo" "foto lista lista" "foto lista lista" "regalo regalo regalo" "agregados agregados secundaria" "precios precios secundaria"                                     "picar picar picar";
   justify-content: center;
   align-items: flex-start; }
-  .tablasDetalle main h1 {
+  .tablasDetalle__clasica main h1 {
     grid-area: titulo;
-    justify-self: center;
-    font-size: 2rem; }
-  .tablasDetalle main h2 {
+    justify-self: center; }
+  .tablasDetalle__clasica main h2 {
     grid-area: subtitulo;
     justify-self: center;
-    margin: 5vh 0 5vh 10vw; }
-  .tablasDetalle main ul {
+    margin: 2vh 0 2vh 10vw; }
+  .tablasDetalle__clasica main ul {
     grid-area: lista;
     margin: 5vh 0; }
-    .tablasDetalle main ul li {
+    .tablasDetalle__clasica main ul li {
       list-style-type: none; }
-  .tablasDetalle main div {
+  .tablasDetalle__clasica main div {
+    grid-area: agregados; }
+
+.tablasDetalle__especial main {
+  padding: 5vh;
+  display: grid;
+  grid-column-gap: 5vw;
+  grid-template-areas: "titulo titulo titulo" "subtitulo subtitulo subtitulo" "foto lista lista" "regalo lista lista" "agregados agregados secundaria" "precios precios secundaria"                                     "picar picar picar";
+  justify-content: center;
+  align-items: flex-start; }
+  .tablasDetalle__especial main h1 {
+    grid-area: titulo;
+    justify-self: center; }
+  .tablasDetalle__especial main h2 {
+    grid-area: subtitulo;
+    justify-self: center;
+    margin: 2vh 0 2vh 10vw; }
+  .tablasDetalle__especial main ul {
+    grid-area: lista;
+    margin: 5vh 0; }
+    .tablasDetalle__especial main ul li {
+      list-style-type: none; }
+  .tablasDetalle__especial main div {
+    grid-area: agregados; }
+
+.tablasDetalle__donFermin main {
+  padding: 5vh;
+  display: grid;
+  grid-column-gap: 5vw;
+  grid-template-areas: "titulo titulo titulo" "subtitulo subtitulo subtitulo" "foto lista lista" "regalo lista lista" "agregados agregados secundaria" "precios precios secundaria"                                     "picar picar picar";
+  justify-content: center;
+  align-items: flex-start; }
+  .tablasDetalle__donFermin main h1 {
+    grid-area: titulo;
+    justify-self: center; }
+  .tablasDetalle__donFermin main h2 {
+    grid-area: subtitulo;
+    justify-self: center;
+    margin: 2vh 0 2vh 10vw; }
+  .tablasDetalle__donFermin main ul {
+    grid-area: lista;
+    margin: 5vh 0; }
+    .tablasDetalle__donFermin main ul li {
+      list-style-type: none; }
+  .tablasDetalle__donFermin main div {
     grid-area: agregados; }
 
 /*Clase para resaltar los productos de regalo incluidos sin cargo*/
@@ -1462,6 +1520,37 @@ footer form {
 .precios {
   grid-area: precios;
   justify-self: flex-end; }
+
+/*carousel clasica*/
+.galeria-clasica-l {
+  width: 768px;
+  height: 800px;
+  z-index: -999;
+  position: absolute;
+  top: 250px;
+  left: 300px;
+  opacity: 0.8;
+  box-shadow: 1px 1px 0 0 rgba(200, 190, 190, 0.8), -1px -1px 0 0 rgba(200, 190, 190, 0.8), 5px 5px 5px 1px rgba(219, 213, 147, 0.25), 3px 3px 3px 2px rgba(213, 205, 128, 0.35), 2px 2px 1px 1px rgba(206, 198, 109, 0.3), -2px -2px 1px 1px rgba(206, 198, 109, 0.3), -3px -3px 3px 2px rgba(213, 205, 128, 0.35), 5px 5px 5px 1px rgba(219, 213, 147, 0.25); }
+
+.galeria-especial-l {
+  width: 768px;
+  height: 800px;
+  z-index: -999;
+  position: absolute;
+  top: 310PX;
+  left: 300px;
+  opacity: 0.8;
+  box-shadow: 1px 1px 0 0 rgba(200, 190, 190, 0.8), -1px -1px 0 0 rgba(200, 190, 190, 0.8), 5px 5px 5px 1px rgba(219, 213, 147, 0.25), 3px 3px 3px 2px rgba(213, 205, 128, 0.35), 2px 2px 1px 1px rgba(206, 198, 109, 0.3), -2px -2px 1px 1px rgba(206, 198, 109, 0.3), -3px -3px 3px 2px rgba(213, 205, 128, 0.35), 5px 5px 5px 1px rgba(219, 213, 147, 0.25); }
+
+.galeria-don-fermin-l {
+  width: 768px;
+  height: 800px;
+  z-index: -999;
+  position: absolute;
+  top: 310px;
+  left: 300px;
+  opacity: 0.8;
+  box-shadow: 1px 1px 0 0 rgba(200, 190, 190, 0.8), -1px -1px 0 0 rgba(200, 190, 190, 0.8), 5px 5px 5px 1px rgba(219, 213, 147, 0.25), 3px 3px 3px 2px rgba(213, 205, 128, 0.35), 2px 2px 1px 1px rgba(206, 198, 109, 0.3), -2px -2px 1px 1px rgba(206, 198, 109, 0.3), -3px -3px 3px 2px rgba(213, 205, 128, 0.35), 5px 5px 5px 1px rgba(219, 213, 147, 0.25); }
 
 /*----------------------------------------ESTILOS quesos.html----------------------------------------*/
 .nuestrosQuesos main {

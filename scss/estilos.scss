@@ -385,7 +385,11 @@ footer{
 
 /*---------------ESTILOS & Grid tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html----------------*/
 
-  .tablasDetalle main{
+  .tablasDetalle{
+
+                &__clasica{
+
+   main{
                       padding: 5vh;
                       display: grid;
                       grid-column-gap: 5vw;
@@ -404,13 +408,12 @@ footer{
                       h1{
                           grid-area: titulo;
                           justify-self: center;
-                          font-size: 2rem;
                       }
 
                       h2{
                           grid-area: subtitulo;
                           justify-self: center;
-                          margin: 5vh 0 5vh 10vw;
+                          margin: 2vh 0 2vh 10vw;
                       }
                       ul{
                           grid-area: lista;
@@ -422,8 +425,85 @@ footer{
                       div{
                             grid-area: agregados;
                       }
-  }                  
+  } 
+  }
+  &__especial{
+              main{
+                      padding: 5vh;
+                      display: grid;
+                      grid-column-gap: 5vw;
+                      grid-template-areas:                                          
+                                          "titulo titulo titulo"
+                                          "subtitulo subtitulo subtitulo"
+                                          "foto lista lista"
+                                          "regalo lista lista"
+                                          "agregados agregados secundaria"
+                                          "precios precios secundaria"                                    
+                                          "picar picar picar";
+                      justify-content: center;
+                      align-items: flex-start;
+                                          
+                      h1{
+                          grid-area: titulo;
+                          justify-self: center;
+                      }
 
+                      h2{
+                          grid-area: subtitulo;
+                          justify-self: center;
+                          margin: 2vh 0 2vh 10vw;
+                      }
+                      ul{
+                          grid-area: lista;
+                          margin: 5vh 0;
+                          li{
+                            list-style-type: none;
+                          }
+                      }
+                      div{
+                            grid-area: agregados;
+                      }
+  } 
+  } 
+        &__donFermin{
+          main{
+                      padding: 5vh;
+                      display: grid;
+                      grid-column-gap: 5vw;
+                      grid-template-areas:                                          
+                                          "titulo titulo titulo"
+                                          "subtitulo subtitulo subtitulo"
+                                          "foto lista lista"
+                                          "regalo lista lista"
+                                          "agregados agregados secundaria"
+                                          "precios precios secundaria"                                    
+                                          "picar picar picar";
+                      justify-content: center;
+                      align-items: flex-start;
+                                          
+                      h1{
+                          grid-area: titulo;
+                          justify-self: center;
+                      }
+
+                      h2{
+                          grid-area: subtitulo;
+                          justify-self: center;
+                          margin: 2vh 0 2vh 10vw;
+                      }
+                      ul{
+                          grid-area: lista;
+                          margin: 5vh 0;
+                          li{
+                            list-style-type: none;
+                          }
+                      }
+                      div{
+                            grid-area: agregados;
+                      }
+  } 
+        }                
+ }
 
 /*Clase para resaltar los productos de regalo incluidos sin cargo*/
       .regalo{
@@ -436,6 +516,41 @@ footer{
               grid-area: precios;
               justify-self: flex-end;
     }
+
+/*carousel clasica*/
+
+.galeria-clasica-l{
+                  width: 768px;
+                  height: 800px;
+                  z-index: -999;
+                  position: absolute;
+                  top: 250px;
+                  left: 300px;
+                  opacity: 0.8;
+                  box-shadow: $iluminacion;
+}
+
+.galeria-especial-l{
+                     width: 768px;
+                     height: 800px;
+                     z-index: -999;
+                     position: absolute;
+                     top: 310PX;
+                     left: 300px;
+                     opacity: 0.8;
+                     box-shadow: $iluminacion;
+}
+
+.galeria-don-fermin-l{
+                       width: 768px;
+                       height: 800px;
+                       z-index: -999;
+                       position: absolute;
+                       top: 310px;
+                       left: 300px;
+                       opacity: 0.8;
+                       box-shadow: $iluminacion;
+}
 
 /*----------------------------------------ESTILOS quesos.html----------------------------------------*/
   .nuestrosQuesos main{
@@ -1179,4 +1294,3 @@ footer{
         justify-content: flex-end;
         width: 100%;  
 }
-
