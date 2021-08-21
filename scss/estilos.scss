@@ -437,11 +437,10 @@ footer{
                                           "subtitulo subtitulo subtitulo"
                                           "foto lista lista"
                                           "regalo lista lista"
-                                          "agregados agregados secundaria"
-                                          "precios precios secundaria"                                    
-                                          "picar picar picar";
+                                          "precios precios secundaria"
+                                          "picar picar secundaria" ;                                   
                       justify-content: center;
-                      align-items: flex-start;
+                      align-items: center;
                                           
                       h1{
                           grid-area: titulo;
@@ -459,9 +458,6 @@ footer{
                           li{
                             list-style-type: none;
                           }
-                      }
-                      div{
-                            grid-area: agregados;
                       }
   } 
   } 
@@ -475,9 +471,8 @@ footer{
                                           "subtitulo subtitulo subtitulo"
                                           "foto lista lista"
                                           "regalo lista lista"
-                                          "agregados agregados secundaria"
-                                          "precios precios secundaria"                                    
-                                          "picar picar picar";
+                                          "precios precios secundaria"
+                                          "picar picar secundaria"  ;                                  
                       justify-content: center;
                       align-items: flex-start;
                                           
@@ -497,9 +492,6 @@ footer{
                           li{
                             list-style-type: none;
                           }
-                      }
-                      div{
-                            grid-area: agregados;
                       }
   } 
         }                
@@ -535,7 +527,7 @@ footer{
                      height: 800px;
                      z-index: -999;
                      position: absolute;
-                     top: 310PX;
+                     top: 250px;
                      left: 300px;
                      opacity: 0.8;
                      box-shadow: $iluminacion;
@@ -546,7 +538,7 @@ footer{
                        height: 800px;
                        z-index: -999;
                        position: absolute;
-                       top: 310px;
+                       top: 250px;
                        left: 300px;
                        opacity: 0.8;
                        box-shadow: $iluminacion;

@@ -1471,9 +1471,9 @@ footer form {
   padding: 5vh;
   display: grid;
   grid-column-gap: 5vw;
-  grid-template-areas: "titulo titulo titulo" "subtitulo subtitulo subtitulo" "foto lista lista" "regalo lista lista" "agregados agregados secundaria" "precios precios secundaria"                                     "picar picar picar";
+  grid-template-areas: "titulo titulo titulo" "subtitulo subtitulo subtitulo" "foto lista lista" "regalo lista lista" "precios precios secundaria" "picar picar secundaria";
   justify-content: center;
-  align-items: flex-start; }
+  align-items: center; }
   .tablasDetalle__especial main h1 {
     grid-area: titulo;
     justify-self: center; }
@@ -1486,14 +1486,12 @@ footer form {
     margin: 5vh 0; }
     .tablasDetalle__especial main ul li {
       list-style-type: none; }
-  .tablasDetalle__especial main div {
-    grid-area: agregados; }
 
 .tablasDetalle__donFermin main {
   padding: 5vh;
   display: grid;
   grid-column-gap: 5vw;
-  grid-template-areas: "titulo titulo titulo" "subtitulo subtitulo subtitulo" "foto lista lista" "regalo lista lista" "agregados agregados secundaria" "precios precios secundaria"                                     "picar picar picar";
+  grid-template-areas: "titulo titulo titulo" "subtitulo subtitulo subtitulo" "foto lista lista" "regalo lista lista" "precios precios secundaria" "picar picar secundaria";
   justify-content: center;
   align-items: flex-start; }
   .tablasDetalle__donFermin main h1 {
@@ -1508,8 +1506,6 @@ footer form {
     margin: 5vh 0; }
     .tablasDetalle__donFermin main ul li {
       list-style-type: none; }
-  .tablasDetalle__donFermin main div {
-    grid-area: agregados; }
 
 /*Clase para resaltar los productos de regalo incluidos sin cargo*/
 .regalo {
@@ -1537,7 +1533,7 @@ footer form {
   height: 800px;
   z-index: -999;
   position: absolute;
-  top: 310PX;
+  top: 250px;
   left: 300px;
   opacity: 0.8;
   box-shadow: 1px 1px 0 0 rgba(200, 190, 190, 0.8), -1px -1px 0 0 rgba(200, 190, 190, 0.8), 5px 5px 5px 1px rgba(219, 213, 147, 0.25), 3px 3px 3px 2px rgba(213, 205, 128, 0.35), 2px 2px 1px 1px rgba(206, 198, 109, 0.3), -2px -2px 1px 1px rgba(206, 198, 109, 0.3), -3px -3px 3px 2px rgba(213, 205, 128, 0.35), 5px 5px 5px 1px rgba(219, 213, 147, 0.25); }
@@ -1547,7 +1543,7 @@ footer form {
   height: 800px;
   z-index: -999;
   position: absolute;
-  top: 310px;
+  top: 250px;
   left: 300px;
   opacity: 0.8;
   box-shadow: 1px 1px 0 0 rgba(200, 190, 190, 0.8), -1px -1px 0 0 rgba(200, 190, 190, 0.8), 5px 5px 5px 1px rgba(219, 213, 147, 0.25), 3px 3px 3px 2px rgba(213, 205, 128, 0.35), 2px 2px 1px 1px rgba(206, 198, 109, 0.3), -2px -2px 1px 1px rgba(206, 198, 109, 0.3), -3px -3px 3px 2px rgba(213, 205, 128, 0.35), 5px 5px 5px 1px rgba(219, 213, 147, 0.25); }
