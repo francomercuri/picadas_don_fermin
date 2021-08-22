@@ -167,14 +167,40 @@ $tablasDetalle-precios:linear-gradient(
                           rgba(160, 150, 53, 1 ) 99%,
                           rgba(160, 150, 53, 0) 100%);
 
+
+
+$sombra-picar:
+-1px -2px 1px 1px inset rgba(74, 11, 11, 0.8),
+-2px -3px 2px 2px inset rgba(74, 11, 11, 0.6),
+-3px -4px 3px 5px inset rgba(74, 11, 11, 0.4),  
+-4px -5px 5px 6px inset rgba(94, 14, 14, 0.3), 
+-6px -7px 7px 8px inset rgba(94, 14, 14, 0.2),
+-9px -10px 10px 12px inset rgba(94, 14, 14, 0.1),
+9px 10px 10px 12px inset rgba(94, 14, 14, 0.1),
+6px 7px 7px 8px inset rgba(94, 14, 14, 0.2),   
+4px 5px 5px 6px inset rgba( 94,14, 14, 0.3),    
+3px 4px 3px 5px inset rgba(74, 11, 11,0.4),
+2px 3px 2px 2px inset rgba(74, 11, 11,0.6),
+1px 2px 1px 1px inset rgba(74, 11, 11,0.8),
+/*Falso borde*/
+1px 1px 0 0 rgba(74, 11, 11, 1),  
+-1px -1px 0 0 rgba(74,11,11,1),   
+/*Sombra externa*/  
+3px 3px 3px 0 rgba(141, 20, 20, 0.1),       
+  2px 2px 2px 1px rgba( 118,17, 17, 0.2), 
+    1px 1px 1px 0 rgba(94, 14, 14,0.15),    
+    -1px  -1px 1px 0  rgba(94, 14, 14, 0.15),
+  -2px -2px 2px 1px  rgba(118, 17, 17, 0.2),
+3px 3px 3px 0 rgba(141, 20, 20, 0.1); 
+
 //___________MAPS_________________
 $colorIndex: (
-	p:#ddad14,
-	h2:#dd9c14,
-	h3:#ddad14,
-	li:#edc137,
-	a:#edc137,
-	label:#edc137);
+	p:#edc133,
+	h2:#efc84b,
+	h3:#edc133,
+	li:#f1cf62,
+	a:#f1cf62,
+	label:#f1cf62);
 
 
 
@@ -236,16 +262,18 @@ $fondoIndexMain:linear-gradient(rgba(117,17,17,0) 0%,
                                             rgba(117,17,17,0) 100%);
          
 //FONDO PARA SECTION TABLAS (INDEX)
-$fondoTablasIndex: linear-gradient(rgba(117,17,17,0) 0%,
+$fondoTablasIndex: linear-gradient(
+  90deg,
+  rgba(117,17,17,0) 0%,
 	rgba(117,17,17,0.05) 3%, 
 	rgba(117,17,17,0.1) 5%, 
-	rgba(117,17,17,0.15) 10%, 
-	rgba(95,14,14,0.2) 20%,
-	rgba(95,14,14,0.25) 40%,
-	rgba(95,14,14,0.3) 50%,
-	rgba(95,14,14,0.25) 60%,
-	rgba(117,17,17,0.2) 80%,
-	rgba(117,17,17,0.15) 90%, 
+	rgba(117,17,17,0.25) 10%, 
+	rgba(95,14,14,0.3) 20%,
+	rgba(95,14,14,0.7) 40%,
+	rgba(95,14,14,0.8) 50%,
+	rgba(95,14,14,0.7) 60%,
+	rgba(117,17,17,0.3) 80%,
+	rgba(117,17,17,0.25) 90%, 
 	rgba(117,17,17,0.1) 95%,  
 	rgba(117,17,17,0.05) 97%, 
 	rgba(117,17,17,0) 100%);
@@ -372,9 +400,15 @@ main{
 // Botón picar que envia al form de compra
 
     .picar{
-            background-color: rgba(117, 32, 13, 0.8);
+            background-color: rgba(94, 26, 10, 0.9);
             text-shadow: -1px 1px 0 rgba(29,4,4,0.5);
+      
+            &:hover{
+                    color:$secondary-color;
+            }
       }
+
+
 
 
 //COLORES DE ARTICLES INCLUIDOS EN LA SECTION TABLAS (Index)
@@ -420,6 +454,9 @@ main{
     
         a{
                           text-shadow: 1px 1px 0 rgba(0, 0, 0,0.4);
+                          &:hover{
+                                  color: $secondary-color;
+                          }
         }
     }
 }
@@ -516,6 +553,9 @@ footer form{
                           		a{
 	 																color: $primary-color;
 	 																text-shadow: -1px 1px 1px rgba(29,4,4,0.8);	
+                                  &:hover{
+                                          color: $secondary-color;
+                                  }
 	 														}
 
                           }
@@ -545,14 +585,14 @@ footer form{
 
 .nuestrosQuesos main{
                       h1{
-                          color: $secondary-color;
+                          color: $primary-color;
                           text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
                                       1px -1px 0 rgba(87, 28, 0, 0.5),
                                       -1px 1px 0 rgba(27, 4, 4, 0.8),
                                       -2px 2px 1px rgba(27, 4, 4, 0.6);
     									}
     									p{
-															color: $secondary-color;
+															color: $primary-color;
 															text-shadow: -1px 1px 0 rgba(0, 0, 0, 1);
 											}
   }
@@ -568,19 +608,22 @@ footer form{
                                         -2px 2px 1px rgba(27, 4, 4, 0.6);
             }
             h4{
-								color: $secondary-color;
 								text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
 								  											1px -1px 0 rgba(87, 28, 0, 0.5),
 								  											-1px 1px 0 rgba(27, 4, 4, 0.8),
 								  											-2px 2px 1px rgba(27, 4, 4, 0.6);
 						}
 						p{
-								color: $secondary-color;
+								color: $primary-color;
 						}
  }
 
 .nombreQueso{
               color: $secondary-color;
+              text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+                                        1px -1px 0 rgba(87, 28, 0, 0.5),
+                                        -1px 1px 0 rgba(27, 4, 4, 0.8),
+                                        -2px 2px 1px rgba(27, 4, 4, 0.6);
 }
 
 	.pategras{
@@ -673,7 +716,11 @@ footer form{
 	}
 
   .nombreQuesoAzul{
-                  color: $secondary-color;
+                  color: $primary-color;
+                  text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
+                                        1px -1px 0 rgba(87, 28, 0, 0.5),
+                                        -1px 1px 0 rgba(27, 4, 4, 0.8),
+                                        -2px 2px 1px rgba(27, 4, 4, 0.6);
   }
 
 		.roquefort{
@@ -691,15 +738,8 @@ footer form{
             img{
    								box-shadow: $relieveImg;
 						}
-						h5{
-								color: $secondary-color;
-								text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
-								  											1px -1px 0 rgba(87, 28, 0, 0.5),
-								  											-1px 1px 0 rgba(27, 4, 4, 0.8),
-								  											-2px 2px 1px rgba(27, 4, 4, 0.6);
-						}
 						p{
-								color: $secondary-color;
+								color: $primary-color;
 						}
     }
 
@@ -718,15 +758,8 @@ footer form{
 						img{
 									box-shadow: $relieveImg;
 						}
-						h5{
-								color: $secondary-color;
-								text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
-								 											1px -1px 0 rgba(87, 28, 0, 0.5),
-								 											-1px 1px 0 rgba(27, 4, 4, 0.8),
-								 											-2px 2px 1px rgba(27, 4, 4, 0.6);
-						}
 						p{
-								color: $secondary-color;
+								color: $primary-color;
 						}
 		}
 

@@ -118,7 +118,9 @@ a {
 // _______QUESOS SEMIDUROS______
 
 .nombreQueso{
-			font-size: 1.6rem;
+			font-size: 2.5rem;
+			font-family: 'Allison', cursive;
+			font-weight: 500;
 }
 
 .semiduros{
@@ -130,7 +132,10 @@ a {
 // ______QUESOS AZULES_________
 
 .nombreQuesoAzul{
-			font-size: 1.5rem;
+			font-size: 2.8rem;
+			font-family: 'Allison', cursive;
+			letter-spacing: all;
+
 }
 
 .azules{
@@ -139,15 +144,10 @@ a {
           }
 }
 
-	.roquefort{
-			h5{
-				font-size: 1.2rem;
-			}
-	}
 
 	.gorgonzola{
-			h5{
-				font-size: 1.2rem;
+			h3{
+				font-size: 3rem;
 			}
 	}
 

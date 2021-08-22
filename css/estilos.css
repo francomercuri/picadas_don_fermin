@@ -1,22 +1,22 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
 .home p {
-  color: #ddad14; }
+  color: #edc133; }
 
 .home h2 {
-  color: #dd9c14; }
+  color: #efc84b; }
 
 .home h3 {
-  color: #ddad14; }
+  color: #edc133; }
 
 .home li {
-  color: #edc137; }
+  color: #f1cf62; }
 
 .home a {
-  color: #edc137; }
+  color: #f1cf62; }
 
 .home label {
-  color: #edc137; }
+  color: #f1cf62; }
 
 p, a {
   color: #C8BE5A; }
@@ -87,8 +87,10 @@ main p {
   text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
 
 .picar {
-  background-color: rgba(117, 32, 13, 0.8);
+  background-color: rgba(94, 26, 10, 0.9);
   text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.5); }
+  .picar:hover {
+    color: #dd9c14; }
 
 .clasicaIndex h3 {
   text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6), -1px 1px 0 rgba(29, 4, 4, 0.7); }
@@ -106,6 +108,8 @@ main p {
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
   .cierreIndex p a {
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
+    .cierreIndex p a:hover {
+      color: #dd9c14; }
 
 .redes {
   background-color: rgba(200, 240, 175, 0.3);
@@ -152,6 +156,8 @@ footer form {
       .tablasDetalle main ul li a {
         color: #C8BE5A;
         text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+        .tablasDetalle main ul li a:hover {
+          color: #dd9c14; }
   .tablasDetalle main div p {
     color: #C8BE5A;
     text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
@@ -165,11 +171,11 @@ footer form {
   background-image: linear-gradient(90deg, rgba(160, 150, 53, 0) 0%, #a09635 1%, rgba(160, 150, 53, 0.3) 2%, rgba(96, 14, 14, 0.7) 3%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 97%, rgba(160, 150, 53, 0.3) 98%, #a09635 99%, rgba(160, 150, 53, 0) 100%); }
 
 .nuestrosQuesos main h1 {
-  color: #dd9c14;
+  color: #C8BE5A;
   text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
 
 .nuestrosQuesos main p {
-  color: #dd9c14;
+  color: #C8BE5A;
   text-shadow: -1px 1px 0 black; }
 
 .semiduros h2 {
@@ -177,14 +183,14 @@ footer form {
   text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
 
 .semiduros h4 {
-  color: #dd9c14;
   text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
 
 .semiduros p {
-  color: #dd9c14; }
+  color: #C8BE5A; }
 
 .nombreQueso {
-  color: #dd9c14; }
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
 
 .pategras {
   background-image: linear-gradient(rgba(51, 8, 8, 0.05) 0%, rgba(51, 8, 8, 0.2) 3%, rgba(51, 8, 8, 0.4) 5%, rgba(51, 8, 8, 0.6) 10%, rgba(51, 8, 8, 0.8) 20%, rgba(51, 8, 8, 0.9) 40%, #4a0b0b 50%, rgba(74, 11, 11, 0.9) 60%, rgba(74, 11, 11, 0.8) 80%, rgba(74, 11, 11, 0.7) 90%, rgba(74, 11, 11, 0.6) 95%, rgba(74, 11, 11, 0.5) 97%, rgba(74, 11, 11, 0.4) 100%); }
@@ -211,27 +217,22 @@ footer form {
   text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
 
 .nombreQuesoAzul {
-  color: #dd9c14; }
+  color: #C8BE5A;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
 
 .roquefort {
   background-image: linear-gradient(90deg, #600e0e 0%, rgba(96, 14, 14, 0.9) 10%, rgba(96, 14, 14, 0.8) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.6) 90%, rgba(96, 14, 14, 0.5) 93%, rgba(96, 14, 14, 0.4) 95%, rgba(96, 14, 14, 0.3) 99%, rgba(96, 14, 14, 0.1) 100%); }
   .roquefort img {
     box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
-  .roquefort h5 {
-    color: #dd9c14;
-    text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
   .roquefort p {
-    color: #dd9c14; }
+    color: #C8BE5A; }
 
 .gorgonzola {
   background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.3) 1%, rgba(96, 14, 14, 0.4) 5%, rgba(96, 14, 14, 0.5) 7%, rgba(96, 14, 14, 0.6) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.8) 50%, rgba(96, 14, 14, 0.9) 90%, #600e0e 100%); }
   .gorgonzola img {
     box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
-  .gorgonzola h5 {
-    color: #dd9c14;
-    text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
   .gorgonzola p {
-    color: #dd9c14; }
+    color: #C8BE5A; }
 
 .prologoFiambres {
   text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.5), 1px -1px 0 rgba(96, 14, 14, 0.5); }
@@ -531,22 +532,23 @@ a {
   font-size: 1.4rem; }
 
 .nombreQueso {
-  font-size: 1.6rem; }
+  font-size: 2.5rem;
+  font-family: 'Allison', cursive;
+  font-weight: 500; }
 
 .semiduros h2 {
   font-size: 1.9rem; }
 
 .nombreQuesoAzul {
-  font-size: 1.5rem; }
+  font-size: 2.8rem;
+  font-family: 'Allison', cursive;
+  letter-spacing: all; }
 
 .azules h2 {
   font-size: 1.9rem; }
 
-.roquefort h5 {
-  font-size: 1.2rem; }
-
-.gorgonzola h5 {
-  font-size: 1.2rem; }
+.gorgonzola h3 {
+  font-size: 3rem; }
 
 .nuestrosFiambres h1 {
   font-family: 'Allison', cursive;
@@ -678,22 +680,22 @@ a {
   text-align: center; }
 
 .home p {
-  color: #ddad14; }
+  color: #edc133; }
 
 .home h2 {
-  color: #dd9c14; }
+  color: #efc84b; }
 
 .home h3 {
-  color: #ddad14; }
+  color: #edc133; }
 
 .home li {
-  color: #edc137; }
+  color: #f1cf62; }
 
 .home a {
-  color: #edc137; }
+  color: #f1cf62; }
 
 .home label {
-  color: #edc137; }
+  color: #f1cf62; }
 
 p, a {
   color: #C8BE5A; }
@@ -764,8 +766,10 @@ main p {
   text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
 
 .picar {
-  background-color: rgba(117, 32, 13, 0.8);
+  background-color: rgba(94, 26, 10, 0.9);
   text-shadow: -1px 1px 0 rgba(29, 4, 4, 0.5); }
+  .picar:hover {
+    color: #dd9c14; }
 
 .clasicaIndex h3 {
   text-shadow: 1px -1px 1px rgba(96, 14, 14, 0.4), -1px 1px 1px rgba(96, 14, 14, 0.6), -1px 1px 0 rgba(29, 4, 4, 0.7); }
@@ -783,6 +787,8 @@ main p {
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
   .cierreIndex p a {
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
+    .cierreIndex p a:hover {
+      color: #dd9c14; }
 
 .redes {
   background-color: rgba(200, 240, 175, 0.3);
@@ -829,6 +835,8 @@ footer form {
       .tablasDetalle main ul li a {
         color: #C8BE5A;
         text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
+        .tablasDetalle main ul li a:hover {
+          color: #dd9c14; }
   .tablasDetalle main div p {
     color: #C8BE5A;
     text-shadow: -1px 1px 1px rgba(29, 4, 4, 0.8); }
@@ -842,11 +850,11 @@ footer form {
   background-image: linear-gradient(90deg, rgba(160, 150, 53, 0) 0%, #a09635 1%, rgba(160, 150, 53, 0.3) 2%, rgba(96, 14, 14, 0.7) 3%, rgba(96, 14, 14, 0.9) 50%, rgba(96, 14, 14, 0.7) 97%, rgba(160, 150, 53, 0.3) 98%, #a09635 99%, rgba(160, 150, 53, 0) 100%); }
 
 .nuestrosQuesos main h1 {
-  color: #dd9c14;
+  color: #C8BE5A;
   text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
 
 .nuestrosQuesos main p {
-  color: #dd9c14;
+  color: #C8BE5A;
   text-shadow: -1px 1px 0 black; }
 
 .semiduros h2 {
@@ -854,14 +862,14 @@ footer form {
   text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
 
 .semiduros h4 {
-  color: #dd9c14;
   text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
 
 .semiduros p {
-  color: #dd9c14; }
+  color: #C8BE5A; }
 
 .nombreQueso {
-  color: #dd9c14; }
+  color: #dd9c14;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
 
 .pategras {
   background-image: linear-gradient(rgba(51, 8, 8, 0.05) 0%, rgba(51, 8, 8, 0.2) 3%, rgba(51, 8, 8, 0.4) 5%, rgba(51, 8, 8, 0.6) 10%, rgba(51, 8, 8, 0.8) 20%, rgba(51, 8, 8, 0.9) 40%, #4a0b0b 50%, rgba(74, 11, 11, 0.9) 60%, rgba(74, 11, 11, 0.8) 80%, rgba(74, 11, 11, 0.7) 90%, rgba(74, 11, 11, 0.6) 95%, rgba(74, 11, 11, 0.5) 97%, rgba(74, 11, 11, 0.4) 100%); }
@@ -888,27 +896,22 @@ footer form {
   text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
 
 .nombreQuesoAzul {
-  color: #dd9c14; }
+  color: #C8BE5A;
+  text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
 
 .roquefort {
   background-image: linear-gradient(90deg, #600e0e 0%, rgba(96, 14, 14, 0.9) 10%, rgba(96, 14, 14, 0.8) 50%, rgba(96, 14, 14, 0.7) 80%, rgba(96, 14, 14, 0.6) 90%, rgba(96, 14, 14, 0.5) 93%, rgba(96, 14, 14, 0.4) 95%, rgba(96, 14, 14, 0.3) 99%, rgba(96, 14, 14, 0.1) 100%); }
   .roquefort img {
     box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
-  .roquefort h5 {
-    color: #dd9c14;
-    text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
   .roquefort p {
-    color: #dd9c14; }
+    color: #C8BE5A; }
 
 .gorgonzola {
   background-image: linear-gradient(90deg, rgba(96, 14, 14, 0.1) 0%, rgba(96, 14, 14, 0.3) 1%, rgba(96, 14, 14, 0.4) 5%, rgba(96, 14, 14, 0.5) 7%, rgba(96, 14, 14, 0.6) 10%, rgba(96, 14, 14, 0.7) 20%, rgba(96, 14, 14, 0.8) 50%, rgba(96, 14, 14, 0.9) 90%, #600e0e 100%); }
   .gorgonzola img {
     box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 0 rgba(119, 17, 17, 0.1), 3px 3px 3px 1px rgba(96, 14, 14, 0.2), 2px 2px 1px 0 rgba(72, 11, 11, 0.15), -2px -2px 1px 0 rgba(72, 11, 11, 0.2), -3px -3px 3px 1px rgba(96, 14, 14, 0.15), 5px 5px 5px 0 rgba(119, 17, 17, 0.1); }
-  .gorgonzola h5 {
-    color: #dd9c14;
-    text-shadow: 1px -1px 1px rgba(87, 28, 0, 0.3), 1px -1px 0 rgba(87, 28, 0, 0.5), -1px 1px 0 rgba(27, 4, 4, 0.8), -2px 2px 1px rgba(27, 4, 4, 0.6); }
   .gorgonzola p {
-    color: #dd9c14; }
+    color: #C8BE5A; }
 
 .prologoFiambres {
   text-shadow: -1px 1px 0 rgba(96, 14, 14, 0.5), 1px -1px 0 rgba(96, 14, 14, 0.5); }
@@ -1229,7 +1232,8 @@ main {
   grid-area: picar;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  box-shadow: -1px -2px 1px 1px inset rgba(74, 11, 11, 0.8), -2px -3px 2px 2px inset rgba(74, 11, 11, 0.6), -3px -4px 3px 5px inset rgba(74, 11, 11, 0.4), -4px -5px 5px 6px inset rgba(94, 14, 14, 0.3), -6px -7px 7px 8px inset rgba(94, 14, 14, 0.2), -9px -10px 10px 12px inset rgba(94, 14, 14, 0.1), 9px 10px 10px 12px inset rgba(94, 14, 14, 0.1), 6px 7px 7px 8px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 6px inset rgba(94, 14, 14, 0.3), 3px 4px 3px 5px inset rgba(74, 11, 11, 0.4), 2px 3px 2px 2px inset rgba(74, 11, 11, 0.6), 1px 2px 1px 1px inset rgba(74, 11, 11, 0.8), 1px 1px 0 0 #4a0b0b, -1px -1px 0 0 #4a0b0b, 3px 3px 3px 0 rgba(141, 20, 20, 0.1), 2px 2px 2px 1px rgba(118, 17, 17, 0.2), 1px 1px 1px 0 rgba(94, 14, 14, 0.15), -1px -1px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 2px 1px rgba(118, 17, 17, 0.2), 3px 3px 3px 0 rgba(141, 20, 20, 0.1); }
 
 /*INICIO ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
 .clasicaIndex {
@@ -1238,7 +1242,7 @@ main {
   /*CAJA EN RELIEVE*/
   box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1);
   /*CAJA CON FONDO SOMBREADO*/
-  background-image: linear-gradient(rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.05) 3%, rgba(117, 17, 17, 0.1) 5%, rgba(117, 17, 17, 0.15) 10%, rgba(95, 14, 14, 0.2) 20%, rgba(95, 14, 14, 0.25) 40%, rgba(95, 14, 14, 0.3) 50%, rgba(95, 14, 14, 0.25) 60%, rgba(117, 17, 17, 0.2) 80%, rgba(117, 17, 17, 0.15) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0.05) 97%, rgba(117, 17, 17, 0) 100%);
+  background-image: linear-gradient(90deg, rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.05) 3%, rgba(117, 17, 17, 0.1) 5%, rgba(117, 17, 17, 0.25) 10%, rgba(95, 14, 14, 0.3) 20%, rgba(95, 14, 14, 0.7) 40%, rgba(95, 14, 14, 0.8) 50%, rgba(95, 14, 14, 0.7) 60%, rgba(117, 17, 17, 0.3) 80%, rgba(117, 17, 17, 0.25) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0.05) 97%, rgba(117, 17, 17, 0) 100%);
   /*GRID*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -1265,7 +1269,7 @@ main {
   /*CAJA EN RELIEVE*/
   box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1);
   /*CAJA CON FONDO SOMBREADO*/
-  background-image: linear-gradient(rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.05) 3%, rgba(117, 17, 17, 0.1) 5%, rgba(117, 17, 17, 0.15) 10%, rgba(95, 14, 14, 0.2) 20%, rgba(95, 14, 14, 0.25) 40%, rgba(95, 14, 14, 0.3) 50%, rgba(95, 14, 14, 0.25) 60%, rgba(117, 17, 17, 0.2) 80%, rgba(117, 17, 17, 0.15) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0.05) 97%, rgba(117, 17, 17, 0) 100%);
+  background-image: linear-gradient(90deg, rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.05) 3%, rgba(117, 17, 17, 0.1) 5%, rgba(117, 17, 17, 0.25) 10%, rgba(95, 14, 14, 0.3) 20%, rgba(95, 14, 14, 0.7) 40%, rgba(95, 14, 14, 0.8) 50%, rgba(95, 14, 14, 0.7) 60%, rgba(117, 17, 17, 0.3) 80%, rgba(117, 17, 17, 0.25) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0.05) 97%, rgba(117, 17, 17, 0) 100%);
   /*GRID*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -1292,7 +1296,7 @@ main {
   /*CAJA EN RELIEVE*/
   box-shadow: -3px -4px 3px 2px inset rgba(74, 11, 11, 0.1), -4px -5px 5px 4px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 4px inset rgba(94, 14, 14, 0.2), 3px 4px 3px 2px inset rgba(74, 11, 11, 0.1), 1px 1px 0 0 rgba(74, 11, 11, 0.6), -1px -1px 0 0 rgba(74, 11, 11, 0.6), 5px 5px 5px 0 rgba(141, 20, 20, 0.1), 3px 3px 3px 1px rgba(118, 17, 17, 0.2), 2px 2px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 1px 0 rgba(94, 14, 14, 0.2), -3px -3px 3px 1px rgba(118, 17, 17, 0.15), 5px 5px 5px 0 rgba(141, 20, 20, 0.1);
   /*CAJA CON FONDO SOMBREADO*/
-  background-image: linear-gradient(rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.05) 3%, rgba(117, 17, 17, 0.1) 5%, rgba(117, 17, 17, 0.15) 10%, rgba(95, 14, 14, 0.2) 20%, rgba(95, 14, 14, 0.25) 40%, rgba(95, 14, 14, 0.3) 50%, rgba(95, 14, 14, 0.25) 60%, rgba(117, 17, 17, 0.2) 80%, rgba(117, 17, 17, 0.15) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0.05) 97%, rgba(117, 17, 17, 0) 100%);
+  background-image: linear-gradient(90deg, rgba(117, 17, 17, 0) 0%, rgba(117, 17, 17, 0.05) 3%, rgba(117, 17, 17, 0.1) 5%, rgba(117, 17, 17, 0.25) 10%, rgba(95, 14, 14, 0.3) 20%, rgba(95, 14, 14, 0.7) 40%, rgba(95, 14, 14, 0.8) 50%, rgba(95, 14, 14, 0.7) 60%, rgba(117, 17, 17, 0.3) 80%, rgba(117, 17, 17, 0.25) 90%, rgba(117, 17, 17, 0.1) 95%, rgba(117, 17, 17, 0.05) 97%, rgba(117, 17, 17, 0) 100%);
   /*GRID*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -1518,7 +1522,7 @@ footer form {
   justify-self: flex-end; }
 
 /*carousel clasica*/
-.galeria-clasica-l {
+.galeria-clasica-xl {
   width: 768px;
   height: 800px;
   z-index: -999;
@@ -1528,7 +1532,7 @@ footer form {
   opacity: 0.8;
   box-shadow: 1px 1px 0 0 rgba(200, 190, 190, 0.8), -1px -1px 0 0 rgba(200, 190, 190, 0.8), 5px 5px 5px 1px rgba(219, 213, 147, 0.25), 3px 3px 3px 2px rgba(213, 205, 128, 0.35), 2px 2px 1px 1px rgba(206, 198, 109, 0.3), -2px -2px 1px 1px rgba(206, 198, 109, 0.3), -3px -3px 3px 2px rgba(213, 205, 128, 0.35), 5px 5px 5px 1px rgba(219, 213, 147, 0.25); }
 
-.galeria-especial-l {
+.galeria-especial-xl {
   width: 768px;
   height: 800px;
   z-index: -999;
@@ -1538,7 +1542,7 @@ footer form {
   opacity: 0.8;
   box-shadow: 1px 1px 0 0 rgba(200, 190, 190, 0.8), -1px -1px 0 0 rgba(200, 190, 190, 0.8), 5px 5px 5px 1px rgba(219, 213, 147, 0.25), 3px 3px 3px 2px rgba(213, 205, 128, 0.35), 2px 2px 1px 1px rgba(206, 198, 109, 0.3), -2px -2px 1px 1px rgba(206, 198, 109, 0.3), -3px -3px 3px 2px rgba(213, 205, 128, 0.35), 5px 5px 5px 1px rgba(219, 213, 147, 0.25); }
 
-.galeria-don-fermin-l {
+.galeria-don-fermin-xl {
   width: 768px;
   height: 800px;
   z-index: -999;
@@ -1547,6 +1551,17 @@ footer form {
   left: 300px;
   opacity: 0.8;
   box-shadow: 1px 1px 0 0 rgba(200, 190, 190, 0.8), -1px -1px 0 0 rgba(200, 190, 190, 0.8), 5px 5px 5px 1px rgba(219, 213, 147, 0.25), 3px 3px 3px 2px rgba(213, 205, 128, 0.35), 2px 2px 1px 1px rgba(206, 198, 109, 0.3), -2px -2px 1px 1px rgba(206, 198, 109, 0.3), -3px -3px 3px 2px rgba(213, 205, 128, 0.35), 5px 5px 5px 1px rgba(219, 213, 147, 0.25); }
+
+.galeria-don-fermin-m {
+  width: 768px;
+  height: 800px;
+  z-index: -999;
+  position: absolute;
+  top: 250px;
+  left: 300px;
+  opacity: 0.8;
+  box-shadow: 1px 1px 0 0 rgba(200, 190, 190, 0.8), -1px -1px 0 0 rgba(200, 190, 190, 0.8), 5px 5px 5px 1px rgba(219, 213, 147, 0.25), 3px 3px 3px 2px rgba(213, 205, 128, 0.35), 2px 2px 1px 1px rgba(206, 198, 109, 0.3), -2px -2px 1px 1px rgba(206, 198, 109, 0.3), -3px -3px 3px 2px rgba(213, 205, 128, 0.35), 5px 5px 5px 1px rgba(219, 213, 147, 0.25);
+  display: none; }
 
 /*----------------------------------------ESTILOS quesos.html----------------------------------------*/
 .nuestrosQuesos main {
