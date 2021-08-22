@@ -162,12 +162,16 @@
 			<input type="email" name="mail" placeholder="juanperez@...">
 			<label for="mensaje">Mensaje:</label>
 			<textarea name="mensaje" id="" cols="30" rows="10" maxlength="200" placeholder="Dejanos tu mensaje"></textarea>
-			<div>Acepta nuestros términos y condiciones:</div>
+			<!--Terminos y condiciones con slider-->
+			<div class="terminos">
+			<div class="terminos--frase">Acepta nuestros términos y condiciones:</div>
 			<input  type="checkbox"  id="terminos" value="1" required>
 					<label  class="terminos-track"  for="terminos">
 						<span  class="terminos-track__indicator"></span> </label>
+			</div>
+						<!-- Novedades con slider -->
 			<div class="novedades">
-				<div>¿Desea recibir novedades sobre nuestros productos?</div>
+				<div class="novedades--frase">¿Desea recibir novedades sobre nuestros productos?</div>
 					<input  type="checkbox"  id="toggle">
 					<label  class="toggle-track"  for="toggle">
 						<span  class="toggle-track__indicator"></span> </label>
@@ -175,7 +179,7 @@
 			<input class="enviar" type="submit" value="Enviar">
 			<input class="limpiar" type="reset" value="Limpiar">
 		</form>
-		<div>
+		<div class="legales">
 		<p>Todos los derechos reservados. Don Fermín ©2021</p>
 		</div>
 	</footer>

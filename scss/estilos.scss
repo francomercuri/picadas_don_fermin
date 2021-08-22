@@ -4,7 +4,6 @@
 
 
 
-
 /*RESETEO Y ESTILOS GENERALES*/
 *{
   margin: 0;
@@ -12,11 +11,7 @@
   font-family:'Mate SC', serif;
  }
 
-/*estilos <p>*/
-p{
-  
-  text-shadow: -1px 1px 0 rgba(29,4,4,0.7);
-}
+
 
 
 /*Estilo básico de <a>*/
@@ -56,6 +51,8 @@ header{
 
 
   /*--------Estilos main (index)---------*/
+     .home{
+
       main{
             background-image: $fondoIndexMain;
             margin: 50px 0;
@@ -70,6 +67,8 @@ header{
             p {
                 font-size: 1.3rem;
             }
+      }
+
       }
 
 /*Fin estilos Main (index)*/
@@ -235,11 +234,34 @@ footer{
         background-image: $fondoFooter;
         display: flex;
         align-items: flex-start;
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 1rem;
+        /*INICIO estilos Formulario footer*/
+        form{
+              padding: 3vh;
+              justify-self:center;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+              align-items: center;
+
+
+             label{
+                      align-self: flex-start;
+              }
+
+             input{
+                      width: 70%;
+              }
+
+             select{
+                        width: 70%;
+              }
+        }
 }
 
 .redes {
+        justify-self:flex-start ;
         margin: 0;
         padding: 0;
         }
@@ -275,34 +297,24 @@ footer{
                                     margin: 1px 0 1px 0;
                                     padding: 0;
           }
-/*INICIO estilos Formulario footer*/
 
-  footer form{
-              padding: 3vh;
-              display: flex;
-              flex-direction: column;
-              justify-content: space-around;
-              align-items: center;
-
-
-             label{
-                      align-self: flex-start;
-              }
-
-             input{
-                      width: 70%;
-              }
-
-             select{
-                        width: 70%;
-              }
-  }
 
 
 
   /*terminos y condiciones*/
 
   /*CHECKBOX - BOTON SLIDER (Terminos y condiciones)*/
+
+  .terminos{
+            margin: 2vh auto;
+            display: flex;
+
+            &--frase{
+                     color:$primary-color;
+                     width: 60%;
+            }
+  }
+
   .terminos-track{
                     display: flex;
                     align-items: center;
@@ -312,13 +324,13 @@ footer{
                     border-radius:15px;
                     background-color: #C8BE5A;
                     cursor: pointer;
-                    transition: 120ms ease-out;
+                    transition: 120ms ease-in-out;
                     &__indicator{
                                   width: 25px;
                                   height: 25px;
                                   border-radius:100%;
                                   background-color: #8d1414;
-                                  transition: 120ms ease-out;
+                                  transition: 120ms ease-in-out;
                                   margin-top: -1px;
                     }
       }
@@ -337,7 +349,12 @@ footer{
 
   /*Clase para suscripcion a novedades form footer*/
       .novedades{
-              margin: 2vh 0;
+              margin: 2vh auto;
+              display: flex;
+              &--frase{
+                      color:$primary-color;
+                      width: 60%;
+              }
              
       }
 
@@ -383,6 +400,10 @@ footer{
     .limpiar{
             width: 50%;
     }
+
+.legales{
+        justify-self:flex-end ;
+}
 
 /*---------------ESTILOS & Grid tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html----------------*/
 
@@ -517,11 +538,49 @@ footer{
                   height: 800px;
                   z-index: -999;
                   position: absolute;
-                  top: 250px;
-                  left: 300px;
+                  top: 32vh;
+                  left: 21vw;
                   opacity: 0.8;
                   box-shadow: $iluminacion;
 }
+
+.galeria-clasica-l{
+                  width: 565px;
+                  height: 600px;
+                  z-index: -999;
+                  position: absolute;
+                  top: 32vh;
+                  left: 21vw;
+                  opacity: 0.8;
+                  box-shadow: $iluminacion;
+                  display: none;
+}
+
+.galeria-clasica-m{
+                  width: 425px;
+                  height: 460px;
+                  z-index: -999;
+                  position: absolute;
+                  top: 32vh;
+                  left: 21vw;
+                  opacity: 0.8;
+                  box-shadow: $iluminacion;
+                  display: none;
+}
+
+.galeria-clasica-s{
+                  width: 265px;
+                  height: 290px;
+                  z-index: -999;
+                  position: absolute;
+                  top: 32vh;
+                  left: 21vw;
+                  opacity: 0.8;
+                  box-shadow: $iluminacion;
+                  display: none;
+}
+
+
 
 .galeria-especial-xl{
                      width: 768px;
@@ -532,6 +591,41 @@ footer{
                      left: 300px;
                      opacity: 0.8;
                      box-shadow: $iluminacion;
+}
+
+.galeria-especial-l{
+                     width: 565px;
+                     height: 600px;
+                     z-index: -999;
+                     position: absolute;
+                     top: 250px;
+                     left: 300px;
+                     opacity: 0.8;
+                     box-shadow: $iluminacion;
+                     display: none;
+}
+
+.galeria-especial-m{
+                     width: 425px;
+                     height: 460px;
+                     z-index: -999;
+                     position: absolute;
+                     top: 250px;
+                     left: 300px;
+                     opacity: 0.8;
+                     box-shadow: $iluminacion;
+                     display: none;
+}
+.galeria-especial-s{
+                     width: 265px;
+                     height: 290px;
+                     z-index: -999;
+                     position: absolute;
+                     top: 250px;
+                     left: 300px;
+                     opacity: 0.8;
+                     box-shadow: $iluminacion;
+                     display: none;
 }
 
 .galeria-don-fermin-xl{
@@ -545,9 +639,9 @@ footer{
                        box-shadow: $iluminacion;
 }
 
-.galeria-don-fermin-m{
-                       width: 768px;
-                       height: 800px;
+.galeria-don-fermin-l{
+                       width: 565px;
+                       height: 600px;
                        z-index: -999;
                        position: absolute;
                        top: 250px;
@@ -558,12 +652,43 @@ footer{
 }
 
 
+.galeria-don-fermin-m{
+                       width: 425px;
+                       height: 460px;
+                       z-index: -999;
+                       position: absolute;
+                       top: 250px;
+                       left: 300px;
+                       opacity: 0.8;
+                       box-shadow: $iluminacion;
+                       display: none;
+}
+
+.galeria-don-fermin-s{
+                       width: 265px;
+                       height: 290px;
+                       z-index: -999;
+                       position: absolute;
+                       top: 250px;
+                       left: 300px;
+                       opacity: 0.8;
+                       box-shadow: $iluminacion;
+                       display: none;
+}
+
+
+
 /*----------------------------------------ESTILOS quesos.html----------------------------------------*/
   .nuestrosQuesos main{
                         display: flex;
                         flex-direction: column;
                         align-items: center;
                         justify-content: space-between;
+  }
+
+  .nombreQuesoAzul{
+                    display: flex;
+                    flex-direction: column;
   }
 
 /*--------------QUESOS SEMIDUROS-----------*/
@@ -586,14 +711,13 @@ footer{
 
 .pategras{
             display: grid;
-            grid-template-rows: 1fr 3fr;
             grid-template-areas: "fotoPategras nombrePategras nombrePategras"
                                 "fotoPategras detallePategras detallePategras";
             img{
                   grid-area:  fotoPategras;
                   margin: auto;
             }
-            h4{
+            h3{
                   grid-area: nombrePategras;
                   margin: 3vh auto;
 
@@ -605,14 +729,13 @@ footer{
 
   .danbo{
           display: grid;
-          grid-template-rows: 1fr 3fr;
           grid-template-areas: "nombreDanbo nombreDanbo fotoDanbo"
                                 "detalleDanbo detalleDanbo fotoDanbo";
           img{
               grid-area:  fotoDanbo;
               margin: auto;
           }
-          h4{
+          h3{
              grid-area: nombreDanbo;
              margin: 3vh auto;
           }
@@ -624,14 +747,13 @@ footer{
 
     .braPimienta{
                 display: grid;
-                grid-template-rows: 1fr 3fr;
                 grid-template-areas:"fotoBraP nombreBraP nombreBraP"
                                     "fotoBraP detalleBraP detalleBraP";
                 img{
                   grid-area:  fotoBraP;
                   margin: auto;
                 }
-                h4{
+                h3{
                   grid-area: nombreBraP;
                   margin: 3vh auto;
                 }
@@ -643,7 +765,6 @@ footer{
 
     .braAhumado{
               display: grid;
-              grid-template-rows: 1fr 3fr;
               grid-template-areas:"nombreBraA nombreBraA fotoBraA"
                                 "detalleBraA detalleBraA fotoBraA";
               img{
@@ -651,7 +772,7 @@ footer{
                   margin: auto;
                   box-shadow: $relieveImg;
               }
-              h4{
+              h3{
                   grid-area: nombreBraA;
                   margin: 3vh auto;
               }
@@ -1300,3 +1421,1657 @@ footer{
         justify-content: flex-end;
         width: 100%;  
 }
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  /* Styles */
+
+
+/*---------------------------------ESTILOS INDEX-------------------------------------------------*/
+
+
+
+
+  /*--------Estilos main (index)---------*/
+      
+.home{
+      main{
+            margin: 3vh 0;
+            padding: 5vh 5vw;
+            
+            h2 {
+                margin-bottom: 0.2rem;
+            }
+            p {
+                font-size: 1.2rem;
+                width: 80%;
+                margin: 1vh auto;
+            }
+      }
+}
+/*Fin estilos Main (index)*/
+
+
+                                        /*SECTION TABLAS Index.html*/
+
+    .descripcion{/*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
+                margin: 2vh 3vw 2vh 0;
+                align-self: center;
+    }
+
+    .leyendaIndex{/*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
+                  margin: 1vh 0 2vh 3vw;
+                  align-self: center;
+    }
+      
+    .picar{/*Botón picar que envia al form de compra*/
+            height: 3.1rem;
+            width: 9.3rem;
+            box-sizing: border-box;
+            border-radius: 20px;
+            justify-self: center;
+            grid-area:  picar;
+            display: flex;
+            align-items:center;
+            justify-content: center; 
+            box-shadow: $sombra-picar;                       
+      }
+
+
+
+/*INICIO ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
+
+
+
+  .clasicaIndex {
+                margin: 5vh 5vw;
+                padding: 2vh 3vw;
+                                
+                /*GRID*/
+                grid-template-areas:  "nombre nombre nombre"
+                                      "foto texto texto"
+                                      "leyenda leyenda secundaria"
+                                      "picar picar picar"; //Area definida en la clase .picar
+                h3{
+                  align-self: flex-end;
+                }
+ }
+
+   .fotoClasica{
+                  width: 90%;
+    }
+    .fotoClasicaDos{
+                      width: 90%;
+    }
+
+ 
+/*FIN ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
+
+
+/*INICIO ESTILOS ARTICLE TABLA ESPECIAL Index.html*/
+.especialIndex {
+                margin: 5vh 5vw;
+                padding: 2vh 3vw;
+                                
+                /*GRID*/
+                grid-template-areas:  "nombre nombre nombre"
+                                      "foto texto texto"
+                                      "leyenda leyenda secundaria"
+                                      "picar picar picar"; //Area definida en la clase .picar
+                h3{
+                  align-self: flex-end;
+                }
+  }
+
+  .fotoEspecial{
+                width: 90%;
+    }
+    .fotoEspecialDos{
+                     width: 90%;
+    }
+    
+
+/*FIN ESTILOS ARTICLE TABLA ESPECIAL Index.html*/
+
+
+/*INICIO ESTILOS ARTICLE TABLA DON FERMIN Index.html*/
+
+  .donFerminIndex {
+                    margin: 5vh 5vw;
+                    padding: 2vh 3vw;
+                                
+                        /*GRID*/
+                    grid-template-areas:  "nombre nombre nombre"
+                                          "foto texto texto"
+                                          "leyenda leyenda secundaria"
+                                          "picar picar picar"; //Area definida en la clase .picar
+                    h3{
+                        align-self: flex-end;
+                    }
+  }
+
+        .fotoDf{
+                width: 90%;
+        }
+        .fotoDfDos{
+                    width: 90%;
+        }
+
+
+    
+/*FIN ESTILOS ARTICLE TABLA DON FERMIN Index.html*/
+
+/*INICIO section final index*/ 
+
+.cierreIndex{
+                background-image: $fondoCierreIndex;
+                display: flex;
+                flex-direction: column;
+                align-items:center;
+              }
+/*FIN section final index/*
+
+/*----------------------------------------ESTILOS FOOTER----------------------------------------*/
+
+footer{
+        margin: 0 2vw;
+        /*INICIO estilos Formulario footer*/
+
+        form{
+              padding: 3vh;
+              justify-content: space-around;
+
+
+             label{
+                      align-self: flex-start;
+              }
+
+             input{
+                      width: 70%;
+              }
+
+             select{
+                        width: 70%;
+              }
+              textarea{
+                height: 8rem;
+              }
+      }
+
+}
+
+.redes {
+        margin: 0 2vw;
+        padding: 0;
+        }
+    .redes__contenedor{
+    }
+
+        .redes__enlace{
+        } 
+
+          .reedes__enlace--whatsapp{
+          } 
+
+          .redes__enlace--instagram{
+          }
+          .redes__enlace--facebook{
+          }
+
+          .redes__enlace--youtube{
+          }
+
+
+
+  /*terminos y condiciones*/
+
+  /*CHECKBOX - BOTON SLIDER (Terminos y condiciones)*/
+  .terminos-track{
+                    &__indicator{
+                    }
+      }
+
+      #terminos:checked + .terminos-track{
+      }
+
+      #terminos:checked + .terminos-track .terminos-track__indicator{
+      }
+
+
+  /*Clase para suscripcion a novedades form footer*/
+      .novedades{
+
+             
+      }
+
+/*CHECKBOX - BOTON SLIDER (Suscripcion a novedades)*/
+      .toggle-track{
+                    &__indicator{
+                    }
+      }
+
+      #toggle:checked + .toggle-track{
+      }
+
+      #toggle:checked + .toggle-track .toggle-track__indicator{
+      }
+
+      #toggle{
+      }
+
+  /*Estilos botones form footer*/
+    .enviar{
+    }
+
+    .limpiar{
+    }
+
+    /*Derechos reservados*/
+    .legales{
+            margin-left: 2vw;
+    }
+
+
+/*---------------ESTILOS & Grid tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html----------------*/
+
+  .tablasDetalle{
+
+                &__clasica{
+
+   main{
+                      padding: 5vh;
+                      display: grid;
+                      grid-column-gap: 5vw;
+                      grid-template-areas:                                          
+                                          "titulo titulo titulo"
+                                          "subtitulo subtitulo subtitulo"
+                                          "foto lista lista"
+                                          "foto lista lista"
+                                          "regalo regalo regalo"
+                                          "agregados agregados secundaria"
+                                          "precios precios secundaria"                                    
+                                          "picar picar picar";//Area definida en la clase .picar
+                      justify-content: center;
+                      align-items: flex-start;
+                                          
+                      h1{
+                          grid-area: titulo;
+                          justify-self: center;
+                      }
+
+                      h2{
+                          grid-area: subtitulo;
+                          justify-self: center;
+                          margin: 2vh 0 2vh 10vw;
+                      }
+                      ul{
+                          grid-area: lista;
+                          margin: 5vh 0;
+                          li{
+                            list-style-type: none;
+                          }
+                      }
+                      div{
+                            grid-area: agregados;
+                      }
+  } 
+  }
+  &__especial{
+              main{
+                      padding: 5vh;
+                      display: grid;
+                      grid-column-gap: 5vw;
+                      grid-template-areas:                                          
+                                          "titulo titulo titulo"
+                                          "subtitulo subtitulo subtitulo"
+                                          "foto lista lista"
+                                          "regalo lista lista"
+                                          "precios precios secundaria"
+                                          "picar picar secundaria" ;  //Area "picar" definida en la clase .picar                                 
+                      justify-content: center;
+                      align-items: center;
+                                          
+                      h1{
+                          grid-area: titulo;
+                          justify-self: center;
+                      }
+
+                      h2{
+                          grid-area: subtitulo;
+                          justify-self: center;
+                          margin: 2vh 0 2vh 10vw;
+                      }
+                      ul{
+                          grid-area: lista;
+                          margin: 5vh 0;
+                          li{
+                            list-style-type: none;
+                          }
+                      }
+  } 
+  } 
+        &__donFermin{
+          main{
+                      padding: 5vh;
+                      display: grid;
+                      grid-column-gap: 5vw;
+                      grid-template-areas:                                          
+                                          "titulo titulo titulo"
+                                          "subtitulo subtitulo subtitulo"
+                                          "foto lista lista"
+                                          "regalo lista lista"
+                                          "precios precios secundaria"
+                                          "picar picar secundaria";//Area "picar" definida en la clase .picar                                  
+                      justify-content: center;
+                      align-items: flex-start;
+                                          
+                      h1{
+                          grid-area: titulo;
+                          justify-self: center;
+                      }
+
+                      h2{
+                          grid-area: subtitulo;
+                          justify-self: center;
+                          margin: 2vh 0 2vh 10vw;
+                      }
+                      ul{
+                          grid-area: lista;
+                          margin: 5vh 0;
+                          li{
+                            list-style-type: none;
+                          }
+                      }
+  } 
+        }                
+ }
+
+/*Clase para resaltar los productos de regalo incluidos sin cargo*/
+      .regalo{
+              grid-area: regalo;
+              justify-self: center;
+      }
+
+/*Clase precios de tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html*/
+      .precios{
+              grid-area: precios;
+              justify-self: flex-end;
+    }
+
+/*carousel clasica*/
+
+.galeria-clasica-xl{
+                  top: 20vh;
+                  left: 12vw;
+}
+
+.galeria-especial-xl{
+                     top: 23vh;
+                     left: 12vw;
+}
+
+.galeria-don-fermin-xl{
+                       top: 30vh;
+                       left: 12vw;
+}
+
+.galeria-don-fermin-m{
+}
+
+
+/*----------------------------------------ESTILOS quesos.html----------------------------------------*/
+  .nuestrosQuesos main{
+                        p{
+                          width: 60%;
+                        }
+  }
+
+/*--------------QUESOS SEMIDUROS-----------*/
+
+  .semiduros{
+            h2{
+            }
+            p{
+  }
+}
+
+/*Grid Areas*/
+
+.pategras{
+            img{
+            }
+            h3{
+
+            }
+            p{
+            }
+}
+
+  .danbo{
+          img{
+          }
+          h3{
+          }
+          p{
+          }
+
+  }
+
+    .braPimienta{
+                img{
+                }
+                h3{
+                }
+                p{
+                }
+    }
+
+    .braAhumado{
+              img{
+              }
+              h3{
+              }
+              p{
+              }
+    }
+
+    /*-------------QUESOS AZULES-------------*/
+
+  /*grid*/
+  .azules{
+          h2{
+          }
+  }
+
+      .roquefort{
+            
+      }
+
+  .gorgonzola{
+  }
+
+
+
+/*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
+/*INICIO fiambres curados*/
+
+.curados{
+        &__subtitulo{
+            width: 40%;
+            margin: 0 auto 4vh auto;
+        }
+}
+.ingredientes{
+}
+
+/*SALAME CHACARERO*/
+.salame{
+
+        &:before{
+
+        }
+
+        &__producto{
+
+        }
+
+        &__img{
+        }
+        &__fabricante{
+        }
+}
+
+/*SALAME MEDITERRANEO*/
+.mediterraneo{
+
+        &:before{
+          background: url(../img/tomate.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+        }
+}
+
+/*LONGANIZA CALABRESA*/
+.longaniza{
+
+        &:before{
+          background: url(../img/longaniza.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+        }
+}
+
+/*SOPRESSATA TRADICIONAL*/
+.sopressata{
+        &:before{
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+        }
+}
+
+/*JAMON CRUDO*/
+.crudo{
+
+        &:before{
+          background: url(../img/crudo.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+        }
+}
+
+
+/*FIN fiambres curados*/
+
+/*INICIO fiambres cocidos*/
+
+.cocidos{
+        &__subtitulo{
+        }
+}
+
+/*JAMON HORNEADO*/
+.jamonCocido{
+
+        &:before{
+          background: url(../img/cocido.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+       &__img{
+        }
+        &__fabricante{
+        }
+}
+
+
+/*LOMO AHUMADO*/
+.lomo{
+
+        &:before{
+          background: url(../img/lomo.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+        }
+}
+
+/*MORTADELA*/
+
+.mortadela{
+
+        &:before{
+          background: url(../img/mortadela.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+        }
+}
+
+/*FIN fiambres cocidos*/
+
+.descriptionBox{
+                p{
+                }
+}
+
+/*----------------------------------------ESTILOS compra.html----------------------------------------*/
+
+    .carouselPersonalizado{
+                          box-shadow: $relieveImg__claro;
+                          border-radius: 25px;
+                          &__img{
+                                  opacity: 0.85;
+                                  border-radius: 25px;
+
+                          }
+                          &__nombre{
+                                    background-color: rgba(96, 14, 14, 0.7);
+                          }
+                          &__controls{
+                                      background-color: rgba(96, 14, 14, 0.7);
+                                      border-radius: 25px;
+                          }
+    }
+
+
+/*-----------FORMULARIO DE COMPRA------------*/
+
+
+.formCompra{  
+            width: 50%;
+            grid-template-areas:  
+                                "tabla tabla"
+                                "nombre apellido"
+                                "direccion cp"
+                                "telefono telefono"
+                                "regalo recepcion"
+                                "mensaje mensaje"
+                                "textarea textarea"
+                                "comprar borrar";
+            select{
+                  width: 80%;
+                  margin-left: auto;
+                  margin-right: auto;
+                    }
+            textarea{
+                      height: 15vh;
+                    &::placeholder{
+                      }  
+            }         
+}
+
+.name{
+        input{
+        }
+}
+
+.surname{
+        input{
+        }
+}
+
+.phone{
+        width: 50%;
+        margin: 0 auto;
+        input{
+        }
+}
+
+.address{
+        input{
+        }        
+}
+
+.cp{
+    input{
+    }
+}
+
+.present{
+        input{
+            }
+}
+
+//checkbox slider para .present
+.present-track{
+                    &__indicator--no{
+                    }
+                    &__indicator--si{
+                    }
+      }
+
+      #present-toggle:checked + .present-track{
+      }
+
+      #present-toggle:checked + .present-track .present-track__indicator--no{
+      }
+       #present-toggle:checked + .present-track .present-track__indicator--si{
+
+      }
+
+
+      #present-toggle{
+      }
+//fin slider present
+
+.reception{
+            input{
+            }
+}
+
+.message{   
+        input{
+        }
+}
+
+//checkbox slider para .message
+.message-track{
+                    &__indicator--no{
+                    }
+                    &__indicator--si{
+                    }
+      }
+
+      #message-toggle:checked + .message-track{
+                                      background-color:#dd9c14;
+      }
+
+      #message-toggle:checked + .message-track .message-track__indicator--no{
+                                                                transform: translateX(24px);
+                                                                display: none;
+      }
+       #message-toggle:checked + .message-track .message-track__indicator--si{
+                                                                transform: translateX(24px);
+                                                                display: block;
+
+      }
+
+
+      #message-toggle{
+      }
+//fin slider message
+
+.formCompra{
+
+   textarea{      
+
+    }
+}
+
+.comprar{
+}
+
+.borrar{
+}
+
+}
+ 
+
+
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  /* Styles */
+
+
+
+  /*--------Estilos main (index)---------*/
+      
+.home{
+      main{
+            margin: 3vh 0;
+            padding: 5vh 5vw;
+            
+            h2 {
+                margin-bottom: 0.2rem;
+            }
+            p {
+                font-size: 1.2rem;
+                width: 80%;
+                margin: 1vh auto;
+            }
+      }
+}
+/*Fin estilos Main (index)*/
+
+
+                                        /*SECTION TABLAS Index.html*/
+
+    .descripcion{/*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
+                margin: 2vh 3vw 2vh 0;
+                align-self: center;
+    }
+
+    .leyendaIndex{/*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
+                  margin: 1vh 0 2vh 3vw;
+                  align-self: center;
+    }
+      
+    .picar{/*Botón picar que envia al form de compra*/
+            height: 3.1rem;
+            width: 9.3rem;
+            box-sizing: border-box;
+            border-radius: 20px;
+            justify-self: center;
+            grid-area:  picar;
+            display: flex;
+            align-items:center;
+            justify-content: center; 
+            box-shadow: $sombra-picar;                       
+      }
+
+
+
+/*INICIO ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
+
+
+
+  .clasicaIndex {
+                margin: 5vh 5vw;
+                padding: 2vh 3vw;
+                                
+                /*GRID*/
+                grid-template-areas:  "nombre nombre nombre"
+                                      "foto texto texto"
+                                      "leyenda leyenda secundaria"
+                                      "picar picar picar"; //Area definida en la clase .picar
+                h3{
+                  align-self: flex-end;
+                }
+ }
+
+   .fotoClasica{
+                  width: 90%;
+    }
+    .fotoClasicaDos{
+                      width: 90%;
+    }
+
+ 
+/*FIN ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
+
+
+/*INICIO ESTILOS ARTICLE TABLA ESPECIAL Index.html*/
+.especialIndex {
+                margin: 5vh 5vw;
+                padding: 2vh 3vw;
+                                
+                /*GRID*/
+                grid-template-areas:  "nombre nombre nombre"
+                                      "foto texto texto"
+                                      "leyenda leyenda secundaria"
+                                      "picar picar picar"; //Area definida en la clase .picar
+                h3{
+                  align-self: flex-end;
+                }
+  }
+
+  .fotoEspecial{
+                width: 90%;
+    }
+    .fotoEspecialDos{
+                     width: 90%;
+    }
+    
+
+/*FIN ESTILOS ARTICLE TABLA ESPECIAL Index.html*/
+
+
+/*INICIO ESTILOS ARTICLE TABLA DON FERMIN Index.html*/
+
+  .donFerminIndex {
+                    margin: 5vh 5vw;
+                    padding: 2vh 3vw;
+                                
+                        /*GRID*/
+                    grid-template-areas:  "nombre nombre nombre"
+                                          "foto texto texto"
+                                          "leyenda leyenda secundaria"
+                                          "picar picar picar"; //Area definida en la clase .picar
+                    h3{
+                        align-self: flex-end;
+                    }
+  }
+
+        .fotoDf{
+                width: 90%;
+        }
+        .fotoDfDos{
+                    width: 90%;
+        }
+
+
+    
+/*FIN ESTILOS ARTICLE TABLA DON FERMIN Index.html*/
+
+/*INICIO section final index*/ 
+
+.cierreIndex{
+                background-image: $fondoCierreIndex;
+                display: flex;
+                flex-direction: column;
+                align-items:center;
+              }
+/*FIN section final index/*
+
+/*----------------------------------------ESTILOS FOOTER----------------------------------------*/
+
+footer{
+        margin: 0 2vw;
+        /*INICIO estilos Formulario footer*/
+
+        form{
+              padding: 3vh;
+              justify-content: space-around;
+
+
+             label{
+                      align-self: flex-start;
+              }
+
+             input{
+                      width: 70%;
+              }
+
+             select{
+                        width: 70%;
+              }
+              textarea{
+                height: 8rem;
+              }
+      }
+
+}
+
+.redes {
+        margin: 0 2vw;
+        padding: 0;
+        }
+    .redes__contenedor{
+    }
+
+        .redes__enlace{
+        } 
+
+          .reedes__enlace--whatsapp{
+          } 
+
+          .redes__enlace--instagram{
+          }
+          .redes__enlace--facebook{
+          }
+
+          .redes__enlace--youtube{
+          }
+
+
+
+  /*terminos y condiciones*/
+
+  /*CHECKBOX - BOTON SLIDER (Terminos y condiciones)*/
+ .terminos{
+            flex-direction: column;
+
+            &--frase{
+                     width: 100%;
+            }
+  }
+
+  .terminos-track{
+
+                    &__indicator{
+                    }
+      }
+
+      #terminos:checked + .terminos-track{
+      }
+
+      #terminos:checked + .terminos-track .terminos-track__indicator{
+      }
+
+      #terminos{
+      }
+
+
+  /*Clase para suscripcion a novedades form footer*/
+      .novedades{
+                flex-direction: column;
+                &--frase{
+                        width: 100%;
+                }
+      }
+
+/*CHECKBOX - BOTON SLIDER (Suscripcion a novedades)*/
+      .toggle-track{
+                    &__indicator{
+                    }
+      }
+
+      #toggle:checked + .toggle-track{
+      }
+
+      #toggle:checked + .toggle-track .toggle-track__indicator{
+      }
+
+      #toggle{
+      }
+
+  /*Estilos botones form footer*/
+    .enviar{
+    }
+
+    .limpiar{
+    }
+
+    /*Derechos reservados*/
+    .legales{
+            margin-left: 2vw;
+    }
+
+
+/*---------------ESTILOS & Grid tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html----------------*/
+
+  .tablasDetalle{
+
+                &__clasica{
+
+   main{
+                      padding: 5vh;
+                      display: grid;
+                      grid-column-gap: 5vw;
+                      grid-template-areas:                                          
+                                          "titulo titulo titulo"
+                                          "subtitulo subtitulo subtitulo"
+                                          "foto lista lista"
+                                          "foto lista lista"
+                                          "regalo regalo regalo"
+                                          "agregados agregados secundaria"
+                                          "precios precios secundaria"                                    
+                                          "picar picar picar";//Area definida en la clase .picar
+                      justify-content: center;
+                      align-items: flex-start;
+                                          
+                      h1{
+                          grid-area: titulo;
+                          justify-self: center;
+                      }
+
+                      h2{
+                          grid-area: subtitulo;
+                          justify-self: center;
+                          margin: 2vh 0 2vh 10vw;
+                      }
+                      ul{
+                          grid-area: lista;
+                          margin: 5vh 0;
+                          li{
+                            list-style-type: none;
+                          }
+                      }
+                      div{
+                            grid-area: agregados;
+                      }
+  } 
+  }
+  &__especial{
+              main{
+                      padding: 5vh;
+                      display: grid;
+                      grid-column-gap: 5vw;
+                      grid-template-areas:                                          
+                                          "titulo titulo titulo"
+                                          "subtitulo subtitulo subtitulo"
+                                          "foto lista lista"
+                                          "regalo lista lista"
+                                          "precios precios secundaria"
+                                          "picar picar secundaria" ;  //Area "picar" definida en la clase .picar                                 
+                      justify-content: center;
+                      align-items: center;
+                                          
+                      h1{
+                          grid-area: titulo;
+                          justify-self: center;
+                      }
+
+                      h2{
+                          grid-area: subtitulo;
+                          justify-self: center;
+                          margin: 2vh 0 2vh 10vw;
+                      }
+                      ul{
+                          grid-area: lista;
+                          margin: 5vh 0;
+                          li{
+                            list-style-type: none;
+                          }
+                      }
+  } 
+  } 
+        &__donFermin{
+          main{
+                      padding: 5vh;
+                      display: grid;
+                      grid-column-gap: 5vw;
+                      grid-template-areas:                                          
+                                          "titulo titulo titulo"
+                                          "subtitulo subtitulo subtitulo"
+                                          "foto lista lista"
+                                          "regalo lista lista"
+                                          "precios precios secundaria"
+                                          "picar picar secundaria";//Area "picar" definida en la clase .picar                                  
+                      justify-content: center;
+                      align-items: flex-start;
+                                          
+                      h1{
+                          grid-area: titulo;
+                          justify-self: center;
+                      }
+
+                      h2{
+                          grid-area: subtitulo;
+                          justify-self: center;
+                          margin: 2vh 0 2vh 10vw;
+                      }
+                      ul{
+                          grid-area: lista;
+                          margin: 5vh 0;
+                          li{
+                            list-style-type: none;
+                          }
+                      }
+  } 
+        }                
+ }
+
+/*Clase para resaltar los productos de regalo incluidos sin cargo*/
+      .regalo{
+              grid-area: regalo;
+              justify-self: center;
+      }
+
+/*Clase precios de tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html*/
+      .precios{
+              grid-area: precios;
+              justify-self: flex-end;
+    }
+
+/*carousel clasica*/
+
+.galeria-clasica-xl{
+                    display: none;
+}
+
+.galeria-clasica-l{
+                    display: block;
+                    left:5vw ;
+                    top: 31vh;
+                    width: 90%;
+
+}
+
+.galeria-clasica-m{
+}
+
+.galeria-clasica-s{
+}
+
+.galeria-especial-xl{
+                    display: none;
+}
+
+.galeria-especial-l{
+                    display: block;
+                    left:5vw ;
+                    top: 31vh;
+                    width: 90%;
+
+}
+
+.galeria-especial-m{
+}
+
+.galeria-especial-s{
+}
+
+.galeria-don-fermin-xl{
+                        display: none;
+}
+
+.galeria-don-fermin-m{
+                      display: block;
+                      top:30vh;
+                      left: 5vw;
+                      width: 90%;
+                      height: auto;
+}
+
+.galeria-don-fermin-m{
+}
+
+.galeria-don-fermin-s{
+}
+
+
+/*----------------------------------------ESTILOS quesos.html----------------------------------------*/
+  .nuestrosQuesos main{
+                        p{
+                          width: 60%;
+                        }
+  }
+
+/*--------------QUESOS SEMIDUROS-----------*/
+
+  .semiduros{
+            h2{
+            }
+            p{
+  }
+}
+
+/*Grid Areas*/
+
+.pategras{
+        grid-template-areas:"fotoPategras nombrePategras nombrePategras"
+                            "detallePategras detallePategras detallePategras";
+            img{
+            }
+            h3{
+
+            }
+            p{
+            }
+}
+
+  .danbo{
+          grid-template-areas:"nombreDanbo nombreDanbo fotoDanbo"
+                              "detalleDanbo detalleDanbo detalleDanbo";
+          img{
+          }
+          h3{
+          }
+          p{
+          }
+
+  }
+
+    .braPimienta{
+                grid-template-areas:"fotoBraP nombreBraP nombreBraP"
+                                    "detalleBraP detalleBraP detalleBraP";
+                img{
+                }
+                h3{
+
+                }
+                p{
+                }
+    }
+
+    .braAhumado{
+              grid-template-areas:"nombreBraA nombreBraA fotoBraA"
+                                "detalleBraA detalleBraA detalleBraA";
+              img{
+              }
+              h3{
+              }
+              p{
+              }
+    }
+
+    /*-------------QUESOS AZULES-------------*/
+
+  /*grid*/
+  .azules{
+          h2{
+          }
+  }
+
+      .roquefort{
+            
+      }
+
+  .gorgonzola{
+  }
+
+
+
+/*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
+/*INICIO fiambres curados*/
+
+  .nuestrosFiambres{
+          h1{
+            font-size: 3.4rem;
+
+          }
+  }
+
+
+  .prologoFiambres{
+        font-size: 1.3rem;
+
+  }
+
+  .curados, .cocidos{
+      h2{
+        font-size: 1.8rem;
+      }
+  }
+
+
+
+.curados{
+        &__subtitulo{
+            width: 50%;
+            margin: 0 auto 4vh auto;
+        }
+}
+.ingredientes{
+}
+
+/*SALAME CHACARERO*/
+.salame{
+
+        &:before{
+
+        }
+
+        &__producto{
+
+        }
+
+        &__img{
+        }
+        &__fabricante{
+        }
+}
+
+/*SALAME MEDITERRANEO*/
+.mediterraneo{
+
+        &:before{
+          background: url(../img/tomate.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+        }
+}
+
+/*LONGANIZA CALABRESA*/
+.longaniza{
+
+        &:before{
+          background: url(../img/longaniza.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+        }
+}
+
+/*SOPRESSATA TRADICIONAL*/
+.sopressata{
+        &:before{
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+        }
+}
+
+/*JAMON CRUDO*/
+.crudo{
+
+        &:before{
+          background: url(../img/crudo.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+        }
+}
+
+
+/*FIN fiambres curados*/
+
+/*INICIO fiambres cocidos*/
+
+.cocidos{
+        &__subtitulo{
+        }
+}
+
+/*JAMON HORNEADO*/
+.jamonCocido{
+
+        &:before{
+          background: url(../img/cocido.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+       &__img{
+        }
+        &__fabricante{
+        }
+}
+
+
+/*LOMO AHUMADO*/
+.lomo{
+
+        &:before{
+          background: url(../img/lomo.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+        }
+}
+
+/*MORTADELA*/
+
+.mortadela{
+
+        &:before{
+          background: url(../img/mortadela.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+        }
+}
+
+/*FIN fiambres cocidos*/
+
+.descriptionBox{
+                p{
+                }
+}
+
+/*----------------------------------------ESTILOS compra.html----------------------------------------*/
+
+    .carouselPersonalizado{
+                          box-shadow: $relieveImg__claro;
+                          border-radius: 25px;
+                          &__img{
+                                  opacity: 0.85;
+                                  border-radius: 25px;
+
+                          }
+                          &__nombre{
+                                    background-color: rgba(96, 14, 14, 0.7);
+                          }
+                          &__controls{
+                                      background-color: rgba(96, 14, 14, 0.7);
+                                      border-radius: 25px;
+                          }
+    }
+
+
+/*-----------FORMULARIO DE COMPRA------------*/
+
+
+.formCompra{  
+            width: 50%;
+            grid-template-areas:  
+                                "tabla tabla"
+                                "nombre apellido"
+                                "direccion cp"
+                                "telefono telefono"
+                                "regalo recepcion"
+                                "mensaje mensaje"
+                                "textarea textarea"
+                                "comprar borrar";
+            select{
+                  width: 80%;
+                  margin-left: auto;
+                  margin-right: auto;
+                    }
+            textarea{
+                      height: 15vh;
+                    &::placeholder{
+                      }  
+            }         
+}
+
+.name{
+        input{
+        }
+}
+
+.surname{
+        input{
+        }
+}
+
+.phone{
+        width: 50%;
+        margin: 0 auto;
+        input{
+        }
+}
+
+.address{
+        input{
+        }        
+}
+
+.cp{
+    input{
+    }
+}
+
+.present{
+        input{
+            }
+}
+
+//checkbox slider para .present
+.present-track{
+                    &__indicator--no{
+                    }
+                    &__indicator--si{
+                    }
+      }
+
+      #present-toggle:checked + .present-track{
+      }
+
+      #present-toggle:checked + .present-track .present-track__indicator--no{
+      }
+       #present-toggle:checked + .present-track .present-track__indicator--si{
+
+      }
+
+
+      #present-toggle{
+      }
+//fin slider present
+
+.reception{
+            input{
+            }
+}
+
+.message{   
+        input{
+        }
+}
+
+//checkbox slider para .message
+.message-track{
+                    &__indicator--no{
+                    }
+                    &__indicator--si{
+                    }
+      }
+
+      #message-toggle:checked + .message-track{
+                                      background-color:#dd9c14;
+      }
+
+      #message-toggle:checked + .message-track .message-track__indicator--no{
+                                                                transform: translateX(24px);
+                                                                display: none;
+      }
+       #message-toggle:checked + .message-track .message-track__indicator--si{
+                                                                transform: translateX(24px);
+                                                                display: block;
+
+      }
+
+
+      #message-toggle{
+      }
+//fin slider message
+
+.formCompra{
+            width: 60%;
+   textarea{      
+
+    }
+}
+
+.comprar{
+}
+
+.borrar{
+}
+
+
+
+}
+ 

@@ -218,6 +218,10 @@ p, a{
 	color: $primary-color;
 }
 
+p{  
+  text-shadow: -1px 1px 0 rgba(29,4,4,0.7);
+}
+
 //___________FONDOS TRASLÚCIDOS_________	
 
 
@@ -947,38 +951,6 @@ footer form{
 				}
 }
 
-/*
-		.compraClasica {
-										h2 {
-												color: $secondary-color;
-												text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
-								  									1px -1px 0 rgba(87, 28, 0, 0.5),
-								  									-1px 1px 0 rgba(27, 4, 4, 0.8),
-								  									-2px 2px 1px rgba(27, 4, 4, 0.6);
-								  	}
-		}
-
-		.compraEspecial{
-										h2{
-											color: $secondary-color;
-											text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
-								  								1px -1px 0 rgba(87, 28, 0, 0.5),
-								  								-1px 1px 0 rgba(27, 4, 4, 0.8),
-								  								-2px 2px 1px rgba(27, 4, 4, 0.6);
-								  	}
-		}
-
-
-		.compraDf{
-							h2 {
-									color: $secondary-color;
-									text-shadow:1px -1px 1px rgba(87, 28, 0, 0.3),
-															1px -1px 0 rgba(87, 28, 0, 0.5),
-															-1px 1px 0 rgba(27, 4, 4, 0.8),
-															-2px 2px 1px rgba(27, 4, 4, 0.6);
-							}
-		}
-*/
 
 // _____________________________________COLORES FORMULARIO DE COMPRA_______________________
 
