@@ -68,6 +68,10 @@ header {
   background-color: rgba(96, 14, 14, 0.9);
   color: rgba(200, 190, 90, 0.9); }
 
+.navbar-toggler {
+  background-color: rgba(213, 205, 128, 0.4);
+  border: 2px solid #600e0e; }
+
 /*Fondo Index*/
 .home {
   background-image: url(../img/picada_1.jpeg);
@@ -720,6 +724,10 @@ header {
 .navbar-nav > li > .dropdown-menu a:hover {
   background-color: rgba(96, 14, 14, 0.9);
   color: rgba(200, 190, 90, 0.9); }
+
+.navbar-toggler {
+  background-color: rgba(213, 205, 128, 0.4);
+  border: 2px solid #600e0e; }
 
 /*Fondo Index*/
 .home {
@@ -2259,11 +2267,6 @@ footer {
   .redes {
     margin: 0 2vw;
     padding: 0; }
-  /*terminos y condiciones*/
-  /*CHECKBOX - BOTON SLIDER (Terminos y condiciones)*/
-  /*Clase para suscripcion a novedades form footer*/
-  /*CHECKBOX - BOTON SLIDER (Suscripcion a novedades)*/
-  /*Estilos botones form footer*/
   /*Derechos reservados*/
   .legales {
     margin-left: 2vw; }
@@ -2348,10 +2351,6 @@ footer {
   /*----------------------------------------ESTILOS quesos.html----------------------------------------*/
   .nuestrosQuesos main p {
     width: 60%; }
-  /*--------------QUESOS SEMIDUROS-----------*/
-  /*Grid Areas*/
-  /*-------------QUESOS AZULES-------------*/
-  /*grid*/
   /*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
   /*INICIO fiambres curados*/
   .curados__subtitulo {
@@ -2364,7 +2363,6 @@ footer {
   /*LONGANIZA CALABRESA*/
   .longaniza:before {
     background: url(../img/longaniza.jpg) center/cover; }
-  /*SOPRESSATA TRADICIONAL*/
   /*JAMON CRUDO*/
   .crudo:before {
     background: url(../img/crudo.jpg) center/cover; }
@@ -2404,15 +2402,7 @@ footer {
       height: 15vh; }
   .phone {
     width: 50%;
-    margin: 0 auto; }
-  #message-toggle:checked + .message-track {
-    background-color: #dd9c14; }
-  #message-toggle:checked + .message-track .message-track__indicator--no {
-    transform: translateX(24px);
-    display: none; }
-  #message-toggle:checked + .message-track .message-track__indicator--si {
-    transform: translateX(24px);
-    display: block; } }
+    margin: 0 auto; } }
 
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
@@ -2525,9 +2515,6 @@ footer {
     flex-direction: column; }
     .novedades--frase {
       width: 100%; }
-  /*CHECKBOX - BOTON SLIDER (Suscripcion a novedades)*/
-  /*Estilos botones form footer*/
-  /*Derechos reservados*/
   .legales {
     margin-left: 2vw; }
   /*---------------ESTILOS & Grid tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html----------------*/
@@ -2633,78 +2620,81 @@ footer {
   .braPimienta {
     grid-template-areas: "fotoBraP nombreBraP nombreBraP" "detalleBraP detalleBraP detalleBraP"; }
   .braAhumado {
-    grid-template-areas: "nombreBraA nombreBraA fotoBraA" "detalleBraA detalleBraA detalleBraA"; }
-  /*-------------QUESOS AZULES-------------*/
-  /*grid*/
-  /*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
-  /*INICIO fiambres curados*/
-  .nuestrosFiambres h1 {
-    font-size: 3.4rem; }
-  .prologoFiambres {
-    font-size: 1.3rem; }
-  .curados h2, .cocidos h2 {
-    font-size: 1.8rem; }
-  .curados__subtitulo {
-    width: 50%;
-    margin: 0 auto 4vh auto; }
-  /*SALAME CHACARERO*/
-  /*SALAME MEDITERRANEO*/
-  .mediterraneo:before {
-    background: url(../img/tomate.jpg) center/cover; }
-  /*LONGANIZA CALABRESA*/
-  .longaniza:before {
-    background: url(../img/longaniza.jpg) center/cover; }
-  /*SOPRESSATA TRADICIONAL*/
-  /*JAMON CRUDO*/
-  .crudo:before {
-    background: url(../img/crudo.jpg) center/cover; }
-  /*FIN fiambres curados*/
-  /*INICIO fiambres cocidos*/
-  /*JAMON HORNEADO*/
-  .jamonCocido:before {
-    background: url(../img/cocido.jpg) center/cover; }
-  /*LOMO AHUMADO*/
-  .lomo:before {
-    background: url(../img/lomo.jpg) center/cover; }
-  /*MORTADELA*/
-  .mortadela:before {
-    background: url(../img/mortadela.jpg) center/cover; }
-  /*FIN fiambres cocidos*/
-  /*----------------------------------------ESTILOS compra.html----------------------------------------*/
-  .carouselPersonalizado {
-    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.3), -3px -3px 3px 2px rgba(141, 20, 20, 0.35), 5px 5px 5px 1px rgba(163, 24, 24, 0.25);
+    grid-template-areas: "nombreBraA nombreBraA fotoBraA" "detalleBraA detalleBraA detalleBraA"; } }
+
+/*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
+/*INICIO fiambres curados*/
+.nuestrosFiambres h1 {
+  font-size: 3.4rem; }
+
+.prologoFiambres {
+  font-size: 1.3rem; }
+
+.curados h2, .cocidos h2 {
+  font-size: 1.8rem; }
+
+.curados__subtitulo {
+  width: 50%;
+  margin: 0 auto 4vh auto; }
+
+/*SALAME MEDITERRANEO*/
+.mediterraneo:before {
+  background: url(../img/tomate.jpg) center/cover; }
+
+/*LONGANIZA CALABRESA*/
+.longaniza:before {
+  background: url(../img/longaniza.jpg) center/cover; }
+
+/*SOPRESSATA TRADICIONAL*/
+/*JAMON CRUDO*/
+.crudo:before {
+  background: url(../img/crudo.jpg) center/cover; }
+
+/*FIN fiambres curados*/
+/*INICIO fiambres cocidos*/
+/*JAMON HORNEADO*/
+.jamonCocido:before {
+  background: url(../img/cocido.jpg) center/cover; }
+
+/*LOMO AHUMADO*/
+.lomo:before {
+  background: url(../img/lomo.jpg) center/cover; }
+
+/*MORTADELA*/
+.mortadela:before {
+  background: url(../img/mortadela.jpg) center/cover; }
+
+/*FIN fiambres cocidos*/
+/*----------------------------------------ESTILOS compra.html----------------------------------------*/
+.carouselPersonalizado {
+  box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.3), -3px -3px 3px 2px rgba(141, 20, 20, 0.35), 5px 5px 5px 1px rgba(163, 24, 24, 0.25);
+  border-radius: 25px; }
+  .carouselPersonalizado__img {
+    opacity: 0.85;
     border-radius: 25px; }
-    .carouselPersonalizado__img {
-      opacity: 0.85;
-      border-radius: 25px; }
-    .carouselPersonalizado__nombre {
-      background-color: rgba(96, 14, 14, 0.7); }
-    .carouselPersonalizado__controls {
-      background-color: rgba(96, 14, 14, 0.7);
-      border-radius: 25px; }
-  /*-----------FORMULARIO DE COMPRA------------*/
-  .formCompra {
-    width: 50%;
-    grid-template-areas: "tabla tabla" "nombre apellido" "direccion cp" "telefono telefono" "regalo recepcion" "mensaje mensaje" "textarea textarea" "comprar borrar"; }
-    .formCompra select {
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto; }
-    .formCompra textarea {
-      height: 15vh; }
-  .phone {
-    width: 50%;
-    margin: 0 auto; }
-  #message-toggle:checked + .message-track {
-    background-color: #dd9c14; }
-  #message-toggle:checked + .message-track .message-track__indicator--no {
-    transform: translateX(24px);
-    display: none; }
-  #message-toggle:checked + .message-track .message-track__indicator--si {
-    transform: translateX(24px);
-    display: block; }
-  .formCompra {
-    width: 60%; } }
+  .carouselPersonalizado__nombre {
+    background-color: rgba(96, 14, 14, 0.7); }
+  .carouselPersonalizado__controls {
+    background-color: rgba(96, 14, 14, 0.7);
+    border-radius: 25px; }
+
+/*-----------FORMULARIO DE COMPRA------------*/
+.formCompra {
+  width: 50%;
+  grid-template-areas: "tabla tabla" "nombre apellido" "direccion cp" "telefono telefono" "regalo recepcion" "mensaje mensaje" "textarea textarea" "comprar borrar"; }
+  .formCompra select {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+  .formCompra textarea {
+    height: 15vh; }
+
+.phone {
+  width: 50%;
+  margin: 0 auto; }
+
+.formCompra {
+  width: 60%; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -2830,11 +2820,6 @@ footer {
     width: 100%;
     background-color: rgba(200, 240, 175, 0);
     border: none; }
-  /*terminos y condiciones*/
-  /*CHECKBOX - BOTON SLIDER (Terminos y condiciones)*/
-  /*Clase para suscripcion a novedades form footer*/
-  /*CHECKBOX - BOTON SLIDER (Suscripcion a novedades)*/
-  /*Estilos botones form footer*/
   /*Derechos reservados*/
   .legales {
     margin-left: 2vw; }
@@ -3036,12 +3021,4 @@ footer {
       height: 15vh; }
   .phone {
     width: 50%;
-    margin: 0 auto; }
-  #message-toggle:checked + .message-track {
-    background-color: #dd9c14; }
-  #message-toggle:checked + .message-track .message-track__indicator--no {
-    transform: translateX(24px);
-    display: none; }
-  #message-toggle:checked + .message-track .message-track__indicator--si {
-    transform: translateX(24px);
-    display: block; } }
+    margin: 0 auto; } }

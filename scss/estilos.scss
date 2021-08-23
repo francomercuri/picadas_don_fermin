@@ -1404,8 +1404,8 @@ footer{
 
 .formCompra{
 
-   textarea{      
-                    grid-area:  textarea;
+           textarea{      
+                    grid-area: textarea;
 
     }
 }
@@ -1605,67 +1605,6 @@ footer{
         margin: 0 2vw;
         padding: 0;
         }
-    .redes__contenedor{
-    }
-
-        .redes__enlace{
-        } 
-
-          .reedes__enlace--whatsapp{
-          } 
-
-          .redes__enlace--instagram{
-          }
-          .redes__enlace--facebook{
-          }
-
-          .redes__enlace--youtube{
-          }
-
-
-
-  /*terminos y condiciones*/
-
-  /*CHECKBOX - BOTON SLIDER (Terminos y condiciones)*/
-  .terminos-track{
-                    &__indicator{
-                    }
-      }
-
-      #terminos:checked + .terminos-track{
-      }
-
-      #terminos:checked + .terminos-track .terminos-track__indicator{
-      }
-
-
-  /*Clase para suscripcion a novedades form footer*/
-      .novedades{
-
-             
-      }
-
-/*CHECKBOX - BOTON SLIDER (Suscripcion a novedades)*/
-      .toggle-track{
-                    &__indicator{
-                    }
-      }
-
-      #toggle:checked + .toggle-track{
-      }
-
-      #toggle:checked + .toggle-track .toggle-track__indicator{
-      }
-
-      #toggle{
-      }
-
-  /*Estilos botones form footer*/
-    .enviar{
-    }
-
-    .limpiar{
-    }
 
     /*Derechos reservados*/
     .legales{
@@ -1816,81 +1755,12 @@ footer{
                        left: 12vw;
 }
 
-.galeria-don-fermin-m{
-}
-
-
 /*----------------------------------------ESTILOS quesos.html----------------------------------------*/
   .nuestrosQuesos main{
                         p{
                           width: 60%;
                         }
   }
-
-/*--------------QUESOS SEMIDUROS-----------*/
-
-  .semiduros{
-            h2{
-            }
-            p{
-  }
-}
-
-/*Grid Areas*/
-
-.pategras{
-            img{
-            }
-            h3{
-
-            }
-            p{
-            }
-}
-
-  .danbo{
-          img{
-          }
-          h3{
-          }
-          p{
-          }
-
-  }
-
-    .braPimienta{
-                img{
-                }
-                h3{
-                }
-                p{
-                }
-    }
-
-    .braAhumado{
-              img{
-              }
-              h3{
-              }
-              p{
-              }
-    }
-
-    /*-------------QUESOS AZULES-------------*/
-
-  /*grid*/
-  .azules{
-          h2{
-          }
-  }
-
-      .roquefort{
-            
-      }
-
-  .gorgonzola{
-  }
-
 
 
 /*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
@@ -1902,88 +1772,32 @@ footer{
             margin: 0 auto 4vh auto;
         }
 }
-.ingredientes{
-}
 
 /*SALAME CHACARERO*/
 .salame{
-
         &:before{
-
-        }
-
-        &__producto{
-
-        }
-
-        &__img{
-        }
-        &__fabricante{
         }
 }
 
 /*SALAME MEDITERRANEO*/
 .mediterraneo{
-
         &:before{
           background: url(../img/tomate.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-        &__img{
-        }
-        &__fabricante{
         }
 }
 
 /*LONGANIZA CALABRESA*/
 .longaniza{
-
         &:before{
           background: url(../img/longaniza.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-        &__img{
-        }
-        &__fabricante{
         }
 }
 
-/*SOPRESSATA TRADICIONAL*/
-.sopressata{
-        &:before{
-        }
-
-        &__producto{
-        }
-
-        &__img{
-        }
-        &__fabricante{
-        }
-}
 
 /*JAMON CRUDO*/
 .crudo{
-
         &:before{
           background: url(../img/crudo.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-        &__img{
-        }
-        &__fabricante{
         }
 }
 
@@ -1992,70 +1806,30 @@ footer{
 
 /*INICIO fiambres cocidos*/
 
-.cocidos{
-        &__subtitulo{
-        }
-}
-
 /*JAMON HORNEADO*/
 .jamonCocido{
-
         &:before{
           background: url(../img/cocido.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-       &__img{
-        }
-        &__fabricante{
         }
 }
 
 
 /*LOMO AHUMADO*/
 .lomo{
-
         &:before{
           background: url(../img/lomo.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-        &__img{
-        }
-        &__fabricante{
         }
 }
 
 /*MORTADELA*/
 
 .mortadela{
-
         &:before{
           background: url(../img/mortadela.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-        &__img{
-        }
-        &__fabricante{
         }
 }
 
 /*FIN fiambres cocidos*/
-
-.descriptionBox{
-                p{
-                }
-}
 
 /*----------------------------------------ESTILOS compra.html----------------------------------------*/
 
@@ -2103,110 +1877,12 @@ footer{
             }         
 }
 
-.name{
-        input{
-        }
-}
-
-.surname{
-        input{
-        }
-}
-
 .phone{
         width: 50%;
         margin: 0 auto;
         input{
         }
 }
-
-.address{
-        input{
-        }        
-}
-
-.cp{
-    input{
-    }
-}
-
-.present{
-        input{
-            }
-}
-
-//checkbox slider para .present
-.present-track{
-                    &__indicator--no{
-                    }
-                    &__indicator--si{
-                    }
-      }
-
-      #present-toggle:checked + .present-track{
-      }
-
-      #present-toggle:checked + .present-track .present-track__indicator--no{
-      }
-       #present-toggle:checked + .present-track .present-track__indicator--si{
-
-      }
-
-
-      #present-toggle{
-      }
-//fin slider present
-
-.reception{
-            input{
-            }
-}
-
-.message{   
-        input{
-        }
-}
-
-//checkbox slider para .message
-.message-track{
-                    &__indicator--no{
-                    }
-                    &__indicator--si{
-                    }
-      }
-
-      #message-toggle:checked + .message-track{
-                                      background-color:#dd9c14;
-      }
-
-      #message-toggle:checked + .message-track .message-track__indicator--no{
-                                                                transform: translateX(24px);
-                                                                display: none;
-      }
-       #message-toggle:checked + .message-track .message-track__indicator--si{
-                                                                transform: translateX(24px);
-                                                                display: block;
-
-      }
-
-
-      #message-toggle{
-      }
-//fin slider message
-
-.formCompra{
-
-   textarea{      
-
-    }
-}
-
-.comprar{
-}
-
-.borrar{
-}
-
 }
  
 
@@ -2390,24 +2066,6 @@ footer{
         margin: 0 2vw;
         padding: 0;
         }
-    .redes__contenedor{
-    }
-
-        .redes__enlace{
-        } 
-
-          .reedes__enlace--whatsapp{
-          } 
-
-          .redes__enlace--instagram{
-          }
-          .redes__enlace--facebook{
-          }
-
-          .redes__enlace--youtube{
-          }
-
-
 
   /*terminos y condiciones*/
 
@@ -2420,22 +2078,6 @@ footer{
             }
   }
 
-  .terminos-track{
-
-                    &__indicator{
-                    }
-      }
-
-      #terminos:checked + .terminos-track{
-      }
-
-      #terminos:checked + .terminos-track .terminos-track__indicator{
-      }
-
-      #terminos{
-      }
-
-
   /*Clase para suscripcion a novedades form footer*/
       .novedades{
                 flex-direction: column;
@@ -2444,29 +2086,6 @@ footer{
                 }
       }
 
-/*CHECKBOX - BOTON SLIDER (Suscripcion a novedades)*/
-      .toggle-track{
-                    &__indicator{
-                    }
-      }
-
-      #toggle:checked + .toggle-track{
-      }
-
-      #toggle:checked + .toggle-track .toggle-track__indicator{
-      }
-
-      #toggle{
-      }
-
-  /*Estilos botones form footer*/
-    .enviar{
-    }
-
-    .limpiar{
-    }
-
-    /*Derechos reservados*/
     .legales{
             margin-left: 2vw;
     }
@@ -2611,13 +2230,6 @@ footer{
                     width: 90%;
 
 }
-
-.galeria-clasica-m{
-}
-
-.galeria-clasica-s{
-}
-
 .galeria-especial-xl{
                     display: none;
 }
@@ -2629,13 +2241,6 @@ footer{
                     width: 90%;
 
 }
-
-.galeria-especial-m{
-}
-
-.galeria-especial-s{
-}
-
 .galeria-don-fermin-xl{
                         display: none;
 }
@@ -2648,12 +2253,6 @@ footer{
                       height: auto;
 }
 
-.galeria-don-fermin-m{
-}
-
-.galeria-don-fermin-s{
-}
-
 
 /*----------------------------------------ESTILOS quesos.html----------------------------------------*/
   .nuestrosQuesos main{
@@ -2664,78 +2263,29 @@ footer{
 
 /*--------------QUESOS SEMIDUROS-----------*/
 
-  .semiduros{
-            h2{
-            }
-            p{
-  }
-}
 
 /*Grid Areas*/
 
 .pategras{
         grid-template-areas:"fotoPategras nombrePategras nombrePategras"
                             "detallePategras detallePategras detallePategras";
-            img{
-            }
-            h3{
-
-            }
-            p{
-            }
 }
 
   .danbo{
           grid-template-areas:"nombreDanbo nombreDanbo fotoDanbo"
                               "detalleDanbo detalleDanbo detalleDanbo";
-          img{
-          }
-          h3{
-          }
-          p{
-          }
-
   }
 
     .braPimienta{
                 grid-template-areas:"fotoBraP nombreBraP nombreBraP"
                                     "detalleBraP detalleBraP detalleBraP";
-                img{
-                }
-                h3{
-
-                }
-                p{
-                }
     }
 
     .braAhumado{
               grid-template-areas:"nombreBraA nombreBraA fotoBraA"
                                 "detalleBraA detalleBraA detalleBraA";
-              img{
-              }
-              h3{
-              }
-              p{
-              }
     }
-
-    /*-------------QUESOS AZULES-------------*/
-
-  /*grid*/
-  .azules{
-          h2{
-          }
-  }
-
-      .roquefort{
-            
-      }
-
-  .gorgonzola{
-  }
-
-
+}
 
 /*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
 /*INICIO fiambres curados*/
@@ -2767,161 +2317,55 @@ footer{
             margin: 0 auto 4vh auto;
         }
 }
-.ingredientes{
-}
-
-/*SALAME CHACARERO*/
-.salame{
-
-        &:before{
-
-        }
-
-        &__producto{
-
-        }
-
-        &__img{
-        }
-        &__fabricante{
-        }
-}
-
 /*SALAME MEDITERRANEO*/
 .mediterraneo{
-
         &:before{
           background: url(../img/tomate.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-        &__img{
-        }
-        &__fabricante{
         }
 }
 
 /*LONGANIZA CALABRESA*/
 .longaniza{
-
         &:before{
           background: url(../img/longaniza.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-        &__img{
-        }
-        &__fabricante{
         }
 }
 
 /*SOPRESSATA TRADICIONAL*/
-.sopressata{
-        &:before{
-        }
-
-        &__producto{
-        }
-
-        &__img{
-        }
-        &__fabricante{
-        }
-}
-
 /*JAMON CRUDO*/
 .crudo{
-
         &:before{
           background: url(../img/crudo.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-        &__img{
-        }
-        &__fabricante{
         }
 }
-
-
 /*FIN fiambres curados*/
 
 /*INICIO fiambres cocidos*/
 
-.cocidos{
-        &__subtitulo{
-        }
-}
-
 /*JAMON HORNEADO*/
 .jamonCocido{
-
         &:before{
           background: url(../img/cocido.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-       &__img{
-        }
-        &__fabricante{
         }
 }
 
 
 /*LOMO AHUMADO*/
 .lomo{
-
         &:before{
           background: url(../img/lomo.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-        &__img{
-        }
-        &__fabricante{
         }
 }
 
 /*MORTADELA*/
 
 .mortadela{
-
         &:before{
           background: url(../img/mortadela.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-        &__img{
-        }
-        &__fabricante{
         }
 }
 
 /*FIN fiambres cocidos*/
-
-.descriptionBox{
-                p{
-                }
-}
-
 /*----------------------------------------ESTILOS compra.html----------------------------------------*/
 
     .carouselPersonalizado{
@@ -2968,16 +2412,6 @@ footer{
             }         
 }
 
-.name{
-        input{
-        }
-}
-
-.surname{
-        input{
-        }
-}
-
 .phone{
         width: 50%;
         margin: 0 auto;
@@ -2985,95 +2419,10 @@ footer{
         }
 }
 
-.address{
-        input{
-        }        
-}
-
-.cp{
-    input{
-    }
-}
-
-.present{
-        input{
-            }
-}
-
-//checkbox slider para .present
-.present-track{
-                    &__indicator--no{
-                    }
-                    &__indicator--si{
-                    }
-      }
-
-      #present-toggle:checked + .present-track{
-      }
-
-      #present-toggle:checked + .present-track .present-track__indicator--no{
-      }
-       #present-toggle:checked + .present-track .present-track__indicator--si{
-
-      }
-
-
-      #present-toggle{
-      }
-//fin slider present
-
-.reception{
-            input{
-            }
-}
-
-.message{   
-        input{
-        }
-}
-
-//checkbox slider para .message
-.message-track{
-                    &__indicator--no{
-                    }
-                    &__indicator--si{
-                    }
-      }
-
-      #message-toggle:checked + .message-track{
-                                      background-color:#dd9c14;
-      }
-
-      #message-toggle:checked + .message-track .message-track__indicator--no{
-                                                                transform: translateX(24px);
-                                                                display: none;
-      }
-       #message-toggle:checked + .message-track .message-track__indicator--si{
-                                                                transform: translateX(24px);
-                                                                display: block;
-
-      }
-
-
-      #message-toggle{
-      }
 //fin slider message
 
 .formCompra{
             width: 60%;
-   textarea{      
-
-    }
-}
-
-.comprar{
-}
-
-.borrar{
-}
-
-
-
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -3276,67 +2625,6 @@ footer{
           border:none ;
 
         }
-    .redes__contenedor{
-    }
-
-        .redes__enlace{
-        } 
-
-          .redes__enlace--whatsapp{
-          } 
-
-          .redes__enlace--instagram{
-          }
-          .redes__enlace--facebook{
-          }
-
-          .redes__enlace--youtube{
-          }
-
-
-
-  /*terminos y condiciones*/
-
-  /*CHECKBOX - BOTON SLIDER (Terminos y condiciones)*/
-  .terminos-track{
-                    &__indicator{
-                    }
-      }
-
-      #terminos:checked + .terminos-track{
-      }
-
-      #terminos:checked + .terminos-track .terminos-track__indicator{
-      }
-
-
-  /*Clase para suscripcion a novedades form footer*/
-      .novedades{
-
-             
-      }
-
-/*CHECKBOX - BOTON SLIDER (Suscripcion a novedades)*/
-      .toggle-track{
-                    &__indicator{
-                    }
-      }
-
-      #toggle:checked + .toggle-track{
-      }
-
-      #toggle:checked + .toggle-track .toggle-track__indicator{
-      }
-
-      #toggle{
-      }
-
-  /*Estilos botones form footer*/
-    .enviar{
-    }
-
-    .limpiar{
-    }
 
     /*Derechos reservados*/
     .legales{
@@ -3466,11 +2754,6 @@ footer{
                     display: none;
 }
 
-.galeria-clasica-l{
-                    
-
-}
-
 .galeria-clasica-m{
                   display: block;
                   left:5vw ;
@@ -3478,19 +2761,9 @@ footer{
                   height: auto;
                   margin: 0 auto;
 }
-
-.galeria-clasica-s{
-}
-
 .galeria-especial-xl{
                     display: none;
 }
-
-.galeria-especial-l{
-                    
-
-}
-
 .galeria-especial-m{
                     display: block;
                     left:5vw ;
@@ -3499,26 +2772,15 @@ footer{
                     margin: 0 auto;
 }
 
-.galeria-especial-s{
-}
-
 .galeria-don-fermin-xl{
                         display: none;
 }
-
-.galeria-don-fermin-l{
-                      
-}
-
 .galeria-don-fermin-m{
                       display: block;
                       top:70vh;
                       left: 5vw;
                       height: auto;
                       margin: 0 auto ;
-}
-
-.galeria-don-fermin-s{
 }
 
 /*----------------------------------------ESTILOS quesos.html----------------------------------------*/
@@ -3529,59 +2791,25 @@ footer{
   }
 
 /*--------------QUESOS SEMIDUROS-----------*/
-
-  .semiduros{
-            h2{
-            }
-            p{
-  }
-}
-
 /*Grid Areas*/
 
 .pategras{
               display: flex;
               flex-direction: column;
-            img{
-            }
-            h3{
-
-            }
-            p{
-            }
 }
 
   .danbo{ display: flex;
           flex-direction: column;
-          img{
-          }
-          h3{
-          }
-          p{
-          }
-
   }
 
     .braPimienta{
                   display: flex;
                   flex-direction: column;
-                img{
-                }
-                h3{
-                }
-                p{
-                }
     }
 
     .braAhumado{
                 display: flex;
                 flex-direction: column;
-              img{
-              }
-              h3{
-              }
-              p{
-              }
     }
 
     /*-------------QUESOS AZULES-------------*/
@@ -3591,9 +2819,6 @@ footer{
             grid-template-areas: "titulo titulo"
                                   "roquefort roquefort"
                                   "gorgonzola gorgonzola";
-
-          h2{
-          }
   }
 
       .roquefort{
@@ -3639,20 +2864,8 @@ footer{
             margin: 0 auto 4vh auto;
         }
 }
-.ingredientes{
-}
-
 /*SALAME CHACARERO*/
 .salame{
-
-        &:before{
-
-        }
-
-        &__producto{
-
-        }
-
         &__img{
                   margin-left: auto;
                   margin-right: auto;
@@ -3665,16 +2878,8 @@ footer{
 
 /*SALAME MEDITERRANEO*/
 .mediterraneo{
-
         &:before{
           background: url(../img/tomate.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-        &__img{
         }
         &__fabricante{
                       margin: 0; 
@@ -3684,16 +2889,8 @@ footer{
 
 /*LONGANIZA CALABRESA*/
 .longaniza{
-
         &:before{
           background: url(../img/longaniza.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-        &__img{
         }
         &__fabricante{
                        margin: 0; 
@@ -3703,14 +2900,6 @@ footer{
 
 /*SOPRESSATA TRADICIONAL*/
 .sopressata{
-        &:before{
-        }
-
-        &__producto{
-        }
-
-        &__img{
-        }
         &__fabricante{
                        margin: 0; 
                        align-items: flex-start; 
@@ -3719,16 +2908,8 @@ footer{
 
 /*JAMON CRUDO*/
 .crudo{
-
         &:before{
           background: url(../img/crudo.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-        &__img{
         }
         &__fabricante{
                        margin: 0; 
@@ -3740,24 +2921,10 @@ footer{
 /*FIN fiambres curados*/
 
 /*INICIO fiambres cocidos*/
-
-.cocidos{
-        &__subtitulo{
-        }
-}
-
 /*JAMON HORNEADO*/
 .jamonCocido{
-
         &:before{
           background: url(../img/cocido.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-       &__img{
         }
         &__fabricante{
                        margin: 0; 
@@ -3768,16 +2935,8 @@ footer{
 
 /*LOMO AHUMADO*/
 .lomo{
-
         &:before{
           background: url(../img/lomo.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-        &__img{
         }
         &__fabricante{
                        margin: 0; 
@@ -3788,16 +2947,8 @@ footer{
 /*MORTADELA*/
 
 .mortadela{
-
         &:before{
           background: url(../img/mortadela.jpg) center / cover;
-
-        }
-
-        &__producto{
-        }
-
-        &__img{
         }
         &__fabricante{
                        margin: 0; 
@@ -3806,12 +2957,6 @@ footer{
 }
 
 /*FIN fiambres cocidos*/
-
-.descriptionBox{
-                p{
-                }
-}
-
 /*----------------------------------------ESTILOS compra.html----------------------------------------*/
 
     .carouselPersonalizado{
@@ -3857,17 +3002,6 @@ footer{
                       }  
             }         
 }
-
-.name{
-        input{
-        }
-}
-
-.surname{
-        input{
-        }
-}
-
 .phone{
         width: 50%;
         margin: 0 auto;
@@ -3875,94 +3009,4 @@ footer{
         }
 }
 
-.address{
-        input{
-        }        
 }
-
-.cp{
-    input{
-    }
-}
-
-.present{
-        input{
-            }
-}
-
-//checkbox slider para .present
-.present-track{
-                    &__indicator--no{
-                    }
-                    &__indicator--si{
-                    }
-      }
-
-      #present-toggle:checked + .present-track{
-      }
-
-      #present-toggle:checked + .present-track .present-track__indicator--no{
-      }
-       #present-toggle:checked + .present-track .present-track__indicator--si{
-
-      }
-
-
-      #present-toggle{
-      }
-//fin slider present
-
-.reception{
-            input{
-            }
-}
-
-.message{   
-        input{
-        }
-}
-
-//checkbox slider para .message
-.message-track{
-                    &__indicator--no{
-                    }
-                    &__indicator--si{
-                    }
-      }
-
-      #message-toggle:checked + .message-track{
-                                      background-color:#dd9c14;
-      }
-
-      #message-toggle:checked + .message-track .message-track__indicator--no{
-                                                                transform: translateX(24px);
-                                                                display: none;
-      }
-       #message-toggle:checked + .message-track .message-track__indicator--si{
-                                                                transform: translateX(24px);
-                                                                display: block;
-
-      }
-
-
-      #message-toggle{
-      }
-//fin slider message
-
-.formCompra{
-
-   textarea{      
-
-    }
-}
-
-.comprar{
-}
-
-.borrar{
-}
-}
- 
-
- 
-
