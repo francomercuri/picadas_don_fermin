@@ -3075,5 +3075,894 @@ footer{
 
 
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles */
+
+
+
+/*---------------------------------ESTILOS INDEX-------------------------------------------------*/
+
+
+
+
+  /*--------Estilos main (index)---------*/
+      
+.home{
+      main{
+            margin: 3vh 0;
+            padding: 5vh 5vw;
+            
+            h2 {
+                margin-bottom: 0.2rem;
+            }
+            p {
+                font-size: 1rem;
+                width: 80%;
+                margin: 1vh auto;
+                span{
+                  display: none;
+                }
+            }
+      }
+}
+/*Fin estilos Main (index)*/
+
+
+                                        /*SECTION TABLAS Index.html*/
+
+    .descripcion{/*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
+                margin: 2vh 3vw 2vh 0;
+                align-self: center;
+    }
+
+    .leyendaIndex{/*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
+                  display: none;
+    }
+      
+    .picar{/*Botón picar que envia al form de compra*/
+            height: 3.1rem;
+            width: 9.3rem;
+            box-sizing: border-box;
+            border-radius: 20px;
+            justify-self: center;
+            grid-area:  picar;
+            display: flex;
+            align-items:center;
+            justify-content: center; 
+            box-shadow: $sombra-picar;                       
+      }
+
+
+
+/*INICIO ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
+
+
+
+  .clasicaIndex {
+                margin: 5vh 5vw;
+                padding: 2vh 3vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                h3{
+                  align-self: flex-start;
+                  font-family: 'Allison', cursive;
+                  font-size: 3rem;
+                }
+                a{
+                  margin-top: 1vh;
+                }
+ }
+
+   .fotoClasica{
+                  width: 100%;
+    }
+    .fotoClasicaDos{
+                      width: 100%;
+    }
+
+ 
+/*FIN ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
+
+
+/*INICIO ESTILOS ARTICLE TABLA ESPECIAL Index.html*/
+.especialIndex {
+                margin: 5vh 5vw;
+                padding: 2vh 3vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                h3{
+                  align-self: flex-start;
+                  font-family: 'Allison', cursive;
+                  font-size: 3rem;
+                }
+                a{
+                  margin-top: 1vh;
+                }
+  }
+
+  .fotoEspecial{
+                width: 100%;
+    }
+    .fotoEspecialDos{
+                     width: 100%;
+    }
+    
+
+/*FIN ESTILOS ARTICLE TABLA ESPECIAL Index.html*/
+
+
+/*INICIO ESTILOS ARTICLE TABLA DON FERMIN Index.html*/
+
+  .donFerminIndex {
+                    margin: 5vh 5vw;
+                    padding: 2vh 3vw;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    h3{
+                      align-self: flex-start;
+                      font-family: 'Allison', cursive;
+                      font-size: 3rem;
+                    }
+                    a{
+                      margin-top: 1vh;
+                    }
+  }
+
+        .fotoDf{
+                width: 100%;
+        }
+        .fotoDfDos{
+                    width: 100%;
+        }
+
+
+    
+/*FIN ESTILOS ARTICLE TABLA DON FERMIN Index.html*/
+
+/*INICIO section final index*/ 
+
+.cierreIndex{
+                background-image: $fondoCierreIndex;
+                display: flex;
+                flex-direction: column;
+                align-items:center;
+              }
+/*FIN section final index/*
+
+/*----------------------------------------ESTILOS FOOTER----------------------------------------*/
+
+footer{
+        margin: 0 2vw;
+        flex-direction: column;
+        align-items: center;
+        /*INICIO estilos Formulario footer*/
+
+        form{
+              padding: 3vh;
+              justify-content: space-around;
+
+
+             label{
+                      align-self: flex-start;
+              }
+
+             input{
+                      width: 70%;
+              }
+
+             select{
+                        width: 70%;
+              }
+              textarea{
+                height: 8rem;
+              }
+      }
+
+}
+
+.redes {
+        padding: 0;
+        width: 100%;
+        background-color: rgba(200, 240, 175, 0 );
+          border:none ;
+
+        }
+    .redes__contenedor{
+    }
+
+        .redes__enlace{
+        } 
+
+          .redes__enlace--whatsapp{
+          } 
+
+          .redes__enlace--instagram{
+          }
+          .redes__enlace--facebook{
+          }
+
+          .redes__enlace--youtube{
+          }
+
+
+
+  /*terminos y condiciones*/
+
+  /*CHECKBOX - BOTON SLIDER (Terminos y condiciones)*/
+  .terminos-track{
+                    &__indicator{
+                    }
+      }
+
+      #terminos:checked + .terminos-track{
+      }
+
+      #terminos:checked + .terminos-track .terminos-track__indicator{
+      }
+
+
+  /*Clase para suscripcion a novedades form footer*/
+      .novedades{
+
+             
+      }
+
+/*CHECKBOX - BOTON SLIDER (Suscripcion a novedades)*/
+      .toggle-track{
+                    &__indicator{
+                    }
+      }
+
+      #toggle:checked + .toggle-track{
+      }
+
+      #toggle:checked + .toggle-track .toggle-track__indicator{
+      }
+
+      #toggle{
+      }
+
+  /*Estilos botones form footer*/
+    .enviar{
+    }
+
+    .limpiar{
+    }
+
+    /*Derechos reservados*/
+    .legales{
+            margin-left: 2vw;
+    }
+
+
+/*---------------ESTILOS & Grid tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html----------------*/
+
+
+
+.fotoClasicaDos{
+                display: none;
+}
+.fotoEspecialDos{
+                  display: none;
+}
+.fotoDfDos{
+            display: none;
+}
+
+  .tablasDetalle{
+
+                &__clasica{
+
+                       main{
+                             padding: 5vh;
+                             display: flex;
+                             flex-direction: column;
+                            justify-content: space-evenly;
+                            align-items: center;
+                                          
+                            h1{
+                                justify-self: center;
+                              }
+
+                            h2{
+                                justify-self: center;
+                                margin: 2vh 0 2vh 10vw;
+                              }
+                            ul{
+                                width: 100%; 
+                                margin: 0 auto;
+                                align-self: center;
+                                li{
+                                    list-style-type: none;
+                                    width: 90%; 
+
+                                }
+                            }
+                    } 
+  }
+
+  &__especial{
+               main{
+                             padding: 5vh;
+                             display: flex;
+                             flex-direction: column;
+                            justify-content: space-evenly;
+                            align-items: center;
+                                          
+                            h1{
+                                justify-self: center;
+                              }
+
+                            h2{
+                                justify-self: center;
+                                margin: 2vh 0 2vh 10vw;
+                              }
+                            ul{
+                                width: 100%; 
+                                margin: 0 auto;
+                                align-self: center;
+                                li{
+                                    list-style-type: none;
+                                    width: 90%; 
+
+                                }
+                            }
+                    } 
+  } 
+        &__donFermin{
+                      main{
+                            padding: 5vh;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            align-items: center;
+                                          
+                            h1{
+                                justify-self: center;
+                              }
+
+                            h2{
+                                justify-self: center;
+                                margin: 2vh 0 2vh 10vw;
+                              }
+                            ul{
+                                width: 100%; 
+                                margin: 0 auto;
+                                align-self: center;
+                                li{
+                                    list-style-type: none;
+                                    width: 90%; 
+
+                                }
+                              }
+                          } 
+                  }                
+ }
+
+/*Clase para resaltar los productos de regalo incluidos sin cargo*/
+      .regalo{
+              justify-self: center;
+              margin:   0 auto;
+      }
+
+/*Clase precios de tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html*/
+      .precios{
+              grid-area: precios;
+              justify-self: flex-end;
+    }
+
+/*carousel clasica*/
+
+.galeria-clasica-xl{
+                    display: none;
+}
+
+.galeria-clasica-l{
+                    
+
+}
+
+.galeria-clasica-m{
+                  display: block;
+                  left:5vw ;
+                  top: 70vh;
+                  height: auto;
+                  margin: 0 auto;
+}
+
+.galeria-clasica-s{
+}
+
+.galeria-especial-xl{
+                    display: none;
+}
+
+.galeria-especial-l{
+                    
+
+}
+
+.galeria-especial-m{
+                    display: block;
+                    left:5vw ;
+                    top: 70vh;
+                    height: auto;
+                    margin: 0 auto;
+}
+
+.galeria-especial-s{
+}
+
+.galeria-don-fermin-xl{
+                        display: none;
+}
+
+.galeria-don-fermin-l{
+                      
+}
+
+.galeria-don-fermin-m{
+                      display: block;
+                      top:70vh;
+                      left: 5vw;
+                      height: auto;
+                      margin: 0 auto ;
+}
+
+.galeria-don-fermin-s{
+}
+
+/*----------------------------------------ESTILOS quesos.html----------------------------------------*/
+  .nuestrosQuesos main{
+                        p{
+                          width: 100%;
+                        }
+  }
+
+/*--------------QUESOS SEMIDUROS-----------*/
+
+  .semiduros{
+            h2{
+            }
+            p{
+  }
+}
+
+/*Grid Areas*/
+
+.pategras{
+              display: flex;
+              flex-direction: column;
+            img{
+            }
+            h3{
+
+            }
+            p{
+            }
+}
+
+  .danbo{ display: flex;
+          flex-direction: column;
+          img{
+          }
+          h3{
+          }
+          p{
+          }
+
+  }
+
+    .braPimienta{
+                  display: flex;
+                  flex-direction: column;
+                img{
+                }
+                h3{
+                }
+                p{
+                }
+    }
+
+    .braAhumado{
+                display: flex;
+                flex-direction: column;
+              img{
+              }
+              h3{
+              }
+              p{
+              }
+    }
+
+    /*-------------QUESOS AZULES-------------*/
+
+  /*grid*/
+  .azules{
+            grid-template-areas: "titulo titulo"
+                                  "roquefort roquefort"
+                                  "gorgonzola gorgonzola";
+
+          h2{
+          }
+  }
+
+      .roquefort{
+                background-image:linear-gradient(rgba(51,8,8,0.05) 0%,
+                                                  rgba(51,8,8,0.2) 3%, 
+                                                    rgba(51,8,8,0.4) 5%, 
+                                                      rgba(51,8,8,0.6) 10%, 
+                                                        rgba(51,8,8,0.8) 20%,
+                                                          rgba(51,8,8,0.9) 40%,
+                                                            rgba(74,11,11,1) 50%,
+                                                          rgba(74,11,11,0.9) 60%,
+                                                        rgba(74,11,11,0.8) 80%,
+                                                      rgba(74,11,11,0.7) 90%, 
+                                                    rgba(74,11,11,0.6) 95%,  
+                                                  rgba(74,11,11,0.5) 97%, 
+                                                rgba(74,11,11,0.4) 100%);
+      }
+
+  .gorgonzola{
+              background-image:linear-gradient(rgba(74,11,11,0.4) 0%,
+                                                  rgba(74,11,11,0.5) 3%, 
+                                                    rgba(74,11,11,0.6) 5%, 
+                                                      rgba(74,11,11,0.7) 10%, 
+                                                        rgba(74,11,11,0.8) 20%,
+                                                          rgba(74,11,11,0.9) 40%,
+                                                            rgba(74,11,11,1) 50%,
+                                                          rgba(51,8,8,0.9) 60%,
+                                                        rgba(51,8,8,0.8) 80%,
+                                                      rgba(51,8,8,0.6) 90%, 
+                                                    rgba(51,8,8,0.4) 95%,  
+                                                  rgba(51,8,8,0.2) 97%, 
+                                                rgba(51,8,8,0.05) 100%);
+  }
+
+
+
+/*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
+/*INICIO fiambres curados*/
+
+.curados{
+        &__subtitulo{
+            width: 90%;
+            margin: 0 auto 4vh auto;
+        }
+}
+.ingredientes{
+}
+
+/*SALAME CHACARERO*/
+.salame{
+
+        &:before{
+
+        }
+
+        &__producto{
+
+        }
+
+        &__img{
+                  margin-left: auto;
+                  margin-right: auto;
+        }
+        &__fabricante{
+                      margin: 0; 
+                      align-items: flex-start; 
+        }
+}
+
+/*SALAME MEDITERRANEO*/
+.mediterraneo{
+
+        &:before{
+          background: url(../img/tomate.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+                      margin: 0; 
+                      align-items: flex-start; 
+        }
+}
+
+/*LONGANIZA CALABRESA*/
+.longaniza{
+
+        &:before{
+          background: url(../img/longaniza.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+                       margin: 0; 
+                       align-items: flex-start; 
+        }
+}
+
+/*SOPRESSATA TRADICIONAL*/
+.sopressata{
+        &:before{
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+                       margin: 0; 
+                       align-items: flex-start; 
+        }
+}
+
+/*JAMON CRUDO*/
+.crudo{
+
+        &:before{
+          background: url(../img/crudo.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+                       margin: 0; 
+                       align-items: flex-start; 
+        }
+}
+
+
+/*FIN fiambres curados*/
+
+/*INICIO fiambres cocidos*/
+
+.cocidos{
+        &__subtitulo{
+        }
+}
+
+/*JAMON HORNEADO*/
+.jamonCocido{
+
+        &:before{
+          background: url(../img/cocido.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+       &__img{
+        }
+        &__fabricante{
+                       margin: 0; 
+                      align-items: flex-start; 
+        }
+}
+
+
+/*LOMO AHUMADO*/
+.lomo{
+
+        &:before{
+          background: url(../img/lomo.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+                       margin: 0; 
+                      align-items: flex-start; 
+        }
+}
+
+/*MORTADELA*/
+
+.mortadela{
+
+        &:before{
+          background: url(../img/mortadela.jpg) center / cover;
+
+        }
+
+        &__producto{
+        }
+
+        &__img{
+        }
+        &__fabricante{
+                       margin: 0; 
+                      align-items: flex-start; 
+        }
+}
+
+/*FIN fiambres cocidos*/
+
+.descriptionBox{
+                p{
+                }
+}
+
+/*----------------------------------------ESTILOS compra.html----------------------------------------*/
+
+    .carouselPersonalizado{
+                          box-shadow: $relieveImg__claro;
+                          border-radius: 25px;
+                          &__img{
+                                  opacity: 0.85;
+                                  border-radius: 25px;
+
+                          }
+                          &__nombre{
+                                    background-color: rgba(96, 14, 14, 0.7);
+                          }
+                          &__controls{
+                                      background-color: rgba(96, 14, 14, 0.7);
+                                      border-radius: 25px;
+                          }
+    }
+
+
+/*-----------FORMULARIO DE COMPRA------------*/
+
+
+.formCompra{  
+            width: 100%;
+            grid-template-areas:  
+                                "tabla tabla"
+                                "nombre apellido"
+                                "direccion cp"
+                                "telefono telefono"
+                                "regalo recepcion"
+                                "mensaje mensaje"
+                                "textarea textarea"
+                                "comprar borrar";
+            select{
+                  width: 80%;
+                  margin-left: auto;
+                  margin-right: auto;
+                    }
+            textarea{
+                      height: 15vh;
+                    &::placeholder{
+                      }  
+            }         
+}
+
+.name{
+        input{
+        }
+}
+
+.surname{
+        input{
+        }
+}
+
+.phone{
+        width: 50%;
+        margin: 0 auto;
+        input{
+        }
+}
+
+.address{
+        input{
+        }        
+}
+
+.cp{
+    input{
+    }
+}
+
+.present{
+        input{
+            }
+}
+
+//checkbox slider para .present
+.present-track{
+                    &__indicator--no{
+                    }
+                    &__indicator--si{
+                    }
+      }
+
+      #present-toggle:checked + .present-track{
+      }
+
+      #present-toggle:checked + .present-track .present-track__indicator--no{
+      }
+       #present-toggle:checked + .present-track .present-track__indicator--si{
+
+      }
+
+
+      #present-toggle{
+      }
+//fin slider present
+
+.reception{
+            input{
+            }
+}
+
+.message{   
+        input{
+        }
+}
+
+//checkbox slider para .message
+.message-track{
+                    &__indicator--no{
+                    }
+                    &__indicator--si{
+                    }
+      }
+
+      #message-toggle:checked + .message-track{
+                                      background-color:#dd9c14;
+      }
+
+      #message-toggle:checked + .message-track .message-track__indicator--no{
+                                                                transform: translateX(24px);
+                                                                display: none;
+      }
+       #message-toggle:checked + .message-track .message-track__indicator--si{
+                                                                transform: translateX(24px);
+                                                                display: block;
+
+      }
+
+
+      #message-toggle{
+      }
+//fin slider message
+
+.formCompra{
+
+   textarea{      
+
+    }
+}
+
+.comprar{
+}
+
+.borrar{
+}
+}
+ 
+
  
 

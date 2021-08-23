@@ -2705,3 +2705,343 @@ footer {
     display: block; }
   .formCompra {
     width: 60%; } }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+  /*---------------------------------ESTILOS INDEX-------------------------------------------------*/
+  /*--------Estilos main (index)---------*/
+  .home main {
+    margin: 3vh 0;
+    padding: 5vh 5vw; }
+    .home main h2 {
+      margin-bottom: 0.2rem; }
+    .home main p {
+      font-size: 1rem;
+      width: 80%;
+      margin: 1vh auto; }
+      .home main p span {
+        display: none; }
+  /*Fin estilos Main (index)*/
+  /*SECTION TABLAS Index.html*/
+  .descripcion {
+    /*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
+    margin: 2vh 3vw 2vh 0;
+    align-self: center; }
+  .leyendaIndex {
+    /*aplica en los article de las tablas clasica, especial y Don Fermín en index.html*/
+    display: none; }
+  .picar {
+    /*Botón picar que envia al form de compra*/
+    height: 3.1rem;
+    width: 9.3rem;
+    box-sizing: border-box;
+    border-radius: 20px;
+    justify-self: center;
+    grid-area: picar;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -1px -2px 1px 1px inset rgba(74, 11, 11, 0.8), -2px -3px 2px 2px inset rgba(74, 11, 11, 0.6), -3px -4px 3px 5px inset rgba(74, 11, 11, 0.4), -4px -5px 5px 6px inset rgba(94, 14, 14, 0.3), -6px -7px 7px 8px inset rgba(94, 14, 14, 0.2), -9px -10px 10px 12px inset rgba(94, 14, 14, 0.1), 9px 10px 10px 12px inset rgba(94, 14, 14, 0.1), 6px 7px 7px 8px inset rgba(94, 14, 14, 0.2), 4px 5px 5px 6px inset rgba(94, 14, 14, 0.3), 3px 4px 3px 5px inset rgba(74, 11, 11, 0.4), 2px 3px 2px 2px inset rgba(74, 11, 11, 0.6), 1px 2px 1px 1px inset rgba(74, 11, 11, 0.8), 1px 1px 0 0 #4a0b0b, -1px -1px 0 0 #4a0b0b, 3px 3px 3px 0 rgba(141, 20, 20, 0.1), 2px 2px 2px 1px rgba(118, 17, 17, 0.2), 1px 1px 1px 0 rgba(94, 14, 14, 0.15), -1px -1px 1px 0 rgba(94, 14, 14, 0.15), -2px -2px 2px 1px rgba(118, 17, 17, 0.2), 3px 3px 3px 0 rgba(141, 20, 20, 0.1); }
+  /*INICIO ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
+  .clasicaIndex {
+    margin: 5vh 5vw;
+    padding: 2vh 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+    .clasicaIndex h3 {
+      align-self: flex-start;
+      font-family: 'Allison', cursive;
+      font-size: 3rem; }
+    .clasicaIndex a {
+      margin-top: 1vh; }
+  .fotoClasica {
+    width: 100%; }
+  .fotoClasicaDos {
+    width: 100%; }
+  /*FIN ESTILOS ARTICLE TABLA CLÁSICA Index.html*/
+  /*INICIO ESTILOS ARTICLE TABLA ESPECIAL Index.html*/
+  .especialIndex {
+    margin: 5vh 5vw;
+    padding: 2vh 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+    .especialIndex h3 {
+      align-self: flex-start;
+      font-family: 'Allison', cursive;
+      font-size: 3rem; }
+    .especialIndex a {
+      margin-top: 1vh; }
+  .fotoEspecial {
+    width: 100%; }
+  .fotoEspecialDos {
+    width: 100%; }
+  /*FIN ESTILOS ARTICLE TABLA ESPECIAL Index.html*/
+  /*INICIO ESTILOS ARTICLE TABLA DON FERMIN Index.html*/
+  .donFerminIndex {
+    margin: 5vh 5vw;
+    padding: 2vh 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+    .donFerminIndex h3 {
+      align-self: flex-start;
+      font-family: 'Allison', cursive;
+      font-size: 3rem; }
+    .donFerminIndex a {
+      margin-top: 1vh; }
+  .fotoDf {
+    width: 100%; }
+  .fotoDfDos {
+    width: 100%; }
+  /*FIN ESTILOS ARTICLE TABLA DON FERMIN Index.html*/
+  /*INICIO section final index*/
+  .cierreIndex {
+    background-image: linear-gradient(rgba(117, 17, 17, 0.1) 0%, rgba(117, 17, 17, 0.2) 3%, rgba(117, 17, 17, 0.3) 5%, rgba(117, 17, 17, 0.4) 10%, rgba(95, 14, 14, 0.7) 40%, rgba(95, 14, 14, 0.7) 50%, rgba(95, 14, 14, 0.7) 60%, rgba(117, 17, 17, 0.4) 90%, rgba(117, 17, 17, 0.3) 95%, rgba(117, 17, 17, 0.2) 97%, rgba(117, 17, 17, 0.1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  /*FIN section final index/*
+
+/*----------------------------------------ESTILOS FOOTER----------------------------------------*/
+  footer {
+    margin: 0 2vw;
+    flex-direction: column;
+    align-items: center;
+    /*INICIO estilos Formulario footer*/ }
+    footer form {
+      padding: 3vh;
+      justify-content: space-around; }
+      footer form label {
+        align-self: flex-start; }
+      footer form input {
+        width: 70%; }
+      footer form select {
+        width: 70%; }
+      footer form textarea {
+        height: 8rem; }
+  .redes {
+    padding: 0;
+    width: 100%;
+    background-color: rgba(200, 240, 175, 0);
+    border: none; }
+  /*terminos y condiciones*/
+  /*CHECKBOX - BOTON SLIDER (Terminos y condiciones)*/
+  /*Clase para suscripcion a novedades form footer*/
+  /*CHECKBOX - BOTON SLIDER (Suscripcion a novedades)*/
+  /*Estilos botones form footer*/
+  /*Derechos reservados*/
+  .legales {
+    margin-left: 2vw; }
+  /*---------------ESTILOS & Grid tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html----------------*/
+  .fotoClasicaDos {
+    display: none; }
+  .fotoEspecialDos {
+    display: none; }
+  .fotoDfDos {
+    display: none; }
+  .tablasDetalle__clasica main {
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+    .tablasDetalle__clasica main h1 {
+      justify-self: center; }
+    .tablasDetalle__clasica main h2 {
+      justify-self: center;
+      margin: 2vh 0 2vh 10vw; }
+    .tablasDetalle__clasica main ul {
+      width: 100%;
+      margin: 0 auto;
+      align-self: center; }
+      .tablasDetalle__clasica main ul li {
+        list-style-type: none;
+        width: 90%; }
+  .tablasDetalle__especial main {
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+    .tablasDetalle__especial main h1 {
+      justify-self: center; }
+    .tablasDetalle__especial main h2 {
+      justify-self: center;
+      margin: 2vh 0 2vh 10vw; }
+    .tablasDetalle__especial main ul {
+      width: 100%;
+      margin: 0 auto;
+      align-self: center; }
+      .tablasDetalle__especial main ul li {
+        list-style-type: none;
+        width: 90%; }
+  .tablasDetalle__donFermin main {
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+    .tablasDetalle__donFermin main h1 {
+      justify-self: center; }
+    .tablasDetalle__donFermin main h2 {
+      justify-self: center;
+      margin: 2vh 0 2vh 10vw; }
+    .tablasDetalle__donFermin main ul {
+      width: 100%;
+      margin: 0 auto;
+      align-self: center; }
+      .tablasDetalle__donFermin main ul li {
+        list-style-type: none;
+        width: 90%; }
+  /*Clase para resaltar los productos de regalo incluidos sin cargo*/
+  .regalo {
+    justify-self: center;
+    margin: 0 auto; }
+  /*Clase precios de tabla_clasica.html / tabla_especial.html / tabla_don_fermin.html*/
+  .precios {
+    grid-area: precios;
+    justify-self: flex-end; }
+  /*carousel clasica*/
+  .galeria-clasica-xl {
+    display: none; }
+  .galeria-clasica-m {
+    display: block;
+    left: 5vw;
+    top: 70vh;
+    height: auto;
+    margin: 0 auto; }
+  .galeria-especial-xl {
+    display: none; }
+  .galeria-especial-m {
+    display: block;
+    left: 5vw;
+    top: 70vh;
+    height: auto;
+    margin: 0 auto; }
+  .galeria-don-fermin-xl {
+    display: none; }
+  .galeria-don-fermin-m {
+    display: block;
+    top: 70vh;
+    left: 5vw;
+    height: auto;
+    margin: 0 auto; }
+  /*----------------------------------------ESTILOS quesos.html----------------------------------------*/
+  .nuestrosQuesos main p {
+    width: 100%; }
+  /*--------------QUESOS SEMIDUROS-----------*/
+  /*Grid Areas*/
+  .pategras {
+    display: flex;
+    flex-direction: column; }
+  .danbo {
+    display: flex;
+    flex-direction: column; }
+  .braPimienta {
+    display: flex;
+    flex-direction: column; }
+  .braAhumado {
+    display: flex;
+    flex-direction: column; }
+  /*-------------QUESOS AZULES-------------*/
+  /*grid*/
+  .azules {
+    grid-template-areas: "titulo titulo" "roquefort roquefort" "gorgonzola gorgonzola"; }
+  .roquefort {
+    background-image: linear-gradient(rgba(51, 8, 8, 0.05) 0%, rgba(51, 8, 8, 0.2) 3%, rgba(51, 8, 8, 0.4) 5%, rgba(51, 8, 8, 0.6) 10%, rgba(51, 8, 8, 0.8) 20%, rgba(51, 8, 8, 0.9) 40%, #4a0b0b 50%, rgba(74, 11, 11, 0.9) 60%, rgba(74, 11, 11, 0.8) 80%, rgba(74, 11, 11, 0.7) 90%, rgba(74, 11, 11, 0.6) 95%, rgba(74, 11, 11, 0.5) 97%, rgba(74, 11, 11, 0.4) 100%); }
+  .gorgonzola {
+    background-image: linear-gradient(rgba(74, 11, 11, 0.4) 0%, rgba(74, 11, 11, 0.5) 3%, rgba(74, 11, 11, 0.6) 5%, rgba(74, 11, 11, 0.7) 10%, rgba(74, 11, 11, 0.8) 20%, rgba(74, 11, 11, 0.9) 40%, #4a0b0b 50%, rgba(51, 8, 8, 0.9) 60%, rgba(51, 8, 8, 0.8) 80%, rgba(51, 8, 8, 0.6) 90%, rgba(51, 8, 8, 0.4) 95%, rgba(51, 8, 8, 0.2) 97%, rgba(51, 8, 8, 0.05) 100%); }
+  /*----------------------------------------ESTILOS fiambres.html----------------------------------------*/
+  /*INICIO fiambres curados*/
+  .curados__subtitulo {
+    width: 90%;
+    margin: 0 auto 4vh auto; }
+  /*SALAME CHACARERO*/
+  .salame__img {
+    margin-left: auto;
+    margin-right: auto; }
+  .salame__fabricante {
+    margin: 0;
+    align-items: flex-start; }
+  /*SALAME MEDITERRANEO*/
+  .mediterraneo:before {
+    background: url(../img/tomate.jpg) center/cover; }
+  .mediterraneo__fabricante {
+    margin: 0;
+    align-items: flex-start; }
+  /*LONGANIZA CALABRESA*/
+  .longaniza:before {
+    background: url(../img/longaniza.jpg) center/cover; }
+  .longaniza__fabricante {
+    margin: 0;
+    align-items: flex-start; }
+  /*SOPRESSATA TRADICIONAL*/
+  .sopressata__fabricante {
+    margin: 0;
+    align-items: flex-start; }
+  /*JAMON CRUDO*/
+  .crudo:before {
+    background: url(../img/crudo.jpg) center/cover; }
+  .crudo__fabricante {
+    margin: 0;
+    align-items: flex-start; }
+  /*FIN fiambres curados*/
+  /*INICIO fiambres cocidos*/
+  /*JAMON HORNEADO*/
+  .jamonCocido:before {
+    background: url(../img/cocido.jpg) center/cover; }
+  .jamonCocido__fabricante {
+    margin: 0;
+    align-items: flex-start; }
+  /*LOMO AHUMADO*/
+  .lomo:before {
+    background: url(../img/lomo.jpg) center/cover; }
+  .lomo__fabricante {
+    margin: 0;
+    align-items: flex-start; }
+  /*MORTADELA*/
+  .mortadela:before {
+    background: url(../img/mortadela.jpg) center/cover; }
+  .mortadela__fabricante {
+    margin: 0;
+    align-items: flex-start; }
+  /*FIN fiambres cocidos*/
+  /*----------------------------------------ESTILOS compra.html----------------------------------------*/
+  .carouselPersonalizado {
+    box-shadow: 1px 1px 0 0 rgba(52, 8, 8, 0.6), -1px -1px 0 0 rgba(52, 8, 8, 0.6), 5px 5px 5px 1px rgba(163, 24, 24, 0.25), 3px 3px 3px 2px rgba(141, 20, 20, 0.35), 2px 2px 1px 1px rgba(118, 17, 17, 0.3), -2px -2px 1px 1px rgba(118, 17, 17, 0.3), -3px -3px 3px 2px rgba(141, 20, 20, 0.35), 5px 5px 5px 1px rgba(163, 24, 24, 0.25);
+    border-radius: 25px; }
+    .carouselPersonalizado__img {
+      opacity: 0.85;
+      border-radius: 25px; }
+    .carouselPersonalizado__nombre {
+      background-color: rgba(96, 14, 14, 0.7); }
+    .carouselPersonalizado__controls {
+      background-color: rgba(96, 14, 14, 0.7);
+      border-radius: 25px; }
+  /*-----------FORMULARIO DE COMPRA------------*/
+  .formCompra {
+    width: 100%;
+    grid-template-areas: "tabla tabla" "nombre apellido" "direccion cp" "telefono telefono" "regalo recepcion" "mensaje mensaje" "textarea textarea" "comprar borrar"; }
+    .formCompra select {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto; }
+    .formCompra textarea {
+      height: 15vh; }
+  .phone {
+    width: 50%;
+    margin: 0 auto; }
+  #message-toggle:checked + .message-track {
+    background-color: #dd9c14; }
+  #message-toggle:checked + .message-track .message-track__indicator--no {
+    transform: translateX(24px);
+    display: none; }
+  #message-toggle:checked + .message-track .message-track__indicator--si {
+    transform: translateX(24px);
+    display: block; } }
